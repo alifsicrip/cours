@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cours — Main Page</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 2rem; }
+    header { margin-bottom: 1.5rem }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 1rem }
+    .card { padding: 1rem; border: 1px solid #e1e4e8; border-radius: 8px; background: #fff }
+    a.button { display: inline-block; padding: .5rem .75rem; background: #0366d6; color: #fff; border-radius: 6px; text-decoration: none }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cours — Main Page</h1>
+    <p>Click any link below to open the corresponding HTML page.</p>
+  </header>
+
+  <main>
+    <section class="cards">
+      <article class="card">
+        <h2>Sample Page 1</h2>
+        <p>A simple example page. Opens in the same tab by default.</p>
+        <p><a href="pages/page1.html" class="button">Open Page 1</a></p>
+      </article>
+
+      <article class="card">
+        <h2>Sample Page 2</h2>
+        <p>Another example page. Opens in a new tab.</p>
+        <p><a href="pages/page2.html" class="button" target="_blank" rel="noopener">Open Page 2 (new tab)</a></p>
+      </article>
+
+      <article class="card">
+        <h2>Raw files</h2>
+        <p>If you want to view the raw HTML files on GitHub, use these links:</p>
+        <p><a href="https://github.com/alifsicrip/cours/blob/main/index.html" target="_blank" rel="noopener">index.html on GitHub</a></p>
+        <p><a href="https://github.com/alifsicrip/cours/blob/main/pages/page1.html" target="_blank" rel="noopener">pages/page1.html on GitHub</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer style="margin-top:2rem; font-size:0.9rem; color:#444">
+    <p>Created for the cours repository — 2025</p>
+  </footer>
+</body>
+</html>

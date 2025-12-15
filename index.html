@@ -1,48 +1,92 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Cours — Main Page</title>
-  <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 2rem; }
-    header { margin-bottom: 1.5rem }
-    .cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 1rem }
-    .card { padding: 1rem; border: 1px solid #e1e4e8; border-radius: 8px; background: #fff }
-    a.button { display: inline-block; padding: .5rem .75rem; background: #0366d6; color: #fff; border-radius: 6px; text-decoration: none }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cours — UE Catalog</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Cours — Main Page</h1>
-    <p>Click any link below to open the corresponding HTML page.</p>
-  </header>
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">Cours</div>
+    <nav>
+      <ul>
+        <li><a href="pages/UE1/index.html"><img src="assets/icons/ue1.svg" alt="UE1"> UE1</a></li>
+        <li><a href="pages/UE2/index.html"><img src="assets/icons/ue2.svg" alt="UE2"> UE2</a></li>
+        <li><a href="pages/UE3/index.html"><img src="assets/icons/ue3.svg" alt="UE3"> UE3</a></li>
+        <li><a href="pages/UE4/index.html"><img src="assets/icons/ue4.svg" alt="UE4"> UE4</a></li>
+        <li><a href="pages/UE5/index.html"><img src="assets/icons/ue5.svg" alt="UE5"> UE5</a></li>
+      </ul>
+    </nav>
+    <button class="toggle" id="toggleBtn" aria-label="Toggle sidebar">☰</button>
+  </aside>
 
-  <main>
-    <section class="cards">
+  <main class="main">
+    <header class="main-header">
+      <h1>Unités d'Enseignement (UE)</h1>
+      <p>Select a UE to view its page.</p>
+    </header>
+
+    <section class="grid" id="ueGrid">
+      <!-- UE cards -->
       <article class="card">
-        <h2>Sample Page 1</h2>
-        <p>A simple example page. Opens in the same tab by default.</p>
-        <p><a href="pages/page1.html" class="button">Open Page 1</a></p>
+        <a href="pages/UE1/index.html">
+          <div class="thumb"><img src="assets/thumbs/ue1.svg" alt="UE1 thumbnail"></div>
+          <div class="card-body">
+            <img class="cat-icon" src="assets/icons/ue1.svg" alt="UE1 icon">
+            <h2>UE1 — Introduction</h2>
+            <p>Overview and basic concepts.</p>
+          </div>
+        </a>
       </article>
 
       <article class="card">
-        <h2>Sample Page 2</h2>
-        <p>Another example page. Opens in a new tab.</p>
-        <p><a href="pages/page2.html" class="button" target="_blank" rel="noopener">Open Page 2 (new tab)</a></p>
+        <a href="pages/UE2/index.html">
+          <div class="thumb"><img src="assets/thumbs/ue2.svg" alt="UE2 thumbnail"></div>
+          <div class="card-body">
+            <img class="cat-icon" src="assets/icons/ue2.svg" alt="UE2 icon">
+            <h2>UE2 — Fondamentaux</h2>
+            <p>Core theories and methods.</p>
+          </div>
+        </a>
       </article>
 
       <article class="card">
-        <h2>Raw files</h2>
-        <p>If you want to view the raw HTML files on GitHub, use these links:</p>
-        <p><a href="https://github.com/alifsicrip/cours/blob/main/index.html" target="_blank" rel="noopener">index.html on GitHub</a></p>
-        <p><a href="https://github.com/alifsicrip/cours/blob/main/pages/page1.html" target="_blank" rel="noopener">pages/page1.html on GitHub</a></p>
+        <a href="pages/UE3/index.html">
+          <div class="thumb"><img src="assets/thumbs/ue3.svg" alt="UE3 thumbnail"></div>
+          <div class="card-body">
+            <img class="cat-icon" src="assets/icons/ue3.svg" alt="UE3 icon">
+            <h2>UE3 — Techniques</h2>
+            <p>Practical techniques and labs.</p>
+          </div>
+        </a>
       </article>
+
+      <article class="card">
+        <a href="pages/UE4/index.html">
+          <div class="thumb"><img src="assets/thumbs/ue4.svg" alt="UE4 thumbnail"></div>
+          <div class="card-body">
+            <img class="cat-icon" src="assets/icons/ue4.svg" alt="UE4 icon">
+            <h2>UE4 — Projet</h2>
+            <p>Project work and collaboration.</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="card">
+        <a href="pages/UE5/index.html">
+          <div class="thumb"><img src="assets/thumbs/ue5.svg" alt="UE5 thumbnail"></div>
+          <div class="card-body">
+            <img class="cat-icon" src="assets/icons/ue5.svg" alt="UE5 icon">
+            <h2>UE5 — Avancé</h2>
+            <p>Advanced topics and research.</p>
+          </div>
+        </a>
+      </article>
+
     </section>
   </main>
 
-  <footer style="margin-top:2rem; font-size:0.9rem; color:#444">
-    <p>Created for the cours repository — 2025</p>
-  </footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

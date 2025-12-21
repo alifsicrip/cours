@@ -31,7 +31,7 @@ body{background:var(--bg);color:#111}
 .card-body p{margin:0;color:var(--muted);font-size:0.9rem}
 
 @media(max-width:800px){
-  .sidebar{position:relative;width:100%;flex-direction:row;align-items:center}
+  .sidebar{position:relative;width:inherit;flex-direction:row;align-items:center}
   .main{margin-left:0;padding:1rem}
   .sidebar nav{display:none}
   .sidebar.show nav{display:block}

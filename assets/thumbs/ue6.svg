@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="240" viewBox="0 0 600 240">
   <rect width="600" height="240" fill="#ecfdf5"/>
-  <rect x="20" y="20" width="200" height="200" rx="12" fill="#d1fae5"/>
-  <text x="260" y="130" font-size="32" fill="#065f46" font-family="Calibri">UE6 — ✏️</text>
+  <rect x="20" y="20" width="200" height="200" rx="12" fill="#1E8743"/>
+  <text x="260" y="130" font-weight="bold" font-size="32" fill="#1E8743" font-family="Calibri">UE6 — ✏️</text>
 </svg>

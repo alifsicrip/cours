@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compartiments repliables</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px;
+        }
+        .panel {
+            flex: 1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .panel-header {
+            cursor: pointer;
+            background-color: #f0f0f0;
+            padding: 5px;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+        .panel-content {
+            display: block;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <div class="panel-header" onclick="togglePanel(this)">Compartiment 1</div>
+            <div class="panel-content">
+                Contenu du compartiment 1...
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-header" onclick="togglePanel(this)">Compartiment 2</div>
+            <div class="panel-content">
+                Contenu du compartiment 2...
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-header" onclick="togglePanel(this)">Compartiment 3</div>
+            <div class="panel-content">
+                Contenu du compartiment 3...
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function togglePanel(header) {
+            const content = header.nextElementSibling;
+            content.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>

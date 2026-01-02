@@ -3,49 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compartiments repliables</title>
+    <title>Compartiments animés (rotation émoticône)</title>
     <style>
         .container {
-            display: flex;
-            gap: 10px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
         }
         .panel {
-            flex: 1;
+            margin-bottom: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
-            padding: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         .panel-header {
             cursor: pointer;
-            background-color: #f0f0f0;
-            padding: 5px;
-            border-radius: 3px;
-            margin-bottom: 10px;
+            background-color: #f8f9fa;
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .panel-header:hover {
+            background-color: #e9ecef;
         }
         .panel-content {
-            display: block;
+            padding: 15px;
+            background-color: white;
+            max-height: 500px;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.2s ease-out;
         }
         .hidden {
-            display: none;
+            max-height: 0;
+            padding: 0;
+            border: none;
+        }
+        .icon {
+            transition: transform 0.3s ease;
+        }
+        .icon.rotated {
+            transform: rotate(180deg);
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="panel">
-            <div class="panel-header" onclick="togglePanel(this)">Compartiment 1</div>
+            <div class="panel-header" onclick="togglePanel(this)">
+                <span class="icon">🔻</span> Compartiment 1
+            </div>
             <div class="panel-content">
                 Contenu du compartiment 1...
             </div>
         </div>
         <div class="panel">
-            <div class="panel-header" onclick="togglePanel(this)">Compartiment 2</div>
+            <div class="panel-header" onclick="togglePanel(this)">
+                <span class="icon">🔻</span> Compartiment 2
+            </div>
             <div class="panel-content">
                 Contenu du compartiment 2...
             </div>
         </div>
         <div class="panel">
-            <div class="panel-header" onclick="togglePanel(this)">Compartiment 3</div>
+            <div class="panel-header" onclick="togglePanel(this)">
+                <span class="icon">🔻</span> Compartiment 3
+            </div>
             <div class="panel-content">
                 Contenu du compartiment 3...
             </div>
@@ -55,8 +83,30 @@
     <script>
         function togglePanel(header) {
             const content = header.nextElementSibling;
+            const icon = header.querySelector('.icon');
             content.classList.toggle("hidden");
+            icon.classList.toggle("rotated");
         }
     </script>
 </body>
 </html>
+
+```
+
+### Explications
+
+- **Émoticônes** : Chaque en-tête contient une émoticône différente pour identifier visuellement chaque compartiment.
+- **Effet visuel** : Au clic, l’émoticône change pour indiquer si le compartiment est ouvert (🔻) ou fermé (🔹).
+- **Style moderne** : Ombre légère, survol interactif, police claire.
+
+Tu peux bien sûr changer les émoticônes et les couleurs selon tes préférences !
+
+Affichage vertical : Les compartiments sont empilés grâce à un conteneur de largeur définie et un margin-bottom pour les espacer.
+Repliable : Le clic sur l’en-tête affiche/masque le contenu grâce à la classe .hidden.
+Style : Un peu de CSS pour rendre le tout clair et moderne.
+Tu peux facilement ajouter ou supprimer des compartiments en dupliquant la structure <div class="panel">.
+
+    Rotation de l’émoticône : L’émoticône 🔻 tourne de 180° quand on clique, grâce à transform: rotate(180deg) et une transition fluide.
+Animation du contenu : Le contenu s’ouvre et se ferme en douceur avec un effet de glissement.
+Style moderne : Ombre, survol, et police claire pour un rendu professionnel.
+Tu peux remplacer 🔻 par une autre émoticône ou flèche si tu préfères !

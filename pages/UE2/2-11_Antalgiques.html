@@ -2,667 +2,241 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>🩹 Antalgiques 🩹</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🩹 ANTALGIQUES 🩹</title>
+  <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .search-container {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .search-box {
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.1em;
+            border: 2px solid #ddd;
+            border-radius: 50px;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .search-input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .alphabet-nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            padding: 20px 30px;
+            background: #fff;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .letter-btn {
+            width: 40px;
+            height: 40px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 50%;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1em;
+        }
+
+        .letter-btn:hover, .letter-btn.active {
+            background: #667eea;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        .vocabulary-content {
+            padding: 30px;
+        }
+
+        .letter-section {
+            margin-bottom: 50px;
+        }
+
+        .letter-header {
+            font-size: 2.5em;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            font-weight: bold;
+        }
+
+        .term-card {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .term-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .term-word {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #764ba2;
+            margin-bottom: 10px;
+        }
+
+        .term-definition {
+            font-size: 1.05em;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .term-translation {
+            font-style: italic;
+            color: #667eea;
+            font-size: 1em;
+            padding: 8px 12px;
+            background: white;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .term-translation::before {
+            content: "🇬🇧 ";
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            border-top: 2px solid #e9ecef;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+
+        .nav-link {
+            padding: 10px 20px;
+            background: white;
+            border: 2px solid #667eea;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .letter-btn {
+                width: 35px;
+                height: 35px;
+                font-size: 0.9em;
+            }
+            
+            .term-word {
+                font-size: 1.3em;
+            }
+        }
+    </style>
 </head>
+  
 <body>
-
   <h1>🩹 ANTALGIQUES 🩹</h1>
-
-  <h2>Généralités</h2>
-
-  <h3>Classe thérapeutique</h3>
-
-  <h3>Définitions</h3>
-  <p>📌 Antalgique = désigne les médicaments capables de soulager la douleur</p>
-  <p>📌 Douleur : expérience sensorielle + émotionnelle désagréable liée à une lésion réelle ou potentielle</p>
-
-  <h3>Evaluation</h3>
-  <p>🪜 Par une échelle de la douleur : EVA, EVS, EN, DOLIPLUS, ALGIPLUS</p>
-  <p>📍 Clinique : siège · irradiation · type · intensité · mode d'apparition · durée · facteurs aggravants (troubles sommeil / anxiété / dépression)</p>
-  <p>🕒 Durée : ⏱️ Aiguë : post-op, brûlure… ou 🔁 Chronique : &gt; 3-6 mois</p>
-
-  <h3>🧩 Types de douleurs</h3>
-  <ul>
-    <li>🔥 Excès de nociception
-      <ul>
-        <li>Origine : Inflammation, ischémie</li>
-        <li>Exemple : Brûlure, trauma, inflamm., ischémie</li>
-      </ul>
-    </li>
-    <li>⚡ Neuropathique
-      <ul>
-        <li>Origine : Atteinte SN central/périphérique</li>
-        <li>Exemple : AVC, amputation, neuropathies</li>
-      </ul>
-    </li>
-    <li>🌀 Idiopathique / psychogène
-      <ul>
-        <li>Origine : Facteurs psycho-affectifs</li>
-        <li>Exemple : Seuil abaissé</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h3>Objectifs</h3>
-  <p>Diminuer, inhiber ou limiter la douleur (étant un symptôme)</p>
-
-  <hr>
-
-  <h2>Spécificités</h2>
-
-  <h3>Paliers (EN)</h3>
-  <ul>
-    <li>🟢 Palier I : EN &lt; 4</li>
-    <li>🟠 Palier II : EN de 5 à 7</li>
-    <li>🔴 Palier III : EN &gt; 7</li>
-  </ul>
-
-  <h3>Groupes</h3>
-  <ul>
-    <li>Palier I : Non opioïdes</li>
-    <li>Palier II : Opioïdes faibles</li>
-    <li>Palier III : Opioïdes forts
-      <ul>
-        <li>(stupéfiants = ⚠️ Prescription médicale obligatoire + surveillance étroite)</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h3>Principaux représentants (DCI)</h3>
-
-  <h4>Palier I – Non opioïdes</h4>
-  <ul>
-    <li>Paracétamol</li>
-    <li>AINS (ibuprofène, kétoprofène)</li>
-    <li>Acide acétylsalicylique</li>
-    <li>Cas particulier : Nefopam</li>
-  </ul>
-
-  <h4>Palier II – Opioïdes faibles</h4>
-  <ul>
-    <li>Tramadol</li>
-    <li>Poudre d'opium</li>
-    <li>Codéine/paracétamol</li>
-  </ul>
-
-  <h4>Palier III – Opioïdes forts</h4>
-  <ul>
-    <li>Morphine (référence du palier 3)</li>
-    <li>Oxycodone</li>
-    <li>Fentanyl</li>
-  </ul>
-
-  <h3>Principaux représentants (MARQUES)</h3>
-
-  <h4>Palier I</h4>
-  <ul>
-    <li>Doliprane®️</li>
-    <li>Nurofen®️</li>
-    <li>Aspirine®️, Aspégic®️</li>
-    <li>Acupan®️</li>
-  </ul>
-
-  <h4>Palier II</h4>
-  <ul>
-    <li>Contramal®️</li>
-    <li>Lamaline®️</li>
-    <li>Codoliprane®️</li>
-  </ul>
-
-  <h4>Palier III</h4>
-  <ul>
-    <li>Skénan®, Actiskenan®️</li>
-    <li>Oxycontin®️, Oxynormo®️</li>
-    <li>Durogesic®️, Actiq®️</li>
-  </ul>
-
-  <hr>
-
-  <h2>POSOLOGIE (adulte usuelle)</h2>
-
-  <h3>Paracétamol</h3>
-  <ul>
-    <li>500 mg à 1 g/prise</li>
-    <li>Toutes les 4–6 h</li>
-    <li>🔴 Max 4 g/jour (≤ 3 g si terrain à risque)</li>
-    <li>👶 OK grossesse/allaitement</li>
-  </ul>
-
-  <h3>Ibuprofène (AINS)</h3>
-  <ul>
-    <li>200 - 400 mg/prise</li>
-    <li>Toutes les 6–8 h</li>
-    <li>🔴 Max 1 200 mg/j sans avis médical</li>
-  </ul>
-
-  <h3>Acide acétylsalicylique (Aspirine)</h3>
-  <ul>
-    <li>500 mg à 1 g/prise</li>
-    <li>Toutes les 4–6 h</li>
-    <li>🔴 Max 3 g/j</li>
-  </ul>
-
-  <h3>Néfopam</h3>
-  <ul>
-    <li>20 mg/prise orale</li>
-    <li>Jusqu’à 3 prises/j</li>
-    <li>IV : 20 mg lent</li>
-    <li>🔴 Max 120 mg/j</li>
-  </ul>
-
-  <h3>Tramadol / Poudre d’opium / Codéine</h3>
-
-  <h4>Tramadol</h4>
-  <ul>
-    <li>50 à 100 mg/prise</li>
-    <li>2/jour</li>
-    <li>🔴 Max 400 mg/jour</li>
-  </ul>
-
-  <h4>Poudre d’opium</h4>
-  <ul>
-    <li>1 à 2 gélules par prise</li>
-    <li>Toutes les 6 heures</li>
-    <li>🔴 Max 10 gélules/jour</li>
-  </ul>
-
-  <h4>Codéine</h4>
-  <ul>
-    <li>20 mg/prise</li>
-    <li>3/jour</li>
-    <li>🔴 Max 300 mg/j ou 8 cp/jour</li>
-  </ul>
-
-  <h3>Morphine, Oxycodone, Fentanyl</h3>
-
-  <h4>Morphine, Oxycodone</h4>
-  <ul>
-    <li>Initiale 60 mg/j</li>
-    <li>Douleur aiguë / titration : morphine LI 5 à 10 mg toutes les 4 à 6 heures</li>
-    <li>Traitement de fond : formes LP en 2 prises par jour</li>
-  </ul>
-
-  <h4>Fentanyl</h4>
-  <ul>
-    <li>Patch : libération continue sur 72 heures</li>
-    <li>Formes buccales : réservées aux douleurs paroxystiques</li>
-    <li>Posologie individualisée selon la réponse clinique</li>
-  </ul>
-
-  <hr>
-
-  <h2>Etapes LADMER 💊</h2>
-
-  <h3>Libération (L)</h3>
-  <p>LI ⚡ / LP ⏳</p>
-  <ul>
-    <li>Paracétamol : Cp, gélule, solution, suppo</li>
-    <li>AINS : Cp, gélule, suspension buvable</li>
-    <li>Aspirine : Cp effervescent</li>
-    <li>Néfopam : Cp, solution</li>
-    <li>Tramadol : LI ⚡ LP ⏳, cp ou gélules, gouttes, solution</li>
-    <li>Morphine, Oxycodone : LI (titration) ⚡ LP ⏳</li>
-    <li>Fentanyl : Formes transmucosales (sublinguales, buccales), solution</li>
-  </ul>
-
-  <h3>Absorption (A) 🚪</h3>
-  <ul>
-    <li>Paracétamol : PO 💊, rectale 🍑, IV 💉</li>
-    <li>AINS : PO 💊, IM / IV 💉 (selon molécule), rectale 🍑</li>
-    <li>Aspirine : PO 💊</li>
-    <li>Néfopam : PO 💊, IV lente / IM 💉</li>
-    <li>Tramadol : PO 💊, IV / IM / SC 💉, PCA 📼 (Patient Controlled Analgesia)</li>
-    <li>Morphine, Oxycodone : PO 💊, IV / SC 💉</li>
-    <li>Fentanyl : Transdermique 🩹, buccale / sublinguale 👅</li>
-  </ul>
-
-  <h3>Distribution (D) 🚚</h3>
-  <ul>
-    <li>Paracétamol : Diffusion systémique, passage SNC modéré 🧠</li>
-    <li>AINS : Périphérie + SNC, forte liaison aux protéines plasmatiques 🧲</li>
-    <li>Aspirine : Périphérie + plaquettes, traverse le placenta</li>
-    <li>Néfopam : Action centrale (SNC) 🧠, pas d’effet anti-inflammatoire</li>
-    <li>Opioïdes (Tramadol, Morphine, Oxycodone, Fentanyl) :
-      <ul>
-        <li>Passage SNC indispensable 🧠</li>
-        <li>Diffusion SNC majeure 🧠</li>
-        <li>Moelle épinière 🧠</li>
-        <li>Traverse BHE</li>
-        <li>Fentanyl : SNC très rapide 🧠, très lipophile</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h3>Métabolisme (M) 🏭</h3>
-  <ul>
-    <li>Paracétamol : Foie ⚙️, ⚠️ Hépatotoxicité</li>
-    <li>AINS : Foie ⚙️</li>
-    <li>Aspirine : Foie ⚙️ (salicylates)</li>
-    <li>Néfopam : Foie ⚙️</li>
-    <li>Tramadol : Foie ⚙️, métabolite actif (morphine), CYP2D6 🧬</li>
-    <li>Morphine, Oxycodone, Fentanyl : Foie ⚙️, métabolites actifs (CYP3A4)</li>
-  </ul>
-
-  <h3>Élimination (E) 🚽</h3>
-  <ul>
-    <li>Paracétamol : Reins 🚰, ⚠️ LI</li>
-    <li>AINS : Reins 🚰</li>
-    <li>Aspirine : Reins 🚰 (pH-dépendante)</li>
-    <li>Néfopam : Reins 🚰, accumulation possible</li>
-    <li>Tramadol : Reins 🚰, ⚠️ surdosage si LI</li>
-    <li>Morphine, Oxycodone, Fentanyl : Reins 🚰</li>
-  </ul>
-
-  <h3>Résultat (R) ⚗️ – Pharmacodynamie</h3>
-
-  <h4>Paracétamol</h4>
-  <p>Cible 👉 Enzymes COX centrales</p>
-  <p>Comment ? 👉 Inhibe la synthèse des prostaglandines centrales, ce qui diminue la perception de la douleur et la fièvre</p>
-
-  <h4>AINS</h4>
-  <p>Cible 👉 Enzymes COX-1 et COX-2</p>
-  <p>Comment ? 👉 Diminue la production de prostaglandines (inhibition des COX), responsables de douleur, inflammation et fièvre 🔥</p>
-
-  <h4>Aspirine</h4>
-  <p>Cible 👉 COX (inhibition irréversible)</p>
-  <p>Comment ? 👉 Bloque durablement la synthèse des prostaglandines et du thromboxane A₂</p>
-
-  <h4>Néfopam</h4>
-  <p>Cible 👉 Recapture des neurotransmetteurs (sérotonine, noradrénaline, dopamine)</p>
-  <p>Comment ? 👉 Inhibe leur recapture → renforce les voies inhibitrices de la douleur</p>
-  <p>Douleurs post opératoires</p>
-
-  <h4>Tramadol</h4>
-  <p>Agoniste récepteur aux opiacés (= récepteurs de la douleur, pour la morphine naturelle "l'endorphine"</p>
-  <p>Cibles 👉 Récepteurs opioïdes µ, recapture de la sérotonine et noradrénaline</p>
-  <p>Comment ? Double action :</p>
-  <ul>
-    <li>👉 Activation des récepteurs opioïdes µ</li>
-    <li>👉 Inhibition de la recapture de la sérotonine et noradrénaline</li>
-  </ul>
-  <p>→ diminution de la transmission du message douloureux</p>
-  <p>🧠 Mémo :</p>
-  <ul>
-    <li>Opium = opioïde naturel (la poudre)</li>
-    <li>Codéine = morphine indirecte</li>
-  </ul>
-
-  <h4>Morphine / Oxycodone / Fentanyl</h4>
-  <p>Agoniste récepteur aux opiacés</p>
-  <p>Cible 👉 Récepteurs opioïdes µ</p>
-  <p>Comment ? 👉 Inhibe la transmission du message douloureux (par activation des récepteurs opioïdes) et modifie sa perception</p>
-  <p>🧠 Mémo :</p>
-  <ul>
-    <li>Oxycodone = alternative morphine</li>
-    <li>Fentanyl = la plus puissante</li>
-  </ul>
-
-  <hr>
-
-  <h2>Effets recherchés</h2>
-
-  <h3>Paracétamol</h3>
-  <ul>
-    <li>Antalgie</li>
-    <li>Apyrexie</li>
-  </ul>
-
-  <h3>AINS</h3>
-  <ul>
-    <li>Antalgie</li>
-    <li>Apyrexie</li>
-    <li>Antiinflammatoire</li>
-  </ul>
-
-  <h3>Aspirine</h3>
-  <ul>
-    <li>Antalgie</li>
-    <li>Antiagrégant (dose-dépendant)</li>
-  </ul>
-
-  <h3>Néfopam, Tramadol, Opioïdes forts</h3>
-  <ul>
-    <li>Antalgie</li>
-  </ul>
-
-  <hr>
-
-  <h2>Surveillance commune à tous les antalgiques</h2>
-
-  <h3>Réévaluation et efficacité</h3>
-  <ul>
-    <li>Réévaluation douleur (30–60 min) 📊</li>
-    <li>Efficacité clinique ✔️ / ❌</li>
-  </ul>
-
-  <h3>Tolérance / Vigilance / Transit</h3>
-  <ul>
-    <li>Tolérance digestive 🤢</li>
-    <li>État de vigilance 🧠</li>
-    <li>Constipation 🚽</li>
-  </ul>
-
-  <h3>Observance</h3>
-  <ul>
-    <li>Observance (automédication, respect de la posologie et de l'intervalle de prise) / compréhension patient 🗣️</li>
-  </ul>
-
-  <h3>Surveillance IDE spécifique</h3>
-  <ul>
-    <li>Dose cumulée / 24 h ❗</li>
-    <li>Diurèse / œdèmes 🚰</li>
-    <li>😮‍💨 Fréquence respiratoire</li>
-    <li>🧠 Niveau de conscience</li>
-    <li>📊 Douleur (EVA)</li>
-    <li>🚽 Constipation</li>
-    <li>🤢 Nausées / vomissements</li>
-    <li>⚠️ Risque dépendance</li>
-  </ul>
-
-  <hr>
-
-  <h2>Surveillance spécifique par classe / molécule</h2>
-
-  <h3>Paracétamol → foie ⚠️</h3>
-  <ul>
-    <li>🔸 Attention alcool, dénutrition</li>
-    <li>⏱️ Respect dose maximale</li>
-    <li>🔍 Vérifier toutes les sources de paracétamol associées</li>
-    <li>🌡️ Douleur / fièvre</li>
-    <li>🧪 Fonction hépatique si traitement prolongé</li>
-  </ul>
-
-  <h3>AINS → estomac 🩸</h3>
-  <ul>
-    <li>🚽 Diurèse</li>
-    <li>🩸 Douleurs gastriques / saignements</li>
-    <li>🩺 TA</li>
-    <li>💊 Durée et dose</li>
-    <li>Association avec un IPP possible</li>
-    <li>🍽️ Toujours avec nourriture (limite leur toxicité digestive)</li>
-    <li>🚫 avec autre AINS</li>
-    <li>🔸 CI grossesse T3</li>
-  </ul>
-
-  <h3>Aspirine → estomac 🩸</h3>
-  <ul>
-    <li>🩸 Signes hémorragiques</li>
-    <li>🚽 Fonction rénale</li>
-    <li>👂 Acouphènes</li>
-  </ul>
-
-  <h3>Néfopam → agitation, sueurs 🧠💦</h3>
-  <ul>
-    <li>🩺 FC / TA</li>
-    <li>🚽 Rétention urinaire</li>
-    <li>Si PO 💊 → sur un sucre ou jus d’orange (évite l’amertume)</li>
-  </ul>
-
-  <hr>
-
-  <h2>Effets indésirables majeurs</h2>
-
-  <h3>Paracétamol</h3>
-  <ul>
-    <li>⚠️ EIM doses thérapeutiques :
-      <ul>
-        <li>Rarement : rash, urticaire</li>
-        <li>Troubles digestifs légers</li>
-        <li>Bonne tolérance</li>
-        <li>! Automédication</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h3>AINS</h3>
-  <ul>
-    <li>🤢 Nausées</li>
-    <li>🔹 Douleur gastrique</li>
-    <li>🔹 Saignement digestif (ulcère gastro-duodénal)</li>
-    <li>🔹 Diminution diurèse (rétention hydrosodée, insuffisance rénale fonctionnelle)</li>
-    <li>🔹 Effet antiagrégant (risque hémorragique)</li>
-    <li>🔹 Risque « complication infectieuse »</li>
-  </ul>
-
-  <h3>Aspirine</h3>
-  <ul>
-    <li>🔹 Douleur gastrique</li>
-    <li>🔹 Saignement</li>
-    <li>🔹 Hypersensibilité</li>
-  </ul>
-
-  <h3>Néfopam</h3>
-  <ul>
-    <li>Effets anticholinergiques
-      <ul>
-        <li>Nausées</li>
-        <li>Vertiges</li>
-        <li>Sécheresse buccale</li>
-        <li>Tachycardie</li>
-      </ul>
-    </li>
-  </ul>
-
-  <h3>Tramadol / Opioïdes faibles</h3>
-  <ul>
-    <li>Somnolence 😴 (résolutif en qq jrs)</li>
-    <li>Nausées / vomissements 🤢</li>
-    <li>Constipation → prévention 🚽</li>
-    <li>Vertiges</li>
-    <li>Risque syndrome sérotoninergique</li>
-    <li>Interactions médicamenteuses ⚠️</li>
-    <li>❗ paracétamol cumul</li>
-    <li>Syndrome de sevrage (arrêt brutal) si administration prolongée &gt; à 15 jrs = risque de dépendance et de tolérance</li>
-    <li>Conseil Hygiéno-diététique</li>
-    <li>Convulsions (tramadol) 🚨</li>
-  </ul>
-
-  <h3>Opioïdes forts (Morphine, Oxycodone, Fentanyl)</h3>
-
-  <h4>🚨 SURVEILLANCE PRIORITAIRE</h4>
-  <ul>
-    <li>🌬️ Dépression respiratoire</li>
-    <li>🚽 Constipation systématique → Toujours associer un laxatif</li>
-    <li>+ rétention urinaire → sondage si globe vésical</li>
-    <li>🧠 Sédation, confusion</li>
-    <li>🤢 Nausées/vomissements</li>
-    <li>Prurit</li>
-    <li>📉 Tolérance (besoin d'augmenter les doses) &amp; dépendance (psychiques, physique)</li>
-    <li>Patch fentanyl : chaleur, fièvre, sauna🔥 / Réservé aux patients déjà traités par opioïdes</li>
-    <li>Ne jamais écraser les formes LP ❌</li>
-    <li>Adapter les doses chez le sujet âgé et en insuffisance rénale</li>
-    <li>🔄 Titration / Rotation → Ajuster dose ou changer d’opioïde selon réponse</li>
-  </ul>
-
-  <hr>
-
-  <h2>EIM surdosage</h2>
-
-  <h3>Paracétamol</h3>
-  <ul>
-    <li>Hépatotoxicité aiguë</li>
-    <li>Insuffisance hépatique grave</li>
-    <li>Acidose métabolique</li>
-  </ul>
-
-  <h3>AINS</h3>
-  <ul>
-    <li>Hémorragie digestive</li>
-    <li>Insuffisance rénale aiguë</li>
-    <li>Troubles neurologiques</li>
-    <li>Acidose métabolique</li>
-  </ul>
-
-  <h3>Aspirine</h3>
-  <ul>
-    <li>Hyperventilation</li>
-    <li>Hémorragies sévères</li>
-    <li>Convulsions</li>
-    <li>Hallucinations</li>
-    <li>Troubles du rythme</li>
-  </ul>
-
-  <h3>Tramadol / Opioïdes faibles</h3>
-  <ul>
-    <li>Dépression respiratoire</li>
-    <li>Toxicité hépatique (paracétamol)</li>
-  </ul>
-
-  <h3>Opioïdes forts</h3>
-  <ul>
-    <li>Dépression respiratoire majeure</li>
-    <li>Coma</li>
-    <li>Arrêt respiratoire</li>
-  </ul>
-
-  <hr>
-
-  <h2>Antidote</h2>
-
-  <h3>Paracétamol</h3>
-  <ul>
-    <li>Antidote si surdosage 🧪 (antagoniste)</li>
-    <li>Fluimucil (paracétamolémie aux urgences)</li>
-    <li>N-acétylcystéine (NAC) IV ou PO</li>
-  </ul>
-
-  <h3>AINS</h3>
-  <ul>
-    <li>❌ Aucun spécifique</li>
-    <li>Traitement symptomatique</li>
-  </ul>
-
-  <h3>Aspirine</h3>
-  <ul>
-    <li>❌ Aucun spécifique</li>
-    <li>Traitement symptomatique ± alcalinisation</li>
-  </ul>
-
-  <h3>Néfopam</h3>
-  <ul>
-    <li>❌ Aucun spécifique</li>
-    <li>Traitement symptomatique</li>
-  </ul>
-
-  <h3>Opioïdes (Tramadol, Morphine, Oxycodone, Fentanyl)</h3>
-  <ul>
-    <li>Naloxone</li>
-  </ul>
-
-  <hr>
-
-  <h2>🚩 Signes d’alertes</h2>
-
-  <h3>Paracétamol</h3>
-  <ul>
-    <li>Nausées persistantes</li>
-    <li>Douleur hypochondre droit</li>
-    <li>Ictère</li>
-    <li>Asthénie intense</li>
-    <li>(Mesurer les ASAT- ALAT)</li>
-  </ul>
-
-  <h3>AINS</h3>
-  <ul>
-    <li>Douleur épigastrique intense</li>
-    <li>Méléna</li>
-    <li>Oligurie</li>
-  </ul>
-
-  <h3>Aspirine</h3>
-  <ul>
-    <li>Acouphènes</li>
-    <li>Confusion</li>
-    <li>Polypnée</li>
-  </ul>
-
-  <h3>Tramadol / Opioïdes faibles</h3>
-  <ul>
-    <li>Confusion</li>
-    <li>Constipation</li>
-    <li>Rétention urinaire</li>
-    <li>Hypotension, tachycardie</li>
-  </ul>
-
-  <h3>Opioïdes forts</h3>
-  <ul>
-    <li>😴Bradypnée</li>
-    <li>👁️Myosis</li>
-    <li>Confusion</li>
-    <li>Somnolence profonde</li>
-    <li>Respiration lente</li>
-    <li>FR &lt; 10/min</li>
-    <li>Myosis serré</li>
-    <li>Peau froide, moite</li>
-  </ul>
-
-  <hr>
-
-  <h2>🚨 Situation d’alerte immédiate</h2>
-
-  <h3>Paracétamol</h3>
-  <ul>
-    <li>🚨 Suspicion surdosage</li>
-    <li>🚨 Terrain alcoolique ou dénutri</li>
-    <li>🚨 Troubles de la conscience</li>
-  </ul>
-  <p>👉 Arrêt administration / appel médecin / protocole urgence (ex. pour intox paracétamol : -&gt; aux urgences : paracétamolémie (antidote fluimucil)</p>
-
-  <h3>AINS</h3>
-  <ul>
-    <li>🚨 Hémorragie digestive</li>
-    <li>🚨 Anurie</li>
-    <li>🚨 Dyspnée aiguë</li>
-  </ul>
-
-  <h3>Aspirine</h3>
-  <ul>
-    <li>🚨 Hémorragie grave</li>
-    <li>🚨 Troubles neurologique</li>
-    <li>🚨 Convulsions</li>
-    <li>🚨 Troubles cardiaques</li>
-  </ul>
-
-  <h3>Tramadol / Opioïdes faibles</h3>
-  <ul>
-    <li>🚨 Dépression respiratoire</li>
-    <li>🚨 Insuffisance respiratoire</li>
-    <li>🚨 Convulsions</li>
-    <li>🚨 Coma calme avec hypothermie</li>
-  </ul>
-
-  <h3>Opioïdes forts</h3>
-  <ul>
-    <li>🚨 FR ↓</li>
-    <li>🚨 Perte de conscience</li>
-    <li>🚨 Cyanose</li>
-  </ul>
-
-  <hr>
-
-  <h2>ÉDUCATION PATIENT 🗣️</h2>
-
-  <h3>Messages clés</h3>
-  <ul>
-    <li>Respect posologie ⏱️</li>
-    <li>Ne pas cumuler sans avis ❌</li>
-    <li>Signes à signaler ⚠️</li>
-    <li>Hydratation + transit 🚰🚽</li>
-    <li>Patch : ne pas chauffer 🩹🔥</li>
-  </ul>
-
-  <h3>Que faire en cas de problème ?</h3>
-  <ul>
-    <li>Arrêter le médicament</li>
-    <li>Contacter un médecin, pharmacien ou le centre antipoison</li>
-    <li>Urgences si douleur intense, vomissements de sang, malaise</li>
-    <li>Ne pas conduire si somnolence</li>
-    <li>Arrêter le traitement et consulter</li>
-    <li>Urgences immédiates si difficulté à respirer ou perte de connaissance</li>
-    <li>Consulter rapidement si somnolence inhabituelle</li>
-    <li>Urgences immédiates si respiration lente ou difficile</li>
-    <li>Toujours prendre le traitement contre la constipation prescrit avec</li>
-  </ul>
-
+    <div class="container">
+        <header>
+            <img src="../../assets/icons/LogoComplete_CripIFSI-transparent.png" alt="Logo IFSI CRIP" class="logo">
+            <h1>📚 Vocabulaire Médical</h1>
+            <p class="subtitle">Termes médicaux - Définitions - Traductions</p>
+        </header>
+
+        <div class="nav-links">
+            <a href="../../index.html" class="nav-link">🏠 Accueil</a>
+            <a href="index.html" class="nav-link">📖 UE2</a>
+        </div>
+
+      <div class="img">
+        <img src="dinosaur.jpg" />
 </body>
 </html>
+

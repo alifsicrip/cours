@@ -3,15 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Sciences Biologiques et Médicales</title>
+  <title> UE2 🔬 Sciences Biologiques et Médicales </title>
   <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
+  
 <body> 
   <main style="padding:4rem;max-width:720px;margin:0rem auto">
     <img src="../../assets/icons/ue2.svg" alt="UE2" width="50" height="50">
     <a href="../../index.html"><img src="../../assets/icons/LogoComplete_CripIFSI-transparent.png" width="200" height="200"></a>
   <br>
-  <section style="display:flex;gap:1rem;align-items:center;margin-top:1rem">
+  <section style="display:flex;gap:2rem;align-items:center;margin-top:1rem">
   <div>
     <header class="main-header">
       <br>
@@ -19,41 +20,123 @@
       <p>Cartes mentales, infographies, ressources diverses</p>
       <br>
     </header>
-    
-       <ul style="list-style-type:none;">
-          <!-- copier les lignes ci-dessous pour ajouter le path vers carte mentale -->
-          <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Generalites.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Généralités et définition en pharmacologie</a></li> 
-          <br>
-          <li hidden>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Pharmacodynamie.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Pharmacocinétique et pharmacodynamie</a></li> 
-          <br>
-          <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/ascii.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Pharmacodynamie Carte ASCII</a></li> 
-          <br>
-          <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Galienique-et-biodispo.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Formes pharmaceutiques</a></li> 
-          <br>
-          <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_RisquesDangersDuMed.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Risques et dangers du médicament </a></li> 
-          <br>
-          <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_StatutDuMedicament.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Statut du médicament </a></li> 
-          <br>
-          <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_ClasseDesMedicaments-ATC.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Classe des Médicaments </a></li> 
-          <br>
-          <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_ClasseDesMed_ficheRevision.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Classe des Médicaments - Révisions 🗣️ </a></li> 
-          <br>
-          <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Antalgiques.html" target="_blank" rel="noopener noreferrer">UE2.11 🌈 Les Antalgiques </a></li> 
-          <br>
-          <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Surveil_Antalgique_ChecKList.html" target="_blank" rel="noopener noreferrer">UE2.11 🌈 Surveillance antalgiques - CheckList  </a></li> 
-          <br>
-          <li hidden>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_StatutDuMedicament.html" target="_blank" rel="noopener noreferrer">UE2.11 🌟 Les Anti-Inflammatoires </a></li> 
-          <br>
-          <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Surveil_AntiInflammatoire_ChecKList.html" target="_blank" rel="noopener noreferrer">UE2.11 🌟 Les Anti-Inflammatoires  - CheckList  </a></li> 
-          <br>
-         <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2.11_Vocabulaire-Vocabulary.html" target="_blank" rel="noopener noreferrer">UE2.11 🚩 Vocabulaire / Vocabulary  </a></li> 
-          <br>
-      </ul>
+
+    <style>
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        .panel {
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .panel-header {
+            cursor: pointer;
+            background-color: #f8f9fa;
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .panel-header:hover {
+            background-color: #e9ecef;
+        }
+        .panel-content {
+            padding: 15px;
+            background-color: white;
+            max-height: 500px;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.2s ease-out;
+        }
+        .hidden {
+            max-height: 0;
+            padding: 0;
+            border: none;
+        }
+        .icon {
+            transition: transform 0.3s ease;
+        }
+        .icon.rotated {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <div class="panel-header" onclick="togglePanel(this)">
+                <span class="icon">🔻</span> 🔬 2.1 - Biologie Fondamentale
+            </div>
+            <div class="panel-content">
+                Contenu du compartiment 1...
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-header" onclick="togglePanel(this)">
+                <span class="icon">🔻</span> 🔬 2.2 - Systèmes et grandes fonctions
+            </div>
+            <div class="panel-content">
+                Contenu du compartiment 2...
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-header" onclick="togglePanel(this)">
+                <span class="icon">🔻</span> 🔬 2.11 - Pharmacologie et thérapeutique
+            </div>
+            <div class="panel-content">
+              <ul style="list-style-type:none;">
+                
+                  <!-- copier les lignes ci-dessous pour ajouter le path vers carte mentale -->
+                  <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Generalites.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Généralités et définition en pharmacologie</a></li> 
+                  <br>
+                  <li hidden>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Pharmacodynamie.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Pharmacocinétique et pharmacodynamie</a></li> 
+                  <br>
+                  <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/ascii.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Pharmacodynamie Carte ASCII</a></li> 
+                  <br>
+                  <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Galienique-et-biodispo.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Formes pharmaceutiques</a></li> 
+                  <br>
+                  <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_RisquesDangersDuMed.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Risques et dangers du médicament </a></li> 
+                  <br>
+                  <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_StatutDuMedicament.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Statut du médicament </a></li> 
+                  <br>
+                  <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_ClasseDesMedicaments-ATC.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Classe des Médicaments </a></li> 
+                  <br>
+                  <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_ClasseDesMed_ficheRevision.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Classe des Médicaments - Révisions 🗣️ </a></li> 
+                  <br>
+                  <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Antalgiques.html" target="_blank" rel="noopener noreferrer">UE2.11 🌈 Les Antalgiques </a></li> 
+                  <br>
+                  <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Surveil_Antalgique_ChecKList.html" target="_blank" rel="noopener noreferrer">UE2.11 🌈 Surveillance antalgiques - CheckList  </a></li> 
+                  <br>
+                  <li hidden>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_StatutDuMedicament.html" target="_blank" rel="noopener noreferrer">UE2.11 🌟 Les Anti-Inflammatoires </a></li> 
+                  <br>
+                  <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Surveil_AntiInflammatoire_ChecKList.html" target="_blank" rel="noopener noreferrer">UE2.11 🌟 Les Anti-Inflammatoires  - CheckList  </a></li> 
+                  <br>
+                 <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2.11_Vocabulaire-Vocabulary.html" target="_blank" rel="noopener noreferrer">UE2.11 🚩 Vocabulaire / Vocabulary  </a></li> 
+                 <br>
+              </ul>
+            </div>
+        </div>
     </div>
-      
     </section>
   </main>
-
+  
+  <script>
+        function togglePanel(header) {
+            const content = header.nextElementSibling;
+            const icon = header.querySelector('.icon');
+            content.classList.toggle("hidden");
+            icon.classList.toggle("rotated");
+        }
+    </script>
+  
 <!-- ceci est la barre latérale de navigation -->
  <aside class="sidebar" id="sidebar">
     <div class="brand"><img src="../../assets/icons/LogoComplete_CripIFSI-transparent.png"/></div>

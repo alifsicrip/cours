@@ -39,3 +39,34 @@ body{background:var(--bg);color:#111}
 
 /* Small utilities */
 img{max-width:100%;height:auto}
+
+/* Style par défaut pour toutes les images */
+.responsive-img {
+    max-width: 100%;  /* L'image ne dépasse pas la largeur de son conteneur */
+    height: auto;     /* La hauteur s'ajuste pour garder les proportions */
+    display: block;   /* Évite les espaces indésirables sous l'image */
+    margin: 0 auto;  /* Centre l'image horizontalement */
+}
+
+/* Style pour les mobiles (écrans < 768px) */
+@media (max-width: 767px) {
+    .responsive-img {
+        width: 90%;  /* L'image prend 90% de la largeur de l'écran */
+        margin: 10px auto; /* Ajoute une marge en haut et en bas */
+    }
+}
+
+/* Style pour les tablettes (écrans entre 768px et 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .responsive-img {
+        width: 80%;  /* L'image prend 80% de la largeur de l'écran */
+    }
+}
+
+/* Style pour les desktop (écrans > 1024px) */
+@media (min-width: 1025px) {
+    .responsive-img {
+        width: 60%;  /* L'image prend 60% de la largeur de l'écran */
+    }
+}
+

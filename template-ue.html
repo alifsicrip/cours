@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UE X.X - Titre de l'UE | IFSI CRIP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Ubuntu', 'Calibri', sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #0071BC;
+            text-decoration: none;
+            margin-bottom: 24px;
+            font-size: 14px;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .ue-header {
+            border-bottom: 2px solid #0071BC;
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .ue-number {
+            color: #0071BC;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .ue-title {
+            font-size: 36px;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+        }
+
+        .ue-meta {
+            display: flex;
+            gap: 24px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            color: #0071BC;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-content {
+            color: #1a1a1a;
+            line-height: 1.8;
+        }
+
+        .objectives-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .objectives-list li {
+            padding: 12px;
+            margin-bottom: 8px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            position: relative;
+            padding-left: 40px;
+        }
+
+        .objectives-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 12px;
+            color: #00A19A;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .documents-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 16px;
+        }
+
+        .document-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid transparent;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .document-card:hover {
+            border-color: #0071BC;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .doc-icon {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+
+        .doc-name {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .doc-meta {
+            font-size: 13px;
+            color: #666;
+        }
+
+        .info-box {
+            background: #E8F4F8;
+            border-left: 4px solid #0071BC;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .info-box-title {
+            font-weight: 600;
+            color: #0071BC;
+            margin-bottom: 8px;
+        }
+
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+        }
+
+        .schedule-table th,
+        .schedule-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .schedule-table th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #0071BC;
+        }
+
+        .schedule-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        .evaluation-card {
+            background: #FFF5E6;
+            border-left: 4px solid #F37021;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .evaluation-title {
+            font-weight: 600;
+            color: #F37021;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .ue-title {
+                font-size: 28px;
+            }
+
+            .documents-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Lien retour -->
+        <a href="index.html" class="back-link">
+            ← Retour à l'accueil
+        </a>
+
+        <!-- En-tête UE -->
+        <div class="ue-header">
+            <div class="ue-number">📚 UE X.X</div>
+            <h1 class="ue-title">Titre de l'Unité d'Enseignement</h1>
+            <div class="ue-meta">
+                <div class="meta-item">
+                    📅 Semestre X
+                </div>
+                <div class="meta-item">
+                    🎓 X ECTS
+                </div>
+                <div class="meta-item">
+                    ⏱️ XX heures
+                </div>
+            </div>
+        </div>
+
+        <!-- Description -->
+        <section class="section">
+            <h2 class="section-title">📖 Description</h2>
+            <div class="section-content">
+                <p>
+                    Cette unité d'enseignement vise à... [Description détaillée de l'UE, 
+                    ses objectifs principaux et son importance dans la formation infirmière]
+                </p>
+            </div>
+        </section>
+
+        <!-- Objectifs pédagogiques -->
+        <section class="section">
+            <h2 class="section-title">🎯 Objectifs pédagogiques</h2>
+            <ul class="objectives-list">
+                <li>Objectif 1 : Décrire et expliquer...</li>
+                <li>Objectif 2 : Analyser et comprendre...</li>
+                <li>Objectif 3 : Mettre en œuvre...</li>
+                <li>Objectif 4 : Évaluer et adapter...</li>
+            </ul>
+        </section>
+
+        <!-- Contenu de l'enseignement -->
+        <section class="section">
+            <h2 class="section-title">📚 Contenu de l'enseignement</h2>
+            <div class="section-content">
+                <h3 style="color: #00A19A; margin-top: 16px; margin-bottom: 8px;">Module 1 : Introduction</h3>
+                <p>Présentation générale des concepts...</p>
+                
+                <h3 style="color: #00A19A; margin-top: 16px; margin-bottom: 8px;">Module 2 : Approfondissement</h3>
+                <p>Développement des compétences...</p>
+                
+                <h3 style="color: #00A19A; margin-top: 16px; margin-bottom: 8px;">Module 3 : Application pratique</h3>
+                <p>Mise en situation et cas concrets...</p>
+            </div>
+        </section>
+
+        <!-- Informations importantes -->
+        <div class="info-box">
+            <div class="info-box-title">ℹ️ Informations importantes</div>
+            <p>
+                Pensez à consulter régulièrement cette page pour les mises à jour de cours 
+                et les documents complémentaires. Les TD et TP sont obligatoires pour valider l'UE.
+            </p>
+        </div>
+
+        <!-- Calendrier -->
+        <section class="section">
+            <h2 class="section-title">📅 Calendrier prévisionnel</h2>
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Type</th>
+                        <th>Sujet</th>
+                        <th>Intervenant</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>XX/XX/2025</td>
+                        <td>CM</td>
+                        <td>Introduction générale</td>
+                        <td>Dr. XXX</td>
+                    </tr>
+                    <tr>
+                        <td>XX/XX/2025</td>
+                        <td>TD</td>
+                        <td>Travaux dirigés - Groupe A</td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>XX/XX/2025</td>
+                        <td>TP</td>
+                        <td>Travaux pratiques</td>
+                        <td>XXX</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Documents disponibles -->
+        <section class="section">
+            <h2 class="section-title">📄 Documents disponibles</h2>
+            <div class="documents-grid">
+                <div class="document-card" onclick="alert('Ouverture du document...')">
+                    <div class="doc-icon">📝</div>
+                    <div class="doc-name">Cours 1 - Introduction</div>
+                    <div class="doc-meta">PDF • 2.3 MB</div>
+                </div>
+                
+                <div class="document-card" onclick="alert('Ouverture du document...')">
+                    <div class="doc-icon">📊</div>
+                    <div class="doc-name">TD - Exercices pratiques</div>
+                    <div class="doc-meta">PDF • 1.8 MB</div>
+                </div>
+                
+                <div class="document-card" onclick="alert('Ouverture du document...')">
+                    <div class="doc-icon">📚</div>
+                    <div class="doc-name">Bibliographie</div>
+                    <div class="doc-meta">PDF • 0.5 MB</div>
+                </div>
+                
+                <div class="document-card" onclick="alert('Ouverture du document...')">
+                    <div class="doc-icon">🎥</div>
+                    <div class="doc-name">Présentation vidéo</div>
+                    <div class="doc-meta">Lien externe</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modalités d'évaluation -->
+        <section class="section">
+            <h2 class="section-title">✍️ Modalités d'évaluation</h2>
+            
+            <div class="evaluation-card">
+                <div class="evaluation-title">Examen écrit</div>
+                <p>
+                    <strong>Date :</strong> XX/XX/2025<br>
+                    <strong>Durée :</strong> 2 heures<br>
+                    <strong>Coefficient :</strong> 60%<br>
+                    <strong>Type :</strong> QCM et questions ouvertes
+                </p>
+            </div>
+            
+            <div class="evaluation-card">
+                <div class="evaluation-title">Travail personnel</div>
+                <p>
+                    <strong>À rendre :</strong> XX/XX/2025<br>
+                    <strong>Format :</strong> Dossier écrit (10 pages max)<br>
+                    <strong>Coefficient :</strong> 40%<br>
+                    <strong>Sujet :</strong> Analyse de situation clinique
+                </p>
+            </div>
+        </section>
+
+        <!-- Ressources complémentaires -->
+        <section class="section">
+            <h2 class="section-title">🔗 Ressources complémentaires</h2>
+            <div class="section-content">
+                <ul style="padding-left: 20px;">
+                    <li><a href="#" style="color: #0071BC;">Bibliothèque en ligne de l'IFSI</a></li>
+                    <li><a href="#" style="color: #0071BC;">Vidéothèque de formation</a></li>
+                    <li><a href="#" style="color: #0071BC;">Forum d'échange entre étudiants</a></li>
+                    <li><a href="#" style="color: #0071BC;">Plateforme e-learning</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <div class="info-box" style="background: #F0F8F0; border-left-color: #8DC63F;">
+            <div class="info-box-title" style="color: #8DC63F;">📧 Contact</div>
+            <p>
+                <strong>Responsable de l'UE :</strong> [Nom]<br>
+                <strong>Email :</strong> <a href="mailto:contact@ifsi.fr" style="color: #0071BC;">contact@ifsi.fr</a><br>
+                <strong>Permanence :</strong> Mardi 14h-16h - Bureau XX
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>

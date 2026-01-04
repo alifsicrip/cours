@@ -1,3 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: auto auto;
+            font-family: Arial, sans-serif;
+        }
+        .panel {
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .panel-header {
+            cursor: pointer;
+            background-color: #f8f9fa;
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .panel-header:hover {
+            background-color: #e9ecef;
+        }
+        .panel-content {
+            padding: 30px;
+            background-color: white;
+            max-height: auto;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.2s ease-out;
+        }
+        .hidden {
+            max-height: 0;
+            padding: 0;
+            border: none;
+        }
+        .icon {
+            transition: transform 0.3s ease;
+        }
+        .icon.rotated {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Onglet 1 -->
+        <div class="panel">
+            <div class="panel-header" onclick="togglePanel(this)">
+                <span class="icon rotated">🔻</span> 🔬 2.1 - Biologie Fondamentale
+            </div>
+            <div class="panel-content hidden">
+                Contenu du compartiment 1...
+            </div>
+        </div>
+
+        <!-- Onglet 2 -->
+        <div class="panel">
+            <div class="panel-header" onclick="togglePanel(this)">
+                <span class="icon rotated">🔻</span> 🔬 2.2 - Systèmes et grandes fonctions
+            </div>
+            <div class="panel-content hidden">
+                Contenu du compartiment 2...
+            </div>
+        </div>
+
+        <!-- Onglet 3 -->
+        <div class="panel">
+            <div class="panel-header" onclick="togglePanel(this)">
+                <span class="icon rotated">🔻</span> 🫟 2.4 - Plaies
+            </div>
+            <div class="panel-content hidden">
+                <ul style="list-style-type:none;">
+                    <li>📖<a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Escarres.html" target="_blank" rel="noopener noreferrer">UE2.4 🫟 Plaies</a></li>
+                    <br>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script pour gérer l'ouverture/fermeture -->
+    <script>
+        function togglePanel(header) {
+            const content = header.nextElementSibling;
+            const icon = header.querySelector('.icon');
+
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotated');
+        }
+    </script>
+</body>
+</html>
+
+
 <!doctype html>
 <html lang="fr">
   <head>

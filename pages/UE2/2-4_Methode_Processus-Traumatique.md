@@ -1,5 +1,5 @@
 # 🧠 UE 2.14 – Processus traumatique
-## 📄 FICHE MÉTHODE – Réussir une situation clinique (IFSI 1ère année)
+## 📄 FICHE MÉTHODE – Réussir une situation clinique 
 
 > 🎯 Objectif : appliquer un **raisonnement infirmier clair, structuré et noté positivement** au partiel.
 

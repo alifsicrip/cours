@@ -1,4 +1,4 @@
-# 🧠 UE 2.14 – Processus traumatique
+# 🧠 UE 2.4 – Processus traumatique
 ## 📄 FICHE MÉTHODE – Réussir une situation clinique 
 
 > 🎯 Objectif : appliquer un **raisonnement infirmier clair, structuré et noté positivement** au partiel.

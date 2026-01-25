@@ -1,4 +1,4 @@
-# 🧠 UE 2.14 – Processus traumatique
+# 🧠 UE 2.4 – Processus traumatique
 ## 📄 Phrases types à apprendre par cœur
 
 > 🎯 Objectif : disposer de formulations **professionnelles, neutres et attendues au partiel IFSI** pour réussir les situations cliniques.

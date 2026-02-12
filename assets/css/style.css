@@ -70,3 +70,13 @@ img{max-width:100%;height:auto}
     }
 }
 
+/* Coloration des liens hypertextes */
+a {
+  color: #0077cc; /* bleu personnalisé */
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0077cc;
+}
+

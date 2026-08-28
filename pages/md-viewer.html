@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fiche — UE2.11</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.1/marked.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-light.min.css">
+<style>
+  body {
+    margin: 0;
+    background: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  .topbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border-bottom: 1px solid #d0d7de;
+    background: #f6f8fa;
+    position: sticky;
+    top: 0;
+  }
+  .topbar a {
+    font-size: 13px;
+    color: #24292f;
+    text-decoration: none;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    padding: 5px 12px;
+    background: #ffffff;
+  }
+  .topbar a:hover { background: #f3f4f6; }
+  .topbar span { font-size: 13px; color: #57606a; }
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  .state {
+    text-align: center;
+    color: #57606a;
+    padding: 60px 20px;
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a href="javascript:history.back()">← Retour</a>
+  <span id="file-label"></span>
+</div>
+
+<main>
+  <article class="markdown-body" id="content">
+    <p class="state">Chargement…</p>
+  </article>
+</main>
+
+<script>
+  marked.setOptions({ gfm: true, breaks: false });
+
+  const params = new URLSearchParams(window.location.search);
+  const file = params.get('file');
+  const content = document.getElementById('content');
+  const label = document.getElementById('file-label');
+
+  if (!file) {
+    content.innerHTML = '<p class="state">Aucun fichier précisé. Utilise ?file=chemin/vers/fichier.md dans l\'URL.</p>';
+  } else {
+    label.textContent = file.split('/').pop();
+    fetch(file)
+      .then(res => {
+        if (!res.ok) throw new Error('Fichier introuvable (' + res.status + ')');
+        return res.text();
+      })
+      .then(md => {
+        content.innerHTML = marked.parse(md);
+        document.title = (file.split('/').pop().replace('.md', '')) + ' — UE2.11';
+      })
+      .catch(err => {
+        content.innerHTML = '<p class="state">Impossible de charger ce fichier : ' + err.message + '</p>';
+      });
+  }
+</script>
+
+</body>
+</html>

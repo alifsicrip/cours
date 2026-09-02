@@ -103,6 +103,10 @@
 
 # 🧬 4. PHARMACOLOGIE — VERSION SIMPLE
 
+## 🧠 Pharmacodynamie
+
+🧠 La pharmacodynamie décrit ce que le médicament fait à l'organisme : le paracétamol agit principalement au niveau central en diminuant les mécanismes impliqués dans la douleur et l'élévation du point de consigne thermique.
+
 ## 🧠 Où agit-il ?
 
 **🦠 Infection / inflammation**  
@@ -122,6 +126,8 @@
 
 ## 🧪 LADME express
 
+🧪 La pharmacocinétique décrit ce que l'organisme fait au médicament, de sa libération jusqu'à son élimination.
+
 | Lettre | Étape | À retenir |
 |---|---|---|
 | **L** | 💊 Libération | Forme administrée |
@@ -129,6 +135,17 @@
 | **D** | 🚚 Distribution | Diffusion dans l'organisme et SNC |
 | **M** | 🏭 Métabolisme | Principalement hépatique |
 | **E** | 🚽 Élimination | Principalement urinaire |
+
+## 💊 LADMER spécifiquement appliqué au paracétamol
+
+| Lettre | Étape | Application au paracétamol |
+|---|---|---|
+| **L** | 💊 Libération | Le paracétamol est libéré à partir de sa forme galénique ; la vitesse varie selon la présentation : comprimé, forme effervescente, solution buvable, suppositoire ou injectable. |
+| **A** | 🚪 Absorption | Par voie orale, il est rapidement et presque complètement absorbé par le tube digestif ; le pic plasmatique est généralement atteint en **30 à 60 minutes**. |
+| **D** | 🚚 Distribution | Il se distribue rapidement dans la plupart des tissus et liquides biologiques, avec une faible liaison aux protéines plasmatiques aux concentrations thérapeutiques. |
+| **M** | 🏭 Métabolisme | Il est principalement métabolisé par le foie par glycuroconjugaison et sulfoconjugaison ; une faible fraction forme le **NAPQI**, normalement neutralisé par le glutathion. |
+| **E** | 🚽 Élimination | Environ **90 %** de la dose est éliminée dans les urines en 24 h, surtout sous forme de métabolites conjugués ; la demi-vie est d'environ **2 h** chez l'adulte sain. |
+| **R** | 🌡️ Réponse | La réponse attendue est une diminution de la douleur et une baisse progressive de la fièvre, sans effet anti-inflammatoire périphérique significatif. |
 
 ### 💊 Principales formes
 
@@ -194,6 +211,31 @@
 
 > ⏱️ **Plus la prise en charge est précoce, plus elle est efficace.**  
 > 🚨 Toute suspicion de surdosage nécessite une **évaluation médicale urgente**.
+
+## ⚠️ Complications
+
+- 🏭 Cytolyse puis insuffisance hépatocellulaire aiguë pouvant évoluer vers une nécrose hépatique irréversible
+- 🩸 Troubles de la coagulation pouvant aller jusqu'à la coagulation intravasculaire disséminée
+- 🍬 Hypoglycémie
+- 🧪 Acidose métabolique
+- 🧠 Encéphalopathie, coma puis décès
+- 🚽 Insuffisance rénale aiguë par nécrose tubulaire, parfois même sans atteinte hépatique sévère
+- 🫁 Réaction d'hypersensibilité grave : angiœdème, bronchospasme ou choc anaphylactique
+- 🧴 Réactions cutanées graves, exceptionnellement
+- 🩸 Anomalies hématologiques sévères, rarement
+
+## 👩‍⚕️ Conduite à tenir infirmière en cas de complications
+
+☐ 🛑 Arrêter immédiatement l'administration de paracétamol et ne pas redonner de dose  
+☐ 🚨 Alerter sans délai le médecin et activer la prise en charge urgente selon le protocole du service  
+☐ 🧠 Évaluer immédiatement conscience, voies aériennes, respiration et circulation  
+☐ ❤️ Surveiller de façon rapprochée 🌡️ température • ❤️ FC • 🩸 TA • 🫁 FR • 🫁 SpO₂ • 🧠 état neurologique • 🚽 diurèse  
+☐ 💊 Reconstituer précisément l'heure, la dose, la forme et toutes les spécialités ingérées ; conserver les emballages  
+☐ 💉 Poser une voie veineuse et effectuer les prélèvements prescrits : paracétamolémie, bilan hépatique, TP/INR, glycémie, créatinine, ionogramme et gaz du sang selon le contexte  
+☐ 🧪 Préparer et administrer la **N-acétylcystéine** selon prescription ou protocole, sans retarder la prise en charge  
+☐ 🫁 En cas d'hypersensibilité grave : interrompre le médicament, appeler l'urgence, administrer oxygène et traitements prescrits selon le protocole d'anaphylaxie  
+☐ 🚫 Ne pas faire vomir la personne  
+☐ 📝 Tracer les prises, les signes, les paramètres, les actions réalisées et transmettre l'évolution  
 
 ---
 

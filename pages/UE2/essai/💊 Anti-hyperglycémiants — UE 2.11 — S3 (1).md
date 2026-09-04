@@ -341,35 +341,40 @@ Donc :
 - surveiller ;
 - tracer et transmettre.
 
-### 🧠 Mémo express : F.I.R.E.
+### 🔥 F.I.R.E. = où agissent-ils ?
 
-🔥 **FIRE = où peut-on agir sur le glucose ?**
+- **F** = 🫀 **Foie** → metformine
+- **I** = 🧬 **Insuline** → sulfamides/glinides
+- **R** = 🫘 **Rein** → iSGLT2
+- **E** = 🍽️ **Estomac/intestin** → GLP-1/acarbose
 
-- **F — Foie** → metformine
-- **I — Insuline** → sulfamides/glinides
-- **R — Rein** → iSGLT2
-- **E — Estomac/intestin** → GLP-1/acarbose
+### 👩‍⚕️ G.R.A.I.N. = que surveiller ?
 
-### 🧠 Mémo surveillance : G.R.A.I.N.
-
-- 🩸 **G**lycémie
-- 🫘 **R**ein
-- 🍽️ **A**limentation
-- 😵 **I**ndésirables
-- 🧠 **N**eurologique
+- **G** = Glycémie 🩸
+- **R** = Rein 🫘
+- **A** = Alimentation 🍽️
+- **I** = Indésirables 😵
+- **N** = Neurologique 🧠
+  
 
 ## ✅ L’essentiel à retenir
 
 | ❓ Question | ⚡ Réponse express |
 |---|---|
-| C’est quoi ? | Médicaments qui diminuent l’**hyperglycémie** |
-| Indication principale ? | **Diabète de type 2** |
-| Metformine ? | 🫀 ↓ production hépatique de glucose |
-| Sulfamides ? | 🧬 ↑ insuline |
-| iSGLT2 ? | 🫘 ↑ élimination urinaire du glucose |
-| Risque sulfamides ? | 🚨 **Hypoglycémie** |
-| Risque metformine ? | 🚨 Acidose lactique très rare, surtout si accumulation |
-| Surveillance clé ? | 🩸 Glycémie + 🍽️ alimentation + 🫘 rein + 🧠 conscience |
+| C’est quoi ? | Médicaments diminuant l’hyperglycémie |
+| Pourquoi ? | Contrôler le diabète de type 2 |
+| Comment ? | Foie, pancréas, rein ou intestin |
+| Risque majeur ? | ⚠️ Hypoglycémie pour certaines classes |
+| Metformine : surveillance clé ? | 🫘 Fonction rénale |
+| Que surveiller ? | Glycémie, alimentation, conscience, rein, tolérance |
+| Quand alerter ? | Coma, convulsions, détresse, hypoglycémie sévère, suspicion d’acidose |
+
+| 💊 Médicament | 🧠 Mécanisme | ⚠️ Risque | 👩‍⚕️ Surveillance |
+|---|---|---|---|
+| **Metformine** | ↓ glucose du foie | Acidose lactique rare | 🫘 **DFG** |
+| **Sulfamides** | ↑ insuline | 🚨 **Hypoglycémie** | 🩸 Glycémie + 🍽️ repas |
+| **iSGLT2** | ↑ glucose urinaire | Déshydratation/acidocétose | 💧 Hydratation + clinique |
+| **GLP-1** | ↑ insuline, ↓ glucagon | Troubles digestifs | 🤢 Tolérance |
 
 ✅ **Metformine = penser REIN.**
 

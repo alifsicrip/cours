@@ -371,13 +371,13 @@ Donc :
 | Risque metformine ? | 🚨 Acidose lactique très rare, surtout si accumulation |
 | Surveillance clé ? | 🩸 Glycémie + 🍽️ alimentation + 🫘 rein + 🧠 conscience |
 
-⭐ **METFORMINE = REIN**
+✅ **Metformine = penser REIN.**
 
-⭐ **SULFAMIDE = HYPOGLYCÉMIE**
+✅ **Sulfamide = penser HYPOGLYCÉMIE.**
 
-⭐ **REPAS + TRAITEMENT = toujours faire le lien**
+✅ **Repas sauté + sulfamide = danger.**
 
-⭐ **Mécanisme → risque → signes → surveillance**
+✅ **Toujours relier : médicament → mécanisme → risque → surveillance.**
 
 ## 📚 Sources officielles
 

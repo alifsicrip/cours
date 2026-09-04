@@ -6,8 +6,8 @@ Après un orage ⚡, la forêt doit se régénérer avant le suivant.
 **QT trop long = la forêt met trop longtemps à récupérer 🐌🌳.** 
 La repolarisation ventriculaire est retardée. Cela crée une période électrique vulnérable : une extrasystole peut déclencher une **torsade de pointes**, qui peut elle-même évoluer vers une fibrillation ventriculaire et un arrêt cardiaque.
 
-**QT trop court = la forêt se réinitialise anormalement vite 🏎️🌱.
-** La période réfractaire est raccourcie, ce qui peut également favoriser des troubles du rythme ventriculaire. Certaines anomalies des canaux ioniques peuvent produire soit un QT long, soit un QT court selon leur effet sur la repolarisation. 
+**QT trop court = la forêt se réinitialise anormalement vite 🏎️🌱.** 
+La période réfractaire est raccourcie, ce qui peut également favoriser des troubles du rythme ventriculaire. Certaines anomalies des canaux ioniques peuvent produire soit un QT long, soit un QT court selon leur effet sur la repolarisation. 
 
 | ECG 🫀 | Ce qui se passe | Ce que la personne peut ressentir | Biologie à rechercher 🧪 | Causes/pathologies à évoquer |
 |---|---|---|---|---|
@@ -42,6 +42,7 @@ Et une phrase suffit pour l'examen :
 
 > **« QT long = ventricules qui mettent trop longtemps à récupérer → terrain propice aux torsades de pointes. »** 🌳🐌🌪️
 
-À l'inverse : **« QT court = ventricules qui récupèrent trop vite → eux aussi deviennent électriquement instables. »** ⚡🌱
+À l'inverse :
+> **« QT court = ventricules qui récupèrent trop vite → eux aussi deviennent électriquement instables. »** ⚡🌱
 ---
 Sources françaises : [Référentiel ECG – Société Française de Cardiologie](https://www.sfcardio.fr/publication/chapitre-15-item-231-electrocardiogramme-indications-et-interpretations/?utm_source=chatgpt.com) · [Électrophysiologie – Société Française de Cardiologie](https://www.sfcardio.fr/publication/chapitre-6-electrophysiologie/?utm_source=chatgpt.com) · [PNDS Syndrome du QT long – HAS](https://www.has-sante.fr/jcms/p_3290161/fr/syndrome-du-qt-long?utm_source=chatgpt.com).

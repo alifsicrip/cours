@@ -5,7 +5,7 @@ Après un orage ⚡, la forêt doit se régénérer avant le suivant.
 
 **QT trop long = la forêt met trop longtemps à récupérer 🐌🌳.** 
 La repolarisation ventriculaire est retardée. Cela crée une période électrique vulnérable : une extrasystole peut déclencher une **torsade de pointes**, qui peut elle-même évoluer vers une fibrillation ventriculaire et un arrêt cardiaque.
----
+
 **QT trop court = la forêt se réinitialise anormalement vite 🏎️🌱.
 ** La période réfractaire est raccourcie, ce qui peut également favoriser des troubles du rythme ventriculaire. Certaines anomalies des canaux ioniques peuvent produire soit un QT long, soit un QT court selon leur effet sur la repolarisation. 
 ---

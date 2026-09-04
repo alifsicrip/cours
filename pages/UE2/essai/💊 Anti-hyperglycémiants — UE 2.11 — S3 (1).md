@@ -8,6 +8,7 @@ Les **anti-hyperglycémiants** sont des médicaments qui diminuent une glycémie
 
 👉 Toutes les familles diminuent la glycémie, mais **elles n’agissent pas au même endroit**.
 
+
 ## 🧠 Pharmacodynamie : ce que le médicament fait à l’organisme
 
 💡 Question simple : **où agit le médicament pour faire baisser le sucre ?**
@@ -140,21 +141,13 @@ La metformine :
 
 👉 **METFORMINE = PENSER REIN.**
 
-## 💊 Administration, contre-indications et interactions
+## 💊 Administration + situations à risque
 
-### 💉 Administration sécurisée
+### ✅ Sécurité = 5 B
 
-Toujours appliquer les **5 B** :
+**Bon·ne patient·e + bon médicament + bonne dose + bonne voie + bon moment**
 
-- 👤 **Bon·ne patient·e**
-- 💊 **Bon médicament**
-- ⚖️ **Bonne dose**
-- 💉 **Bonne voie**
-- ⏰ **Bon moment**
-
-➕ bonne **traçabilité**
-
-➕ bonne **surveillance**
+➕ **traçabilité + surveillance**
 
 | Médicament/classe | Administration à retenir |
 |---|---|
@@ -188,54 +181,39 @@ L’infirmier·ère ne modifie pas seul·e la posologie.
 
 | Classe | Effets indésirables principaux | 🚨 Complication importante |
 |---|---|---|
-| **Metformine** | Nausées, diarrhées, douleurs abdominales | **Acidose lactique** très rare |
+| **Metformine** | Nausées, diarrhées | **Acidose lactique** rare |
 | **Sulfamides/glinides** | **Hypoglycémie** | Hypoglycémie sévère/coma |
 | **iSGLT2** | Déshydratation, infections génitales | **Acidocétose** |
 | **GLP-1** | Nausées, vomissements, diarrhées | Déshydratation et complications spécifiques |
 | **Acarbose** | Flatulences, diarrhées | Troubles digestifs importants |
 
-### 🍬 Hypoglycémie
+### 🍬 Reconnaître l'hypoglycémie
 
-🟡 **Premiers signes :**
+🟡 **Début, premiers signes :** faim, sueurs, tremblements, pâleur, palpitations.
 
-- faim ;
-- sueurs ;
-- tremblements ;
-- pâleur ;
-- palpitations.
+🟠 **Aggravation: atteinte neurologique:** confusion, comportement inhabituel, somnolence, troubles visuels.
 
-🟠 **Atteinte neurologique :**
+🔴 **Urgence :** convulsions → perte de connaissance → coma.
 
-- confusion ;
-- comportement inhabituel ;
-- troubles visuels ;
-- somnolence.
+**Sulfamide → ↑ insuline → ↓ glycémie → signes neurologiques → 🚨 urgence si forme sévère**
 
-🔴 **Urgence :**
-
-- convulsions ;
-- perte de connaissance ;
-- coma.
-
-🧠 Chaîne à retenir :
-
-**Sulfamide → ↑ insuline → ↓ glycémie → hypoglycémie → surveillance glycémique + neurologique**
 
 ### 🚨 Acidose lactique sous metformine
 
-Rare mais **très grave**.
+Rare mais **grave**.
 
-Elle est favorisée notamment par une accumulation de metformine sur un terrain à risque.
+Facteurs favorisants : accumulation, insuffisance rénale, déshydratation, hypoxie selon contexte.
 
 Signes possibles :
 
-- grande faiblesse ;
+- faiblesse importante ;
 - troubles digestifs ;
 - douleurs abdominales ;
-- crampes ;
 - respiration anormale ;
 - hypothermie ;
 - troubles de conscience.
+
+➡️ **Suspicion = urgence médicale.**
 
 **Insuffisance rénale/déshydratation → accumulation → acidose lactique → URGENCE**
 
@@ -258,48 +236,32 @@ Signes possibles :
 
 **1️⃣ SÉCURISER**
 
-- installer la personne ;
-- prévenir les chutes ;
-- évaluer conscience, respiration et circulation.
+Installer la personne. Évaluer conscience, respiration et circulation.
 
 **2️⃣ ÉVALUER**
 
-- glycémie selon contexte/protocole ;
-- TA, FC, FR, SpO₂ si nécessaire ;
-- dernier repas ;
-- dernière prise ;
-- dose administrée ;
-- diarrhées/vomissements ;
-- hydratation ;
-- traitements associés.
+🩸 Glycémie + constantes selon contexte + dernier repas + dernière prise + dose + hydratation + traitements associés.
 
 **3️⃣ ALERTER**
 
-🚨 Médecin/équipe d’urgence selon gravité si :
+🚨 Médecin/équipe d'urgence si :
 
 - hypoglycémie sévère ;
-- convulsions ;
-- perte de connaissance ;
+- convulsions/coma ;
 - détresse respiratoire ;
-- suspicion d’acidose ;
+- suspicion d'acidose ;
 - erreur importante de dose.
 
-➡️ **SAMU-Centre 15** devant une urgence vitale selon le contexte.
+➡️ **SAMU-Centre 15** si urgence vitale.
 
 **4️⃣ AGIR**
 
-- rôle propre : sécuriser, observer, recueillir les données, surveiller, transmettre ;
-- prescription : traitement correcteur et modification thérapeutique ;
-- protocole : appliquer les conduites institutionnelles prévues, notamment pour l’hypoglycémie.
+- 👩‍⚕️ **Rôle propre** : sécuriser, observer, surveiller, recueillir les informations, transmettre.
+- 📋 **Prescription/protocole** : traitement correcteur, adaptation thérapeutique, conduite protocolisée.
 
-**5️⃣ TRACER ET TRANSMETTRE**
+**5️⃣ TRACER + TRANSMETTRE**
 
-🗣️ **SAED**
-
-- **S** = Situation
-- **A** = Antécédents
-- **É** = Évaluation
-- **D** = Demande
+🗣️ **SAED = Situation → Antécédents → Évaluation → Demande**
 
 ## 🩺 Mini-situation clinique + mémo
 

@@ -8,15 +8,19 @@ Les **anti-hyperglycémiants** sont des médicaments qui diminuent une glycémie
 
 👉 Toutes les familles diminuent la glycémie, mais **elles n’agissent pas au même endroit**.
 
-| Classe | Exemple | 🎯 Action principale | ⚠️ Risque à retenir |
+## 🧠 Pharmacodynamie : ce que le médicament fait à l’organisme
+
+💡 Question simple : **où agit le médicament pour faire baisser le sucre ?**
+
+| Classe | Où agit-elle ? | Action | Risque à retenir |
 |---|---|---|---|
-| **Biguanide** | Metformine | ↓ production de glucose par le foie | Acidose lactique très rare |
-| **Sulfamides** | Gliclazide | ↑ sécrétion d’insuline | **Hypoglycémie** |
-| **Glinides** | Répaglinide | ↑ rapidement l’insuline autour des repas | **Hypoglycémie** |
-| **iDPP-4** | Sitagliptine | ↑ effet des incrétines | Peu d’hypoglycémies seuls |
-| **iSGLT2** | Dapagliflozine, empagliflozine | ↑ élimination urinaire du glucose | Déshydratation, acidocétose |
-| **Agonistes GLP-1** | Sémaglutide | ↑ insuline, ↓ glucagon, ralentit l’estomac | Troubles digestifs |
-| **α-glucosidases** | Acarbose | Ralentit l’absorption des glucides | Troubles digestifs |
+| **Metformine** | 🫀 Foie | ↓ fabrication de glucose | Acidose lactique très rare |
+| **Sulfamides** | 🧬 Pancréas | ↑ sécrétion d’insuline | ⚠️ Hypoglycémie |
+| **Glinides** | 🧬 Pancréas | ↑ rapidement l’insuline autour des repas | ⚠️ Hypoglycémie |
+| **iDPP-4** | 🧠 Système des incrétines | ↑ insuline si glycémie élevée | Faible risque d’hypoglycémie seuls |
+| **iSGLT2** | 🫘 Rein | ↑ élimination du glucose dans les urines | Déshydratation, acidocétose |
+| **GLP-1** | 🧬 Pancréas + estomac | ↑ insuline, ↓ glucagon, ralentit l’estomac | Nausées, vomissements |
+| **Acarbose** | 🍽️ Intestin | Ralentit l’absorption des glucides | Flatulences, diarrhées |
 
 **Voies :**
 

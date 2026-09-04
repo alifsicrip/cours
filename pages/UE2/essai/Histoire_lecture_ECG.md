@@ -55,5 +55,5 @@ Et pour reconnaître rapidement le scénario physiologique : **une P avant chaqu
 ---
 **Mémo ultra-court :** 🌱 **P = oreillettes** → 🚦 **PR = conduction AV** → 🌊 **QRS = ventricules s'activent** → 🌾 **ST = plateau** → 🌙 **T = ventricules se repolarisent** → ♻️ **QT = cycle électrique ventriculaire**.
 
-
+---
 Source française principale : [référentiel d'électrocardiographie de la Société Française de Cardiologie](https://www.sfcardio.fr/publication/chapitre-15-item-231-electrocardiogramme-indications-et-interpretations/?utm_source=chatgpt.com), complété par son chapitre d'électrophysiologie actualisé. ([sfcardio.fr](https://www.sfcardio.fr/publication/chapitre-6-electrophysiologie/?utm_source=chatgpt.com))

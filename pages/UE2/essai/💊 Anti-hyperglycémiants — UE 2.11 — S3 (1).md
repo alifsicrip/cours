@@ -171,22 +171,6 @@ La metformine :
 | Corticoïdes | ↑ glycémie | Surveillance glycémique |
 | Plusieurs traitements hypoglycémiants | Hypoglycémie | Surveillance renforcée |
 
-⚠️ Les adaptations de doses dépendent de la **molécule, du DFG, de l’âge et de la prescription**.
-
-L’infirmier·ère ne modifie pas seul·e la posologie.
-
-## 😵 Effets indésirables, complications et urgences
-
-### 😵 Les risques à associer aux classes
-
-| Classe | Effets indésirables principaux | 🚨 Complication importante |
-|---|---|---|
-| **Metformine** | Nausées, diarrhées | **Acidose lactique** rare |
-| **Sulfamides/glinides** | **Hypoglycémie** | Hypoglycémie sévère/coma |
-| **iSGLT2** | Déshydratation, infections génitales | **Acidocétose** |
-| **GLP-1** | Nausées, vomissements, diarrhées | Déshydratation et complications spécifiques |
-| **Acarbose** | Flatulences, diarrhées | Troubles digestifs importants |
-
 ### 🍬 Reconnaître l'hypoglycémie
 
 🟡 **Début, premiers signes :** faim, sueurs, tremblements, pâleur, palpitations.
@@ -196,6 +180,85 @@ L’infirmier·ère ne modifie pas seul·e la posologie.
 🔴 **Urgence :** convulsions → perte de connaissance → coma.
 
 **Sulfamide → ↑ insuline → ↓ glycémie → signes neurologiques → 🚨 urgence si forme sévère**
+⚠️ Les adaptations de doses dépendent de la **molécule, du DFG, de l’âge et de la prescription**.
+
+L’infirmier·ère ne modifie pas seul·e la posologie.
+
+## ⚠️ Complications et surdosage
+
+| Complication | Contexte | Signes | Urgence |
+|---|---|---|---|
+| **Hypoglycémie sévère** | Sulfamide, glinide, insuline, repas sauté | Confusion, convulsions, coma | 🚨 Oui |
+| **Acidose lactique** | Accumulation de metformine | Dyspnée, faiblesse, douleurs abdominales, altération neurologique | 🚨 Oui |
+| **Acidocétose** | Possible avec iSGLT2 | Nausées, douleurs abdominales, polypnée | 🚨 Oui |
+| Déshydratation | Diarrhées, vomissements, iSGLT2 | Hypotension, tachycardie, oligurie | ⚠️ Peut devenir urgente |
+
+## 👩‍⚕️ Conduite infirmière en cas de complication
+
+### 1. Sécuriser
+
+- installer la personne en sécurité ;
+- évaluer **conscience, respiration, circulation** ;
+- ne pas administrer automatiquement une nouvelle dose si une complication grave est suspectée ;
+- appliquer le protocole institutionnel.
+
+### 2. Évaluer
+
+Rechercher :
+
+- glycémie ;
+- TA, FC, FR, SpO₂ selon situation ;
+- dernier repas ;
+- dernière prise ;
+- dose administrée ;
+- diarrhées/vomissements ;
+- fonction rénale connue ;
+- traitements associés.
+
+### 3. Alerter
+
+🚨 Prévenir immédiatement le médecin ou l’équipe d’urgence si :
+
+- hypoglycémie sévère ;
+- convulsions ;
+- coma ;
+- détresse respiratoire ;
+- suspicion d’acidose ;
+- erreur de dose importante.
+
+SAMU-Centre **15** si urgence vitale selon le contexte.
+
+### 4. Surveiller
+
+| Surveillance | Pourquoi ? |
+|---|---|
+| 🩸 Glycémie | Repérer hypo/hyperglycémie |
+| 🧠 Conscience | Détecter aggravation neurologique |
+| ❤️ TA + FC | Détecter déshydratation/choc |
+| 🫁 FR + SpO₂ | Repérer détresse ou acidose |
+| 🫘 Fonction rénale | Important surtout pour metformine |
+| 🍽️ Alimentation | Important avec médicaments hypoglycémiants |
+
+### 5. Tracer et transmettre
+
+Utiliser **SAED** :
+
+- **S** : Situation actuelle.
+- **A** : Antécédents et traitement.
+- **É** : Évaluation clinique.
+- **D** : Demande ou conduite attendue.
+
+## 🧬 Populations particulières
+
+| Population | Vigilance |
+|---|---|
+| 👵 Personne âgée | Rein, alimentation, risque d’hypoglycémie |
+| 🫘 Insuffisance rénale | Risque d’accumulation de certains médicaments |
+| 🤰 Grossesse | Traitement choisi médicalement selon situation |
+| 🍽️ Dénutrition/faible poids | Risque accru d’hypoglycémie avec sulfamides/glinides |
+| 👶 Enfant | Indications limitées selon les molécules |
+
+
 
 
 ### 🚨 Acidose lactique sous metformine
@@ -232,36 +295,6 @@ Signes possibles :
 | 💊 Traitements associés | Interactions |
 | 📈 **HbA1c** prescrite | Évaluer l’équilibre glycémique à moyen terme |
 
-### 🚨 Si complication suspectée
-
-**1️⃣ SÉCURISER**
-
-Installer la personne. Évaluer conscience, respiration et circulation.
-
-**2️⃣ ÉVALUER**
-
-🩸 Glycémie + constantes selon contexte + dernier repas + dernière prise + dose + hydratation + traitements associés.
-
-**3️⃣ ALERTER**
-
-🚨 Médecin/équipe d'urgence si :
-
-- hypoglycémie sévère ;
-- convulsions/coma ;
-- détresse respiratoire ;
-- suspicion d'acidose ;
-- erreur importante de dose.
-
-➡️ **SAMU-Centre 15** si urgence vitale.
-
-**4️⃣ AGIR**
-
-- 👩‍⚕️ **Rôle propre** : sécuriser, observer, surveiller, recueillir les informations, transmettre.
-- 📋 **Prescription/protocole** : traitement correcteur, adaptation thérapeutique, conduite protocolisée.
-
-**5️⃣ TRACER + TRANSMETTRE**
-
-🗣️ **SAED = Situation → Antécédents → Évaluation → Demande**
 
 ## 🩺 Mini-situation clinique + mémo
 

@@ -1,0 +1,165 @@
+# 🦠 Tuberculose, rage, tétanos et infections respiratoires basses — UE 2 — Niveau S3
+
+- **🎯 Objectifs**
+  - Identifier les agents infectieux et leurs modes de transmission
+  - Comprendre les mécanismes physiopathologiques
+  - Reconnaître les signes cliniques et les signes de gravité
+  - Connaître les examens diagnostiques essentiels
+  - Comprendre les traitements et les mesures préventives
+  - Maîtriser les précautions complémentaires adaptées
+  - Identifier les surveillances infirmier·ère prioritaires
+
+- **🫁 Tuberculose**
+  - Agent = **Mycobacterium tuberculosis**
+  - Transmission = **aérienne**
+  - Atteinte principalement pulmonaire
+  - Infection tuberculeuse latente
+    - Asymptomatique
+    - Non contagieuse
+  - Tuberculose maladie
+    - Toux persistante
+    - Sueurs nocturnes
+    - Amaigrissement
+    - Fièvre
+    - Hémoptysie possible
+  - Diagnostic
+    - Imagerie thoracique
+    - Expectorations
+    - Examen direct
+    - Culture
+    - Tests moléculaires
+    - IDR ou IGRA pour l'ITL
+  - Traitement
+    - Isoniazide
+    - Rifampicine
+    - Pyrazinamide
+    - Éthambutol
+  - Précautions
+    - **Air**
+    - FFP2 pour les professionnel·le·s selon protocole
+  - Prévention
+    - Dépistage
+    - Traitement ITL si indiqué
+    - BCG chez personnes ciblées
+
+- **🐕 Rage**
+  - Encéphalomyélite virale aiguë
+  - Virus neurotrope
+  - Transmission par salive d'un mammifère infecté
+    - Morsure
+    - Griffure contaminée
+    - Léchage d'une peau lésée
+    - Contact avec muqueuse
+  - Une fois symptomatique
+    - Maladie presque toujours mortelle
+  - Après exposition
+    - Laver immédiatement eau + savon
+    - Environ **15 minutes**
+    - Antisepsie
+    - Évaluation médicale
+    - Centre antirabique
+    - Vaccination ± immunoglobulines
+  - Signes neurologiques
+    - Agitation
+    - Confusion
+    - Hydrophobie
+    - Spasmes
+    - Paralysie
+    - Coma
+
+- **🧷 Tétanos**
+  - Agent = **Clostridium tetani**
+  - Bactérie sporulée
+  - Maladie liée à une neurotoxine
+  - Non contagieuse
+  - Porte d'entrée
+    - Plaie souillée
+    - Plaie profonde
+    - Morsure
+    - Brûlure
+  - Physiopathologie
+    - Toxine
+    - → inhibition des neurotransmetteurs inhibiteurs
+    - → hypertonie
+    - → spasmes
+  - Signes
+    - Trismus
+    - Dysphagie
+    - Contractures
+    - Spasmes
+    - Opisthotonos possible
+  - Complications
+    - Laryngospasme
+    - Détresse respiratoire
+    - Troubles végétatifs
+    - Décès
+  - Prévention
+    - Vaccination
+    - Rappels
+    - Nettoyage des plaies
+    - Immunoglobulines selon situation
+
+- **🫁 Infections respiratoires basses**
+  - Bronchite aiguë
+    - Souvent virale
+    - Toux
+    - Expectoration possible
+    - Antibiotiques généralement inutiles
+  - Pneumonie aiguë communautaire
+    - Infection du parenchyme pulmonaire
+    - Fièvre
+    - Toux
+    - Dyspnée
+    - Polypnée
+    - Douleur thoracique
+    - Crépitants possibles
+    - Hypoxémie possible
+  - Bronchiolite
+    - Surtout nourrisson
+    - Souvent liée au VRS
+    - Polypnée
+    - Tirage
+    - Difficultés alimentaires
+    - Désaturation possible
+
+- **🚩 Signes de gravité respiratoire**
+  - FR élevée
+  - SpO₂ basse
+  - Tirage
+  - Cyanose
+  - Confusion
+  - Hypotension
+  - Épuisement respiratoire
+  - Oligurie
+  - Signes de sepsis
+
+- **👩‍⚕️ Surveillance infirmière**
+  - FR
+  - SpO₂
+  - FC
+  - PA
+  - Température
+  - Conscience
+  - Travail respiratoire
+  - Toux
+  - Expectorations
+  - Hydratation
+  - Diurèse si indication
+  - Tolérance des traitements
+
+- **🧠 Mémo partiel**
+  - Tuberculose
+    - **AIR**
+  - Rage
+    - **LAVER 15 MIN + CENTRE ANTIRABIQUE**
+  - Tétanos
+    - **TOXINE + TRISMUS + VACCINATION**
+  - Pneumonie
+    - **FR + SpO₂ + PA + conscience**
+
+- **📚 Sources officielles**
+  - HAS — Tuberculose et pneumonie aiguë communautaire
+  - Ministère chargé de la Santé — Tuberculose, rage, calendrier vaccinal
+  - Assurance Maladie — Tuberculose, bronchite, vaccination
+  - Santé publique France
+  - SPILF

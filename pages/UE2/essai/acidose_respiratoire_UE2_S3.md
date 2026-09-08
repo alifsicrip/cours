@@ -1,0 +1,229 @@
+# 🧪 Acidose respiratoire — UE 2 — Niveau S3
+- **🎯 Objectifs**
+  - Comprendre l'équilibre acido-basique
+  - Identifier une acidose respiratoire sur les gaz du sang
+  - Différencier forme aiguë, chronique et aiguë sur chronique
+  - Comprendre la compensation rénale
+  - Identifier causes, gravité, traitements et surveillance IDE
+- **🔑 Définition**
+  - Trouble acido-basique primaire causé par une **augmentation de PaCO₂**
+  - Résulte d'une **hypoventilation alvéolaire**
+  - CO₂ ↑ → H⁺ ↑ → pH ↓
+- **🧪 Repères**
+  - pH habituel
+    - 7,35 à 7,45
+  - PaCO₂ habituelle
+    - Environ 35 à 45 mmHg
+  - Acidémie
+    - pH < 7,35
+- **⚠️ À ne pas confondre**
+  - Acidose respiratoire
+    - anomalie primaire = **PaCO₂ ↑**
+  - Acidose métabolique
+    - anomalie primaire = **HCO₃⁻ ↓**
+- **⚙️ Physiologie**
+  - Poumons éliminent le CO₂
+  - Ventilation ↓
+    - → CO₂ retenu
+    - → PaCO₂ ↑
+  - CO₂ + H₂O ↔ H₂CO₃ ↔ H⁺ + HCO₃⁻
+  - CO₂ ↑
+    - → H⁺ ↑
+    - → pH ↓
+  - 🧠 Métaphore
+    - Poumons = cheminée à CO₂
+    - Cheminée ventile mal → CO₂ s'accumule → sang s'acidifie
+- **🧬 Formes**
+  - Acidose respiratoire aiguë
+    - Installation rapide
+    - PaCO₂ ↑
+    - pH ↓
+    - HCO₃⁻ normal ou légèrement ↑
+    - Compensation rénale encore limitée
+  - Acidose respiratoire chronique
+    - Hypercapnie persistante
+    - PaCO₂ ↑
+    - HCO₃⁻ ↑
+    - pH plus proche de la normale
+  - Aiguë sur chronique
+    - Hypercapnie chronique compensée
+    - + nouvelle hypoventilation
+    - → PaCO₂ ↑ davantage
+    - → pH chute
+- **🫘 Compensation rénale**
+  - Reins
+    - → augmentent la réabsorption des HCO₃⁻ filtrés
+    - → augmentent la production de nouveaux HCO₃⁻
+    - → augmentent l'excrétion des H⁺
+    - → notamment sous forme de NH₄⁺ et d'acides titrables
+  - Résultat
+    - HCO₃⁻ sanguin ↑
+    - pH remonte partiellement
+  - Compensation progressive sur plusieurs heures à quelques jours
+  - 🧠 Mémo
+    - **Poumon garde CO₂ → rein garde HCO₃⁻ et élimine H⁺**
+- **🫁 Causes**
+  - Dépression du centre respiratoire
+    - Opioïdes
+    - Sédatifs
+    - Anesthésiques
+    - Atteinte neurologique
+  - Obstruction respiratoire
+    - BPCO décompensée
+    - Asthme aigu grave
+    - Obstruction des voies aériennes
+  - Défaillance neuromusculaire
+    - Myasthénie
+    - Guillain-Barré
+    - Atteinte médullaire
+  - Mécanique ventilatoire altérée
+    - Syndrome obésité-hypoventilation
+    - Déformation thoracique sévère
+    - Traumatisme thoracique
+  - Épuisement respiratoire
+    - OAP sévère
+    - Pneumopathie sévère selon contexte
+- **🩺 Signes cliniques**
+  - Dyspnée selon cause
+  - Respiration superficielle
+  - Bradypnée possible
+  - Polypnée inefficace possible
+  - Signes de lutte
+  - Hypoxémie associée possible
+  - Céphalées
+  - Agitation
+  - Confusion
+  - Somnolence
+  - Astérixis possible
+  - Coma dans les formes sévères
+- **🚨 Signes de gravité**
+  - Somnolence croissante
+  - Confusion
+  - Épuisement respiratoire
+  - Diminution de la ventilation
+  - SpO₂ basse
+  - PaCO₂ qui augmente
+  - pH qui diminue
+  - Instabilité hémodynamique
+- **🧪 Lecture des gaz du sang**
+  - Étape 1 = pH
+    - < 7,35 → acidémie
+  - Étape 2 = PaCO₂
+    - ↑ avec pH ↓ → origine respiratoire probable
+  - Étape 3 = HCO₃⁻
+    - ↑ → compensation rénale possible
+  - Étape 4 = PaO₂
+    - rechercher hypoxémie
+  - 💡 Exemple aigu
+    - pH 7,25
+    - PaCO₂ 60 mmHg
+    - HCO₃⁻ peu augmenté
+    - → acidose respiratoire aiguë probable
+  - 💡 Exemple chronique
+    - PaCO₂ ↑
+    - HCO₃⁻ nettement ↑
+    - pH proche de la normale
+    - → hypercapnie chronique compensée possible
+- **💥 Complications**
+  - Encéphalopathie hypercapnique
+  - Coma
+  - Insuffisance respiratoire aiguë
+  - Arrêt respiratoire
+  - Troubles du rythme
+  - Instabilité hémodynamique
+  - Acidémie sévère
+- **💊 Traitement**
+  - Principe
+    - **améliorer la ventilation et traiter la cause**
+  - Vérifier la liberté des voies aériennes
+  - Oxygénothérapie
+    - Corrige l'hypoxémie
+    - Ne corrige pas directement l'hypoventilation
+    - Adapter à la cible de saturation
+    - Surveillance clinique et gazométrique chez patient·e à risque d'hypercapnie
+  - VNI
+    - Indiquée notamment dans certaines décompensations hypercapniques de BPCO
+    - Ventilation alvéolaire ↑
+    - PaCO₂ ↓
+    - pH ↑
+  - Ventilation invasive
+    - Selon gravité
+    - Échec ou contre-indication VNI
+    - Trouble sévère de conscience
+    - Épuisement
+    - Incapacité à protéger les voies aériennes
+  - Traitement causal
+    - Bronchodilatateurs selon indication
+    - Corticothérapie selon indication
+    - Antibiothérapie si indication
+    - Naloxone en cas d'intoxication opioïde selon indication
+  - Bicarbonate
+    - **pas le traitement habituel d'une acidose respiratoire isolée**
+- **👩‍⚕️ Rôle infirmier·ère**
+  - Évaluation ABCDE
+  - Surveiller
+    - FR
+    - SpO₂
+    - FC
+    - PA
+    - Conscience
+    - Signes de lutte
+    - Fatigue respiratoire
+    - Gaz du sang selon prescription
+  - Rechercher
+    - Antécédents respiratoires
+    - Médicaments dépresseurs respiratoires
+    - Signes infectieux
+  - Sous VNI
+    - Étanchéité du masque
+    - Tolérance
+    - Fuites
+    - Lésions cutanées
+    - FR
+    - SpO₂
+    - Conscience
+    - Réévaluation gazométrique
+    - Repérer l'échec de VNI
+- **🧠 Raisonnement clinique**
+  - Patient·e BPCO + dyspnée + somnolence
+    - → penser hypercapnie
+    - → acidose respiratoire aiguë sur chronique possible
+    - → ABCDE
+    - → GDS
+    - → alerte
+    - → oxygène selon cible et urgence
+    - → préparer VNI si indiquée
+- **🧠 Mémo partiel**
+  - **HYPOventilation → HYPERcapnie → H⁺ ↑ → pH ↓**
+  - Aiguë
+    - PaCO₂ ↑
+    - pH ↓
+    - HCO₃⁻ peu ↑
+  - Chronique
+    - PaCO₂ ↑
+    - HCO₃⁻ ↑
+    - pH plus proche de la normale
+  - Compensation
+    - **HCO₃⁻ réabsorbé et produit ↑ + H⁺ éliminé ↑**
+  - Priorités IDE
+    - **FR + SpO₂ + CONSCIENCE + GDS + CAUSE**
+- **❓ Questions classiques de partiel**
+  - Cause immédiate
+    - → hypoventilation alvéolaire
+  - PaCO₂
+    - → augmente
+  - pH
+    - → diminue
+  - Organe compensateur
+    - → rein
+  - Somnolence chez patient·e hypercapnique
+    - → signe de gravité possible
+  - Traitement essentiel
+    - → restaurer une ventilation adaptée et traiter la cause
+- **📚 Sources officielles et professionnelles françaises**
+  - HAS — Référentiels et parcours concernant la BPCO
+  - SPLF — Référentiels de pneumologie et insuffisance respiratoire
+  - SFAR — Ventilation non invasive et détresse respiratoire
+  - SFMU — Référentiels de médecine d'urgence
+  - Assurance Maladie — BPCO et maladies respiratoires chroniques
+  - Ministère chargé de la Santé — Organisation des soins d'urgence

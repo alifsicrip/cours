@@ -1,0 +1,150 @@
+# 🫁 OAP — Œdème aigu du poumon — UE 2 — Niveau S3
+- **🎯 Objectifs**
+  - Comprendre la physiopathologie de l'OAP
+  - Identifier les signes de détresse respiratoire
+  - Connaître diagnostic, complications, traitements et surveillance IDE
+- **🔑 Définition**
+  - Accumulation rapide de liquide dans l'interstitium puis les alvéoles pulmonaires
+  - Altère les échanges gazeux et provoque une hypoxémie
+  - OAP cardiogénique = souvent conséquence d'une défaillance aiguë du ventricule gauche
+  - Constitue une **urgence médicale**
+- **🧬 Physiopathologie**
+  - Défaillance du ventricule gauche
+    - → pression dans le VG ↑
+    - → pression dans l'oreillette gauche ↑
+    - → pression veineuse et capillaire pulmonaire ↑
+    - → liquide vers interstitium puis alvéoles
+    - → échanges gazeux ↓
+    - → hypoxémie
+    - → dyspnée
+  - 🌊 Métaphore
+    - Cœur gauche = pompe d'évacuation
+    - Pompe défaillante → embouteillage en amont → liquide déborde dans les alvéoles
+- **❤️ Causes et facteurs déclenchants**
+  - Syndrome coronarien aigu
+  - Décompensation d'insuffisance cardiaque
+  - Poussée hypertensive
+  - Trouble du rythme
+  - Valvulopathie
+  - Cardiomyopathie
+  - Surcharge hydrosodée
+  - Insuffisance rénale
+  - Infection
+  - Mauvaise observance thérapeutique
+  - Embolie pulmonaire selon contexte
+- **🩺 Signes cliniques**
+  - Dyspnée aiguë ou rapidement progressive
+  - Orthopnée
+  - Polypnée
+  - Sensation d'étouffement
+  - Toux
+  - Crépitants
+  - Hypoxémie
+  - Cyanose possible
+  - Expectoration mousseuse parfois rosée possible
+  - Tachycardie
+  - Sueurs
+  - Anxiété ou agitation
+- **🚩 Signes de gravité**
+  - SpO₂ basse
+  - Signes de lutte
+  - Difficulté à parler
+  - Épuisement
+  - Hypercapnie
+  - Confusion ou somnolence
+  - Hypotension
+  - Marbrures
+  - Oligurie
+  - → choc cardiogénique possible
+- **🧪 Diagnostic**
+  - Examen clinique
+  - ECG
+    - Ischémie
+    - Trouble du rythme
+  - BNP ou NT-proBNP
+  - Troponines
+  - Ionogramme
+  - Créatinine
+  - NFS
+  - Gaz du sang selon gravité
+    - Hypoxémie possible
+    - Hypercapnie possible si épuisement
+  - Radiographie thoracique
+  - Échographie pulmonaire
+  - Échocardiographie
+- **💥 Complications**
+  - Insuffisance respiratoire aiguë
+  - Acidose respiratoire
+  - Troubles du rythme
+  - Ischémie myocardique
+  - Choc cardiogénique
+  - Arrêt cardiorespiratoire
+  - Décès
+- **💊 Traitements**
+  - Position assise ou demi-assise si tolérée
+  - Oxygénothérapie
+    - Indiquée en cas d'hypoxémie
+    - Adapter à la cible prescrite
+  - Ventilation non invasive
+    - CPAP ou aide inspiratoire selon indication
+    - Diminue le travail respiratoire
+    - Améliore les échanges gazeux
+  - Ventilation invasive
+    - Si échec ou contre-indication de VNI ou détresse majeure
+  - Diurétique de l'anse
+    - Exemple = furosémide
+    - Indiqué notamment en cas de congestion
+    - Surveiller diurèse, PA, fonction rénale, Na⁺ et K⁺
+  - Dérivés nitrés
+    - Selon pression artérielle et indication
+    - Vasodilatation
+    - ⚠️ risque d'hypotension
+  - Traitement du facteur déclenchant
+    - Syndrome coronarien
+    - Trouble du rythme
+    - HTA
+    - Infection
+    - Valvulopathie
+- **👩‍⚕️ Rôle infirmier·ère**
+  - Évaluation **ABCDE**
+  - Installer en position adaptée
+  - Alerter rapidement
+  - Surveiller
+    - FR
+    - SpO₂
+    - FC
+    - PA
+    - ECG
+    - Conscience
+    - Travail respiratoire
+    - Douleur thoracique
+    - Diurèse
+  - Poser ou surveiller VVP selon contexte
+  - Prélèvements prescrits
+  - Administrer les traitements prescrits ou protocolisés
+  - Préparer la VNI si indiquée
+  - Réévaluer l'efficacité des traitements
+- **🗣️ Éducation**
+  - Reconnaître
+    - Dyspnée croissante
+    - Orthopnée
+    - Œdèmes
+    - Prise de poids inhabituelle
+  - Favoriser observance thérapeutique
+  - Conseils hydrosodés individualisés
+  - Suivi médical
+  - Sevrage tabagique
+- **🧠 Mémo partiel**
+  - **VG défaillant → pression pulmonaire ↑ → liquide alvéolaire → hypoxémie**
+  - Tableau
+    - Dyspnée + orthopnée + crépitants + polypnée + hypoxémie
+  - Priorités IDE
+    - **ASSIS·E + ABCDE + SpO₂ + PA + ECG + ALERTE**
+  - Hypercapnie qui apparaît
+    - → penser épuisement ventilatoire
+- **📚 Sources officielles et professionnelles françaises**
+  - HAS — Parcours de soins de l'insuffisance cardiaque
+  - SFMU — Référentiels de médecine d'urgence
+  - SFAR — Référentiels de ventilation non invasive et détresse respiratoire
+  - Assurance Maladie — Insuffisance cardiaque
+  - Ministère chargé de la Santé — Parcours cardiovasculaires et soins d'urgence

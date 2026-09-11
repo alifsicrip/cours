@@ -1,0 +1,423 @@
+From 20f3c6b51404cf9eceab95b5c92ffa6deb37e26b Mon Sep 17 00:00:00 2001
+From: Assistant <assistant@local>
+Date: Fri, 11 Sep 2026 05:12:33 +0000
+Subject: [PATCH] =?UTF-8?q?Corrige=20le=20lien=20cass=C3=A9=20UE2.6,=20ajo?=
+ =?UTF-8?q?ute=20les=20fichiers=20.md=20orphelins,=20g=C3=A9n=C3=A9ralise?=
+ =?UTF-8?q?=20le=20lecteur=20md,=20ajoute=20auto=5Findex.py=20+=20GitHub?=
+ =?UTF-8?q?=20Action?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ .github/workflows/auto-index.yml |  55 ++++++++
+ pages/UE2/index.html             |  50 ++++++-
+ pages/md-viewer.html             |  10 +-
+ tiroir/auto_index.py             | 216 +++++++++++++++++++++++++++++++
+ 4 files changed, 325 insertions(+), 6 deletions(-)
+ create mode 100644 .github/workflows/auto-index.yml
+ create mode 100644 tiroir/auto_index.py
+
+diff --git a/.github/workflows/auto-index.yml b/.github/workflows/auto-index.yml
+new file mode 100644
+index 0000000..fb9e714
+--- /dev/null
++++ b/.github/workflows/auto-index.yml
+@@ -0,0 +1,55 @@
++name: Mise à jour automatique des index
++
++# Se déclenche à chaque push qui ajoute/modifie des fichiers dans pages/UEx/
++# ou assets/img/, et peut aussi être lancé manuellement depuis l'onglet Actions.
++on:
++  push:
++    branches: [main]
++    paths:
++      - "pages/UE1/**"
++      - "pages/UE2/**"
++      - "pages/UE3/**"
++      - "pages/UE4/**"
++      - "pages/UE5/**"
++      - "pages/UE6/**"
++      - "assets/img/**"
++  workflow_dispatch:
++
++# Nécessaire pour que le job puisse pousser (git push) le commit de mise à jour
++permissions:
++  contents: write
++
++jobs:
++  update-index:
++    runs-on: ubuntu-latest
++    steps:
++      - name: Récupérer le dépôt
++        uses: actions/checkout@v4
++        with:
++          fetch-depth: 0
++
++      - name: Installer Python
++        uses: actions/setup-python@v5
++        with:
++          python-version: "3.x"
++
++      - name: Lancer auto_index.py pour chaque UE
++        run: |
++          for ue in UE1 UE2 UE3 UE4 UE5 UE6; do
++            if [ -d "pages/$ue" ]; then
++              echo "=== $ue ==="
++              python3 tiroir/auto_index.py "$ue" || true
++            fi
++          done
++
++      - name: Committer les changements s'il y en a
++        run: |
++          git config user.name "github-actions[bot]"
++          git config user.email "github-actions[bot]@users.noreply.github.com"
++          if git diff --quiet; then
++            echo "Rien à committer."
++          else
++            git add pages/*/index.html
++            git commit -m "🤖 Mise à jour automatique des index (fichiers importés)"
++            git push
++          fi
+diff --git a/pages/UE2/index.html b/pages/UE2/index.html
+index 32de32f..6417e2c 100644
+--- a/pages/UE2/index.html
++++ b/pages/UE2/index.html
+@@ -278,7 +278,17 @@
+                   <br>
+                  <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-5_DiarhéesInfectieuses.html" target="_blank" rel="noopener noreferrer">UE2.5 💩 Diarhées Infectieuses</a></li> 
+                   <br>
+-                </ul>
++                                  <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_HepatitesVirales.md" target="_blank" rel="noopener noreferrer">UE2.5 🦠 Hépatites virales (fiche)</a></li> 
++                  <br>
++                  <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/UE2-5_OAP_oedeme_aigu_poumon.md" target="_blank" rel="noopener noreferrer">UE2.5 🫁 OAP - Oedème Aigu du Poumon</a></li> 
++                  <br>
++                  <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/UE2-5_Serotherapie_vaccination.md" target="_blank" rel="noopener noreferrer">UE2.5 💉 Sérothérapie et vaccination</a></li> 
++                  <br>
++                  <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/UE2-5_Tuberculose_rage_tetanos_infections_respiratoires_basses.md" target="_blank" rel="noopener noreferrer">UE2.5 🫁 Tuberculose, rage, tétanos et infections respiratoires basses</a></li> 
++                  <br>
++                  <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/UE2-5_appendicite_peritonite.md" target="_blank" rel="noopener noreferrer">UE2.5 🔪 Appendicite et péritonite</a></li> 
++                  <br>
++</ul>
+             </div>
+           </div>
+       
+@@ -297,7 +307,7 @@
+                   <br>
+                      <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Troubles-Psychotiques.html" target="_blank" rel="noopener noreferrer">UE2.6 👽 Troubles Psychotiques</a></li> 
+                   <br>
+-                  <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_EI-neuroleptiques.htmll" target="_blank" rel="noopener noreferrer">UE2.6 👽 Effets Indésirables des Neuroleptiques</a></li> 
++                  <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_EI-neuroleptiques.html" target="_blank" rel="noopener noreferrer">UE2.6 👽 Effets Indésirables des Neuroleptiques</a></li> 
+                   <br>
+                   <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Troubles-de-lHumeur.html" target="_blank" rel="noopener noreferrer">UE2.6 🦸‍♀️ Troubles de l'humeur</a></li> 
+                   <br>
+@@ -329,6 +339,36 @@
+             </div>
+           </div>
+ 
++          <!-- Onglet 2.7 -->
++          <div class="panel">
++            <div class="panel-header" onclick="togglePanel(this)">
++               <span class="icon rotated">🔻</span > 🧪 2.7 - Processus Obstructifs / Troubles Métaboliques
++            </div>
++            <div class="panel-content hidden">
++                <ul style="list-style-type:none;">
++                <!-- copier les lignes ci-dessous pour ajouter le path vers carte mentale -->
++                                  <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/UE2-7_Acidose_respiratoire.md" target="_blank" rel="noopener noreferrer">UE2.7 🫁 Acidose respiratoire</a></li> 
++                  <br>
++</ul>
++            </div>
++          </div>
++
++          <!-- Onglet 2.8 -->
++          <div class="panel">
++            <div class="panel-header" onclick="togglePanel(this)">
++               <span class="icon rotated">🔻</span > ❤️ 2.8 - Processus Obstructifs Cardio-Vasculaires
++            </div>
++            <div class="panel-content hidden">
++                <ul style="list-style-type:none;">
++                <!-- copier les lignes ci-dessous pour ajouter le path vers carte mentale -->
++                                  <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/UE2-8_ECG_QT_consequences_symptomes_marqueurs_pathologies.md" target="_blank" rel="noopener noreferrer">UE2.8 ❤️ ECG, QT : conséquences, symptômes, marqueurs, pathologies</a></li> 
++                  <br>
++                  <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/UE2-8_Histoire_lecture_ECG.md" target="_blank" rel="noopener noreferrer">UE2.8 ❤️ Histoire et lecture de l'ECG</a></li> 
++                  <br>
++</ul>
++            </div>
++          </div>
++
+ 
+           <!-- Onglet 2.11 -->
+           <div class="panel">
+@@ -386,7 +426,11 @@
+                   <br>
+                   <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/Psychotropes — UE 2.11 — S3.md" target="_blank" rel="noopener noreferrer">UE2.11 🤯 Les Psyhotropes - Synthèse  </a></li> 
+                   <br>     
+-              </ul>
++                                <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-11_🍬 Anti-hyperglycemiants_et_insulines.md" target="_blank" rel="noopener noreferrer">UE2.11 🍬 Anti-hyperglycémiants et insulines</a></li> 
++                  <br>
++                  <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/UE2-11_Antibiotiques_et_anti_infectieux.md" target="_blank" rel="noopener noreferrer">UE2.11 💊 Antibiotiques et anti-infectieux</a></li> 
++                  <br>
++</ul>
+             </div>
+         </div>
+     </div>
+diff --git a/pages/md-viewer.html b/pages/md-viewer.html
+index f268f73..951b95a 100644
+--- a/pages/md-viewer.html
++++ b/pages/md-viewer.html
+@@ -3,7 +3,7 @@
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+-<title>Fiche — UE2.11</title>
++<title>Fiche</title>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.1/marked.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-light.min.css">
+ <style>
+@@ -69,7 +69,10 @@
+   if (!file) {
+     content.innerHTML = '<p class="state">Aucun fichier précisé. Utilise ?file=chemin/vers/fichier.md dans l\'URL.</p>';
+   } else {
+-    label.textContent = file.split('/').pop();
++    // Déduit le nom de l'UE depuis le chemin du fichier, ex: "UE3/3-2_truc.md" -> "UE3"
++    const pathParts = file.split('/');
++    const ueLabel = pathParts.length > 1 ? pathParts[0] : '';
++    label.textContent = pathParts.pop();
+     fetch(file)
+       .then(res => {
+         if (!res.ok) throw new Error('Fichier introuvable (' + res.status + ')');
+@@ -77,7 +80,8 @@
+       })
+       .then(md => {
+         content.innerHTML = marked.parse(md);
+-        document.title = (file.split('/').pop().replace('.md', '')) + ' — UE2.11';
++        const baseName = file.split('/').pop().replace('.md', '');
++        document.title = ueLabel ? (baseName + ' — ' + ueLabel) : baseName;
+       })
+       .catch(err => {
+         content.innerHTML = '<p class="state">Impossible de charger ce fichier : ' + err.message + '</p>';
+diff --git a/tiroir/auto_index.py b/tiroir/auto_index.py
+new file mode 100644
+index 0000000..73d2132
+--- /dev/null
++++ b/tiroir/auto_index.py
+@@ -0,0 +1,216 @@
++#!/usr/bin/env python3
++# -*- coding: utf-8 -*-
++"""
++auto_index.py — Ajoute automatiquement les nouveaux fichiers importés dans
++l'index.html d'une UE, avec la bonne syntaxe de lien selon le type de fichier.
++
++FONCTIONNEMENT
++--------------
++1. Le script regarde tous les fichiers présents dans pages/UEx/ (ou dans
++   assets/img/ pour les images/PDF liés à cette UE).
++2. Il compare avec les liens déjà présents dans pages/UEx/index.html pour
++   savoir quels fichiers sont "nouveaux" (pas encore listés).
++3. Pour chaque nouveau fichier, il devine la sous-section (2.1, 2.2, 2.11...)
++   d'après le préfixe du nom de fichier (ex: "2-2_XXX.html" -> section 2.2).
++4. Il insère une ligne <li><a href="...">Titre</a></li> au bon endroit
++   (juste avant </ul> du panneau "<!-- Onglet X.Y -->" correspondant),
++   avec la syntaxe adaptée :
++     - .md          -> lien via md-viewer.html?file=UEx/nomfichier.md
++     - autre (.html, .jpg, .png, .pdf, .svg...) -> lien direct vers le fichier
++
++UTILISATION
++-----------
++  # Mode aperçu (ne modifie rien, affiche ce qui serait fait) :
++  python3 auto_index.py UE2 --dry-run
++
++  # Mode réel : insère les nouveaux fichiers avec un titre auto-généré
++  python3 auto_index.py UE2
++
++  # Donner un titre précis à un fichier particulier avant insertion
++  python3 auto_index.py UE2 --title "2-2_NouveauSysteme_2026.html=UE2.2 🫀 Nouveau Système"
++
++Le script est volontairement prudent : si un fichier ne correspond à
++aucune sous-section connue (ex: "2-7_..." alors qu'il n'y a pas de panneau
++2.7 dans l'index), il ne l'insère pas et l'affiche dans une liste
++"À traiter manuellement" à la fin.
++
++Lancez-le depuis la racine du dépôt (là où se trouve le dossier pages/).
++"""
++
++import argparse
++import os
++import re
++import sys
++
++REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++BASE_URL = "https://alifsicrip.github.io/cours"
++
++# Extensions qui passent par le visionneur markdown
++MD_EXT = {".md"}
++# Extensions "image/document" qui vivent généralement dans assets/img
++ASSET_EXT = {".png", ".jpg", ".jpeg", ".svg", ".pdf", ".gif", ".webp"}
++
++
++def slugify_title(filename: str, section: str) -> str:
++    """Génère un titre par défaut lisible à partir du nom de fichier.
++    Ex: '2-2_Systeme_Renal_2026.html' -> 'UE2.2 Systeme Renal'
++    """
++    name, _ext = os.path.splitext(filename)
++    # enlève le préfixe "2-2_", "2-2 " ou "UE2-2_"
++    name = re.sub(r"^(?:UE)?\d+-\d+[_ ]", "", name)
++    # enlève un suffixe année du type _2026 ou -2026
++    name = re.sub(r"[_ ]?20\d\d$", "", name)
++    # remplace _ et - par des espaces
++    name = re.sub(r"[_\-]+", " ", name).strip()
++    return f"UE{section} {name}"
++
++
++def find_sections(index_html: str):
++    """Retourne un dict {"2.1": position_du_</ul>_de_ce_panel, ...}"""
++    sections = {}
++    for m in re.finditer(r"<!--\s*Onglet\s+([\d.]+)\s*-->", index_html):
++        sec = m.group(1)
++        # on cherche le prochain </ul> après ce commentaire : c'est la fin
++        # de la liste de liens de cette section.
++        ul_close = index_html.find("</ul>", m.end())
++        if ul_close != -1:
++            sections[sec] = ul_close
++    return sections
++
++
++def already_listed_files(index_html: str):
++    """Renvoie l'ensemble des noms de fichiers déjà référencés dans l'index
++    (que ce soit en lien direct ou via md-viewer.html?file=...)."""
++    listed = set()
++    for href in re.findall(r'href="([^"]+)"', index_html):
++        if "md-viewer.html?file=" in href:
++            # file=UE2/nom-du-fichier.md
++            file_part = href.split("file=", 1)[1]
++            listed.add(os.path.basename(file_part))
++        else:
++            listed.add(os.path.basename(href))
++    return listed
++
++
++def guess_section(filename: str):
++    """'2-11_Antalgiques.html' -> '2.11' ; 'UE2-5_Truc.md' -> '2.5'"""
++    m = re.match(r"^(?:UE)?(\d+)-(\d+)[_ ]", filename)
++    if not m:
++        return None
++    return f"{m.group(1)}.{m.group(2)}"
++
++
++def build_link_html(ue: str, filename: str, title: str, from_assets: bool) -> str:
++    if from_assets:
++        href = f"{BASE_URL}/assets/img/{filename}"
++    else:
++        ext = os.path.splitext(filename)[1].lower()
++        if ext in MD_EXT:
++            href = f"{BASE_URL}/pages/md-viewer.html?file={ue}/{filename}"
++        else:
++            href = f"{BASE_URL}/pages/{ue}/{filename}"
++    return (
++        f'                  <li><a href="{href}" target="_blank" '
++        f'rel="noopener noreferrer">{title}</a></li> \n'
++        f"                  <br>\n"
++    )
++
++
++def main():
++    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
++    parser.add_argument("ue", help="Nom du dossier UE, ex: UE2")
++    parser.add_argument("--dry-run", action="store_true", help="N'écrit rien, affiche seulement ce qui serait fait")
++    parser.add_argument(
++        "--title",
++        action="append",
++        default=[],
++        metavar="fichier.ext=Titre",
++        help="Force le titre d'un fichier précis (répétable)",
++    )
++    parser.add_argument(
++        "--from-assets",
++        action="store_true",
++        help="Cherche les nouveaux fichiers dans assets/img/ au lieu de pages/<UE>/",
++    )
++    args = parser.parse_args()
++
++    ue = args.ue
++    title_overrides = {}
++    for t in args.title:
++        if "=" not in t:
++            print(f"⚠️  Ignoré (--title mal formé) : {t}")
++            continue
++        fname, title = t.split("=", 1)
++        title_overrides[fname] = title
++
++    index_path = os.path.join(REPO_ROOT, "pages", ue, "index.html")
++    if not os.path.isfile(index_path):
++        print(f"❌ Introuvable : {index_path}")
++        sys.exit(1)
++
++    scan_dir = os.path.join(REPO_ROOT, "assets", "img") if args.from_assets else os.path.join(REPO_ROOT, "pages", ue)
++    if not os.path.isdir(scan_dir):
++        print(f"❌ Dossier introuvable : {scan_dir}")
++        sys.exit(1)
++
++    with open(index_path, "r", encoding="utf-8") as f:
++        index_html = f.read()
++
++    listed = already_listed_files(index_html)
++    sections = find_sections(index_html)
++
++    candidates = [
++        f
++        for f in os.listdir(scan_dir)
++        if os.path.isfile(os.path.join(scan_dir, f)) and f != "index.html" and not f.startswith(".")
++    ]
++    new_files = [f for f in candidates if f not in listed]
++
++    if not new_files:
++        print("✅ Rien à faire : tous les fichiers sont déjà référencés dans l'index.")
++        return
++
++    inserts_by_pos = {}  # position -> liste de lignes à insérer
++    manual_review = []
++
++    for filename in sorted(new_files):
++        section = guess_section(filename)
++        if section is None or section not in sections:
++            manual_review.append((filename, section))
++            continue
++
++        title = title_overrides.get(filename) or slugify_title(filename, section)
++        link_html = build_link_html(ue, filename, title, args.from_assets)
++        pos = sections[section]
++        inserts_by_pos.setdefault(pos, []).append((filename, title, link_html))
++
++    if not inserts_by_pos:
++        print("Aucun fichier ne correspond à une section existante dans l'index.")
++    else:
++        # on insère en partant de la fin du fichier pour ne pas décaler les
++        # positions déjà calculées
++        new_html = index_html
++        for pos in sorted(inserts_by_pos.keys(), reverse=True):
++            block = "".join(link for _, _, link in inserts_by_pos[pos])
++            new_html = new_html[:pos] + block + new_html[pos:]
++
++        print(f"📄 {index_path}")
++        for pos in sorted(inserts_by_pos.keys()):
++            for filename, title, _ in inserts_by_pos[pos]:
++                print(f"  + [{filename}] -> \"{title}\"")
++
++        if args.dry_run:
++            print("\n(mode --dry-run : aucun fichier n'a été modifié)")
++        else:
++            with open(index_path, "w", encoding="utf-8") as f:
++                f.write(new_html)
++            print("\n✅ index.html mis à jour.")
++
++    if manual_review:
++        print("\n⚠️  À traiter manuellement (section introuvable/inconnue) :")
++        for filename, section in manual_review:
++            print(f"  - {filename}  (section devinée : {section or 'aucune'})")
++
++
++if __name__ == "__main__":
++    main()
+-- 
+2.43.0
+

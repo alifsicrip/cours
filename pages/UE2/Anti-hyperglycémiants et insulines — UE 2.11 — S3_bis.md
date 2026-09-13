@@ -16,12 +16,8 @@
 
 ### 🚨 Signes d'urgence à connaître
 
-**🚨Hypoglycémie sévère**  je vois  **confusion → convulsions → perte de connaissance → coma**
+**Hypoglycémie sévère**  *JE VOIS*  **confusion → convulsions → perte de connaissance → coma**
 
-**🚨Acidose lactique :**
-<br>je vois<br>
-**insuffisance rénale/déshydratation → accumulation de metformine → faiblesse + dyspnée + troubles neurologiques → URGENCE**
+**Acidose lactique :**  *JE VOIS* **insuffisance rénale/déshydratation → accumulation de metformine → faiblesse + dyspnée + troubles neurologiques → URGENCE**
 
-**Acidocétose sous iSGLT2 :**
-<br>
-**nausées/vomissements + douleurs abdominales + polypnée + altération générale → URGENCE**
+**Acidocétose sous iSGLT2 :**  *JE VOIS* **nausées/vomissements + douleurs abdominales + polypnée + altération générale → URGENCE**

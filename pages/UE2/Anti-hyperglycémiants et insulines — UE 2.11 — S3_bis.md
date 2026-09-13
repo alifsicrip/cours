@@ -12,8 +12,8 @@
 | **GLP-1** | 🤢 Nausées, vomissements, diarrhées | Mauvaise alimentation, perte hydrique | Surveiller tolérance + hydratation |
 | **Acarbose** | 💨 Flatulences, diarrhées | Troubles digestifs | Surveiller tolérance |
 | **Corticoïdes associés** | 📈 Hyperglycémie | Glycémies augmentées | Surveillance glycémique renforcée |
-| Plusieurs traitements hypoglycémiants | 📉 Hypoglycémie | Association sulfamide/glinide/insuline notamment | Surveillance glycémique renforcée |
-<br>
+| Plusieurs traitements hypoglycémiants | 📉 Hypoglycémie | Association sulfamide/glinide/insuline notamment | Surveillance glycémique renforcée |  
+  
 ### 🚨 Signes d'urgence à connaître  
   
 **🍬Hypoglycémie sévère**  *JE VOIS*  **confusion → convulsions → perte de connaissance → coma**  

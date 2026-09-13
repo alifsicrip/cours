@@ -1,24 +1,23 @@
 # 🌿 Histoire des anti-hyperglycémiants et des insulines — UE 2.11 — S3
 
-Imagine le corps comme un **éco-village énergétique** 🌍 : après le repas, le glucose remplit la rivière sanguine et l’**insuline** 🔑 lui ouvre les portes des cellules.
-``
+Imagine le corps comme un **éco-village énergétique** 🌍 : après le repas, le glucose remplit la rivière sanguine et l’**insuline** 🔑 lui ouvre les portes des cellules  
+
  🫀 **Metformine** : ferme le robinet à sucre du **foie**  
  🍽️ **Glutides et gliptines** : prolongent le message de l’**intestin** au pancréas  
  🫘 **Gliflozines** : évacuent l’excès de sucre par les **urines**  
  💉 **Insuline** : remplace la clé manquante, indispensable dans le **DT1**  
-``  
+ 
 ⚠️ Si la clé-insuline ouvre trop de portes par rapport au repas : **hypoglycémie** — sueurs, faim, tremblements, confusion  
 ⚠️ Si les gliflozines assèchent la rivière : surveiller **déshydratation et acidocétose**  
 ⚠️ Avec la metformine, penser au **rein et au DFG**  
 
-🧠 **Mémo F.I.R.E.** : **F**oie–metformine 🫀 • **I**nsuline–clé 🔑 • **R**ein–gliflozines 🫘 • **E**ntéro-incrétines 🍽️.
+🧠 **Mémo F.I.R.E.** : **F**oie–metformine 🫀 • **I**nsuline–clé 🔑 • **R**ein–gliflozines 🫘 • **E**ntéro-incrétines 🍽️  
 
-👩‍⚕️ **Mémo G.R.A.I.N.** : **G**lycémie • **R**ein • **A**limentation • **I**njections/indésirables • **N**eurologique 🌾.
+👩‍⚕️ **Mémo G.R.A.I.N.** : **G**lycémie • **R**ein • **A**limentation • **I**njections/indésirables • **N**eurologique 🌾  
 
 *Sources françaises : [HAS – stratégie thérapeutique du DT2](https://www.has-sante.fr/jcms/p_3191108/fr/strategie-therapeutique-du-patient-vivant-avec-un-diabete-de-type-2) et [Base de données publique des médicaments](https://base-donnees-publique.medicaments.gouv.fr/)*
 
-
-
+\
 
 ## 🌿 L’histoire du village Glycémie
 
@@ -65,6 +64,5 @@ Imagine le corps comme un **éco-village énergétique** 🌍 : après le repas,
 Et pour la surveillance infirmière :
 
 **G.R.A.I.N.** 🌾  
-**G**lycémie 🩸 — **R**ein 🫘 — **A**limentation 🍽️ — **I**njections et effets indésirables 💉 — **N**eurologique 🧠.
-
-La prise en charge du DT2 reste individualisée et associe traitements, mode de vie, prévention cardiovasculaire et protection rénale. [HAS – Stratégie thérapeutique du diabète de type 2](https://www.has-sante.fr/jcms/p_3191108/fr/strategie-therapeutique-du-patient-vivant-avec-un-diabete-de-type-2)
+**G**lycémie 🩸 — **R**ein 🫘 — **A**limentation 🍽️ — **I**njections et effets indésirables 💉 — **N**eurologique 🧠  
+La prise en charge du DT2 reste individualisée et associe traitements, mode de vie, prévention cardiovasculaire et protection rénale. [HAS – Stratégie thérapeutique du diabète de type 2](https://www.has-sante.fr/jcms/p_3191108/fr/strategie-therapeutique-du-patient-vivant-avec-un-diabete-de-type-2) 

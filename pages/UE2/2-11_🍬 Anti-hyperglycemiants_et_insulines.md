@@ -17,7 +17,7 @@ Imagine le corps comme un **éco-village énergétique** 🌍 : après le repas,
 
 *Sources françaises : [HAS – stratégie thérapeutique du DT2](https://www.has-sante.fr/jcms/p_3191108/fr/strategie-therapeutique-du-patient-vivant-avec-un-diabete-de-type-2) et [Base de données publique des médicaments](https://base-donnees-publique.medicaments.gouv.fr/)*
 
-\
+\  
 
 ## 🌿 L’histoire du village Glycémie
 

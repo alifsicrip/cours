@@ -1,4 +1,4 @@
-```
+``
 # 🌿 Histoire des anti-hyperglycémiants et des insulines — UE 2.11 — S3
 
 Imagine le corps comme un **éco-village énergétique** 🌍 : après le repas, le glucose remplit la rivière sanguine et l’**insuline** 🔑 lui ouvre les portes des cellules  
@@ -68,4 +68,4 @@ Et pour la surveillance infirmière :
 **G.R.A.I.N.** 🌾  
 **G**lycémie 🩸 — **R**ein 🫘 — **A**limentation 🍽️ — **I**njections et effets indésirables 💉 — **N**eurologique 🧠  
 La prise en charge du DT2 reste individualisée et associe traitements, mode de vie, prévention cardiovasculaire et protection rénale. [HAS – Stratégie thérapeutique du diabète de type 2](https://www.has-sante.fr/jcms/p_3191108/fr/strategie-therapeutique-du-patient-vivant-avec-un-diabete-de-type-2)  
-```
+``

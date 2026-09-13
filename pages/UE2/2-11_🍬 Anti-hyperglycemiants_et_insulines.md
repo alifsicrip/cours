@@ -2,12 +2,16 @@
 
 Imagine le corps comme un **éco-village énergétique** 🌍 : après le repas, le glucose remplit la rivière sanguine et l’**insuline** 🔑 lui ouvre les portes des cellules.
 
-* 🫀 **Metformine** : ferme le robinet à sucre du **foie**.
-* 🍽️ **Glutides et gliptines** : prolongent le message de l’**intestin** au pancréas.
-* 🫘 **Gliflozines** : évacuent l’excès de sucre par les **urines**.
-* 💉 **Insuline** : remplace la clé manquante, indispensable dans le **DT1**.
+ 🫀 **Metformine** : ferme le robinet à sucre du **foie**.
+ 🍽️ **Glutides et gliptines** : prolongent le message de l’**intestin** au pancréas.
+ 🫘 **Gliflozines** : évacuent l’excès de sucre par les **urines**.
+ 💉 **Insuline** : remplace la clé manquante, indispensable dans le **DT1**.
 
-⚠️ Si la clé-insuline ouvre trop de portes par rapport au repas : **hypoglycémie** — sueurs, faim, tremblements, confusion. Si les gliflozines assèchent la rivière : surveiller **déshydratation et acidocétose**. Avec la metformine, penser au **rein et au DFG**.
+⚠️ Si la clé-insuline ouvre trop de portes par rapport au repas : **hypoglycémie** — sueurs, faim, tremblements, confusion  
+⚠️ Si les gliflozines assèchent la rivière : surveiller **déshydratation et acidocétose**  
+⚠️ Avec la metformine, penser au **rein et au DFG**  
+
+>
 
 🧠 **Mémo F.I.R.E.** : **F**oie–metformine 🫀 • **I**nsuline–clé 🔑 • **R**ein–gliflozines 🫘 • **E**ntéro-incrétines 🍽️.
 

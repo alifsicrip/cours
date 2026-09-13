@@ -13,7 +13,6 @@
 | **Acarbose** | 💨 Flatulences, diarrhées | Troubles digestifs | Surveiller tolérance |
 | **Corticoïdes associés** | 📈 Hyperglycémie | Glycémies augmentées | Surveillance glycémique renforcée |
 | Plusieurs traitements hypoglycémiants | 📉 Hypoglycémie | Association sulfamide/glinide/insuline notamment | Surveillance glycémique renforcée |
-
 <br>
 ### 🚨 Signes d'urgence à connaître
 <br>

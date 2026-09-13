@@ -15,7 +15,7 @@
 | Plusieurs traitements hypoglycémiants | 📉 Hypoglycémie | Association sulfamide/glinide/insuline notamment | Surveillance glycémique renforcée |  
   
 ### 🚨 Signes d'urgence à connaître  
-  
+\    
 **🍬Hypoglycémie sévère**  *JE VOIS*  **confusion → convulsions → perte de connaissance → coma**  
   
 **😮‍💨😰 Acidose lactique :**  *JE VOIS* **insuffisance rénale/déshydratation → accumulation de metformine → faiblesse + dyspnée + troubles neurologiques → URGENCE**  

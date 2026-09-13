@@ -14,10 +14,11 @@
 | **Corticoïdes associés** | 📈 Hyperglycémie | Glycémies augmentées | Surveillance glycémique renforcée |
 | Plusieurs traitements hypoglycémiants | 📉 Hypoglycémie | Association sulfamide/glinide/insuline notamment | Surveillance glycémique renforcée |
 
+<br>
 ### 🚨 Signes d'urgence à connaître
-
-**Hypoglycémie sévère**  *JE VOIS*  **confusion → convulsions → perte de connaissance → coma**
-
-**Acidose lactique :**  *JE VOIS* **insuffisance rénale/déshydratation → accumulation de metformine → faiblesse + dyspnée + troubles neurologiques → URGENCE**
-
-**Acidocétose sous iSGLT2 :**  *JE VOIS* **nausées/vomissements + douleurs abdominales + polypnée + altération générale → URGENCE**
+<br>
+**🍬Hypoglycémie sévère**  *JE VOIS*  **confusion → convulsions → perte de connaissance → coma**
+<br>
+**😮‍💨😰 Acidose lactique :**  *JE VOIS* **insuffisance rénale/déshydratation → accumulation de metformine → faiblesse + dyspnée + troubles neurologiques → URGENCE**
+<br>
+**🤢Acidocétose sous iSGLT2 :**  *JE VOIS* **nausées/vomissements + douleurs abdominales + polypnée + altération générale → URGENCE**

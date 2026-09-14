@@ -1,0 +1,52 @@
+name: Mise à jour automatique des index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "pages/UE1/**"
+      - "pages/UE2/**"
+      - "pages/UE3/**"
+      - "pages/UE4/**"
+      - "pages/UE5/**"
+      - "pages/UE6/**"
+      - "assets/img/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Lancer auto_index.py pour chaque UE
+        run: |
+          for ue in UE1 UE2 UE3 UE4 UE5 UE6; do
+            if [ -d "pages/$ue" ]; then
+              echo "=== $ue ==="
+              python3 tiroir/auto_index.py "$ue" || true
+            fi
+          done
+
+      - name: Committer les changements s'il y en a
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "Rien à committer."
+          else
+            git add pages/*/index.html
+            git commit -m "🤖 Mise à jour automatique des index (fichiers importés)"
+            git push
+          fi

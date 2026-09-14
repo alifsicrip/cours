@@ -1,0 +1,235 @@
+# 🗣️ UE 4.2 S3 — Soins relationnels
+- **🧭 Vue d’ensemble**
+  - Référentiel applicable en 2025 : arrêté du 31 juillet 2009 modifié
+  - Compétence 6 : communiquer et conduire une relation dans un contexte de soins
+  - Objectifs S3
+    - Argumenter les fondements de la confiance et de l’alliance thérapeutique
+    - Conduire un entretien infirmier
+  - 📖 Soin relationnel
+    - Intervention professionnelle utilisant la relation et la communication pour répondre aux besoins de la personne
+    - S’intègre aux soins techniques et à l’accompagnement quotidien
+  - 🎯 Finalités
+    - Favoriser l’expression du vécu
+    - Soutenir l’autonomie et la participation aux soins
+    - Prévenir ou apaiser la détresse
+  - 🔄 Schéma global
+    - Accueillir → écouter → comprendre → convenir → agir → réévaluer
+- **🤝 Confiance et alliance thérapeutique**
+  - Confiance
+    - 📖 Sentiment de pouvoir compter sur la fiabilité et le respect du·de la soignant·e
+    - Se construit progressivement
+    - Repose sur la confidentialité, la compétence et les engagements tenus
+    - 💡 Revenir à l’heure annoncée renforce la confiance
+  - Alliance thérapeutique
+    - 📖 Collaboration entre patient·e et professionnel·le autour du projet de soins
+    - Trois composantes
+      - Lien de confiance
+      - Objectifs partagés
+      - Accord sur les moyens proposés
+    - 🎯 Facilite l’engagement dans les soins
+    - 🧠 Métaphore : avancer ensemble avec un cap discuté
+    - ⚠️ Une alliance peut exister malgré un désaccord
+  - Explorer le point de vue du·de la patient·e
+    - Besoin : ce qui est nécessaire à sa santé ou à son équilibre
+    - Attente : ce que la personne espère des soins
+    - Désir : ce qu’elle souhaite personnellement
+    - Demande : ce qu’elle exprime ou sollicite
+    - ⚠️ Une demande ne révèle pas toujours le besoin sous-jacent
+      - 💡 Demander une présence répétée peut traduire une peur
+  - 👩‍⚕️ Construire ensemble
+    - Identifier les priorités et les ressources de la personne
+    - Présenter les options dans son champ de compétence
+    - Discuter les bénéfices, les risques et les préférences
+    - Fixer un objectif réaliste et révisable
+- **💚 Relation d’aide et posture professionnelle**
+  - Relation d’aide
+    - 📖 Relation centrée sur la personne pour comprendre son vécu et mobiliser ses ressources
+    - 🎯 Soutient ses capacités d’adaptation et de choix
+    - ⚠️ Ne consiste pas à décider à sa place
+  - Repères de l’approche de Carl Rogers
+    - Empathie
+      - Comprendre le vécu de l’autre depuis son point de vue
+      - Vérifier cette compréhension avec la personne
+      - 💡 « Vous craignez surtout de perdre votre autonomie ? »
+    - Congruence
+      - Cohérence entre ressenti, paroles et attitude professionnelle
+      - Exprimer honnêtement ses limites
+      - 💡 « Je vais vérifier cette information »
+    - Considération positive inconditionnelle
+      - Accueillir la personne sans jugement de valeur
+      - Respecter sa dignité indépendamment de ses comportements
+      - ⚠️ Respecter la personne ne signifie pas accepter la violence
+  - Juste distance
+    - Engagement adapté aux besoins et au cadre professionnel
+    - Éviter l’indifférence et l’implication excessive
+    - Repérer ses émotions et demander un relais si nécessaire
+  - ⚠️ À ne pas confondre
+    - Empathie : comprendre le vécu de l’autre
+    - Sympathie : éprouver une affinité ou partager une émotion
+    - Projection : attribuer à l’autre ses propres ressentis
+    - Identification : se reconnaître dans l’expérience de l’autre
+- **👂 Communication aidante**
+  - Communication
+    - 📖 Échange de messages dans un contexte donné
+    - Le retour de la personne permet de vérifier le sens compris
+  - Trois dimensions complémentaires
+    - Verbale : mots et contenu du discours
+    - Paraverbale : ton, débit, volume et intonation
+    - Non verbale : regard, posture, gestes et expressions
+    - ⚠️ Aucun geste isolé ne permet de conclure à une émotion
+    - ⚠️ Aucun pourcentage universel ne décrit leur importance
+  - Écoute active
+    - Être disponible et attentif·ve
+    - Laisser terminer sans interrompre
+    - Observer sans interpréter trop vite
+    - Accueillir les silences
+  - Techniques essentielles
+    - Question ouverte
+      - Favorise l’expression
+      - 💡 « Qu’est-ce qui vous inquiète aujourd’hui ? »
+    - Question fermée
+      - Précise une information
+      - 💡 « La douleur est-elle apparue ce matin ? »
+    - Reformulation
+      - Restitue le sens pour vérifier sa compréhension
+      - 💡 « Si je comprends bien, vous redoutez le retour à domicile »
+    - Clarification
+      - Précise une expression ambiguë
+      - 💡 « Que signifie “je n’en peux plus” pour vous ? »
+    - Validation émotionnelle
+      - Reconnaît l’émotion sans confirmer une croyance erronée
+      - 💡 « Cette situation semble très éprouvante »
+    - Synthèse
+      - Rassemble les éléments importants avant de conclure
+  - Adapter les échanges
+    - Employer des mots simples et une idée à la fois
+    - Tenir compte de la douleur, de la fatigue et des troubles sensoriels
+    - Utiliser des supports adaptés aux capacités de communication
+    - Solliciter un·e interprète professionnel·le si nécessaire
+    - Rechercher l’accord avant un toucher relationnel
+  - 🧠 Outil HAS « FAIRE DIRE »
+    - Expliquer → faire reformuler par le·la patient·e → réexpliquer si nécessaire
+    - Vérifie la clarté de l’explication
+  - 🚫 Freins fréquents
+    - Juger ou moraliser
+    - Donner des conseils prématurés
+    - Minimiser : « Ce n’est rien »
+    - Rassurer sans fondement : « Tout ira bien »
+    - Multiplier les questions comme un interrogatoire
+- **🪑 Conduire un entretien infirmier**
+  - 📖 Échange professionnel intentionnel avec un objectif de soins
+    - Peut être programmé ou réalisé à partir d’une rencontre spontanée
+  - Typologie selon l’objectif
+    - Accueil et recueil de données
+    - Aide et soutien
+    - Information et éducation
+    - Évaluation et suivi
+  - Degré de structuration
+    - Directif : questions et déroulement fortement organisés
+    - Semi-directif : thèmes préparés avec expression libre
+    - Non directif : expression guidée principalement par la personne
+  - 1️⃣ Préparer
+    - Définir l’objectif
+    - Consulter les informations utiles
+    - Choisir un lieu calme et confidentiel
+    - Prévoir une durée adaptée
+  - 2️⃣ Ouvrir
+    - Se présenter et préciser son rôle
+    - Expliquer l’objectif et le cadre
+    - Rechercher l’accord de la personne
+    - S’installer à une hauteur adaptée
+  - 3️⃣ Explorer
+    - Partir d’une question ouverte
+    - Rechercher vécu, besoins, attentes et ressources
+    - Observer les manifestations verbales et non verbales
+    - Vérifier ses hypothèses par la reformulation
+  - 4️⃣ Convenir
+    - Prioriser avec le·la patient·e
+    - Définir les actions et les relais nécessaires
+  - 5️⃣ Conclure
+    - Résumer et vérifier la compréhension
+    - Demander si un élément reste à aborder
+    - Annoncer la suite
+    - Tracer les informations utiles
+  - 🧠 Mémo : préparer → ouvrir → explorer → convenir → conclure
+- **🌧️ Adapter la relation aux situations difficiles**
+  - Anxiété et détresse
+    - Repères : inquiétude, pleurs, agitation ou retrait
+    - Rechercher douleur, dyspnée ou autre cause somatique
+    - Rester présent·e et réduire les stimulations
+    - Proposer des repères concrets et réévaluer
+  - Crise
+    - 📖 Déséquilibre lorsque les ressources habituelles d’adaptation sont dépassées
+    - Évaluer immédiatement la sécurité
+    - Si propos suicidaires : questionner directement les idées et l’intention
+    - Si danger immédiat : rester auprès de la personne et alerter l’équipe
+    - ⚠️ Le dialogue accompagne les mesures de protection
+  - Deuil et fin de vie
+    - Deuil : processus d’adaptation à une perte
+    - Accueillir tristesse, colère, silence ou ambivalence
+    - Respecter les croyances et le rythme personnel
+    - Associer les proches selon les souhaits de la personne
+    - ⚠️ Le deuil ne suit pas des étapes obligatoires et linéaires
+  - Déni et refus de soins
+    - Déni : mécanisme psychique limitant l’accès à une réalité éprouvante
+    - Refus : expression d’un désaccord avec un soin proposé
+    - ⚠️ Un refus ne prouve pas un déni
+    - Explorer les raisons sans confrontation brutale
+    - Vérifier compréhension et conséquences du refus
+    - Informer, rechercher des alternatives et prévenir l’équipe
+  - Conflit, agressivité et violence
+    - Conflit : opposition de besoins, de positions ou d’intérêts
+    - Agressivité : attitude hostile pouvant s’exprimer verbalement ou physiquement
+    - Violence : acte portant atteinte à la personne ou à sa sécurité
+    - Repérer les déclencheurs et les signes de montée en tension
+    - Parler calmement avec des phrases courtes
+    - Reconnaître l’émotion et poser des limites claires
+    - Proposer un choix simple ou un espace plus calme
+    - Garder une distance de sécurité et une sortie accessible
+    - Appeler du renfort si la sécurité est menacée
+- **⚖️ Cadre éthique, surveillance et traçabilité**
+  - Respecter dignité, intimité et absence de discrimination
+  - Rechercher un consentement libre et éclairé
+    - Le consentement peut être retiré
+    - Le refus appelle information, évaluation et continuité des soins
+  - Respecter le secret professionnel
+    - Partager uniquement les informations nécessaires dans le cadre légal
+    - Ne pas promettre un secret absolu face à un danger
+  - Évaluer les effets du soin relationnel
+    - La personne exprime-t-elle ses préoccupations ?
+    - Comprend-elle les informations utiles ?
+    - L’objectif convenu progresse-t-il ?
+    - La détresse ou la tension évolue-t-elle ?
+    - ⚠️ Une personne silencieuse n’est pas forcément apaisée
+  - Tracer des faits utiles
+    - Paroles significatives entre guillemets
+    - Manifestations observées
+    - Actions, réponse de la personne et relais
+    - Éviter les étiquettes comme « patient·e difficile »
+- **🎓 Préparer le partiel**
+  - Évaluation nationale de l’UE
+    - Mise en situation d’entretien lors des travaux dirigés
+    - Critères : techniques utilisées et analyse des interactions
+  - ❓ « Un·e patient·e refuse une injection par peur : que faire ? »
+    - Vérifier la situation clinique et la sécurité
+    - Explorer la peur par une question ouverte
+    - Reformuler et reconnaître l’émotion
+    - Expliquer le soin et vérifier la compréhension
+    - Rechercher une solution acceptable sans contraindre
+    - Transmettre, tracer et réévaluer
+  - ⭐ À retenir
+    - La relation est un soin intentionnel et évalué
+    - La confiance se construit par des actes cohérents
+    - L’alliance associe lien, objectifs et moyens partagés
+    - Comprendre précède la proposition de solutions
+- **📚 Sources officielles**
+  - Référentiel de formation applicable en 2025
+    - [Arrêté du 31 juillet 2009 modifié — annexes II et V, compétence 6 et UE 4.2 S3](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000020961044)
+  - Déontologie infirmière
+    - [Code de la santé publique — articles R4312-3, R4312-5 et R4312-14](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006178629/)
+  - Communication et compréhension
+    - [HAS — FAIRE DIRE, 2016](https://www.has-sante.fr/jcms/c_2612334/fr/faire-dire)
+  - Participation aux décisions
+    - [HAS — Aides à la décision partagée, 2018](https://www.has-sante.fr/jcms/c_2838959/fr/elements-pour-elaborer-une-aide-a-la-prise-de-decision-partagee-entre-patient-et-professionnel-de-sante)
+  - Prévention et désamorçage de la violence
+    - [HAS — Violences psychiatriques : prévenir dès l’admission, 2019](https://www.has-sante.fr/jcms/pprd_2974318/fr/violences-psychiatriques-les-prevenir-des-l-admission)

@@ -30,9 +30,9 @@
 
   - 🗝️ Repères
 
-     🔥 Cystite = vessie
+    - 🔥 Cystite = vessie
 
-     🫘 Pyélonéphrite = rein
+    - 🫘 Pyélonéphrite = rein
 
     - ♂️ Prostatite = prostate
 

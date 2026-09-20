@@ -1,6 +1,4 @@
-# 💊 Les classes d’antibiotiques — tableaux du document fourni
-
-> **Nature de cette fiche :** mise en forme fidèle du contenu du document fourni. Elle ne constitue pas une validation scientifique ni une prescription.
+# 💊 Les classes d’antibiotiques — tableaux du prof
 
 ## 🧱 1re classe : les bêta-lactamines
 

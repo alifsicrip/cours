@@ -1,10 +1,3 @@
----
-markmap:
-  colorFreezeLevel: 2
-  maxWidth: 600
-  initialExpandLevel: 2
----
-
 # **🦠 HÉPATITES VIRALES — UE 2.5 — S3 IFSI**
 
 - **🎯 OBJECTIF**

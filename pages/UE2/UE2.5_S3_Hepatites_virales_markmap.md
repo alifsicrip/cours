@@ -1,0 +1,424 @@
+# 🦠 UE 2.5 S3 — Hépatites virales
+- **🎓 Niveau IFSI S3**
+  - Comprendre
+  - Repérer
+  - Prévenir
+  - Surveiller
+  - Éduquer
+- **🔑 1 Définitions clés**
+  - **🦠 Hépatite virale**
+    - Inflammation du foie provoquée par un virus hépatotrope
+  - **🅰️ VHA**
+    - Virus de l’hépatite A
+    - Transmission principalement féco-orale
+    - Pas de chronicité
+  - **🅱️ VHB**
+    - Virus de l’hépatite B
+    - Transmission sanguine
+    - Transmission sexuelle
+    - Transmission mère-enfant
+    - Chronicité possible
+  - **🅲️ VHC**
+    - Virus de l’hépatite C
+    - Transmission principalement sanguine
+    - Chronicité fréquente sans traitement
+  - **🅳️ VHD**
+    - Virus de l’hépatite D
+    - Nécessite le VHB
+  - **🅴️ VHE**
+    - Virus de l’hépatite E
+    - Transmission féco-orale et alimentaire
+    - Habituellement aiguë
+  - **🔄 Hépatite aiguë**
+    - Infection récente
+    - Peut être asymptomatique
+    - Peut être symptomatique
+    - Peut être sévère
+  - **♾️ Hépatite chronique**
+    - Persistance de l’infection
+    - Possible avec le VHB
+    - Possible avec le VHC
+  - **🟡 Ictère**
+    - Coloration jaune de la peau et des conjonctives
+    - Lié à une augmentation de la bilirubine
+- **🦠 2 Causes et transmissions**
+  - **🅰️ VHA**
+    - Voie féco-orale
+    - Eau contaminée
+    - Aliments contaminés
+    - Contact rapproché
+  - **🅱️ VHB**
+    - Sang
+    - Rapports sexuels
+    - Transmission mère-enfant
+  - **🅲️ VHC**
+    - Sang
+    - Matériel d’injection contaminé
+    - Matériel de tatouage ou piercing non stérile
+  - **🅳️ VHD**
+    - Co-infection avec le VHB
+    - Surinfection d’une personne porteuse du VHB
+  - **🅴️ VHE**
+    - Voie féco-orale
+    - Eau contaminée
+    - Aliments contaminés
+    - Produits animaux insuffisamment cuits
+  - **⚠️ Contacts ordinaires**
+    - Pas de transmission habituelle du VHB ou du VHC par poignée de main
+    - Pas de transmission habituelle par partage d’un repas
+    - Pas de transmission habituelle par câlin
+- **⚙️ 3 Physiopathologie**
+  - **🔄 Mécanisme général**
+    - Entrée du virus
+    - Infection des hépatocytes
+    - Réponse immunitaire
+    - Inflammation hépatique
+    - Cytolyse possible
+    - Augmentation des transaminases
+    - Guérison possible
+    - Chronicité possible selon le virus
+    - Forme sévère possible
+  - **♾️ Chronicité**
+    - Fibrose progressive possible
+    - Cirrhose possible
+    - Carcinome hépatocellulaire possible
+  - **🧠 Métaphore**
+    - Le foie est une grande usine
+    - L’inflammation répétée abîme progressivement ses unités de production
+- **🎯 4 Facteurs de risque**
+  - **🅰️ VHA**
+    - Zone d’endémie
+    - Hygiène précaire
+    - Exposition à un cas
+    - Vie en collectivité
+  - **🅱️ VHB**
+    - Rapports sexuels exposants
+    - Exposition au sang
+    - Usage de drogues injectables
+    - Naissance d’une mère infectée
+    - Exposition professionnelle
+  - **🅲️ VHC**
+    - Usage de drogues injectables
+    - Exposition au sang
+    - Matériel non stérile
+    - Accident d’exposition au sang
+  - **🅳️ VHD**
+    - Infection par le VHB
+  - **🅴️ VHE**
+    - Produits animaux insuffisamment cuits
+    - Exposition alimentaire
+    - Exposition hydrique
+    - Voyage selon zone d’endémie
+  - **⚠️ Formes sévères**
+    - Maladie hépatique préexistante
+    - Immunodépression
+    - Grossesse pour certaines infections
+    - Consommation excessive d’alcool
+- **🔎 5 Diagnostic**
+  - **💬 Signes cliniques**
+    - Asthénie
+    - Anorexie
+    - Nausées
+    - Vomissements
+    - Douleurs abdominales
+    - Fièvre possible
+    - Ictère possible
+    - Urines foncées
+    - Selles décolorées
+    - Arthralgies possibles
+    - Formes asymptomatiques fréquentes
+  - **🧪 Biologie**
+    - ALAT
+      - Cytolyse hépatique
+    - ASAT
+      - Cytolyse hépatique
+    - Bilirubine
+      - Hyperbilirubinémie possible
+    - Phosphatases alcalines
+      - Orientation cholestatique
+    - GGT
+      - Orientation cholestatique
+    - TP et INR
+      - Fonction de synthèse
+    - Albumine
+      - Fonction hépatique au long cours
+  - **🧫 Virologie**
+    - VHA
+      - IgM anti-VHA
+      - Infection aiguë
+    - VHB
+      - Ag HBs
+      - Ac anti-HBc
+      - Ac anti-HBs
+    - VHC
+      - Ac anti-VHC
+      - ARN du VHC si sérologie positive
+      - Infection active recherchée
+    - VHD
+      - Recherche dans le contexte du VHB
+    - VHE
+      - Sérologie selon contexte
+      - Recherche virale selon contexte
+  - **🖥️ Évaluation hépatique**
+    - Échographie selon indication
+    - Évaluation de la fibrose
+    - Élastométrie selon indication
+    - Surveillance du carcinome hépatocellulaire en cas de cirrhose
+- **🚨 6 Décompensation et pronostic**
+  - **🚑 Hépatite aiguë sévère**
+    - Ictère important
+    - Trouble de la coagulation
+    - INR augmenté
+    - Hypoglycémie possible
+    - Encéphalopathie
+    - Altération de la conscience
+    - Vomissements importants
+    - Aggravation rapide
+  - **🧠 Insuffisance hépatocellulaire aiguë**
+    - Défaillance majeure de la fonction hépatique
+    - Trouble de la coagulation
+    - Encéphalopathie
+    - Urgence spécialisée
+  - **♾️ Complications chroniques**
+    - Fibrose
+    - Cirrhose
+    - Hypertension portale
+    - Ascite
+    - Hémorragie digestive
+    - Encéphalopathie hépatique
+    - Carcinome hépatocellulaire
+    - Insuffisance hépatocellulaire
+- **💊 7 Traitements**
+  - **🅰️ Hépatite A**
+    - Traitement symptomatique
+    - Hydratation adaptée
+    - Surveillance clinique
+    - Pas d’antibiothérapie spécifique
+    - Vaccination selon indications
+  - **🅱️ Hépatite B**
+    - Forme aiguë
+      - Prise en charge principalement symptomatique
+    - Forme chronique
+      - Antiviral selon indication
+      - Surveillance virologique
+      - Surveillance hépatique
+    - Prévention
+      - Vaccination
+  - **🅲️ Hépatite C**
+    - Antiviraux d’action directe
+    - Traitements pangénotypiques possibles
+    - Traitement généralement court
+    - Objectif de guérison virologique
+    - Recherche des interactions
+    - Contrôle virologique après traitement
+  - **🅳️ Hépatite D**
+    - Prise en charge spécialisée
+    - Traitement selon profil virologique et hépatique
+    - Prévention par vaccination VHB
+  - **🅴️ Hépatite E**
+    - Traitement généralement symptomatique
+    - Pas d’antibiotique contre le virus
+    - Surveillance des personnes à risque
+    - Prévention par hygiène et cuisson adaptée
+- **👩‍⚕️ 8 Application infirmière**
+  - **📊 Surveillance clinique**
+    - Température
+    - Ictère
+    - Nausées
+    - Vomissements
+    - Douleur
+    - Conscience
+    - Hydratation
+    - Diurèse
+    - Saignements
+    - Poids
+    - Œdèmes
+  - **🧪 Surveillance biologique**
+    - Transaminases
+    - Bilirubine
+    - TP et INR
+    - Albumine
+    - NFS
+    - Créatinine
+    - Marqueurs virologiques
+  - **💊 Sécurisation**
+    - Vérifier la prescription
+    - Rechercher les allergies
+    - Rechercher les interactions
+    - Vérifier l’observance
+    - Surveiller les effets indésirables
+    - Prévenir l’automédication
+  - **🧤 Prévention**
+    - Précautions standard
+    - Hygiène des mains
+    - Gestion sécurisée des objets piquants et tranchants
+    - Ne jamais recapuchonner une aiguille utilisée
+    - Protection adaptée lors des soins exposant au sang
+    - Respect des protocoles d’AES
+  - **🚨 Alerte**
+    - Confusion
+    - Somnolence inhabituelle
+    - Saignement
+    - Ictère aggravé
+    - Vomissements répétés
+    - Dégradation rapide
+- **🎓 9 Éducation et prévention**
+  - **💉 Vaccination**
+    - Vaccination VHA dans les indications
+    - Vaccination VHB
+    - Vaccination VHB = prévention du VHD
+    - Pas de vaccin courant contre le VHC
+  - **🧼 Hygiène**
+    - Lavage des mains
+    - Hygiène alimentaire
+    - Eau potable
+    - Cuisson suffisante des aliments à risque
+  - **🩸 Prévention sanguine**
+    - Ne pas partager le matériel d’injection
+    - Matériel stérile pour tatouage et piercing
+    - Prévention des AES
+    - Précautions adaptées lors des soins
+  - **❤️ Prévention sexuelle**
+    - Préservatif selon situation
+    - Dépistage des IST selon exposition
+    - Vaccination VHB
+  - **📞 Consulter rapidement si**
+    - Ictère nouveau ou aggravé
+    - Confusion
+    - Somnolence inhabituelle
+    - Saignement
+    - Vomissements répétés
+    - Douleur abdominale importante
+    - Dégradation rapide
+- **💡 10 Exemple clinique**
+  - **Cas 1**
+    - Asthénie
+    - Nausées
+    - Urines foncées
+    - Ictère
+    - Séjour en zone d’endémie
+    - Hypothèse
+      - Hépatite aiguë à rechercher
+  - **Cas 2**
+    - Ac anti-VHC positifs
+    - Étape suivante
+      - Recherche de l’ARN du VHC
+      - Recherche d’une infection active
+  - **Cas 3**
+    - Infection chronique par le VHB
+    - Surveillance
+      - Activité virale
+      - Fonction hépatique
+      - Fibrose
+      - Complications
+- **🧠 11 Astuces de mémorisation**
+  - **🅰️ A = Aliment**
+    - Transmission féco-orale
+    - Pas de chronicité
+    - Vaccination
+  - **🅱️ B = Blood + rapports + Bébé**
+    - Sang
+    - Sexualité
+    - Transmission mère-enfant
+    - Vaccination
+    - Chronicité possible
+  - **🅲️ C = Circulation sanguine**
+    - Principalement sang
+    - Dépistage
+    - Traitement antiviral
+    - Guérison possible
+  - **🅳️ D = Dépend du B**
+    - Nécessite le VHB
+    - Prévention par vaccination VHB
+  - **🅴️ E = Eau + alimentation**
+    - Transmission entérique
+    - Aliments insuffisamment cuits
+    - Habituellement aiguë
+- **❓ 12 Questions classiques de partiel**
+  - **Hépatites pouvant devenir chroniques**
+    - VHB
+    - VHC
+    - VHD dans le contexte du VHB
+  - **Hépatite ne devenant pas chronique**
+    - VHA
+  - **Transmission principale du VHC**
+    - Sang
+  - **Prévention du VHD**
+    - Prévention du VHB
+    - Vaccination contre le VHB
+  - **Confirmation d’une infection active par le VHC**
+    - Recherche de l’ARN du VHC
+  - **Signe de gravité hépatique**
+    - Trouble de la coagulation
+    - Encéphalopathie
+- **⭐ 13 À retenir**
+  - **🅰️ VHA**
+    - Transmission féco-orale
+    - Aigu
+    - Vaccination
+  - **🅱️ VHB**
+    - Sang
+    - Sexualité
+    - Mère-enfant
+    - Vaccination
+    - Chronicité possible
+  - **🅲️ VHC**
+    - Sang
+    - Dépistage
+    - Antiviraux d’action directe
+    - Guérison possible
+  - **🅳️ VHD**
+    - Dépend du VHB
+    - Prévention par vaccination VHB
+  - **🅴️ VHE**
+    - Transmission entérique et alimentaire
+    - Habituellement aigu
+  - **🟡 Ictère**
+    - Signe possible
+    - Non constant
+  - **🧪 Transaminases**
+    - Témoignent d’une cytolyse hépatique
+  - **🚨 INR + encéphalopathie**
+    - Signes de gravité
+  - **👩‍⚕️ Rôle infirmier**
+    - Surveiller
+    - Prévenir
+    - Sécuriser
+    - Éduquer
+    - Alerter
+- **📚 Sources officielles et professionnelles françaises**
+  - **Ministère de la Santé**
+    - Documents de référence
+    - Mise à jour 25 février 2025
+    - https://sante.gouv.fr/soins-et-maladies/maladies/hepatites-virales/article/hepatites-virales-documents-de-reference
+  - **Ministère de la Santé**
+    - Hépatite A
+    - Mise à jour 17 juillet 2026
+    - https://sante.gouv.fr/soins-et-maladies/maladies/hepatites-virales/article/l-hepatite-a
+  - **Ministère de la Santé**
+    - Hépatite B
+    - Mise à jour 28 juillet 2025
+    - https://sante.gouv.fr/soins-et-maladies/maladies/hepatites-virales/article/l-hepatite-b
+  - **Ministère de la Santé**
+    - Hépatite C
+    - Mise à jour 28 juillet 2025
+    - https://sante.gouv.fr/soins-et-maladies/maladies/hepatites-virales/article/l-hepatite-c
+  - **Ministère de la Santé**
+    - Hépatite D
+    - Mise à jour 28 juillet 2025
+    - https://sante.gouv.fr/soins-et-maladies/maladies/hepatites-virales/article/l-hepatite-d-ou-delta
+  - **Ministère de la Santé**
+    - Hépatite E
+    - https://sante.gouv.fr/soins-et-maladies/maladies/hepatites-virales/article/l-hepatite-e
+  - **HAS**
+    - Dépistage biologique des hépatites B et C
+    - https://www.has-sante.fr/jcms/c_1050355/fr/strategies-de-depistage-biologique-des-hepatites-virales-b-et-c
+  - **HAS**
+    - Hépatite C prise en charge simplifiée chez l’adulte
+    - https://www.has-sante.fr/jcms/c_2911891/fr/hepatite-c-prise-en-charge-simplifiee-chez-l-adulte
+  - **Santé publique France**
+    - Dossier Hépatites virales
+    - https://www.santepubliquefrance.fr/
+  - **Légifrance**
+    - Référentiel de formation infirmière
+    - https://www.legifrance.gouv.fr/

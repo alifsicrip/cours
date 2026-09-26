@@ -1,0 +1,442 @@
+# 🦠 UE 2.5 S3 — Tuberculose, rage, tétanos et infections respiratoires basses
+- **🎓 Fiche de révision IFSI — Semestre 3**
+  - **Objectif**
+    - Comprendre
+    - Repérer
+    - Prendre en charge
+    - Surveiller
+    - Prévenir
+    - Éduquer
+- **🔑 1. Définitions clés**
+  - **🦠 Tuberculose**
+    - Infection due au complexe Mycobacterium tuberculosis
+  - **🫁 Tuberculose pulmonaire**
+    - Atteinte pulmonaire pouvant être contagieuse par voie aérienne
+  - **🧠 Infection tuberculeuse latente**
+    - Infection sans symptômes
+    - Pas de contagiosité
+    - Bacilles contrôlés par l’immunité
+  - **🐕 Rage**
+    - Encéphalomyélite virale
+    - Transmission principalement par la salive d’un animal infecté
+  - **🧫 Tétanos**
+    - Maladie neurologique aiguë
+    - Due à la neurotoxine de Clostridium tetani
+  - **🫁 Bronchite aiguë**
+    - Infection ou inflammation bronchique
+    - Le plus souvent virale
+  - **🫁 Pneumonie**
+    - Infection du parenchyme pulmonaire
+  - **🚨 Sepsis**
+    - Défaillance d’organe liée à une réponse inadaptée à une infection
+- **🦠 2. Tuberculose — causes et mécanismes**
+  - **🧫 Agent**
+    - Complexe Mycobacterium tuberculosis
+  - **💨 Transmission**
+    - Principalement aérienne
+    - Source principale = tuberculose pulmonaire ou laryngée contagieuse
+  - **⚙️ Physiopathologie**
+    - Inhalation des bacilles
+    - Arrivée dans les voies respiratoires distales
+    - Interaction avec les macrophages
+    - Réponse immunitaire
+    - Formation de granulomes
+    - **🛡️ Infection tuberculeuse latente**
+      - Bacilles contrôlés
+      - Pas de symptômes
+      - Pas de contagiosité
+    - **🔥 Tuberculose maladie**
+      - Multiplication bacillaire
+      - Lésions tissulaires
+      - Symptômes possibles
+      - Contagiosité possible si atteinte pulmonaire ou laryngée
+    - **🧠 Métaphore**
+      - ITL = braise sous contrôle
+      - Maladie = feu qui reprend
+  - **🎯 Facteurs de risque**
+    - Contact étroit
+    - Promiscuité
+    - Hébergement collectif
+    - Zone de forte incidence
+    - VIH
+    - Immunodépression
+    - Traitements immunosuppresseurs
+    - Précarité
+    - Certaines comorbidités
+- **🔎 3. Tuberculose — diagnostic**
+  - **Signes cliniques**
+    - Toux persistante
+    - Expectoration
+    - Fièvre prolongée
+    - Sueurs nocturnes
+    - Asthénie
+    - Amaigrissement
+    - Douleur thoracique possible
+    - Hémoptysie possible
+  - **🧪 Examens**
+    - Radiographie thoracique
+    - TDM thoracique selon contexte
+    - Prélèvements respiratoires
+    - Amplification génique
+    - Culture
+    - IGRA ou IDR selon situation
+  - **⭐ Principe**
+    - Diagnostic = données cliniques + radiologiques + microbiologiques
+- **💊 4. Tuberculose — traitement et rôle infirmier**
+  - **Traitement**
+    - Association de plusieurs antituberculeux
+    - Traitement généralement prolongé
+    - Schéma standard souvent autour de 6 mois
+    - Adaptation selon situation
+  - **⚠️ Risques**
+    - Effets indésirables
+    - Interactions
+    - Mauvaise observance
+    - Rechute
+    - Résistances
+  - **👩‍⚕️ Surveillance**
+    - Observance
+    - Tolérance
+    - Examens prescrits
+    - Précautions respiratoires prescrites
+    - Éducation
+    - Coordination avec les équipes spécialisées
+- **🐕 5. Rage**
+  - **Définition**
+    - Encéphalomyélite virale
+    - Presque toujours mortelle après apparition des symptômes
+  - **Expositions**
+    - Morsure
+    - Griffure contaminée par salive
+    - Léchage d’une plaie
+    - Salive sur muqueuse
+    - Exposition à une chauve-souris
+  - **🚨 Après exposition**
+    - **1 — Laver**
+      - Eau + savon pendant 15 minutes
+      - Antisepsie soigneuse
+    - **2 — Faire évaluer**
+      - Animal
+      - Pays
+      - Type d’exposition
+      - Localisation
+      - Statut vaccinal
+    - **3 — Prophylaxie**
+      - Vaccination antirabique selon indication
+      - Immunoglobulines selon indication
+  - **👩‍⚕️ Rôle infirmier**
+    - Tracer l’exposition
+    - Surveiller la plaie
+    - Vérifier statut antitétanique
+    - Vérifier rendez-vous et injections
+    - Renforcer l’adhésion
+  - **🧠 Astuce**
+    - R = Rincer
+    - A = Alerter
+    - G = Gérer
+    - E = Éduquer
+- **🧫 6. Tétanos**
+  - **⚙️ Physiopathologie**
+    - Spores de Clostridium tetani
+    - Entrée par une plaie
+    - Germination
+    - Production de toxine
+    - Blocage des mécanismes inhibiteurs
+    - Rigidité
+    - Spasmes
+  - **🧠 Métaphore**
+    - La toxine retire les freins du système moteur
+  - **🎯 Facteurs de risque**
+    - Vaccination absente
+    - Vaccination incomplète
+    - Rappels non à jour
+    - Plaie profonde
+    - Plaie souillée
+    - Tissus dévitalisés
+    - Contamination tellurique
+  - **🔎 Signes**
+    - Trismus
+    - Rigidité
+    - Spasmes douloureux
+    - Dysphagie possible
+    - Troubles respiratoires possibles
+  - **💉 Prophylaxie**
+    - **Deux éléments**
+      - Type de plaie
+      - Statut vaccinal
+    - **🟢 Plaie mineure et propre**
+      - Vaccination à jour
+        - Pas d’injection immédiate
+      - Vaccination insuffisante
+        - Vaccin contenant la valence tétanique selon recommandations
+    - **🔴 Plaie majeure ou contaminée**
+      - Vaccination à jour
+        - Pas d’injection immédiate
+      - Vaccination insuffisante
+        - Vaccin
+        - Immunoglobuline tétanique humaine selon recommandations
+  - **👩‍⚕️ Rôle infirmier**
+    - Évaluer la plaie
+    - Vérifier le dernier rappel
+    - Vérifier le calendrier vaccinal
+    - Réaliser les soins prescrits
+    - Administrer selon prescription ou protocole
+    - Tracer
+    - Informer
+  - **⭐ À retenir**
+    - Tétanos = plaie + statut vaccinal
+- **🫁 7. Infections respiratoires basses**
+  - **🟢 Bronchite aiguë**
+    - Inflammation ou infection bronchique
+    - Le plus souvent virale
+  - **🫁 Pneumonie**
+    - Infection du parenchyme pulmonaire
+  - **🚨 Insuffisance respiratoire aiguë**
+    - Oxygénation et/ou ventilation insuffisantes
+- **🟢 8. Bronchite aiguë**
+  - **Signes**
+    - Toux
+    - Expectoration possible
+    - Fièvre généralement modérée
+    - Gêne thoracique possible
+    - Râles bronchiques possibles
+  - **⚠️ À ne pas confondre**
+    - Expectorations jaunes ou vertes ≠ preuve de bactérie
+  - **Traitement**
+    - Repos
+    - Hydratation adaptée
+    - Traitement symptomatique
+    - Antibiotique généralement non indiqué chez l’adulte sain sans argument bactérien
+  - **⭐ Évolution**
+    - Toux parfois prolongée plusieurs semaines
+- **🫁 9. Pneumonie**
+  - **Causes**
+    - Bactéries
+    - Virus
+    - Autres micro-organismes plus rarement
+  - **🎯 Facteurs de risque de forme grave**
+    - Âge avancé
+    - BPCO
+    - Insuffisance cardiaque
+    - Maladie rénale
+    - Maladie hépatique
+    - Immunodépression
+    - Hospitalisation récente
+    - Fragilité
+  - **🔎 Signes**
+    - Fièvre
+    - Frissons
+    - Toux
+    - Dyspnée
+    - Douleur thoracique
+    - Asthénie
+    - Confusion possible chez la personne âgée
+  - **🧪 Diagnostic**
+    - Examen clinique
+    - Radiographie thoracique selon contexte
+    - Biologie selon gravité
+    - Microbiologie selon indication
+  - **🚨 Signes de gravité**
+    - Polypnée
+    - Désaturation
+    - Hypoxémie
+    - Difficulté à parler
+    - Tirage
+    - Cyanose
+    - Confusion
+    - Hypotension
+    - Altération importante
+    - Épuisement respiratoire
+  - **💊 Traitement**
+    - Antibiothérapie si pneumonie bactérienne
+    - Choix selon germe suspecté
+    - Adaptation au terrain
+    - Adaptation à la gravité
+    - Oxygénothérapie si indication
+    - Hydratation adaptée
+    - Antalgie ou antipyrétique selon prescription
+    - Hospitalisation si mauvaise tolérance ou terrain à risque
+- **👩‍⚕️ 10. Surveillance infirmière respiratoire**
+  - **🫁 Respiration**
+    - FR
+    - SpO₂
+    - Dyspnée
+    - Travail respiratoire
+    - Toux
+    - Expectorations
+  - **❤️ Circulation**
+    - FC
+    - PA
+    - Perfusion périphérique
+  - **🧠 Neurologique**
+    - Conscience
+    - Confusion
+    - Agitation
+    - Somnolence
+  - **🌡️ Infectieux**
+    - Température
+    - Frissons
+    - État général
+  - **🤕 Douleur**
+    - Localisation
+    - Intensité
+    - Évolution
+  - **💧 Élimination**
+    - Diurèse selon contexte
+  - **📈 Évolution**
+    - Comparaison aux valeurs antérieures
+    - Réévaluation après intervention
+- **⚠️ 11. Risques et complications**
+  - **Tuberculose**
+    - Hémoptysie
+    - Atteinte respiratoire
+    - Dissémination
+    - Résistances
+  - **Rage**
+    - Encéphalite
+    - Décès après apparition des symptômes
+  - **Tétanos**
+    - Spasmes généralisés
+    - Troubles respiratoires
+    - Complications autonomiques
+  - **Pneumonie**
+    - Sepsis
+    - Insuffisance respiratoire aiguë
+    - Défaillances d’organes
+  - **Bronchite aiguë**
+    - Évolution généralement favorable
+    - Complications surtout chez les terrains fragiles
+- **📈 12. Pronostic et décompensation**
+  - **Tuberculose**
+    - Évolution généralement favorable si traitement correctement conduit
+    - Traitement prolongé
+    - Observance essentielle
+  - **Rage**
+    - Pronostic extrêmement défavorable après symptômes
+  - **Tétanos**
+    - Gravité variable
+    - Formes généralisées potentiellement sévères
+  - **Pneumonie**
+    - Évolution souvent favorable avec prise en charge adaptée
+    - Risque accru si sepsis ou insuffisance respiratoire
+  - **Terrain fragile**
+    - Risque accru de complications
+- **💊 13. Traitements non médicamenteux et soins**
+  - **Repos adapté**
+    - Réduire fatigue et besoins métaboliques
+  - **Hydratation adaptée**
+    - Prévenir la déshydratation selon situation
+  - **Oxygénothérapie**
+    - Corriger l’hypoxémie selon indication
+  - **Soins de plaie**
+    - Réduire contamination et complications
+  - **Vaccination**
+    - Prévenir certaines infections
+  - **Éducation**
+    - Favoriser observance et prévention
+  - **Coordination**
+    - Assurer continuité du parcours
+  - **Kinésithérapie respiratoire**
+    - Pas systématique dans les formes simples
+    - Indication selon situation clinique
+- **🎓 14. Éducation thérapeutique et prévention**
+  - **Traitements**
+    - Respecter les prescriptions
+    - Ne pas interrompre sans avis
+  - **Transmission**
+    - Respecter les mesures prescrites
+  - **Vaccination**
+    - Maintenir les vaccinations à jour
+  - **Rage**
+    - Consulter rapidement après exposition à risque
+  - **Tétanos**
+    - Connaître son statut vaccinal
+  - **Respiration**
+    - Consulter en cas d’aggravation
+- **💡 15. Exemples cliniques**
+  - **Tuberculose**
+    - Toux persistante
+    - Sueurs nocturnes
+    - Amaigrissement
+    - Suspecter et évaluer
+  - **Rage**
+    - Morsure dans une zone où la rage circule
+    - Lavage 15 minutes
+    - Évaluation urgente
+  - **Tétanos**
+    - Plaie souillée
+    - Statut vaccinal inconnu
+    - Évaluer plaie + vaccination
+  - **Pneumonie**
+    - Fièvre
+    - Dyspnée
+    - Polypnée
+    - Confusion
+    - Rechercher une forme grave
+- **🧠 16. Astuces de mémorisation**
+  - **Tuberculose**
+    - Air → poumon → bacille → traitement long
+  - **Rage**
+    - 15 min → avis → prophylaxie
+  - **Tétanos**
+    - Plaie + vaccination
+  - **Pneumonie**
+    - Fièvre + signes respiratoires + atteinte pulmonaire
+  - **Bronchite**
+    - Toux + souvent virale + antibiotique généralement inutile
+- **❓ 17. Questions classiques de partiel**
+  - **Pourquoi l’ITL n’est-elle pas contagieuse**
+    - Les bacilles sont contrôlés
+    - Il n’existe pas de tuberculose pulmonaire ou laryngée contagieuse
+  - **Première mesure après exposition potentielle à la rage**
+    - Lavage eau + savon pendant 15 minutes
+    - Évaluation rapide
+  - **Deux éléments pour la prophylaxie antitétanique**
+    - Type de plaie
+    - Statut vaccinal
+  - **Pourquoi les expectorations colorées ne suffisent-elles pas**
+    - Leur coloration ne prouve pas une infection bactérienne
+  - **Signes de pneumonie grave**
+    - Polypnée
+    - Hypoxémie ou désaturation
+    - Tirage
+    - Cyanose
+    - Confusion
+    - Hypotension
+    - Épuisement respiratoire
+- **⭐ 18. À retenir**
+  - **Tuberculose**
+    - Transmission principalement aérienne
+  - **ITL**
+    - Pas de symptômes
+    - Pas de contagiosité
+  - **Rage**
+    - Agir avant les symptômes
+  - **Exposition rage**
+    - Lavage 15 minutes
+    - Évaluation urgente
+  - **Tétanos**
+    - Plaie + statut vaccinal
+  - **Bronchite**
+    - Le plus souvent virale
+  - **Pneumonie**
+    - Infection du parenchyme pulmonaire
+  - **Décompensation**
+    - Altération respiratoire, neurologique ou circulatoire = réévaluation rapide
+- **📚 Sources**
+  - **Ministère chargé de la Santé**
+    - Tuberculose
+    - Vaccination
+    - Prévention du tétanos
+  - **Santé publique France**
+    - Surveillance de la tuberculose
+  - **HAS**
+    - Recommandations tuberculose
+    - Recommandations antibiothérapie et infections respiratoires
+  - **Institut Pasteur**
+    - Rage
+  - **ameli**
+    - Bronchite aiguë
+    - Pneumonie
+  - **Légifrance**
+    - Référentiel de formation conduisant au diplôme d’État infirmier

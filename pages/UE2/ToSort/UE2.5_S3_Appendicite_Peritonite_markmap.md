@@ -1,0 +1,371 @@
+# 🦠 UE 2.5 S3 — Appendicite aiguë & péritonite
+- **🎓 Niveau IFSI S3**
+  - Comprendre
+  - Repérer
+  - Prendre en charge
+  - Surveiller
+  - Prévenir les complications
+- **🔑 1 Définitions clés**
+  - **🩺 Appendicite aiguë**
+    - Inflammation aiguë de l’appendice
+    - Souvent liée à une obstruction de sa lumière
+    - Peut évoluer vers une perforation
+  - **🧫 Péritonite**
+    - Inflammation du péritoine
+    - Le plus souvent infectieuse
+    - Peut être secondaire à une perforation digestive
+  - **🚨 Péritonite généralisée**
+    - Atteinte étendue de la cavité péritonéale
+  - **🎯 Péritonite localisée**
+    - Infection contenue par les structures voisines
+    - Peut former un abcès
+    - Peut former un plastron
+  - **💥 Perforation appendiculaire**
+    - Rupture de la paroi appendiculaire
+    - Diffusion possible du contenu infecté
+  - **🦠 Infection intra-abdominale**
+    - Infection localisée ou diffuse de la cavité abdominale
+  - **🩸 Sepsis**
+    - Défaillance d’organe liée à une réponse inadaptée à une infection
+  - **⚠️ À ne pas confondre**
+    - Appendicite = atteinte de l’appendice
+    - Péritonite = atteinte du péritoine
+    - Abcès appendiculaire = collection purulente localisée
+- **⚙️ 2 Physiopathologie**
+  - **🔄 Évolution typique**
+    - Obstruction de la lumière appendiculaire
+      - Fécalithe possible
+      - Hyperplasie lymphoïde possible
+    - Accumulation de sécrétions
+    - Augmentation de la pression intraluminale
+    - Stase
+    - Prolifération bactérienne
+    - Inflammation
+    - Œdème
+    - Ischémie possible
+    - Nécrose possible
+    - Perforation possible
+    - Contamination péritonéale
+    - Péritonite localisée ou généralisée
+    - Sepsis possible
+  - **🧠 Métaphore**
+    - L’appendice devient comme une petite poche bouchée
+    - La pression augmente
+    - La paroi souffre
+    - La paroi peut se rompre
+  - **🦠 Microbiologie**
+    - Infection généralement polymicrobienne
+    - Flore digestive impliquée
+    - Bactéries aérobies
+    - Bactéries anaérobies
+    - Antibiothérapie adaptée au contexte
+- **🎯 3 Causes et facteurs de risque**
+  - **🚧 Obstruction appendiculaire**
+    - Fécalithe
+    - Hyperplasie lymphoïde
+    - Autre obstacle
+  - **🦠 Infection et inflammation**
+    - Prolifération bactérienne secondaire
+  - **💥 Perforation**
+    - Nécrose pariétale
+    - Rupture de la paroi
+  - **🧩 Causes secondaires**
+    - Cause tumorale possible
+    - Autre cause obstructive possible
+  - **⚠️ Facteurs associés aux formes compliquées**
+    - Retard diagnostique
+    - Retard thérapeutique
+    - Perforation
+    - Abcès
+    - Plastron
+    - Terrain fragile
+    - Immunodépression
+    - Comorbidités importantes
+    - Sepsis
+    - Défaillance d’organe
+- **🔎 4 Diagnostic**
+  - **💬 Signes cliniques de l’appendicite**
+    - Douleur péri-ombilicale possible
+    - Migration vers la fosse iliaque droite possible
+    - Anorexie
+    - Nausées
+    - Vomissements possibles
+    - Fièvre possible
+    - Douleur à la palpation
+    - Défense possible
+  - **🫃 Signes cliniques de péritonite**
+    - Douleur abdominale intense
+    - Douleur localisée ou diffuse
+    - Défense
+    - Contracture
+    - Douleur à la mobilisation
+    - Nausées
+    - Vomissements
+    - Iléus possible
+    - Altération de l’état général
+  - **🧪 Biologie**
+    - NFS
+      - Recherche d’une hyperleucocytose
+    - CRP
+      - Recherche d’un syndrome inflammatoire
+    - Ionogramme sanguin
+      - Évaluation hydro-électrolytique
+    - Créatinine
+      - Évaluation de la fonction rénale
+    - Hémocultures
+      - Selon contexte de sepsis ou infection sévère
+  - **🖥️ Imagerie**
+    - Choix selon âge
+    - Choix selon sexe
+    - Choix selon grossesse
+    - Choix selon contexte clinique
+    - Échographie
+      - Possible notamment chez l’enfant
+      - Possible notamment chez la femme enceinte selon la situation
+    - Scanner abdomino-pelvien
+      - Fréquemment utilisé chez l’adulte lorsque nécessaire
+      - Recherche appendicite
+      - Recherche perforation
+      - Recherche abcès
+      - Recherche autre cause
+  - **⚠️ Diagnostic différentiel**
+    - Douleur en fosse iliaque droite non spécifique
+    - Cause gynécologique possible
+    - Grossesse extra-utérine à envisager chez la femme en âge de procréer
+    - Autres causes de douleur abdominale aiguë possibles
+- **🚨 5 Décompensation et signes de gravité**
+  - **🚑 Signes d’alerte**
+    - 🧠 Confusion
+    - 🧠 Altération de la conscience
+    - 🫁 Polypnée
+    - 🫁 Difficulté respiratoire
+    - ❤️ Tachycardie importante
+    - 🩸 Hypotension
+    - 💧 Oligurie
+    - 🌡️ Hypothermie
+    - 🌡️ Hyperthermie importante
+    - 😵 Malaise
+    - 😵 Altération majeure de l’état général
+    - 🤕 Aggravation rapide de la douleur
+  - **🦠 Sepsis**
+    - Infection associée à une défaillance d’organe
+    - Urgence diagnostique et thérapeutique
+  - **⭐ Pronostic**
+    - Appendicite non compliquée prise en charge rapidement
+      - Évolution généralement favorable
+    - Perforation
+      - Risque accru de complications
+    - Péritonite
+      - Risque accru de complications
+    - Sepsis
+      - Risque de défaillance multiviscérale
+- **⚠️ 6 Risques et complications**
+  - **💥 Complications abdominales**
+    - Perforation appendiculaire
+    - Abcès appendiculaire
+    - Plastron appendiculaire
+    - Péritonite localisée
+    - Péritonite généralisée
+    - Iléus
+    - Occlusion possible
+  - **🩸 Complications systémiques**
+    - Bactériémie
+    - Sepsis
+    - Défaillance d’organe
+    - Défaillance multiviscérale
+- **💊 7 Traitements**
+  - **🩺 Appendicite non compliquée**
+    - Évaluation médico-chirurgicale
+    - Antalgie adaptée
+    - Réhydratation selon l’état clinique
+    - Antibiothérapie selon indication
+    - Appendicectomie possible
+    - Stratégie non opératoire possible chez certain·es patient·es sélectionné·es
+    - Décision médicale et chirurgicale
+    - Information du ou de la patient·e
+  - **🚨 Appendicite compliquée**
+    - Antibiothérapie probabiliste IV selon le contexte
+    - Adaptation secondaire selon microbiologie
+    - Réanimation symptomatique si défaillance
+    - Contrôle de la source infectieuse
+    - Chirurgie lorsque nécessaire
+    - Drainage percutané possible dans certaines collections
+  - **🔪 Chirurgie**
+    - Appendicectomie
+    - Cœlioscopie fréquemment utilisée lorsque adaptée
+    - Laparotomie possible selon gravité
+    - Traitement de la source
+    - Lavage péritonéal selon constatations
+    - Prélèvements microbiologiques selon indication
+  - **💧 Mesures non médicamenteuses**
+    - Repos adapté
+    - Jeûne selon indication
+    - Perfusion IV si nécessaire
+    - Prévention des complications du décubitus
+    - Reprise progressive de l’alimentation
+  - **🏃 Kinésithérapie**
+    - Pas d’indication spécifique habituelle dans l’appendicite simple
+    - Mobilisation précoce après chirurgie
+    - Prévention des complications du décubitus
+    - Kinésithérapie respiratoire selon indication
+- **👩‍⚕️ 8 Application infirmière**
+  - **📊 Évaluation initiale**
+    - Constantes complètes
+    - Douleur
+    - État abdominal
+    - État général
+    - Diurèse
+    - Conscience
+  - **💊 Sécurisation**
+    - Allergies
+    - Traitements
+    - Grossesse possible
+    - Voie veineuse
+  - **🧪 Prélèvements**
+    - Réaliser les prélèvements prescrits
+    - Respecter les conditions de recueil
+  - **🍽️ Préparation**
+    - Respecter le jeûne prescrit
+    - Préparer une éventuelle anesthésie
+  - **💉 Traitements**
+    - Administrer les traitements prescrits
+    - Surveiller efficacité
+    - Surveiller tolérance
+  - **🔪 Surveillance postopératoire**
+    - Constantes
+    - Douleur
+    - Plaie
+    - Pansements
+    - Drains
+    - Diurèse
+    - Nausées
+    - Vomissements
+    - Reprise du transit
+    - Tolérance alimentaire
+    - Risque thromboembolique
+    - Mobilisation
+  - **🚨 Raisonnement clinique**
+    - Douleur + fièvre + tachycardie + hypotension + oligurie
+      - Rechercher une aggravation infectieuse
+      - Rechercher un sepsis
+      - Alerter rapidement
+      - Appliquer prescriptions et protocoles
+- **🎓 9 Éducation thérapeutique**
+  - **🗣️ Information**
+    - Expliquer la pathologie
+    - Expliquer le traitement
+    - Expliquer les soins de plaie si nécessaire
+  - **🚶 Autonomie**
+    - Mobilisation progressive
+    - Reprise alimentaire selon consignes
+  - **📞 Signes d’alerte**
+    - Fièvre persistante ou réapparition
+    - Douleur abdominale croissante
+    - Vomissements répétés
+    - Distension abdominale importante
+    - Rougeur inhabituelle de la plaie
+    - Écoulement inhabituel
+    - Malaise
+    - Altération de l’état général
+    - Diminution importante de la diurèse
+- **💡 10 Exemple clinique**
+  - **Cas 1**
+    - Patient·e de 22 ans
+    - Douleur péri-ombilicale
+    - Migration vers la fosse iliaque droite
+    - Anorexie
+    - Nausées
+    - Fièvre modérée
+    - Hypothèse principale
+      - Appendicite aiguë
+  - **Cas 2**
+    - Douleur devenue diffuse
+    - Abdomen très douloureux
+    - Tachycardie
+    - Hypotension
+    - Altération de l’état général
+    - Hypothèse
+      - Péritonite compliquée
+      - Risque de sepsis
+- **🧠 11 Astuce de mémorisation**
+  - **Chaîne clé**
+    - Bouchon
+    - Inflammation
+    - Nécrose
+    - Perforation
+    - Péritonite
+    - Sepsis
+  - **📍 APPENDICE**
+    - Douleur qui se localise
+  - **💥 PERFORATION**
+    - Rupture
+  - **🫃 PÉRITOINE**
+    - Ventre très inflammatoire
+  - **🚨 SEPSIS**
+    - Organes qui souffrent
+- **❓ 12 Questions classiques de partiel**
+  - **Différence appendicite et péritonite**
+    - Appendicite = atteinte de l’appendice
+    - Péritonite = atteinte du péritoine
+    - Péritonite possible après perforation appendiculaire
+  - **Signes de péritonite**
+    - Douleur abdominale intense
+    - Défense
+    - Contracture
+    - Signes infectieux
+    - Altération de l’état général
+  - **Signes infirmiers faisant rechercher un sepsis**
+    - Altération de la conscience
+    - Polypnée
+    - Hypotension
+    - Tachycardie
+    - Oligurie
+    - Aggravation rapide
+  - **Pourquoi surveiller la diurèse**
+    - Repérer une hypoperfusion
+    - Repérer une défaillance rénale
+- **⭐ 13 À retenir**
+  - **🩺 Appendicite**
+    - Inflammation aiguë de l’appendice
+  - **💥 Perforation**
+    - Rupture de la paroi
+    - Diffusion infectieuse possible
+  - **🫃 Péritonite**
+    - Inflammation ou infection du péritoine
+  - **🚨 Sepsis**
+    - Infection associée à une défaillance d’organe
+  - **🔪 Traitement**
+    - Contrôler la source infectieuse
+    - Soins de support
+    - Antibiothérapie selon indication
+  - **👩‍⚕️ Rôle infirmier**
+    - Évaluer
+    - Surveiller
+    - Prévenir
+    - Alerter
+    - Administrer les traitements prescrits
+    - Éduquer
+  - **🧠 Chaîne clé**
+    - Obstruction
+    - Inflammation
+    - Perforation
+    - Péritonite
+    - Sepsis
+- **📚 Sources officielles et professionnelles françaises**
+  - **HAS**
+    - Item 356 Appendicite de l’enfant et de l’adulte
+    - https://www.has-sante.fr/jcms/c_2615267/fr/xii-urgences-et-defaillances-viscerales-aigues
+  - **HAS**
+    - Prise en charge du sepsis
+    - Validation janvier 2025
+    - https://www.has-sante.fr/jcms/p_3587144/fr/prise-en-charge-du-sepsis-du-nouveau-ne-de-l-enfant-et-de-l-adulte-recommandations-pour-un-parcours-de-soins-integre
+  - **SFAR et sociétés partenaires**
+    - Infections intra-abdominales de l’adulte
+    - RFE du 24 juin 2026
+    - https://sfar.org/prise-en-charge-therapeutique-des-infections-intra-abdominales-de-ladulte/
+  - **Légifrance**
+    - Référentiel de formation infirmière
+    - https://www.legifrance.gouv.fr/
+  - **SPILF**
+    - Société de pathologie infectieuse de langue française
+    - https://www.infectiologie.com/

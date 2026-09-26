@@ -1,0 +1,301 @@
+# 🚨 UE 2.5 S3 — Choc septique
+- **🔑 1. Définitions clés**
+  - **Infection**
+    - Invasion de l’organisme par un micro-organisme pathogène
+  - **Sepsis**
+    - Défaillance d’organe menaçant la vie causée par une réponse dérégulée à une infection
+  - **Choc septique**
+    - Forme grave du sepsis avec anomalies circulatoires et métaboliques persistantes
+    - Vasopresseur nécessaire pour maintenir une PAM ≥ 65 mmHg
+    - Lactate > 2 mmol/L malgré un remplissage adapté
+  - **SOFA**
+    - Score des défaillances respiratoire, neurologique, cardiovasculaire, hépatique, rénale et de coagulation
+  - **qSOFA**
+    - FR ≥ 22/min
+    - PAS ≤ 100 mmHg
+    - Altération mentale
+    - Outil d’alerte mais pas test diagnostique isolé
+  - **⚠️ À ne pas confondre**
+    - Infection ≠ sepsis
+    - Sepsis ≠ choc septique
+- **🦠 2. Causes et mécanismes**
+  - **Foyers fréquents**
+    - 🫁 Pulmonaire
+      - Pneumonie
+    - 🚽 Urinaire
+      - Pyélonéphrite
+      - Obstacle infecté
+    - 🍽️ Abdominal
+      - Péritonite
+      - Angiocholite
+    - 🧴 Cutané
+      - Dermohypodermite
+      - Fasciite
+    - 🧠 Neuroméningé
+      - Méningite
+    - 🏥 Lié aux soins
+      - Cathéter
+      - Dispositif invasif
+  - **Agents**
+    - Bactéries le plus souvent
+    - Virus, champignons ou parasites possibles
+  - **🧠 Métaphore**
+    - 🦠 Infection = feu local
+    - 🔥 Réponse dérégulée = incendie généralisé
+    - 🩸 Vaisseaux dilatés et perméables = pression et perfusion chutent
+- **⚙️ 3. Physiopathologie**
+  - **Cascade**
+    - Infection
+      - Réponse immunitaire dérégulée
+        - Inflammation systémique
+          - Vasoplégie
+          - Hyperperméabilité capillaire
+          - Dysfonction endothéliale
+            - Microthrombi
+            - Trouble de la microcirculation
+          - Hypotension et hypovolémie relative
+            - Hypoperfusion
+              - Hyperlactatémie
+              - Défaillances multiviscérales
+  - **Atteintes**
+    - 🫀 Dépression myocardique possible
+    - 🫁 Hypoxie cellulaire
+    - 🫘 Insuffisance rénale
+    - 🧠 Encéphalopathie
+    - 🩸 Coagulopathie
+- **🎯 4. Facteurs de risque**
+  - **Terrain**
+    - Âge > 65 ans
+    - Fragilité
+    - Dénutrition
+  - **Immunité**
+    - Cancer ou neutropénie
+    - Immunosuppresseur
+    - Asplénie
+    - VIH avancé
+  - **Comorbidités**
+    - Diabète
+    - Insuffisance rénale, hépatique, cardiaque ou respiratoire
+  - **Soins**
+    - Chirurgie ou hospitalisation récente
+    - Dispositif invasif
+    - Antibiothérapie récente
+  - **Foyer non contrôlé**
+    - Abcès
+    - Obstacle
+    - Perforation
+    - Matériel infecté
+- **🔎 5. Diagnostic**
+  - **Repérage HAS adulte**
+    - Suspecter si au moins 3 critères parmi 6
+      - Âge > 65 ans
+      - T° > 38 °C
+      - PAS ≤ 110 mmHg
+      - FC > 110/min
+      - SpO₂ ≤ 95 %
+      - Troubles des fonctions supérieures
+  - **Signes cliniques**
+    - 🌡️ Fièvre ou hypothermie
+    - 🩸 Hypotension, tachycardie, marbrures, TRC allongé
+    - 🫁 Polypnée, dyspnée, désaturation
+    - 🧠 Confusion, agitation ou somnolence
+    - 💧 Oligurie ou anurie
+    - 🧴 Purpura ou cyanose
+  - **Examens paracliniques**
+    - 🧫 Hémocultures
+      - Avant antibiotique si cela ne le retarde pas
+    - 🧪 Lactate
+      - Gravité et suivi de la réponse
+    - 🩸 NFS, plaquettes, CRP
+    - 🧬 Coagulation et fibrinogène
+    - 🫘 Créatinine et ionogramme
+    - 🫁 Gaz du sang
+    - 🧫 Prélèvements ciblés selon le foyer
+    - 🖥️ Imagerie pour localiser et contrôler le foyer
+  - **⚠️ Vigilance**
+    - Un lactate normal n’exclut pas un sepsis
+    - Les prélèvements ne doivent pas retarder l’antibiothérapie urgente
+- **🚨 6. Décompensation et signes de gravité**
+  - **Circulatoire**
+    - PAM < 65 mmHg
+    - Vasopresseur nécessaire
+    - Marbrures extensives
+  - **Métabolique**
+    - Lactate > 2 mmol/L malgré remplissage adapté
+    - Acidose
+  - **Respiratoire**
+    - Hypoxémie
+    - Besoin croissant en oxygène
+    - SDRA
+  - **Neurologique**
+    - Confusion aiguë
+    - Glasgow en baisse
+  - **Rénale**
+    - Diurèse < 0,5 mL/kg/h
+    - Insuffisance rénale aiguë
+  - **👩‍⚕️ Conduite immédiate**
+    - 📞 Alerter sans délai
+    - ⏱️ Noter l’heure de reconnaissance
+    - 📊 Monitorer FC, PA, PAM, FR, SpO₂, T°, conscience, TRC et diurèse
+    - 🫁 Administrer l’oxygène selon prescription ou protocole
+    - 💉 Préparer accès vasculaire, remplissage, antibiotique et vasopresseur
+    - 🧫 Prélever hémocultures et lactate sans retarder le traitement
+    - 🚑 Anticiper les soins critiques
+- **⚠️ 7. Risques et complications**
+  - 🫁 SDRA et ventilation invasive
+  - 💧 Insuffisance rénale aiguë et épuration extrarénale
+  - 🩸 CIVD, hémorragies et thromboses
+  - 🫀 Arythmie, ischémie et arrêt cardiaque
+  - 🧠 Delirium et séquelles cognitives
+  - 🦶 Nécrose périphérique et escarre
+  - 🏥 Extravasation, surcharge hydrique et infection liée aux dispositifs
+  - ♻️ Syndrome post-sepsis
+    - Fatigue
+    - Faiblesse acquise
+    - Anxiété, dépression ou stress post-traumatique
+- **📈 8. Pronostic**
+  - **Facteurs favorables**
+    - Reconnaissance précoce
+    - Antibiothérapie adaptée
+    - Contrôle rapide du foyer
+    - Réponse hémodynamique
+  - **Facteurs défavorables**
+    - Retard thérapeutique
+    - Défaillances multiples
+    - Terrain fragile
+    - Lactate persistant ou croissant
+- **💊 9. Traitements**
+  - **Première heure à l’hôpital**
+    - 💉 Voie veineuse ou intra-osseuse
+    - 🧫 Hémocultures et lactate
+    - 💊 Antibiothérapie IV probabiliste
+      - Adaptée au foyer
+      - Adaptée au terrain
+      - Adaptée au risque de BMR et à l’écologie locale
+    - 💧 Cristalloïdes
+      - Bolus individualisé de 10 à 20 mL/kg en 15 à 20 min selon HAS 2025
+      - Réévaluation après chaque étape
+    - 🩸 Noradrénaline
+      - Première intention si hypotension persistante ou mauvaise tolérance au remplissage
+      - Cible initiale PAM ≥ 65 mmHg
+  - **Contrôle du foyer**
+    - Drainage
+    - Chirurgie
+    - Désobstruction
+    - Retrait d’un dispositif infecté
+  - **Traitements complémentaires**
+    - Oxygénothérapie ou ventilation
+    - Hydrocortisone IV si besoin persistant de vasopresseur selon prescription
+    - Prévention thromboembolique sauf contre-indication
+    - Nutrition entérale précoce si possible
+    - Épuration extrarénale si indication rénale
+  - **Kinésithérapie**
+    - Mobilisation progressive dès les 48 premières heures selon stabilité
+    - Réadaptation respiratoire si sepsis pulmonaire ou ventilation artificielle
+- **👩‍⚕️ 10. Actes et surveillance infirmiers**
+  - **Hémodynamique**
+    - PA, PAM et FC
+    - TRC, marbrures et température des extrémités
+  - **Respiratoire**
+    - FR, SpO₂ et signes de lutte
+    - Gaz du sang et tolérance de l’oxygène
+  - **Neurologique**
+    - Glasgow
+    - Orientation, agitation, douleur et delirium
+  - **Rénale**
+    - Diurèse horaire
+    - Bilan entrées-sorties
+    - Créatinine
+  - **Traitements**
+    - Antibiotique
+      - Heure, dose, voie, allergies, efficacité et tolérance
+    - Noradrénaline
+      - Concentration, débit, PAM cible, rythme et site de perfusion
+    - Remplissage
+      - Réponse tensionnelle et perfusion
+      - Dyspnée, crépitants, œdèmes et surcharge
+  - **Sécurité**
+    - Double contrôle des médicaments à haut risque selon protocole
+    - Traçabilité horaire
+    - Asepsie stricte
+    - Prévention d’escarre, chute, delirium et infection associée aux soins
+  - **👩‍⚕️ Application infirmière**
+    - PAM remontée mais marbrures étendues et diurèse en baisse
+      - Perfusion tissulaire encore insuffisante
+      - Réévaluer et alerter immédiatement
+- **🎓 11. Éducation thérapeutique et prévention**
+  - 💉 Vaccinations à jour
+  - 🧼 Hygiène des mains et des plaies
+  - 💊 Respect des anti-infectieux prescrits
+  - 🚨 Signes d’alerte
+    - Fièvre ou hypothermie
+    - Confusion
+    - Polypnée
+    - Malaise
+    - Oligurie
+  - 📞 Appel du 15 en cas de suspicion grave
+  - ♻️ Suivi post-sepsis
+    - Séquelles physiques
+    - Séquelles cognitives
+    - Séquelles psychologiques
+- **💡 12. Exemple clinique**
+  - Patient·e de 72 ans avec pyélonéphrite
+    - T° 39,2 °C
+    - FC 124/min
+    - PAS 86 mmHg
+    - FR 28/min
+    - Confusion et marbrures
+    - Lactate 3,8 mmol/L
+  - Après remplissage adapté
+    - Noradrénaline nécessaire pour PAM ≥ 65 mmHg
+  - **Conclusion**
+    - Choc septique
+    - Bundle précoce et soins critiques
+- **🧠 13. Astuces de mémorisation**
+  - **SEPSIS = Infection + Organe en panne**
+  - **CHOC = pression + perfusion**
+    - PAM insuffisante
+    - Lactate élevé malgré remplissage
+  - **HÉMA**
+    - Hémocultures
+    - Évaluation
+    - Médicaments anti-infectieux
+    - Apports liquidiens
+  - **Peau–Poumon–Pensée–Pipi**
+    - Perfusion
+    - Respiration
+    - Conscience
+    - Diurèse
+- **❓ 14. Questions classiques de partiel**
+  - **Comment définir le choc septique**
+    - Vasopresseur pour maintenir PAM ≥ 65 mmHg et lactate > 2 mmol/L malgré remplissage adapté
+  - **Quelle priorité infirmière**
+    - Reconnaître, alerter, monitorer et préparer le bundle précoce
+  - **Pourquoi prélever avant l’antibiotique**
+    - Identifier le germe sans retarder le traitement urgent
+  - **Quel vasopresseur en première intention**
+    - Noradrénaline
+  - **Le qSOFA suffit-il**
+    - Non
+- **⭐ 15. À retenir**
+  - 🦠 Sepsis = infection + défaillance d’organe
+  - 🚨 Choc septique = vasopresseur + lactate > 2 mmol/L malgré remplissage adapté
+  - ⏱️ Actions coordonnées idéalement dans la première heure
+  - 💊 Antibiothérapie IV précoce puis adaptée
+  - 💧 Cristalloïdes par bolus avec réévaluation
+  - 🩸 Noradrénaline et cible initiale PAM ≥ 65 mmHg
+  - 🔧 Contrôle rapide du foyer
+  - 👩‍⚕️ Surveiller conscience, respiration, perfusion, diurèse, lactate et tolérance
+- **📚 Sources officielles et professionnelles**
+  - **HAS — SRLF, SFMU, SPILF et partenaires — janvier 2025**
+    - Prise en charge du sepsis du nouveau-né, de l’enfant et de l’adulte
+    - https://www.has-sante.fr/jcms/p_3587144/fr/prise-en-charge-du-sepsis-du-nouveau-ne-de-l-enfant-et-de-l-adulte-recommandations-pour-un-parcours-de-soins-integre
+  - **Ministère chargé de la Santé — février 2025**
+    - Prévention et prise en charge du sepsis
+    - https://sante.gouv.fr/soins-et-maladies/prises-en-charge-specialisees/article/prevention-et-prise-en-charge-du-sepsis
+  - **Singer et al — Sepsis-3 — JAMA 2016**
+    - Third International Consensus Definitions for Sepsis and Septic Shock
+    - https://jamanetwork.com/journals/jama/fullarticle/2492881
+  - **Surviving Sepsis Campaign — 2021**
+    - International Guidelines for Management of Sepsis and Septic Shock
+    - https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-guidelines-2021

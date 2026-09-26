@@ -1,0 +1,233 @@
+# 💊 Anti-calciques — UE 2.11 — S3
+## 🌿 Carte d’identité
+- **🌿 Classe**
+  - Inhibiteurs calciques / antagonistes des canaux calciques
+- **🌿 Principaux représentants**
+  - Dihydropyridines : amlodipine, nifédipine
+  - Non-dihydropyridines : diltiazem, vérapamil
+- **🌿 Cible**
+  - Canaux calciques de type L
+- **🌿 Effet global**
+  - Vasodilatation
+  - Diltiazem et vérapamil : ralentissement cardiaque et conduction AV
+## 🎯 Indications et effets recherchés
+- **🎯 Hypertension artérielle**
+  - ↓ résistances vasculaires → ↓ PA
+- **🎯 Angor**
+  - Vasodilatation coronaire ± ↓ demande myocardique
+- **🎯 Certaines tachycardies supraventriculaires**
+  - Ralentissement de la conduction AV
+## 🧠 Pharmacodynamie
+- **🧠 Mécanisme**
+  - Canal calcique L bloqué → ↓ entrée de Ca²⁺ → ↓ contraction musculaire
+- **🧠 Dihydropyridines**
+  - Action surtout vasculaire → vasodilatation → ↓ PA
+- **🧠 Diltiazem/vérapamil**
+  - Action vasculaire + ↓ automatisme/conduction AV + ↓ contractilité
+- **🧠 Chaîne**
+  - Cible → action → conséquence physiologique → effet clinique
+  - Canal L → ↓ Ca²⁺ intracellulaire → vasodilatation ± ralentissement cardiaque
+## 🧪 Pharmacocinétique
+- **🧪 Amlodipine**
+  - Tmax ≈ 6–12 h
+  - Demi-vie ≈ 35–50 h
+  - Métabolisme hépatique
+  - Élimination urinaire surtout sous forme de métabolites
+- **🧪 Diltiazem/vérapamil**
+  - Métabolisme hépatique important
+  - Interactions enzymatiques possibles
+  - Vigilance avec les formes LP
+- **🧪 Conséquence infirmière**
+  - Tenir compte de la molécule, de la forme, de l’âge, des fonctions hépatique/rénale et des traitements associés
+## 💊 LADMER
+- **💊 L — Libération**
+  - Dépend de la forme immédiate ou LP
+  - Respecter le RCP
+- **💊 A — Absorption**
+  - Principalement digestive par voie orale
+- **💊 D — Distribution**
+  - Distribution systémique
+  - Liaison protéique variable
+- **💊 M — Métabolisation**
+  - Principalement hépatique pour plusieurs représentants
+- **💊 E — Élimination**
+  - Urinaire et/ou fécale selon la molécule
+- **💊 R — Réponse**
+  - Vasodilatation
+  - ± ralentissement cardiaque avec diltiazem/vérapamil
+## 💉 Administration sécurisée
+- **💉 Avant**
+  - Vérifier prescription, identité, allergies, médicament, dose, voie, horaire
+  - Mesurer PA
+  - Mesurer FC selon molécule
+- **💉 Pendant/après**
+  - Rechercher hypotension, bradycardie, vertiges, œdèmes
+  - ECG selon contexte/protocole
+  - Respecter les formes LP
+  - Tracer et transmettre
+- **💉 5 B**
+  - Bon patient
+  - Bon médicament
+  - Bonne dose
+  - Bonne voie
+  - Bon moment
+## ⚖️ Posologie et adaptations
+- **⚖️ Règle**
+  - Se référer au RCP de la spécialité et à la prescription
+- **⚖️ Amlodipine adulte**
+  - Initialement 5 mg/j
+  - Maximum habituel : 10 mg/j
+- **⚖️ Adaptations**
+  - Personne âgée : prudence lors de l’augmentation
+  - Insuffisance hépatique : adaptation/prudence selon molécule
+  - Insuffisance rénale : adaptation variable
+  - Ne jamais extrapoler une posologie d’une spécialité à une autre
+## 🚫 Contre-indications et précautions
+- **🚫 Hypersensibilité**
+  - Au médicament ou à la classe
+- **🚫 Amlodipine**
+  - Hypotension sévère
+  - Choc
+  - Sténose aortique sévère
+  - Certaines situations d’insuffisance cardiaque instable
+- **🚫 Diltiazem/vérapamil**
+  - Vigilance importante en cas de bradycardie ou troubles de conduction
+## 🔄 Interactions
+- **🔄 Diltiazem/vérapamil + bêtabloquant**
+  - Bradycardie
+  - Troubles de conduction
+  - Risque d’insuffisance cardiaque
+  - Surveillance clinique + ECG selon contexte
+- **🔄 Diltiazem + substrats CYP3A4**
+  - ↑ concentrations possibles
+  - Risque de toxicité
+- **🔄 Amlodipine + inhibiteurs CYP3A4**
+  - ↑ concentration
+  - Risque d’hypotension
+- **🔄 Plusieurs hypotenseurs**
+  - Hypotension additive
+## 😵 Effets indésirables
+- **😵 Fréquents**
+  - Œdèmes des chevilles
+  - Céphalées
+  - Bouffées vasomotrices
+  - Vertiges
+  - Hypotension selon molécule
+- **😵 Diltiazem/vérapamil**
+  - Bradycardie
+  - Troubles de conduction
+  - Constipation notamment avec vérapamil
+- **😵 Graves**
+  - Bloc AV
+  - Aggravation d’insuffisance cardiaque
+  - Hypotension sévère
+## ⚠️ Complications et surdosage
+- **⚠️ Hypotension**
+  - Malaise
+  - Vertiges
+  - Troubles de conscience
+  - Évaluer PA/FC et alerter selon gravité
+- **⚠️ Bradycardie/bloc AV**
+  - Bradycardie
+  - Syncope
+  - ECG
+  - Alerte urgente si symptomatique/importante
+- **⚠️ Décompensation cardiaque**
+  - Dyspnée
+  - Désaturation
+  - Œdèmes
+  - Alerte urgente
+- **⚠️ Surdosage**
+  - Hypotension
+  - Bradycardie
+  - Troubles de conduction
+  - Urgence médicale
+## 👩‍⚕️ Conduite infirmière
+- **👩‍⚕️ 1. Sécuriser**
+  - Installer et sécuriser la personne
+  - Réévaluer avant renouvellement si situation préoccupante
+- **👩‍⚕️ 2. Évaluer**
+  - PA
+  - FC
+  - Conscience
+  - Symptômes
+  - Douleur thoracique
+  - Dyspnée
+  - Heure et dose administrées
+  - Traitements associés
+- **👩‍⚕️ 3. Alerter**
+  - Médecin / équipe d’urgence selon gravité
+  - SAMU-Centre 15 selon situation d’urgence vitale
+  - Centre antipoison en cas de suspicion d’intoxication
+- **👩‍⚕️ 4. Surveiller**
+  - PA
+  - FC
+  - ECG si indiqué
+  - Œdèmes
+  - Dyspnée
+- **👩‍⚕️ 5. Agir**
+  - Rôle propre : surveillance, sécurisation, observation, transmission
+  - Prescription/protocole : examens et traitements spécifiques
+- **👩‍⚕️ 6. Tracer/transmettre**
+  - SAED : Situation → Antécédents → Évaluation → Demande
+## 🧬 Populations particulières
+- **🧬 Personne âgée**
+  - Vigilance hypotension, interactions et chutes
+- **🧬 Insuffisance hépatique**
+  - Métabolisme potentiellement diminué selon molécule
+- **🧬 Insuffisance rénale**
+  - Adaptation variable selon molécule
+- **🧬 Grossesse/allaitement**
+  - Vérifier le RCP et l’évaluation médicale
+## 🩺 Mini-situation clinique
+- **🩺 Situation**
+  - Vertiges + faiblesse + PA abaissée après un anti-calcique
+  - FC également diminuée
+- **🩺 Questions**
+  - Quels paramètres vérifier ?
+  - Quelle complication suspecter ?
+  - Que transmettre ?
+### ✅ Correction raisonnée
+- **✅ Problème**
+  - Hypotension symptomatique + bradycardie
+- **✅ Vérifications**
+  - PA, FC, conscience, ECG si indiqué
+  - Heure/dose
+  - Traitements associés
+- **✅ Conduite**
+  - Sécuriser
+  - Réévaluer
+  - Alerter selon gravité
+  - Tracer et transmettre avec SAED
+## 🧠 Mémo express
+- **🧠 CALCIUM**
+  - C : Canaux L bloqués
+  - A : Artères dilatées
+  - L : La PA diminue
+  - C : Cœur ralenti surtout avec vérapamil/diltiazem
+  - I : Indésirables = œdèmes, hypotension
+  - U : Urgence = malaise, bradycardie, trouble de conduction
+  - M : Monitoring = PA + FC ± ECG
+## ✅ L’essentiel
+- **✅ À retenir**
+  - Anti-calciques = bloqueurs des canaux calciques L
+  - Dihydropyridines = surtout vasculaires
+  - Vérapamil/diltiazem = davantage cardiaques
+  - Risques majeurs = hypotension ± bradycardie/conduction
+  - Surveillance = PA, FC, symptômes, œdèmes ± ECG
+- **✅ 5 messages**
+  - Dihydropyridines ≠ vérapamil/diltiazem
+  - Œdèmes et hypotension sont importants à connaître
+  - Diltiazem/vérapamil + bêtabloquant = vigilance renforcée
+  - Toute forme LP doit respecter son RCP
+  - Malaise, syncope, bradycardie importante ou dyspnée = alerte
+## 📚 Sources
+- **📚 Base de Données Publique des Médicaments**
+  - RCP AMLODIPINE ZENTIVA 5 mg, mise à jour 17/01/2025
+  - RCP AMLODIPINE KRKA D.D.
+  - RCP DILTIAZEM TEVA L.P. 300 mg, mise à jour 19/05/2023
+  - RCP VERAPAMIL BIOGARAN L.P. 240 mg, mise à jour 06/12/2024
+- **📚 ANSM**
+  - Prévenir la iatrogénèse médicamenteuse chez le sujet âgé
+- **📚 Consultation**
+  - 26/09/2026

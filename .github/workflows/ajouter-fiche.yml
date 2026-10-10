@@ -11,7 +11,7 @@ on:
         required: true
         default: "UE2"
       section:
-        description: "Numéro d'onglet (ex : 2.1 ou 2-1)"
+        description: "Numéro de section (ex : 4.3 ou 4-3)"
         required: true
       emoji:
         description: "Emoji par défaut (facultatif ; un emoji au début du nom de fichier est prioritaire)"

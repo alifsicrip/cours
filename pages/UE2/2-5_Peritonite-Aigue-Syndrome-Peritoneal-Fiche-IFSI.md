@@ -1,7 +1,7 @@
 # 🦠🚨 Péritonite aiguë / syndrome péritonéal
 **IFSI S3 · UE 2.5 — Processus inflammatoires et infectieux**
 
-> 🚨 **URGENCE MÉDICO-CHIRURGICALE** : un syndrome péritonéal est un ensemble de signes évoquant une irritation du péritoine. Une péritonite est une inflammation du péritoine, souvent infectieuse. Toute suspicion nécessite une évaluation médicale urgente.
+> 🚨 **URGENCE VITALE MÉDICO-CHIRURGICALE** : un syndrome péritonéal est un ensemble de signes évoquant une irritation du péritoine. Une péritonite est une inflammation du péritoine, souvent infectieuse. Toute suspicion nécessite une évaluation médicale urgente.
 
 ## 🔑 Définitions & mécanisme
 
@@ -10,7 +10,7 @@
 | **Péritoine** | Membrane qui tapisse la cavité abdominale et recouvre une partie des organes |
 | **Syndrome péritonéal** | Association de signes cliniques traduisant une irritation péritonéale ; ce n’est pas, à lui seul, la cause |
 | **Péritonite aiguë** | Inflammation aiguë du péritoine, souvent liée à une contamination infectieuse |
-| **Mécanisme fréquent** | Perforation digestive (ex. appendice, ulcère) → contamination → inflammation → fuite liquidienne vers le « 3e secteur » → hypovolémie possible → risque de sepsis/choc septique |
+| **Mécanisme fréquent** | Perforation d'un organe creux du tube digestif (ex. appendice, colon, estomac, duodenum...) par extension d'une infection ou ouverture d'une collection purulente, en post-chir. abdo aussi → contamination → inflammation → fuite liquidienne vers le « 3e secteur » → hypovolémie possible → risque de sepsis/choc septique |
 
 ## 🔍 1. Ce que j’observe
 
@@ -75,12 +75,14 @@
 
 ## 🧠 Mémo express
 
-**🤕 Douleur intense + 🪵 défense/contracture + 🫀 instabilité ou altération générale = 🚨 urgence à évaluer.**
+**🤕 Douleur intense + 🪵 défense/contracture + 🫀 instabilité ou altération générale = 🚨 urgence à évaluer.**  
+**🚨 Péritonite infectieuse généralisée = causer le plus fréquemment par une appendicite aigüe compliquée → Infection péritonéale par effraction de la paroi digestive, par rupture d'un abcès ou par diffusion d'un processus infectieux (sans forcément de perforation. Conséquence de la péritonite → bactériémie par résorption de toxines bactériennes, diffusion septicémique et exsudation intra-péritonéale → signes de chocs = 🚨 PEC D'URGENCE**
 
 - Le **syndrome péritonéal** décrit des signes cliniques ; la **péritonite** est une cause possible, souvent infectieuse
 - Ne pas retarder l’alerte ou le transfert pour compléter les examens
 - Ne pas donner à manger/boire si jeûne prescrit ou intervention envisagée ; suivre les consignes médicales
 - Pas de chaleur ni de laxatif sans avis médical
+- Pour rappel : la réaction d'un **organe inflammé** est **d'exsuder** → ça va bien quelque part
 
 ## 📚 Sources
 - Assurance Maladie (ameli.fr), ressources sur les douleurs abdominales et l’appendicite : https://www.ameli.fr/

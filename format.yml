@@ -3,11 +3,16 @@ name: Formater le code
 on:
   push:
     branches: [main]
-    paths: ["**/*.html"]
+    paths:
+      - "**/*.html"
+      - "!a-ajouter/**"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: modifications-depot
 
 jobs:
   format:

@@ -17,7 +17,7 @@ on:
         description: "Emoji par défaut (facultatif ; un emoji au début du nom de fichier est prioritaire)"
         required: false
       apres:
-        description: "Insérer après la fiche n° (vide = à la fin, 0 = tout en haut)"
+        description: "Placement manuel, sans tri : insérer après la fiche n° (0 = tout en haut). Vide = classement alphabétique"
         required: false
       simulation:
         description: "Simulation : affiche le résultat sans rien modifier"

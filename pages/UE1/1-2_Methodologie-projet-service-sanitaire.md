@@ -1,4 +1,4 @@
-# 🩺 TL;DR — Service sanitaire & méthodologie de projet
+# 🩺 Synthèse — Service sanitaire & méthodologie de projet
 ## 📚 Synthèse des documents « Repères théoriques et pratiques — Service sanitaire » (2025) et « La méthodologie de projet » (2024)
 
 ## 🎯 1. Le service sanitaire : finalité et déroulement

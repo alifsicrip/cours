@@ -1,0 +1,173 @@
+# 🚽 Infections de l’appareil urinaire — Markmap IFSI
+## 🚨 Essentiel
+- **Infection urinaire**
+  - Souvent liée à une bactérie de la flore digestive
+  - Escherichia coli fréquent
+  - Cystite = infection basse
+  - Pyélonéphrite = infection haute avec atteinte rénale
+- **Bactériurie asymptomatique**
+  - Bactéries sans symptômes
+  - Dépistage/traitement seulement dans certaines situations
+## 🧬 Formes principales
+- **Cystite aiguë**
+  - Infection urinaire basse
+  - Brûlures mictionnelles, pollakiurie, urgenturie
+  - Gêne sus-pubienne
+- **Pyélonéphrite aiguë**
+  - Infection urinaire haute
+  - Fièvre, frissons, douleur lombaire
+  - Nausées/vomissements possibles
+- **Infection urinaire masculine**
+  - Évaluation selon le contexte
+  - Rechercher une atteinte prostatique si signes évocateurs
+- **Infection à risque de complication**
+  - Terrain ou contexte augmentant le risque
+  - Présentation variable
+- **Bactériurie asymptomatique**
+  - Pas de symptômes attribuables à l’infection
+  - Pas de traitement systématique
+  - Exceptions selon recommandations
+## 🦠 Germes et facteurs de risque
+- **Germes**
+  - Escherichia coli fréquent
+  - Autres bactéries selon terrain et soins
+- **Facteurs de risque**
+  - Âge avancé, grossesse, diabète
+  - Immunodépression
+  - Anomalie urologique, obstacle, calcul
+  - Rétention urinaire
+- **Contexte de soins**
+  - Sondage ou instrumentation
+  - Hospitalisation récente
+  - Antibiothérapie récente
+- **Résistances**
+  - Antécédents microbiologiques
+  - Antibiotiques récents
+  - Exposition aux soins
+## 👀 Signes cliniques
+- **Cystite**
+  - Brûlures mictionnelles
+  - Pollakiurie, urgenturie
+  - Gêne sus-pubienne
+- **Pyélonéphrite**
+  - Fièvre, frissons
+  - Douleur lombaire
+  - Nausées/vomissements
+- **Terrain fragile**
+  - Dégradation générale possible
+  - Confusion isolée non spécifique chez la personne âgée
+- **Signes de gravité**
+  - Hypotension, tachycardie, polypnée
+  - Marbrures, oligurie, confusion
+  - Altération majeure de l’état général
+- **Vigilance**
+  - Urines troubles/odorantes seules ne suffisent pas au diagnostic
+## 🚑 CAT IDE
+- **Évaluer**
+  - Symptômes, début, température et douleur
+  - Mictions et hydratation
+  - Antécédents, grossesse, sonde et facteurs de risque
+- **Surveiller**
+  - Température, FC, PA, FR
+  - Douleur, état général et diurèse
+  - Signes de sepsis selon contexte
+- **Prélever**
+  - BU/ECBU selon indication et protocole
+  - Prélèvement propre avant antibiotique si indiqué et sans retard d’urgence
+- **Accompagner**
+  - Hydratation adaptée au terrain
+  - Confort et accès aux toilettes
+  - Suivi des mictions
+- **Administrer**
+  - Antibiotique prescrit
+  - Vérifier allergies, voie, horaires et tolérance
+  - Adaptation rénale selon prescription
+- **Alerter**
+  - Fièvre + douleur lombaire
+  - Vomissements, grossesse, rétention
+  - Altération générale ou signes de sepsis
+- **Tracer / transmettre**
+  - Symptômes, constantes, douleur, diurèse
+  - Prélèvements, allergies, antibiotiques et évolution
+## 🧪 Examens
+- **Bandelette urinaire**
+  - Leucocytes et nitrites
+  - Interprétation selon âge, sexe et contexte
+- **ECBU**
+  - Identification du germe
+  - Antibiogramme si indiqué
+- **Bilan sanguin**
+  - Selon gravité et terrain
+  - Suspicion de pyélonéphrite compliquée ou sepsis
+- **Imagerie**
+  - Non systématique
+  - Si obstacle, complication ou évolution défavorable
+- **Personne sondée**
+  - Prélèvement au site prévu selon protocole
+  - Jamais à partir du sac collecteur
+## 💊 Traitement
+- **Cystite simple**
+  - Antibiothérapie selon recommandations françaises
+- **Pyélonéphrite**
+  - Antibiothérapie selon gravité, terrain et microbiologie
+- **Forme grave**
+  - Urgence médicale
+  - Hospitalisation possible
+  - Drainage si obstacle selon décision médicale
+- **Grossesse**
+  - Stratégie spécifique et avis médical
+- **Bactériurie asymptomatique**
+  - Pas de traitement systématique
+  - Exceptions précises selon recommandations
+- **Bon usage**
+  - Ne pas utiliser d’antibiotiques restants
+  - Ne pas modifier/arrêter sans avis médical
+## 🛡️ Prévention et soins associés
+- **Hydratation**
+  - Selon besoins et consignes
+  - Pas d’excès imposé
+- **Habitudes mictionnelles**
+  - Éviter de se retenir longtemps
+  - Faciliter l’accès aux toilettes
+- **Hygiène**
+  - Toilette simple et non irritante
+  - Hygiène des mains
+- **Sonde urinaire**
+  - Indication justifiée
+  - Pose aseptique
+  - Système clos
+  - Sac en déclive sans contact avec le sol
+  - Retrait dès que possible
+- **Antibiorésistance**
+  - Antibiothérapie raisonnée
+  - Réévaluer selon symptômes et résultats
+## ⚠️ Complications
+- **Rénales**
+  - Pyélonéphrite, abcès rénal
+- **Systémiques**
+  - Bactériémie, sepsis, choc septique
+- **Obstructives**
+  - Calcul infecté : urgence urologique
+- **Terrain fragile**
+  - Déshydratation
+  - Décompensation de maladie chronique
+- **Traitement**
+  - Résistances aux antibiotiques
+  - Récidives
+## 🧠 Mémo
+- **Brûlures + pollakiurie sans fièvre ni douleur lombaire** : évoquer cystite
+- **Fièvre + douleur lombaire ± vomissements** : évoquer pyélonéphrite
+- **Hypotension, confusion, polypnée, marbrures ou oligurie** : rechercher sepsis
+- **Urines odorantes/troubles seules** : ne suffisent pas à diagnostiquer une infection
+- **IDE** : prélèvement adapté, surveillance, alerte, traçabilité et antibiothérapie raisonnée
+## 📚 Sources institutionnelles
+- **Haute Autorité de santé**
+  - https://www.has-sante.fr/
+- **SPILF**
+  - https://www.infectiologie.com/
+- **Assurance Maladie**
+  - https://www.ameli.fr/
+- **Santé publique France**
+  - https://www.santepubliquefrance.fr/
+- **Ministère chargé de la Santé**
+  - https://sante.gouv.fr/

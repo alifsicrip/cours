@@ -1,0 +1,154 @@
+# 💩🦠 Diarrhées aiguës infectieuses — IFSI S3
+## **🔑 Définitions et mécanismes**
+- **Diarrhée aiguë**
+  - Selles plus fréquentes et/ou plus liquides que d’habitude
+  - Installation récente
+  - Durée généralement inférieure à 2 semaines
+- **Origines infectieuses**
+  - Virus
+    - Norovirus
+    - Rotavirus
+  - Bactéries
+    - Salmonella
+    - Campylobacter
+    - Certaines souches d’Escherichia coli
+  - Parasites selon le contexte
+- **Physiopathologie**
+  - Infection, inflammation intestinale ou sécrétion accrue
+    - Pertes d’eau et d’électrolytes
+      - Risque de déshydratation
+- **Transmission**
+  - Voie féco-orale
+    - Mains et surfaces contaminées
+    - Aliments ou eau contaminés
+## **🔍 Ce que j’observe**
+- **Signes digestifs**
+  - Selles liquides et fréquentes
+    - Noter fréquence, quantité et aspect
+    - Rechercher sang ou glaires
+  - Nausées et vomissements
+  - Crampes abdominales
+- **Signes infectieux**
+  - Fièvre possible
+  - Sang dans les selles et douleurs importantes
+    - Avis médical rapide
+- **Signes de déshydratation**
+  - Soif et bouche sèche
+  - Faiblesse
+  - Urines rares ou foncées
+- **🚨 Signes de gravité**
+  - Confusion ou malaise
+  - Hypotension ou tachycardie
+  - Oligurie marquée
+  - Vomissements empêchant de boire
+## **🚨 Signes d’alerte**
+- **Alerte urgente**
+  - Déshydratation importante
+  - Confusion, malaise ou hypotension
+  - Urines très rares
+- **Avis médical rapide**
+  - Sang dans les selles
+  - Douleur abdominale intense
+  - Fièvre élevée ou persistante
+  - Vomissements persistants
+- **Terrain à risque**
+  - Nourrisson ou personne âgée/fragile
+  - Immunodépression
+  - Grossesse ou comorbidités importantes
+- **Contexte évocateur de Clostridioides difficile**
+  - Diarrhée après antibiotiques
+  - Diarrhée après hospitalisation ou soins
+## **🧪 Examens**
+- **Évaluation clinique**
+  - État général et constantes
+  - Hydratation et muqueuses
+  - Diurèse
+  - Poids si pertinent
+  - Fréquence et volume des selles/vomissements
+- **Biologie si indiquée**
+  - Ionogramme
+  - Urée et créatinine
+    - Déshydratation et fonction rénale
+- **Analyse des selles selon contexte**
+  - Coproculture ou PCR
+    - Forme sévère
+    - Sang ou fièvre
+    - Durée prolongée
+    - Voyage, immunodépression ou cas groupés
+  - Recherche de Clostridioides difficile
+    - Antibiothérapie récente ou hospitalisation/soins
+- **Hémocultures**
+  - Si tableau sévère ou suspicion de sepsis
+  - Sur prescription
+## **👩‍⚕️ CAT IDE**
+- **Réhydrater**
+  - Favoriser les apports oraux fréquents si possibles
+  - Solution de réhydratation orale selon le terrain
+  - Alerter si impossibilité de boire ou déshydratation importante
+- **Surveiller**
+  - Constantes et conscience
+  - Soif, muqueuses et diurèse
+  - Poids si indiqué
+  - Fréquence et volume des selles
+  - Vomissements et apports
+- **Prévenir la transmission**
+  - Hygiène des mains à l’eau et au savon si gastro-entérite suspectée
+  - Précautions standard et complémentaires selon protocole
+  - Nettoyage adapté de l’environnement
+  - Gestion des excreta selon procédures locales
+- **Traitements**
+  - Administrer les traitements prescrits
+  - Surveiller efficacité et tolérance
+  - Éviter l’automédication
+  - Prudence avec les ralentisseurs du transit en cas de fièvre ou de sang dans les selles
+- **Transmettre**
+  - Début et fréquence des selles
+  - Aspect, sang ou glaires
+  - Vomissements et apports
+  - Diurèse et constantes
+  - Signes de gravité et cas groupés
+## **💊 Traitement et conseils**
+- **Réhydratation orale**
+  - Première mesure si tolérée
+  - Petites prises fréquentes
+- **Réhydratation IV**
+  - Si déshydratation sévère, choc ou impossibilité de boire
+  - Sur décision médicale
+- **Alimentation**
+  - Maintenir ou reprendre une alimentation adaptée et tolérée
+  - Éviter le jeûne prolongé
+- **Antibiotiques**
+  - Non systématiques
+  - Indications ciblées après évaluation médicale
+- **Antidiarrhéiques**
+  - Prudence et respect des consignes
+  - Éviter les ralentisseurs du transit si sang dans les selles, fièvre importante ou diarrhée invasive suspectée
+- **Prévention**
+  - Lavage des mains
+  - Sécurité alimentaire
+  - Respect des consignes en collectivité
+## **⚠️ Complications**
+- **Déshydratation**
+- **Troubles hydro-électrolytiques**
+- **Hypovolémie ou insuffisance rénale aiguë**
+- **Transmission en collectivité**
+- **Sepsis ou complication liée au germe**
+## **🧠 Mémo express**
+- **Diarrhée + pertes + urines rares**
+  - Penser déshydratation
+- **Sang dans les selles, douleur intense, confusion, malaise ou impossibilité de boire**
+  - Avis médical rapide ou urgence selon gravité
+## **📚 Sources**
+- **Assurance Maladie**
+  - Diarrhée aiguë de l’adulte
+    - https://www.ameli.fr/assure/sante/themes/diarrhee-aigue-adulte
+  - Gastro-entérite aiguë de l’enfant
+    - https://www.ameli.fr/assure/sante/themes/gastro-enterite-aigue-enfant
+- **Santé publique France**
+  - Ressources sur gastro-entérites aiguës et prévention
+    - https://www.santepubliquefrance.fr/
+- **HAS**
+  - Recommandations selon le contexte clinique
+    - https://www.has-sante.fr/
+- **Protocoles locaux**
+  - Recommandations d’hygiène en vigueur dans l’établissement

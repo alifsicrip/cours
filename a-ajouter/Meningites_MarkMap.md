@@ -1,0 +1,121 @@
+# 🧠 Méningites — Markmap IFSI
+## 🚨 Essentiel
+- **Méningite**
+  - Inflammation des méninges autour du cerveau et de la moelle épinière
+  - Forme bactérienne = urgence médicale
+  - Risques : sepsis, choc septique, complications neurologiques, décès
+## 🦠 Causes
+- **Bactériennes**
+  - Méningocoque
+  - Pneumocoque
+  - Haemophilus influenzae b
+  - Listéria selon le terrain
+  - Antibiothérapie urgente si suspicion
+- **Virales**
+  - Entérovirus
+  - Herpèsvirus selon le contexte
+  - Évolution souvent plus favorable, mais évaluation médicale nécessaire
+- **Autres**
+  - Causes fongiques ou rares
+  - Risque accru dans certains terrains immunodéprimés
+## 👀 Signes cliniques
+- **Infectieux**
+  - Fièvre, frissons, altération de l’état général
+- **Méningés**
+  - Céphalées intenses
+  - Raideur de nuque
+  - Photophobie, phonophobie
+- **Digestifs**
+  - Nausées, vomissements
+- **Neurologiques**
+  - Confusion, somnolence, agitation
+  - Troubles de conscience, convulsions, déficit focal
+- **Cutanés**
+  - Purpura ne s’effaçant pas à la pression
+  - Purpura fébrile = urgence absolue
+- **Terrains / présentations atypiques**
+  - Nourrisson : irritabilité, léthargie, mauvaise alimentation
+  - Personne âgée : confusion possible
+  - Triade classique parfois incomplète
+## 🚑 CAT IDE
+- **Repérer**
+  - Fièvre + céphalées/raideur de nuque
+  - Photophobie, vomissements, confusion, convulsions
+  - Purpura fébrile
+- **Alerter**
+  - Médecin immédiatement
+  - Urgence vitale si purpura, choc, convulsions ou trouble de conscience
+- **Surveiller**
+  - ABCDE
+  - Conscience, Glasgow si indiqué
+  - Température, FC, FR, PA, SpO₂
+  - Douleur, perfusion périphérique, diurèse selon contexte
+- **Protéger**
+  - Précautions standard
+  - Précautions complémentaires selon agent suspecté et protocole
+  - Gouttelettes si suspicion de méningocoque selon protocole
+- **Préparer**
+  - Hémocultures et bilan sanguin prescrits
+  - PL si indiquée et après évaluation médicale
+  - Ne pas retarder le traitement urgent pour un examen
+- **Administrer**
+  - Antibiothérapie IV urgente si suspicion bactérienne, selon prescription/protocole
+  - Autres traitements prescrits
+- **Tracer / transmettre**
+  - Début et évolution des symptômes
+  - Constantes et état neurologique
+  - Signes cutanés, allergies, horaires des traitements
+## 🧪 Examens
+- **Hémocultures**
+  - Identifier une bactérie dans le sang
+  - Avant antibiothérapie si possible sans retard
+- **Ponction lombaire**
+  - Analyse du liquide cérébrospinal
+  - Cellules, protéines, glucose, microbiologie/PCR
+  - Décision médicale après évaluation des contre-indications
+- **PCR / cultures**
+  - Identifier l’agent infectieux
+- **Imagerie cérébrale**
+  - Avant PL dans certaines situations selon évaluation médicale
+  - Ne doit pas retarder le traitement urgent
+- **Bilan de gravité**
+  - NFS, CRP, lactate, fonction rénale, coagulation, gaz du sang selon contexte
+## 💊 Traitements
+- **Bactérienne**
+  - Antibiothérapie IV urgente
+  - Adaptation aux résultats
+  - Corticothérapie dans certaines situations selon recommandations
+- **Virale**
+  - Traitement symptomatique fréquent
+  - Antiviral si cause le justifiant
+- **Support**
+  - Hydratation et équilibre hydro-électrolytique selon prescription
+  - Antalgique / antipyrétique selon prescription
+  - Surveillance neurologique et hémodynamique
+- **Prévention**
+  - Précautions adaptées à l’agent
+  - Vaccination selon recommandations en vigueur
+  - Contacts à risque : mesures organisées par autorités sanitaires et équipe médicale si méningocoque
+## ⚠️ Complications
+- **Graves**
+  - Sepsis, choc septique
+  - Convulsions, œdème cérébral, troubles de conscience
+  - Troubles de coagulation, purpura fulminans
+  - Décès
+- **Séquelles**
+  - Surdité
+  - Troubles cognitifs ou neurologiques
+## 🧠 Mémo
+- **Fièvre + céphalées + raideur de nuque** : suspicion de méningite
+- **Fièvre + purpura non effaçable** : urgence absolue
+- **Alerte immédiate** et surveillance des fonctions vitales
+- **Ne pas retarder l’antibiothérapie urgente** pour attendre PL ou imagerie
+## 📚 Sources institutionnelles
+- **Ministère chargé de la Santé**
+  - https://sante.gouv.fr/
+- **Santé publique France**
+  - https://www.santepubliquefrance.fr/
+- **Haute Autorité de santé**
+  - https://www.has-sante.fr/
+- **Assurance Maladie**
+  - https://www.ameli.fr/

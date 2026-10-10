@@ -1,0 +1,150 @@
+# 🦠🚨 Sepsis et choc septique — IFSI S3
+## **🔑 Définitions**
+- **Sepsis**
+  - Dysfonction d’organe menaçant le pronostic vital
+    - Causée par une réponse dérégulée de l’organisme à une infection
+- **Choc septique**
+  - Forme de sepsis avec anomalies circulatoires et métaboliques profondes
+  - En réanimation, critères définissant le choc
+    - Besoin de vasopresseurs pour maintenir une PAM ≥ 65 mmHg
+    - Lactate > 2 mmol/L malgré un remplissage adéquat
+- **À ne pas confondre**
+  - Bactériémie
+    - Présence de bactéries dans le sang
+    - Peut être absente dans un sepsis
+  - « Septicémie » et « sepsis sévère »
+    - Terminologie ancienne à éviter
+## **🧬 Physiopathologie**
+- **Infection**
+  - Pneumonie, infection urinaire, péritonite, infection cutanée ou cathéter
+    - Réponse inflammatoire dérégulée
+      - Vasodilatation et fuite capillaire
+        - Troubles microcirculatoires
+          - Hypoperfusion des tissus
+            - Dysfonction d’organes
+              - Choc septique possible
+## **🔍 Ce que j’observe**
+- **Signes généraux**
+  - Fièvre ou température basse
+  - Frissons possibles
+  - Une température normale n’exclut pas le sepsis
+- **Signes circulatoires**
+  - Tachycardie
+  - Hypotension
+  - Pouls faible
+  - Peau froide ou marbrée
+  - Temps de recoloration allongé
+- **Signes respiratoires**
+  - Polypnée
+  - Difficulté respiratoire
+  - Désaturation
+- **Signes neurologiques**
+  - Confusion
+  - Somnolence
+  - Agitation inhabituelle
+- **Signes rénaux**
+  - Oligurie
+- **Anomalies biologiques possibles**
+  - Lactate élevé
+  - Créatinine en hausse
+  - Thrombopénie
+  - Bilirubine élevée
+## **🚨 CAT IDE**
+- **Alerter immédiatement**
+  - Prévenir le/la médecin
+  - Activer la procédure d’urgence vitale si nécessaire
+- **Évaluer ABCDE**
+  - Voies aériennes
+  - Respiration
+  - Circulation
+  - État neurologique
+  - Exposition et examen global
+- **Surveiller**
+  - PA, FC, FR, SpO₂ et température
+  - Conscience et perfusion périphérique
+  - Diurèse
+  - Évolution rapprochée ou continue selon gravité
+- **Préparer les prélèvements**
+  - Hémocultures et prélèvements ciblés sur prescription/protocole
+  - Avant antibiotiques si possible sans retarder le traitement urgent
+- **Administrer sur prescription/protocole**
+  - Antibiothérapie IV rapide
+  - Solutés de remplissage
+  - Oxygène si indiqué
+  - Vérifier allergies et horaires
+- **Tracer et transmettre**
+  - Heure de suspicion
+  - Foyer infectieux possible
+  - Constantes chiffrées et état neurologique
+  - Diurèse
+  - Prélèvements et heures des traitements
+## **🧪 Examens**
+- **Lactate sanguin**
+  - Marqueur possible d’hypoperfusion
+  - Interprétation selon le contexte clinique
+- **Hémocultures**
+  - Rechercher un germe dans le sang
+  - Ne pas retarder l’antibiothérapie urgente
+- **NFS, CRP et autres marqueurs selon prescription**
+  - Évaluer la réponse inflammatoire
+  - Aucun marqueur isolé ne confirme ou n’exclut le sepsis
+- **Fonction rénale, ionogramme, bilan hépatique et coagulation**
+  - Rechercher une dysfonction d’organe
+- **Imagerie et prélèvements du foyer**
+  - Identifier la source
+  - Guider le contrôle du foyer infectieux
+## **💊 Traitement médical**
+- **Antibiothérapie IV précoce**
+  - Traiter l’infection
+  - Vérifier allergies, heure d’administration et tolérance
+  - Adapter selon résultats microbiologiques
+- **Remplissage vasculaire**
+  - Restaurer la perfusion
+  - Surveiller PA, respiration, SpO₂, diurèse et surcharge
+- **Vasopresseurs en réanimation**
+  - Maintenir une pression de perfusion suffisante
+  - Si hypotension persistante malgré remplissage adapté
+- **Contrôle du foyer infectieux**
+  - Drainage
+  - Chirurgie
+  - Retrait d’un dispositif infecté selon la cause
+- **Support d’organe**
+  - Oxygène ou ventilation
+  - Soutien rénal
+  - Autres mesures selon défaillances
+## **⚠️ Complications**
+- **Circulatoires**
+  - Choc septique
+  - Défaillance circulatoire
+- **Respiratoires**
+  - Détresse respiratoire
+  - SDRA
+- **Rénales**
+  - Insuffisance rénale aiguë
+- **Neurologiques**
+  - Encéphalopathie
+  - Troubles de conscience
+- **Hématologiques**
+  - Troubles de coagulation
+  - Thrombopénie
+  - CIVD
+- **Systémiques**
+  - Défaillance multiviscérale
+  - Décès
+## **🧠 Mémo express**
+- **Infection suspectée + confusion / polypnée / hypotension / oligurie**
+  - Penser sepsis
+  - Alerte immédiate
+- **À retenir**
+  - Ne pas attendre la fièvre ou une hémoculture positive pour alerter
+  - qSOFA ne doit pas être utilisé seul pour dépister ou exclure le sepsis
+  - Traitement et réanimation débutent rapidement selon évaluation médicale et protocoles
+## **📚 Sources**
+- **HAS — recommandations 2025**
+  - https://www.has-sante.fr/jcms/p_3589100/fr/prise-en-charge-du-sepsis-du-nouveau-ne-de-l-enfant-et-de-l-adulte-recommandations-pour-un-parcours-de-soins-integre-recommandations
+- **SFAR — recommandations sepsis, 11 février 2025**
+  - https://sfar.org/download/prise-en-charge-du-sepsis-du-nouveau-ne-de-lenfant-et-de-ladulte-recommandations-pour-un-parcours-de-soins-integre/
+- **Ministère chargé de la Santé — définition et terminologie**
+  - https://sante.gouv.fr/fichiers/bos/2021/2021.6bis.BOS.pdf
+- **Protocoles locaux**
+  - Procédure d’urgence et protocole d’antibiothérapie de l’établissement

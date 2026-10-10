@@ -1,0 +1,124 @@
+# 🐕 Rage et tétanos — Markmap IFSI
+## 🚨 Essentiel
+- **Rage**
+  - Maladie virale transmise surtout par la salive d’un mammifère infecté
+  - Morsure, griffure contaminée ou contact avec muqueuse/peau lésée
+  - Symptômes déclarés : maladie presque toujours mortelle
+  - Exposition à risque : lavage immédiat et centre antirabique sans délai
+- **Tétanos**
+  - Toxine de Clostridium tetani
+  - Spores pénétrant par une plaie
+  - Pas de transmission interhumaine
+  - Plaie à risque : soins locaux et prophylaxie selon statut vaccinal
+## 🧬 Agents et transmission
+- **Rage**
+  - Virus rabique
+  - Salive d’animal infecté
+  - Morsure, griffure ou contact avec muqueuse/peau lésée
+  - Évaluation selon animal, lieu, type et date d’exposition
+- **Tétanos**
+  - Bactérie Clostridium tetani
+  - Neurotoxine responsable des symptômes
+  - Spores environnementales entrant par une plaie
+  - Risque accru si plaie profonde, souillée ou nécrotique
+## 👀 Signes cliniques
+- **Rage**
+  - Fièvre, malaise, douleur ou paresthésies au site de morsure
+  - Agitation, anxiété, confusion ou troubles du comportement
+  - Hydrophobie, aérophobie, hypersalivation, spasmes possibles
+  - Troubles neurologiques, autonomes et respiratoires
+  - Symptômes déclarés : pronostic presque toujours fatal
+- **Tétanos**
+  - Trismus : difficulté à ouvrir la bouche
+  - Raideur musculaire et dysphagie
+  - Spasmes douloureux déclenchés par stimuli
+  - Rigidité généralisée, opisthotonos possible
+  - Risque de troubles respiratoires et autonomes
+## 🚑 CAT IDE — rage
+- **Laver immédiatement**
+  - Eau et savon abondamment environ 15 minutes
+  - Rincer
+  - Antiseptique adapté selon protocole
+- **Orienter sans délai**
+  - Avis médical urgent
+  - Centre antirabique
+  - Ne pas attendre les symptômes
+- **Documenter**
+  - Espèce et comportement de l’animal si connus
+  - Lieu/pays et date de l’exposition
+  - Type de contact, siège et profondeur de la plaie
+- **Prophylaxie post-exposition**
+  - Vaccination antirabique selon indication
+  - Immunoglobulines si indiquées
+  - Décision selon évaluation spécialisée
+- **Évaluer la plaie**
+  - Lésions profondes et atteintes tendineuse, nerveuse ou vasculaire
+  - Risque infectieux
+  - Statut tétanique
+- **Tracer**
+  - Heure de l’exposition
+  - Lavage et soins réalisés
+  - Orientation et décisions médicales
+## 🩹 CAT IDE — tétanos
+- **Évaluer**
+  - Type, profondeur et souillure de la plaie
+  - Corps étranger et tissus dévitalisés
+  - Délai depuis la blessure
+- **Soins locaux**
+  - Nettoyage et irrigation selon protocole
+  - Débridement si indiqué médicalement
+- **Vérifier**
+  - Statut vaccinal
+  - Date du dernier rappel
+- **Prophylaxie**
+  - Vaccin selon statut et recommandations
+  - Immunoglobulines si indiquées selon risque
+- **Orienter**
+  - Plaie à risque
+  - Statut vaccinal inconnu ou incomplet
+  - Signes évocateurs
+- **Vigilance**
+  - Antibiotiques ne remplacent pas vaccin ou immunoglobulines indiquées
+## 🚨 Signes d’alerte
+- **Rage**
+  - Morsure, griffure ou salive sur muqueuse/peau lésée par animal suspect ou en zone à risque
+  - Évaluation urgente
+- **Tétanos**
+  - Trismus, dysphagie, rigidité ou spasmes
+  - Urgence hospitalière
+- **Urgence vitale**
+  - Détresse respiratoire
+  - Spasmes généralisés
+  - Trouble de conscience
+  - Instabilité hémodynamique
+- **Plaie**
+  - Profonde, écrasement, main/visage
+  - Saignement important ou infection
+## 🛡️ Prévention
+- **Rage**
+  - Éviter les animaux inconnus ou sauvages
+  - Vaccination préventive selon destination et risque
+  - Après exposition : lavage et centre antirabique
+  - Vaccination préventive ne dispense pas de prise en charge post-exposition
+- **Tétanos**
+  - Vaccination et rappels selon calendrier français
+  - Nettoyage soigneux des plaies
+  - Vérification du statut vaccinal
+  - Maladie ne conférant pas une immunité fiable
+## 🧠 Mémo
+- **Rage** : laver 15 min + centre antirabique sans délai
+- **Tétanos** : plaie + statut vaccinal → soins + vaccin ± immunoglobulines selon recommandations
+- **Trismus / spasmes** : penser tétanos, urgence hospitalière
+- **Après exposition rage** : ne jamais attendre les symptômes
+- **Rôle IDE** : évaluer, alerter, orienter, tracer et surveiller
+## 📚 Sources institutionnelles
+- **Ministère chargé de la Santé**
+  - https://sante.gouv.fr/
+- **Santé publique France**
+  - https://www.santepubliquefrance.fr/
+- **Haut Conseil de la santé publique**
+  - https://www.hcsp.fr/
+- **Assurance Maladie**
+  - https://www.ameli.fr/
+- **Institut Pasteur**
+  - https://www.pasteur.fr/

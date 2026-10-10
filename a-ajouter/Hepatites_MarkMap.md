@@ -1,0 +1,180 @@
+# 🦠🟡 Hépatites virales — IFSI S3
+## **🔑 Définition et physiopathologie**
+- **Hépatite**
+  - Inflammation du foie
+  - Peut être d’origine virale
+- **Atteinte hépatocytaire**
+  - Inflammation ou lésion des hépatocytes
+    - Perturbation des enzymes hépatiques
+      - Fonction du foie parfois altérée selon la gravité
+- **Signes possibles**
+  - Fatigue, nausées, gêne abdominale
+  - Urines foncées, selles pâles, ictère
+  - Infection parfois asymptomatique
+- **Évolution**
+  - Guérison possible
+  - Hépatites B, C et D pouvant devenir chroniques
+  - Forme grave pouvant provoquer une insuffisance hépatique
+## **🦠 Comparatif des virus**
+- **Hépatite A — HAV**
+  - Transmission
+    - Voie féco-orale
+      - Eau/aliments contaminés et mains
+  - Évolution
+    - Aiguë
+    - Pas de chronicité
+  - Prévention et traitement
+    - Vaccination
+    - Hygiène
+    - Traitement symptomatique
+- **Hépatite B — HBV**
+  - Transmission
+    - Sang
+    - Rapports sexuels
+    - Transmission mère-enfant
+  - Évolution
+    - Aiguë ou chronique
+  - Prévention et traitement
+    - Vaccination
+    - Antiviraux pour certaines formes chroniques
+- **Hépatite C — HCV**
+  - Transmission
+    - Surtout sang contaminé
+      - Partage de matériel d’injection
+      - Exposition sanguine
+  - Évolution
+    - Chronicité fréquente sans traitement
+  - Prévention et traitement
+    - Pas de vaccin
+    - Antiviraux à action directe
+      - Guérison virologique dans la grande majorité des cas
+- **Hépatite D — HDV**
+  - Transmission
+    - Sang et voie sexuelle
+  - Condition nécessaire
+    - Présence du virus B
+  - Évolution
+    - Peut aggraver l’hépatite B
+    - Peut devenir chronique
+  - Prévention
+    - Vaccination contre le VHB protège indirectement
+- **Hépatite E — HEV**
+  - Transmission
+    - Principalement féco-orale
+    - Certains cas liés à viande insuffisamment cuite selon la région
+  - Évolution
+    - Généralement aiguë
+    - Risque de forme grave chez la femme enceinte et les personnes immunodéprimées
+  - Prévention
+    - Hygiène de l’eau et des aliments
+    - Pas de vaccin utilisé en routine en France
+## **🔍 Ce que j’observe**
+- **Signes généraux**
+  - Asthénie et anorexie
+  - Nausées et vomissements
+- **Signes hépato-biliaires**
+  - Douleur de l’hypochondre droit
+  - Ictère
+  - Urines foncées
+  - Selles décolorées
+  - Prurit
+- **Signes de gravité**
+  - Ecchymoses ou saignements inhabituels
+  - Confusion ou somnolence inhabituelle
+  - Vomissements persistants
+  - Aggravation rapide
+  - Suspicion d’insuffisance hépatique aiguë
+## **🧪 Examens**
+- **ALAT et ASAT**
+  - Évaluer la cytolyse hépatique
+  - Ne mesurent pas seules la fonction hépatique
+- **Bilirubine**
+  - Explorer un ictère
+- **TP/INR, glycémie, albumine selon contexte**
+  - Évaluer la gravité et la fonction de synthèse
+  - TP/INR et glycémie importants si forme aiguë sévère
+- **Sérologies et/ou PCR virales**
+  - Identifier le virus
+  - Distinguer infection aiguë, ancienne ou chronique selon les marqueurs
+- **Échographie selon indication**
+  - Explorer le foie
+  - Éliminer d’autres causes d’ictère ou de douleur
+## **👩‍⚕️ CAT IDE**
+- **Évaluer**
+  - État général et fatigue
+  - Douleur et nausées
+  - Ictère, urines et selles
+  - Hydratation et apports
+- **Repérer les signes de gravité**
+  - Confusion ou somnolence
+  - Saignements
+  - Vomissements persistants
+  - Aggravation rapide
+    - Alerte médicale urgente
+- **Prévenir l’exposition au sang**
+  - Précautions standard pour tou·te·s
+  - Matériel sécurisé
+  - Élimination sécurisée des objets piquants/coupants
+  - Conduite à tenir en cas d’AES
+- **Prévenir la transmission féco-orale**
+  - Hygiène des mains
+  - Hygiène alimentaire et environnementale
+  - Précautions complémentaires selon agent et protocole
+- **Sécuriser les traitements**
+  - Vérifier prescriptions et automédication
+  - Prudence avec alcool et médicaments hépatotoxiques
+  - Ne pas modifier un traitement sans avis médical
+- **Éduquer sans stigmatiser**
+  - Expliquer le mode de transmission propre au virus
+  - Vaccination VHA/VHB selon indications
+  - Prévention sexuelle et sanguine
+  - Dépistage des personnes exposées selon recommandations
+## **💊 Traitements**
+- **Hépatite A et E**
+  - Traitement le plus souvent symptomatique
+  - Surveillance renforcée si forme grave ou terrain à risque
+- **Hépatite B**
+  - Infection aiguë souvent surveillée et traitée symptomatiquement
+  - Antiviraux pour certaines formes chroniques
+  - Suivi spécialisé
+- **Hépatite C**
+  - Antiviraux à action directe
+  - Guérison virologique dans la grande majorité des cas
+- **Hépatite D**
+  - Prise en charge spécialisée
+  - Prévention indirecte par vaccination contre le VHB
+## **⚠️ Complications**
+- **Atteinte hépatique sévère**
+  - Ictère marqué
+  - Troubles de coagulation
+  - Hémorragies
+  - Insuffisance hépatique aiguë
+  - Encéphalopathie hépatique
+- **Chronicité**
+  - Hépatites B, C et D
+  - Fibrose et cirrhose
+  - Carcinome hépatocellulaire surtout avec VHB/VHC
+## **🧠 Mémo express**
+- **A et E**
+  - Surtout voie digestive
+- **B, C et D**
+  - Surtout exposition sanguine
+  - B également voie sexuelle et mère-enfant
+- **D**
+  - Dépend du virus B
+- **C**
+  - Pas de vaccin
+  - Traitement généralement curatif
+- **Confusion + saignements ou aggravation rapide**
+  - Urgence
+## **📚 Sources**
+- **Santé publique France**
+  - https://www.santepubliquefrance.fr/maladies-et-traumatismes/hepatites-virales
+- **Assurance Maladie**
+  - Hépatite A : https://www.ameli.fr/assure/sante/themes/hepatite-a
+  - Hépatite B : https://www.ameli.fr/assure/sante/themes/hepatite-b
+  - Hépatite C : https://www.ameli.fr/assure/sante/themes/hepatite-c
+- **OMS**
+  - https://www.who.int/fr/health-topics/hepatitis
+- **Vaccination Info Service**
+  - https://vaccination-info-service.fr/

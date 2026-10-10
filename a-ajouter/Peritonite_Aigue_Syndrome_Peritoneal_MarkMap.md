@@ -1,0 +1,142 @@
+# 🦠🚨 Péritonite aiguë / syndrome péritonéal
+## **🔑 Définitions**
+- **Péritoine**
+  - Membrane qui tapisse la cavité abdominale et recouvre une partie des organes
+- **Syndrome péritonéal**
+  - Ensemble de signes cliniques traduisant une irritation péritonéale
+  - Ne désigne pas à lui seul la cause
+- **Péritonite aiguë**
+  - Inflammation aiguë du péritoine
+  - Souvent liée à une contamination infectieuse
+## **🧬 Physiopathologie**
+- **Mécanisme fréquent**
+  - Perforation digestive, par exemple appendice ou ulcère
+    - Contamination de la cavité péritonéale
+      - Inflammation
+        - Fuite liquidienne vers le « 3e secteur »
+          - Hypovolémie possible
+            - Risque de sepsis ou de choc septique
+## **🔍 Ce que j’observe**
+- **Douleur abdominale**
+  - Intense, parfois brutale et diffuse
+  - Rechercher début, localisation et évolution
+- **Défense ou contracture**
+  - « Ventre de bois »
+  - Contracture = rigidité involontaire persistante
+  - Signe évocateur majeur
+- **Signes digestifs**
+  - Nausées, vomissements, anorexie
+  - Diminution ou arrêt du transit
+  - Distension abdominale
+  - Iléus réflexe possible
+- **Signes infectieux**
+  - Fièvre et frissons possibles
+  - Fièvre parfois absente chez les personnes fragiles
+- **Signes de gravité**
+  - Tachycardie, hypotension, polypnée
+  - Confusion
+  - Marbrures ou extrémités froides
+  - Oligurie
+  - Hypoperfusion ou choc possible
+## **🚨 CAT immédiate**
+- **Alerter**
+  - Douleur brutale/intense avec défense ou contracture
+  - Instabilité des constantes
+  - Confusion, marbrures, oligurie ou aggravation rapide
+- **Évaluer et surveiller**
+  - Conscience et état général
+  - Douleur, température, FC, PA, FR, SpO₂
+  - Perfusion périphérique et diurèse
+  - Réévaluation rapprochée selon gravité
+- **Préparer**
+  - Voie veineuse et prélèvements prescrits
+  - Examens et transfert sans retard
+  - Jeûne selon consignes médicales
+## **🧪 Examens**
+- **Examen clinique et constantes**
+  - Évaluer irritation péritonéale et gravité
+- **Biologie sur prescription**
+  - NFS et CRP
+    - Réaction inflammatoire/infectieuse
+  - Ionogramme, urée/créatinine
+    - Pertes hydriques et fonction rénale
+  - Lactate selon prescription
+    - Hypoperfusion possible
+  - Hémocultures si indiquées
+    - Avant antibiothérapie si possible sans retarder le traitement urgent
+- **Imagerie**
+  - Scanner abdomino-pelvien selon le contexte
+    - Rechercher perforation, appendicite compliquée, abcès ou liquide libre
+- **Prélèvements opératoires**
+  - Si réalisés
+    - Aider à adapter l’antibiothérapie
+## **👩‍⚕️ Prise en soin IDE**
+- **Alerter et évaluer**
+  - Alerte immédiate
+  - Conscience, douleur et état général
+  - Température, FC, PA, FR et SpO₂
+- **Surveiller**
+  - Constantes et douleur de façon rapprochée
+  - Perfusion périphérique et abdomen
+  - Vomissements et diurèse
+- **Sur prescription ou protocole**
+  - Voie veineuse et prélèvements
+  - Antibiotiques IV et antalgiques
+  - Solutés/remplissage
+  - Oxygène si indiqué
+- **Anticiper une intervention**
+  - Jeûne selon consignes
+  - Vérifier identité, allergies et dossier
+- **Tracer et transmettre**
+  - Heure de début et évolution de la douleur
+  - Constantes chiffrées et diurèse
+  - Signes d’alerte et réponse aux traitements
+## **💊 Traitements**
+- **Contrôle de la cause**
+  - Chirurgie ou drainage selon l’origine
+- **Antibiothérapie IV**
+  - Traiter l’infection
+  - Surveiller tolérance et efficacité
+- **Remplissage IV**
+  - Corriger l’hypovolémie selon prescription
+  - Réévaluer la réponse clinique
+- **Traitements de support**
+  - Antalgiques
+  - Oxygène selon état clinique et prescription/protocole
+## **⚠️ Complications**
+- **Sepsis ou choc septique**
+  - Hypotension, tachycardie, polypnée
+  - Confusion, marbrures, oligurie
+- **Hypovolémie ou insuffisance rénale aiguë**
+  - Baisse de pression artérielle
+  - Diminution de diurèse
+  - Créatinine en hausse
+- **Abcès intra-abdominal**
+  - Fièvre ou douleur persistante/réapparue
+- **Iléus**
+  - Distension, vomissements, arrêt du transit
+- **Complications postopératoires**
+  - Infection du site opératoire
+  - Fuite selon chirurgie
+  - Complications thromboemboliques
+## **🧠 Mémo express**
+- **Syndrome péritonéal**
+  - Signes cliniques d’irritation du péritoine
+- **Péritonite**
+  - Inflammation du péritoine, souvent infectieuse
+- **Urgence**
+  - Douleur intense + défense/contracture + altération générale ou instabilité
+    - Alerte immédiate
+- **À éviter**
+  - Retarder l’alerte ou le transfert
+  - Donner à manger/boire si jeûne prescrit ou intervention envisagée
+  - Chaleur ou laxatif sans avis médical
+## **📚 Sources**
+- **Ressources institutionnelles**
+  - Assurance Maladie
+    - https://www.ameli.fr/
+  - Société Française d’Anesthésie et de Réanimation
+    - https://sfar.org/
+  - Société Française de Chirurgie Digestive
+    - https://www.snfge.org/
+  - Protocoles locaux et recommandations en vigueur

@@ -1,0 +1,155 @@
+# 🦠 COVID-19 et grippe — Markmap IFSI
+## 🚨 Essentiel
+- **Deux infections respiratoires virales**
+  - Transmission principalement respiratoire
+  - Symptômes qui peuvent se ressembler
+  - Risque accru de forme grave chez les personnes fragiles
+- **Priorité IDE**
+  - Repérer détresse respiratoire et aggravation
+  - Surveiller FR, SpO₂, constantes, conscience et hydratation
+## 🧬 Agents infectieux
+- **COVID-19**
+  - SARS-CoV-2
+  - Sévérité variable
+  - Symptômes prolongés possibles après phase aiguë
+- **Grippe**
+  - Virus influenza A ou B principalement
+  - Début souvent brutal
+  - Fièvre, courbatures, céphalées et fatigue importante
+## 🔁 Transmission et incubation
+- **COVID-19**
+  - Particules respiratoires inhalées
+  - Risque accru en intérieur mal ventilé
+  - Transmission possible avant les symptômes et sans symptômes
+  - Incubation variable selon le variant
+- **Grippe**
+  - Particules respiratoires
+  - Risque accru en proximité et espaces clos
+  - Transmission possible avant les symptômes
+  - Incubation généralement courte, souvent 1 à 3 jours
+- **Prévention**
+  - Aération et ventilation
+  - Hygiène des mains
+  - Masque selon risque et contexte
+  - Vaccination selon recommandations
+## 👀 Signes cliniques
+- **Généraux**
+  - Fièvre possible
+  - Fatigue, céphalées, courbatures
+  - Grippe souvent de début brutal avec asthénie marquée
+- **Respiratoires / ORL**
+  - Toux, mal de gorge, rhinorrhée
+  - Dyspnée possible
+- **Autres**
+  - COVID : troubles du goût ou de l’odorat possibles
+  - Grippe : troubles digestifs possibles surtout chez l’enfant
+  - Fatigue ou toux persistante après phase aiguë
+- **Vigilance**
+  - Symptômes qui se chevauchent
+  - Clinique seule insuffisante pour distinguer les deux
+## 🚨 Signes de gravité
+- **Respiratoires**
+  - Dyspnée importante ou aggravation rapide
+  - Tirage, cyanose, difficulté à parler
+  - Désaturation ou baisse de SpO₂ par rapport à la cible
+- **Neurologiques**
+  - Confusion nouvelle
+  - Somnolence inhabituelle
+  - Altération de conscience
+- **Circulatoires**
+  - Malaise, hypotension, marbrures
+  - Extrémités froides, signes de choc
+- **Hydratation / fragilité**
+  - Incapacité à boire, oligurie
+  - Perte d’autonomie ou dégradation chez la personne âgée
+## 🩺 CAT IDE
+- **Évaluer**
+  - Symptômes et date de début
+  - Facteurs de risque, traitements, vaccination
+  - Contacts, apports hydriques et état général
+- **Surveiller**
+  - Température, FR, SpO₂, FC, PA
+  - Conscience, signes de lutte
+  - Hydratation et diurèse selon contexte
+- **Alerter**
+  - Détresse respiratoire
+  - Désaturation
+  - Confusion ou signes de choc
+  - Aggravation rapide
+- **Prévenir la transmission**
+  - Hygiène des mains
+  - Aération
+  - Masque selon recommandations et contexte
+  - Précautions selon protocole
+- **Préparer**
+  - Test virologique selon contexte
+  - Examens complémentaires selon gravité et prescription
+- **Transmettre**
+  - Début et évolution
+  - Constantes et facteurs de risque
+  - Résultats, traitements et réponse clinique
+## 🧪 Diagnostic
+- **COVID-19**
+  - Test antigénique ou RT-PCR selon contexte
+- **Grippe**
+  - Test virologique si utile à la prise en charge
+- **Évaluation**
+  - Examen clinique et constantes
+  - Examens complémentaires selon gravité
+  - Interpréter test négatif selon délai et prélèvement
+## 💊 Traitements
+- **COVID léger**
+  - Traitement symptomatique
+  - Hydratation et surveillance
+- **COVID à risque de forme grave**
+  - Évaluation médicale précoce
+  - Antiviral si indiqué selon délai, contre-indications et interactions
+- **COVID grave**
+  - Hospitalisation
+  - Oxygénothérapie et traitements selon indication
+- **Grippe non compliquée**
+  - Repos, hydratation, traitement symptomatique
+- **Grippe à risque ou grave**
+  - Antiviral selon indication
+  - Bénéfice dépend notamment du délai d’instauration
+- **Antibiotiques**
+  - Inefficaces contre les virus
+  - Utilisés seulement si infection bactérienne suspectée/confirmée et décision médicale
+## 🛡️ Prévention et vaccination
+- **COVID-19**
+  - Vaccination selon recommandations françaises en vigueur
+  - Priorité aux personnes à risque selon campagne/recommandations
+- **Grippe**
+  - Vaccination saisonnière
+  - Priorité aux personnes éligibles et à risque
+- **Mesures barrières**
+  - Aération, hygiène des mains
+  - Masque selon situation et recommandations
+  - Protocoles en établissement de soins
+## ⚠️ Complications
+- **Respiratoires**
+  - Pneumonie, insuffisance respiratoire aiguë
+- **Autres**
+  - Décompensation de maladie chronique
+  - Complications cardiovasculaires
+  - Surinfection bactérienne, notamment après grippe
+  - Déshydratation, confusion, chute chez les personnes fragiles
+- **Après COVID**
+  - Symptômes persistants possibles : COVID long
+## 🧠 Mémo
+- **COVID et grippe** : symptômes proches, test selon contexte
+- **Surveillance IDE** : FR, SpO₂, signes de lutte, conscience, hydratation
+- **Alerte immédiate** : détresse respiratoire, désaturation, confusion, choc
+- **Antibiotiques** : aucun effet sur les virus
+- **Prévention** : vaccination + aération + hygiène des mains + masque selon contexte
+## 📚 Sources institutionnelles
+- **Santé publique France**
+  - https://www.santepubliquefrance.fr/
+- **Ministère chargé de la Santé**
+  - https://sante.gouv.fr/
+- **Haute Autorité de santé**
+  - https://www.has-sante.fr/
+- **Assurance Maladie**
+  - https://www.ameli.fr/
+- **Vaccination Info Service**
+  - https://vaccination-info-service.fr/

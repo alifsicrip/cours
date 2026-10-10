@@ -1,0 +1,161 @@
+# 🦟 Paludisme — Markmap IFSI
+## 🚨 Essentiel
+- **Paludisme**
+  - Infection parasitaire due à Plasmodium
+  - Transmission surtout par piqûre d’Anopheles femelle infecté
+  - Fièvre après séjour en zone d’endémie = urgence diagnostique
+  - Plasmodium falciparum peut évoluer rapidement vers une forme grave
+## 🧬 Définition et transmission
+- **Agent infectieux**
+  - Parasite du genre Plasmodium
+- **Transmission**
+  - Piqûre de moustique Anopheles femelle infecté
+  - Plus rarement transfusion, matériel contaminé ou transmission materno-fœtale
+- **Espèces**
+  - P. falciparum : risque élevé de forme grave
+  - P. vivax
+  - P. ovale
+  - P. malariae
+  - P. knowlesi
+- **Géographie**
+  - Régions tropicales
+  - Notamment Afrique subsaharienne
+## 👀 Signes cliniques
+- **Généraux**
+  - Fièvre, frissons, sueurs
+  - Fatigue intense, céphalées, myalgies
+- **Digestifs**
+  - Nausées, vomissements
+  - Douleurs abdominales, diarrhée possible
+- **Biologiques**
+  - Anémie
+  - Thrombopénie
+  - Bilirubine élevée possible
+- **Vigilance**
+  - Fièvre parfois irrégulière
+  - Absence de fièvre périodique typique n’exclut pas le paludisme
+## 🚨 Signes de gravité
+- **Neurologiques**
+  - Confusion, agitation, somnolence
+  - Convulsions, troubles de conscience, coma
+- **Respiratoires**
+  - Difficulté respiratoire
+  - Respiration anormale
+- **Circulatoires**
+  - Hypotension, choc
+  - Mauvaise perfusion périphérique
+- **Rénaux / hydriques**
+  - Oligurie
+  - Déshydratation sévère
+- **Hématologiques / métaboliques**
+  - Anémie sévère
+  - Hypoglycémie
+  - Saignements ou anomalies biologiques sévères
+- **Digestifs**
+  - Vomissements répétés
+  - Altération rapide de l’état général
+## 🩺 CAT IDE
+- **Repérer**
+  - Fièvre ou syndrome pseudo-grippal
+  - Séjour actuel ou antérieur en zone de transmission
+- **Alerter**
+  - Médecin immédiatement
+  - Transmettre pays/région et dates du voyage
+- **Surveiller**
+  - Température, FC, PA, FR, SpO₂
+  - Conscience et douleur
+  - Hydratation et diurèse
+  - Signes de gravité
+- **Préparer**
+  - Goutte épaisse et frottis sanguin
+  - TDR selon protocole
+  - Bilan biologique prescrit
+- **Administrer**
+  - Antipaludique selon prescription
+  - Surveiller tolérance et efficacité
+- **Ne pas retarder**
+  - Évaluation et diagnostic urgents
+  - Tests à répéter si suspicion persistante malgré résultat négatif, selon avis médical
+- **Tracer / transmettre**
+  - Début des symptômes
+  - Voyage, dates et prophylaxie
+  - Traitements, constantes et horaires des prélèvements
+## 🧪 Diagnostic
+- **Frottis sanguin**
+  - Détection du parasite
+  - Estimation de la parasitémie
+- **Goutte épaisse**
+  - Recherche parasitologique
+- **Test rapide**
+  - Aide au diagnostic selon protocole
+  - Ne remplace pas toujours les examens de référence
+- **Répétition**
+  - Si premiers tests négatifs et suspicion persistante
+- **Bilan de gravité**
+  - NFS, glycémie, fonction rénale, bilan hépatique
+  - Lactate, coagulation et autres examens selon contexte
+- **Anamnèse**
+  - Pays/région visités et dates
+  - Prophylaxie et traitements
+  - Début des symptômes
+## 💊 Traitement
+- **Paludisme non compliqué**
+  - Antipaludique selon espèce, zone, résistances, terrain et recommandations
+- **Paludisme grave**
+  - Hospitalisation urgente
+  - Soins intensifs/réanimation selon état
+  - Traitement IV spécialisé, souvent artésunate IV selon recommandations
+- **Soins de support**
+  - Traitement de la fièvre
+  - Hydratation adaptée et prudente
+  - Correction des troubles métaboliques
+  - Surveillance rapprochée
+- **Sécurité**
+  - Respect prescription, doses, horaires, durée et interactions
+  - Avis spécialisé si nécessaire
+## 🛡️ Prévention
+- **Protection contre les moustiques**
+  - Répulsif adapté
+  - Vêtements couvrants
+  - Moustiquaire imprégnée
+  - Réduire exposition aux heures à risque
+- **Chimioprophylaxie**
+  - Adaptée à destination, séjour et profil individuel
+  - Protection jamais absolue
+- **Avant le voyage**
+  - Consultation de médecine des voyages
+- **Après le voyage**
+  - Fièvre = consultation urgente
+  - Signaler immédiatement le séjour en zone d’endémie
+  - Ne pas s’automédiquer
+## ⚠️ Complications
+- **Neurologiques**
+  - Neuropaludisme, convulsions, coma
+- **Hématologiques**
+  - Anémie sévère, thrombopénie
+- **Respiratoires**
+  - Détresse respiratoire, œdème pulmonaire
+- **Circulatoires**
+  - Choc
+- **Rénales / métaboliques**
+  - Insuffisance rénale aiguë
+  - Hypoglycémie
+- **Pronostic**
+  - Décès possible sans prise en charge rapide
+## 🧠 Mémo
+- **Fièvre + retour d’une zone d’endémie** : paludisme à éliminer en urgence
+- **P. falciparum** : risque de forme grave rapide
+- **IDE** : alerter, préciser le voyage, surveiller constantes, conscience et diurèse
+- **Diagnostic** : examens sanguins urgents, répéter si nécessaire
+- **Traitement** : antipaludique adapté sans retard après évaluation médicale
+## 📚 Sources institutionnelles
+- **Santé publique France**
+  - https://www.santepubliquefrance.fr/
+- **Ministère chargé de la Santé**
+  - https://sante.gouv.fr/
+- **Haut Conseil de la santé publique**
+  - https://www.hcsp.fr/
+- **Centre national de référence du paludisme**
+  - https://www.cnr-paludisme.fr/
+- **Institut Pasteur**
+  - https://www.pasteur.fr/

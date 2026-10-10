@@ -1,0 +1,186 @@
+# 🫁 Infections respiratoires basses — Markmap IFSI
+## 🚨 Essentiel
+- **Infections respiratoires basses**
+  - Touchent notamment bronches et poumons
+  - Causes virales ou bactériennes
+  - Gravité selon agent, terrain et signes cliniques
+- **Priorité IDE**
+  - Repérer détresse respiratoire et sepsis
+  - Surveiller constantes, oxygénation et conscience
+## 🧬 Principales infections
+- **Bronchite aiguë**
+  - Inflammation des bronches
+  - Le plus souvent virale
+  - Toux, expectorations possibles, gêne thoracique
+- **Pneumonie / pneumopathie**
+  - Infection du tissu pulmonaire
+  - Fièvre, toux, expectorations, douleur thoracique
+  - Dyspnée et altération générale possibles
+- **Bronchiolite**
+  - Infection virale des petites bronches
+  - Surtout chez le nourrisson
+  - Toux, rhinorrhée, gêne respiratoire, difficultés alimentaires
+- **Exacerbation infectieuse de BPCO**
+  - Aggravation de la dyspnée, de la toux ou des expectorations
+  - Cause infectieuse possible
+- **Forme grave**
+  - Hypoxémie, signes de lutte
+  - Confusion, hypotension ou sepsis
+## 🦠 Causes et facteurs de risque
+- **Virus**
+  - Virus respiratoires saisonniers
+  - Influenza, SARS-CoV-2, VRS selon âge et contexte
+- **Bactéries**
+  - Pneumocoque et autres bactéries selon tableau et terrain
+- **Terrains à risque**
+  - Nourrisson, âge avancé, grossesse
+  - Immunodépression, dénutrition
+- **Maladies chroniques**
+  - BPCO, asthme, insuffisance cardiaque
+  - Maladie rénale et autres comorbidités
+- **Expositions**
+  - Tabagisme, pollution, contact infectieux, collectivité
+- **Contexte de soins**
+  - Hospitalisation récente, dispositifs respiratoires
+  - Risque de bactéries résistantes selon contexte
+## 👀 Signes cliniques
+- **Généraux**
+  - Fièvre ou hypothermie, frissons
+  - Fatigue, perte d’appétit, altération générale
+- **Respiratoires**
+  - Toux, expectorations, dyspnée
+  - Polypnée, douleur thoracique
+  - Sibilants/crépitants possibles à l’auscultation
+- **Oxygénation**
+  - SpO₂ basse ou en baisse
+  - Cyanose possible
+- **Neurologiques**
+  - Agitation, confusion, somnolence
+- **Hydratation / autonomie**
+  - Apports réduits, déshydratation
+  - Difficultés alimentaires, perte d’autonomie
+- **Vigilance**
+  - Présentation parfois atypique chez les personnes fragiles
+  - Absence de fièvre n’exclut pas une infection grave
+## 🚨 Signes de gravité
+- **Détresse respiratoire**
+  - Dyspnée importante
+  - Tirage, muscles accessoires
+  - Difficulté à parler, épuisement respiratoire
+- **Hypoxémie**
+  - Désaturation ou baisse de SpO₂
+- **Neurologiques**
+  - Confusion aiguë
+  - Somnolence inhabituelle
+  - Altération de conscience
+- **Circulatoires**
+  - Hypotension, tachycardie importante
+  - Marbrures, extrémités froides, oligurie
+- **Sepsis**
+  - Infection probable et défaillance d’organe
+- **Nourrisson**
+  - Apnées, cyanose, geignement
+  - Tirage marqué, difficultés alimentaires, épuisement
+## 🩺 CAT IDE
+- **Évaluer**
+  - Début et évolution des symptômes
+  - Comorbidités, facteurs de risque, vaccination
+  - Exposition infectieuse, traitements, allergies
+- **Surveiller**
+  - FR, SpO₂, FC, PA, température
+  - Conscience, signes de lutte, douleur
+  - Hydratation et diurèse selon contexte
+- **Installer**
+  - Demi-assise si tolérée
+  - Confort respiratoire
+  - Limiter efforts inutiles
+- **Prévenir transmission**
+  - Hygiène des mains
+  - Masque selon symptômes et contexte
+  - Précautions standard et complémentaires adaptées
+- **Préparer**
+  - Tests virologiques selon contexte
+  - Radiographie et prélèvements prescrits
+  - Bilan sanguin selon gravité
+- **Administrer**
+  - Traitements prescrits
+  - Oxygénothérapie selon prescription/protocole et cible individuelle
+  - Surveiller réponse et tolérance
+- **Alerter**
+  - Détresse respiratoire, désaturation
+  - Confusion, hypotension, signes de sepsis
+  - Aggravation rapide
+- **Tracer / transmettre**
+  - Symptômes, constantes, oxygène et dispositif
+  - Réponse aux soins, traitements, prélèvements
+## 🧪 Examens
+- **Examen clinique**
+  - FR, SpO₂, auscultation, constantes
+- **Radiographie thoracique**
+  - Selon suspicion de pneumonie, gravité ou évolution
+- **Tests virologiques**
+  - Selon contexte et impact sur prise en charge
+- **Bilan sanguin**
+  - NFS, CRP, fonction rénale
+  - Gaz du sang ou lactate selon indication
+- **Microbiologie**
+  - Hémocultures, prélèvements respiratoires ou antigènes selon contexte
+- **Vigilance**
+  - Examens non systématiques dans les infections simples
+## 💊 Traitements
+- **Symptomatique**
+  - Hydratation adaptée, repos
+  - Antipyrétique/antalgique selon prescription ou recommandations
+- **Virale**
+  - Traitement symptomatique fréquent
+  - Antiviral dans certaines indications
+- **Bactérienne**
+  - Antibiotique selon décision médicale
+  - Pas d’antibiotique systématique
+- **Oxygénothérapie**
+  - Selon prescription/protocole et cible SpO₂
+  - Prudence si risque d’hypercapnie
+- **Forme grave**
+  - Hospitalisation et support respiratoire selon besoin
+- **BPCO**
+  - Prise en charge de l’exacerbation selon prescription
+## 🛡️ Prévention
+- **Vaccination**
+  - Grippe, COVID-19, pneumocoque, VRS selon âge et risque
+- **Mesures d’hygiène**
+  - Hygiène des mains
+  - Hygiène respiratoire
+  - Aération/ventilation
+  - Masque selon contexte
+- **Tabac**
+  - Prévention et accompagnement au sevrage
+- **Soins**
+  - Prévention des infections associées aux soins
+  - Retrait des dispositifs non nécessaires
+## ⚠️ Complications
+- **Respiratoires**
+  - Insuffisance respiratoire aiguë, hypoxémie
+  - Épanchement pleural ou abcès selon infection
+- **Systémiques**
+  - Sepsis, choc septique
+- **Décompensation**
+  - BPCO, insuffisance cardiaque et autres maladies chroniques
+- **Personnes fragiles**
+  - Déshydratation, confusion, chute, perte d’autonomie
+## 🧠 Mémo
+- **Toux + fièvre + dyspnée** : évaluer gravité et évoquer pneumonie
+- **Priorité IDE** : FR, SpO₂, signes de lutte, conscience, PA, état général
+- **Alerte immédiate** : détresse respiratoire, désaturation, confusion, hypotension
+- **Antibiotiques** : pas systématiques, aucun effet sur les virus
+- **Prévention** : hygiène des mains, aération, masque selon contexte, vaccination
+## 📚 Sources institutionnelles
+- **Haute Autorité de santé**
+  - https://www.has-sante.fr/
+- **Santé publique France**
+  - https://www.santepubliquefrance.fr/
+- **Ministère chargé de la Santé**
+  - https://sante.gouv.fr/
+- **Assurance Maladie**
+  - https://www.ameli.fr/
+- **SPILF**
+  - https://www.infectiologie.com/

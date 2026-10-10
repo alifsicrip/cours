@@ -1,0 +1,162 @@
+# 🩺 Maladies éruptives de l’enfant
+## 🔎 **Décrire les lésions**
+- **Macule** 🟤
+  - Tache plane, changement de couleur
+- **Papule** 🔴
+  - Petite lésion solide en relief
+- **Vésicule** 🫧
+  - Petite lésion à liquide clair
+- **Pustule** 🟡
+  - Contenu purulent
+- **Érythème** 🌡️
+  - Rougeur cutanée
+- **Purpura** 🚨
+  - Sang extravasé
+  - Ne s’efface pas à la pression
+- **Exanthème**
+  - Éruption cutanée diffuse
+- **Énanthème**
+  - Lésions des muqueuses
+## 🦠 **Principales maladies**
+- **Rougeole** 🔴
+  - Virus très contagieux
+  - Fièvre élevée
+  - Toux + rhinite + conjonctivite
+  - Éruption visage puis descendante
+  - Pneumonie / encéphalite possibles
+  - Suspicion → isolement immédiat + alerte
+- **Rubéole** 🌸
+  - Virus
+  - Éruption rose souvent faciale
+  - Fièvre modérée
+  - Ganglions rétro-auriculaires/occipitaux possibles
+  - Danger fœtal pendant la grossesse
+- **Varicelle** 🫧
+  - Virus varicelle-zona
+  - Très contagieuse
+  - Vésicules prurigineuses par poussées
+  - Lésions à différents stades
+  - Surinfection / complications possibles
+  - Éviter ibuprofène et kétoprofène sauf avis spécialisé
+  - Pas d’aspirine sans avis médical
+- **Scarlatine** 🍓
+  - Streptocoque A
+  - Angine + fièvre
+  - Langue framboisée
+  - Éruption rouge rugueuse
+  - Antibiotique si indiqué médicalement
+- **Roséole** 🌷
+  - HHV-6 le plus souvent
+  - Fièvre élevée quelques jours
+  - Chute de fièvre puis éruption rosée
+  - Convulsions fébriles possibles
+- **Mégalérythème — 5ᵉ maladie** 😊
+  - Parvovirus B19
+  - Joues giflées
+  - Éruption réticulée des membres
+  - Vigilance grossesse / anémie / immunodépression
+- **Pieds-mains-bouche** 🖐️
+  - Entérovirus
+  - Lésions buccales + mains + pieds
+  - Risque de déshydratation si douleur buccale
+- **Peau ébouillantée staphylococcique** 🚨
+  - Toxine staphylococcique
+  - Rougeur douloureuse, bulles, décollement
+  - Urgence médicale/hospitalière
+## 🚨 **Signes de gravité**
+- **Purpura fébrile**
+  - Urgence
+  - Risque d’infection invasive
+- **Neurologiques**
+  - Somnolence inhabituelle
+  - Confusion
+  - Convulsions
+  - Raideur de nuque
+- **Respiratoires / circulatoires**
+  - Dyspnée
+  - Cyanose
+  - Marbrures
+  - Extrémités froides
+- **Déshydratation**
+  - Boit très peu
+  - Bouche sèche
+  - Urines rares
+- **Autres**
+  - Nourrisson de moins de 3 mois fébrile
+  - Dégradation rapide
+  - Décollement cutané / muqueuses atteintes
+## 👩‍⚕️ **CAT IDE**
+- **Évaluer**
+  - ABCDE si gravité
+  - Constantes adaptées à l’âge
+  - Conscience, douleur, hydratation, diurèse
+- **Décrire**
+  - Début et progression
+  - Localisation et aspect
+  - Prurit / douleur / muqueuses
+  - Traçabilité dans le dossier
+- **Rechercher**
+  - Vaccinations
+  - Contage / collectivité / voyage
+  - Médicaments récents
+  - Grossesse possible chez personne exposée
+  - Immunodépression / comorbidités
+- **Protéger**
+  - Précautions standard
+  - Précautions complémentaires selon suspicion
+  - Isolement aérien notamment rougeole/varicelle selon protocole
+  - Limiter les contacts
+- **Alerter**
+  - Purpura fébrile ou altération rapide
+  - Signes respiratoires, neurologiques ou circulatoires
+  - Ne pas retarder l’alerte
+- **Surveiller**
+  - État général et constantes
+  - Extension de l’éruption
+  - Muqueuses et douleur
+  - Hydratation / diurèse
+  - Tolérance des traitements
+- **Informer**
+  - Hygiène des mains
+  - Prévention de la transmission
+  - Consignes de collectivité selon diagnostic
+## 💊 **Traitement — principes**
+- **Maladie virale**
+  - Symptomatique
+  - Antibiotiques inefficaces sur les virus
+- **Scarlatine**
+  - Antibiothérapie si indiquée après évaluation
+- **Fièvre / douleur**
+  - Adaptation à l’âge et au poids
+  - Prescription / notice / protocole
+- **Varicelle**
+  - Éviter AINS sauf avis spécialisé
+  - Pas d’aspirine sans avis médical
+  - Prévenir le grattage et la surinfection
+## 🧠 **Mémo express**
+- **Rougeole**
+  - Toux + rhinite + conjonctivite + éruption descendante
+- **Roséole**
+  - Fièvre qui tombe puis éruption
+- **Varicelle**
+  - Vésicules à différents stades
+- **Scarlatine**
+  - Angine + langue framboisée + peau rugueuse
+- **5ᵉ maladie**
+  - Joues giflées
+- **Pieds-mains-bouche**
+  - Lésions bouche + mains + pieds
+- **Purpura fébrile**
+  - Urgence absolue
+## 📚 **Sources institutionnelles**
+- **Assurance Maladie**
+  - https://www.ameli.fr/assure/sante/enfants/maladies-infantiles
+  - https://www.ameli.fr/assure/sante/themes/rougeole/symptomes-diagnostic-evolution
+  - https://www.ameli.fr/assure/sante/themes/varicelle/reconnaitre-varicelle-enfant
+  - https://www.ameli.fr/assure/sante/themes/scarlatine/definition-symptomes-modes-transmission
+  - https://www.ameli.fr/assure/sante/themes/roseole/reconnaitre-roseole
+  - https://www.ameli.fr/assure/sante/themes/megalerytheme-epidemique/cinquieme-maladie-definition-et-frequence
+- **Santé publique France**
+  - https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-a-prevention-vaccinale/rougeole
+- **Service-Public.fr**
+  - https://www.service-public.fr/particuliers/vosdroits/F724

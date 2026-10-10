@@ -1,0 +1,138 @@
+# 🦠🚨 Appendicite aiguë — formes cliniques évoluées
+## **🔑 Mécanisme**
+- **Appendicite compliquée**
+  - Inflammation qui progresse avec nécrose, perforation ou extension de l’infection
+- **Évolution possible**
+  - Obstruction
+    - Inflammation et augmentation de pression
+      - Ischémie
+        - Nécrose
+          - Perforation
+            - Abcès localisé ou péritonite diffuse
+- **Risques majeurs**
+  - Péritonite
+  - Sepsis ou choc septique
+  - Hypovolémie
+## **🔍 Formes cliniques évoluées**
+- **Appendicite nécrosée ou gangréneuse**
+  - Paroi appendiculaire nécrosée
+  - Douleur persistante et fièvre possibles
+  - Risque de perforation
+- **Perforation appendiculaire**
+  - Rupture de la paroi
+  - Douleur qui s’aggrave ou s’étend à l’abdomen
+  - Contamination abdominale
+- **Abcès péri-appendiculaire**
+  - Collection de pus localisée
+  - Fièvre et douleur localisée persistante possibles
+  - État général altéré, masse parfois perceptible
+  - Antibiothérapie et drainage/chirurgie selon avis spécialisé
+- **Plastron appendiculaire**
+  - Ans es intestinales et tissus voisins agglomérés autour du foyer
+  - Douleur et signes infectieux persistants possibles
+  - Troubles du transit et masse mal limitée en fosse iliaque droite
+  - Traitement non opératoire initial parfois discuté
+- **Péritonite appendiculaire**
+  - Infection diffusée au péritoine
+  - Douleur diffuse ou généralisée
+  - Défense ou contracture abdominale
+  - Fièvre et altération générale possibles
+  - Urgence médico-chirurgicale
+## **🚨 Signes de gravité**
+- **Douleur**
+  - Intense, généralisée ou qui s’étend
+  - Abdomen rigide
+- **Signes infectieux**
+  - Fièvre élevée ou frissons
+  - Hypothermie possible chez une personne fragile
+- **Instabilité**
+  - Tachycardie, hypotension, polypnée
+  - SpO₂ anormale
+- **Altération générale**
+  - Confusion, somnolence inhabituelle ou malaise
+  - Marbrures, extrémités froides
+  - Baisse de diurèse
+- **CAT immédiate**
+  - Alerter sans délai
+  - Évaluer et surveiller les constantes
+  - Préparer la prise en charge urgente
+## **🧪 Examens**
+- **Clinique et constantes**
+  - Évaluer douleur, irritation péritonéale et gravité
+- **Biologie sur prescription**
+  - NFS et CRP
+    - Réaction inflammatoire/infectieuse
+    - Interprétation avec la clinique
+  - Ionogramme, urée/créatinine, lactate selon prescription
+    - Déshydratation, fonction rénale, hypoperfusion
+  - Hémocultures si indiquées
+    - Ne pas retarder une antibiothérapie urgente
+- **Imagerie**
+  - Scanner abdomino-pelvien selon le contexte
+    - Rechercher perforation, abcès, plastron, liquide libre et extension
+## **👩‍⚕️ CAT IDE**
+- **Alerter**
+  - Forme compliquée, péritonite ou sepsis suspecté
+- **Évaluer et réévaluer**
+  - Douleur et évolution abdominale
+  - Conscience et état général
+  - Température, FC, PA, FR, SpO₂
+  - État cutané et diurèse
+- **Préparer**
+  - Voie veineuse et prélèvements prescrits
+  - Examens et transfert sans retard
+- **Administrer sur prescription/protocole**
+  - Antibiotiques IV et antalgiques
+  - Solutés/remplissage
+  - Oxygène si indiqué
+- **Anticiper une intervention**
+  - Jeûne selon consignes
+  - Vérifier identité, allergies et dossier
+- **Tracer et transmettre**
+  - Heure d’apparition et évolution des symptômes
+  - Constantes chiffrées, diurèse et signes d’alerte
+  - Réponse aux traitements
+## **💊 Grandes lignes du traitement**
+- **Péritonite appendiculaire**
+  - Chirurgie urgente pour contrôler la source infectieuse
+  - Antibiothérapie IV
+- **Abcès ou plastron localisé**
+  - Antibiothérapie selon décision médicale
+  - Drainage si indiqué
+  - Chirurgie immédiate ou différée selon la situation
+- **Sepsis ou choc septique suspecté**
+  - Prise en charge urgente
+  - Surveillance rapprochée et traitements selon protocoles
+## **⚠️ Complications**
+- **Infectieuses**
+  - Péritonite généralisée
+  - Sepsis ou choc septique
+  - Abcès persistant ou récidivant
+- **Systémiques**
+  - Hypovolémie
+  - Insuffisance rénale aiguë
+- **Postopératoires**
+  - Infection du site opératoire
+  - Abcès intra-abdominal
+  - Iléus
+  - Complications thromboemboliques
+## **🧠 Mémo express**
+- **Évolution possible**
+  - Nécrose
+    - Perforation
+      - Abcès localisé ou péritonite diffuse
+        - Risque de sepsis
+- **Priorité IDE**
+  - Douleur qui s’étend + ventre rigide + altération générale
+    - Alerte immédiate
+## **📚 Sources**
+- **Assurance Maladie**
+  - Définition et fréquence
+    - https://www.ameli.fr/assure/sante/themes/appendicite-aigue/definition-frequence
+  - Symptômes, diagnostic et évolution
+    - https://www.ameli.fr/assure/sante/themes/appendicite-aigue/symptomes-diagnostic-evolution
+- **Recommandations professionnelles**
+  - SFCD / SIAD, recommandations sur l’appendicite de l’adulte, 2021
+    - https://doi.org/10.1016/j.jchirv.2020.09.011
+  - SFAR et sociétés savantes partenaires, infections intra-abdominales de l’adulte, 24 juin 2026
+    - https://sfar.org/prise-en-charge-therapeutique-des-infections-intra-abdominales-de-ladulte/

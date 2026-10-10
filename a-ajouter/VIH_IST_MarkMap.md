@@ -1,0 +1,164 @@
+# 🧬 VIH et IST — Markmap IFSI
+## 🚨 Essentiel
+- **VIH**
+  - Virus ciblant notamment les lymphocytes T CD4
+  - Sans traitement : risque d’immunodéficience et de sida
+  - Traitement antirétroviral au long cours
+  - Charge virale durablement indétectable = I = I pour la transmission sexuelle
+- **IST**
+  - Infections causées par virus, bactéries ou parasites
+  - Souvent asymptomatiques
+  - Dépistage selon exposition même sans symptômes
+## 🧬 Définitions
+- **VIH**
+  - Virus de l’immunodéficience humaine
+- **Sida**
+  - Stade avancé de l’infection par le VIH
+  - Immunodéficience importante et/ou maladies opportunistes
+- **Charge virale**
+  - Quantité de virus mesurée dans le sang
+- **I = I**
+  - Indétectable = intransmissible par voie sexuelle si charge virale durablement indétectable sous traitement efficace
+## 🦠 Principales IST
+- **VIH**
+  - Primo-infection parfois pseudo-grippale
+  - Phase chronique souvent silencieuse
+  - Diagnostic par tests adaptés
+  - Traitement antirétroviral
+- **Chlamydia**
+  - Bactérie
+  - Souvent asymptomatique
+  - Brûlures urinaires, écoulement, douleurs pelviennes possibles
+  - Risque de complications génitales et de fertilité
+- **Gonococcie**
+  - Bactérie
+  - Écoulement, dysurie ou absence de symptômes
+  - Diagnostic moléculaire/culture selon contexte
+  - Antibiothérapie adaptée
+- **Syphilis**
+  - Bactérie
+  - Chancre souvent indolore
+  - Éruption possible
+  - Risques neurologiques, cardiovasculaires ou autres aux stades tardifs
+- **Herpès génital**
+  - HSV-1 ou HSV-2
+  - Vésicules ou ulcérations douloureuses
+  - Récidives possibles
+- **HPV**
+  - Papillomavirus humain
+  - Souvent asymptomatique
+  - Condylomes
+  - Certains types associés à des cancers
+  - Vaccination et dépistage du col selon recommandations
+- **Hépatite B**
+  - Virus
+  - Risque de chronicité, cirrhose et cancer du foie
+  - Vaccination disponible
+- **Trichomonase**
+  - Parasite
+  - Pertes, irritation, dysurie ou absence de symptômes
+## 🔁 Transmission et prévention
+- **Transmission**
+  - Sexuelle : rapports vaginaux, anaux ou oraux selon l’IST
+  - Sanguine : partage de matériel d’injection, exposition au sang
+  - Parent-enfant : grossesse, accouchement ou allaitement pour certaines infections
+- **Prévention combinée**
+  - Préservatifs : réduisent le risque de nombreuses IST
+  - PrEP : prévention médicamenteuse du VIH, pas des autres IST
+  - TPE/PEP : urgence après exposition possible au VIH
+  - Vaccination HPV et hépatite B selon recommandations
+  - Dépistage adapté à l’exposition et aux symptômes
+  - TAR efficace et charge virale durablement indétectable : I = I pour le VIH sexuel
+## 👀 Signes à repérer
+- **Génito-urinaires**
+  - Brûlures urinaires, écoulement, pertes inhabituelles
+  - Douleurs pelviennes ou testiculaires
+- **Lésions**
+  - Chancre, ulcération, vésicules, lésions génitales/anales/orales
+- **Généraux**
+  - Fièvre, éruption, adénopathies, syndrome pseudo-grippal après exposition possible
+- **Vigilance**
+  - IST parfois asymptomatiques
+  - Absence de symptômes ne signifie pas absence d’infection
+## 🩺 CAT IDE
+- **Accueillir**
+  - Écoute confidentielle et non jugeante
+  - Respect de l’intimité et du consentement
+- **Évaluer**
+  - Date et type d’exposition
+  - Protection utilisée
+  - Symptômes, vaccination et traitements
+  - Contexte de violence ou contrainte si évoqué
+- **Exposition récente au VIH**
+  - Orienter immédiatement vers urgences ou service habilité
+  - Évaluation du TPE sans attendre les symptômes
+- **Dépister**
+  - Informer et expliquer les tests
+  - Consentement et prélèvements adaptés
+  - Un test trop précoce peut nécessiter un contrôle
+- **Accompagner**
+  - Observance et tolérance des traitements
+  - Prévention des réinfections
+  - Orientation vers ressources de santé
+- **Tracer / transmettre**
+  - Éléments utiles au soin et orientation
+  - Respect du secret professionnel
+## 🧪 Dépistage
+- **VIH**
+  - Test sanguin de 4e génération en laboratoire
+  - TROD ou autotest selon situation
+  - Délai depuis exposition à prendre en compte
+- **IST bactériennes**
+  - Prélèvements adaptés aux sites exposés
+  - Urines, prélèvements vaginaux, anaux, pharyngés ou lésions selon contexte
+  - Tests moléculaires et cultures selon infection
+- **Sérologies**
+  - Syphilis et hépatite B selon contexte
+- **Partenaires**
+  - Information, dépistage et traitement si indiqué
+  - Respect de la confidentialité
+## 💊 Traitement et suivi du VIH
+- **TAR**
+  - Association de médicaments
+  - Initiation et suivi médical spécialisé
+  - Ne pas interrompre ou modifier sans avis médical
+- **Objectifs**
+  - Réduire la charge virale
+  - Préserver/restaurer les CD4
+  - Prévenir complications et transmission sexuelle
+- **Suivi**
+  - Charge virale, CD4 selon situation
+  - Tolérance, interactions, observance, santé globale
+- **Rôle IDE**
+  - Soutien sans jugement
+  - Repérage des difficultés d’observance
+  - Orientation et information adaptée
+## ⚠️ Points de vigilance
+- **Exposition récente à risque**
+  - TPE à évaluer en urgence, idéalement dans les premières heures
+- **Grossesse**
+  - Dépistage et prise en charge adaptés
+  - Prévention de la transmission parent-enfant
+- **Signes nécessitant une évaluation rapide**
+  - Douleur pelvienne importante et fièvre
+  - Douleur testiculaire aiguë
+  - Symptômes neurologiques ou oculaires
+- **Prévention**
+  - PrEP ne protège pas des autres IST
+  - Vaccination, préservatifs et dépistage restent importants
+## 🧠 Mémo
+- **VIH** : cible CD4, TAR, I = I si charge virale durablement indétectable
+- **IST** : souvent silencieuses, dépistage selon exposition
+- **TPE** : exposition récente au VIH = évaluation immédiate
+- **IDE** : confidentialité, consentement, non-jugement, information et orientation
+## 📚 Sources institutionnelles
+- **Santé publique France**
+  - https://www.santepubliquefrance.fr/
+- **Ministère chargé de la Santé**
+  - https://sante.gouv.fr/
+- **Haute Autorité de santé**
+  - https://www.has-sante.fr/
+- **Assurance Maladie**
+  - https://www.ameli.fr/
+- **Sida Info Service**
+  - https://www.sida-info-service.org/

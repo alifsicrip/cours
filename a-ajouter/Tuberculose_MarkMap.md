@@ -1,0 +1,157 @@
+# 🫁 Tuberculose — Markmap IFSI
+## 🚨 Essentiel
+- **Tuberculose**
+  - Infection due principalement à Mycobacterium tuberculosis
+  - Bacille de Koch (BK)
+  - Forme pulmonaire/laryngée contagieuse : transmission aérienne
+  - Traitement par plusieurs antibiotiques pendant plusieurs mois
+- **Infection tuberculeuse latente (ITL)**
+  - Pas de maladie active ni de symptômes
+  - Personne non contagieuse
+## 🧬 Définition et formes
+- **Tuberculose maladie**
+  - Infection active
+  - Peut toucher poumons et autres organes
+- **Tuberculose pulmonaire**
+  - Atteinte des poumons
+  - Contagiosité selon présence de bacilles dans les sécrétions respiratoires
+- **Tuberculose extrapulmonaire**
+  - Ganglions, os, reins, méninges et autres organes
+  - Contagiosité généralement faible sauf atteinte pulmonaire/laryngée associée
+- **ITL**
+  - Infection sans symptômes ni maladie active
+  - Non contagieuse
+- **Primo-infection**
+  - Première rencontre avec le bacille
+  - Souvent asymptomatique
+  - Risque de maladie active selon le terrain
+## 🔁 Transmission et facteurs de risque
+- **Transmission**
+  - Voie aérienne
+  - Inhalation de particules émises par personne contagieuse
+  - Pas de transmission habituelle par vaisselle ou objets
+- **Facteurs de risque**
+  - Immunodépression, VIH, immunosuppresseurs
+  - Dénutrition, précarité, logement surpeuplé
+  - Tabagisme et maladies chroniques
+  - Contact étroit et prolongé
+  - Séjour ou naissance en région de forte incidence
+## 👀 Signes cliniques
+- **Généraux**
+  - Fièvre prolongée
+  - Sueurs nocturnes
+  - Fatigue, perte d’appétit, amaigrissement
+- **Respiratoires**
+  - Toux persistante
+  - Expectorations
+  - Hémoptysie possible
+  - Douleur thoracique, dyspnée
+- **Extrapulmonaires**
+  - Signes selon l’organe atteint
+  - Adénopathies, douleurs osseuses, signes neurologiques ou urinaires
+- **ITL**
+  - Pas de symptômes de maladie active
+## 🚨 CAT IDE — suspicion de forme pulmonaire contagieuse
+- **Repérer**
+  - Toux persistante
+  - Fièvre prolongée, sueurs nocturnes, amaigrissement
+  - Hémoptysie ou contact connu
+- **Protéger**
+  - Précautions complémentaires « air » immédiates selon protocole
+  - FFP2 pour le/la soignant·e selon protocole
+  - Masque chirurgical pour la personne malade si toléré lors des déplacements
+- **Limiter l’exposition**
+  - Chambre adaptée, porte fermée
+  - Limiter déplacements et personnes exposées selon protocole
+- **Alerter**
+  - Médecin
+  - Équipe opérationnelle d’hygiène
+- **Préparer**
+  - Prélèvements respiratoires prescrits
+  - Examens microbiologiques et moléculaires
+- **Accompagner**
+  - Administration des traitements prescrits
+  - Surveillance tolérance, interactions et observance
+- **Tracer / transmettre**
+  - Symptômes, risques, précautions, prélèvements et traitements
+  - Personnes exposées selon procédure
+## 🧪 Diagnostic et dépistage
+- **Imagerie thoracique**
+  - Radiographie et examens selon contexte
+  - Ne confirme pas seule le diagnostic
+- **Prélèvements respiratoires**
+  - Recherche de bacilles
+  - Tests moléculaires
+  - Culture et étude des résistances
+- **Tests d’infection**
+  - IDR à la tuberculine
+  - Test IGRA
+  - Ne distinguent pas à eux seuls ITL et maladie active
+- **Enquête autour d’un cas**
+  - Dépistage des contacts par équipes spécialisées
+## 💊 Traitement et surveillance IDE
+- **Traitement**
+  - Plusieurs antituberculeux associés
+  - Souvent au moins 6 mois pour une forme sensible
+  - Durée selon recommandations et site atteint
+- **Objectifs**
+  - Guérir
+  - Limiter la transmission
+  - Éviter rechutes et résistances
+- **Observance**
+  - Prise régulière et complète
+  - Ne pas interrompre sans avis médical
+- **Surveillance hépatique**
+  - Nausées/vomissements persistants
+  - Douleur abdominale, ictère, urines foncées
+- **Surveillance visuelle**
+  - Éthambutol : baisse d’acuité ou trouble de perception des couleurs
+  - Signaler rapidement
+- **Autres surveillances**
+  - Tolérance clinique et biologique selon prescription
+  - Interactions médicamenteuses
+- **Isolement**
+  - Levée selon évaluation médicale, résultats et protocole local
+  - Pas sur la seule amélioration des symptômes
+## 🛡️ Prévention
+- **Cas contagieux**
+  - Dépistage et traitement rapides
+- **Contacts**
+  - Enquête et dépistage selon recommandations
+- **Milieu de soins**
+  - Précautions « air »
+  - Aération et ventilation
+- **BCG**
+  - Vaccination ciblée selon recommandations françaises
+  - Protection surtout contre formes graves chez l’enfant
+- **Accompagnement**
+  - Soutien social et à l’observance si nécessaire
+## ⚠️ Complications
+- **Pulmonaires**
+  - Destruction pulmonaire, insuffisance respiratoire, hémoptysie
+- **Neurologiques**
+  - Méningite ou atteinte neurologique
+- **Autres organes**
+  - Os, articulations, reins et autres sites
+- **Traitement**
+  - Résistances si traitement inadapté ou incomplet
+- **Terrain immunodéprimé**
+  - Risque de forme disséminée
+## 🧠 Mémo
+- **Tuberculose pulmonaire contagieuse** : transmission aérienne
+- **Suspicion** : précautions « air » + alerte médicale
+- **Toux persistante + sueurs nocturnes + amaigrissement/fièvre** : évoquer une tuberculose
+- **IGRA/IDR positifs** : ne prouvent pas seuls une maladie active
+- **Traitement** : plusieurs antibiotiques, plusieurs mois, observance stricte
+- **Isolement** : levée selon évaluation et protocole
+## 📚 Sources institutionnelles
+- **Santé publique France**
+  - https://www.santepubliquefrance.fr/
+- **Ministère chargé de la Santé**
+  - https://sante.gouv.fr/
+- **Haute Autorité de santé**
+  - https://www.has-sante.fr/
+- **Assurance Maladie**
+  - https://www.ameli.fr/
+- **CNR mycobactéries**
+  - https://cnrmyctb.fr/

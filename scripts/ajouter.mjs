@@ -9,7 +9,8 @@
  *   --ue       UE concernée (défaut : UE2)
  *   --section  numéro de l'onglet, tel qu'affiché dans l'index (ex : 2.1)
  *   --emoji    emoji par défaut (un emoji au début du nom de fichier est prioritaire)
- *   --after    insérer le lot après la fiche n° N (0 = en haut, absent = à la fin)
+ *   --after    placement manuel : insérer le lot après la fiche n° N (0 = en haut), SANS tri.
+ *              Absent (défaut) : l'onglet est classé par ordre alphabétique.
  *   --dir      dossier à traiter (défaut : a-ajouter)
  *   --dry-run  simulation : rien n'est écrit
  *
@@ -27,6 +28,13 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BASE_URL = 'https://alifsicrip.github.io/cours'; // mettre '' pour des liens relatifs à la racine
 const PAGES_DIR = 'pages';
 const MEDIA_DIR = 'assets/img'; // images et PDF
+
+// Remplacements appliqués au TITRE AFFICHÉ dans l'index (pas au nom du fichier).
+// Un tiret placé juste avant le motif est absorbé : « Génétique - Fiche IFSI » → « Génétique - 📄 ».
+const REMPLACEMENTS = [
+  { motif: /Fiche[\s_-]*IFSI/i, par: '- 📄' }, // Fiche IFSI, Fiche_IFSI, FicheIFSI…
+  { motif: /Mark[\s_-]*Map/i, par: '- 🪢' }, // MarkMap, Mark Map, markmap…
+];
 
 const TYPES = {
   '.html': 'page',
@@ -65,6 +73,10 @@ const insideRoot = (p) => {
 /** Sans accents, sans espaces ni caractères spéciaux ; mots reliés par des tirets. */
 function slug(text) {
   return text
+    .replace(/œ/g, 'oe')
+    .replace(/Œ/g, 'Oe')
+    .replace(/æ/g, 'ae')
+    .replace(/Æ/g, 'Ae')
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/['’]/g, '')
@@ -73,6 +85,14 @@ function slug(text) {
     .split(/\s+/)
     .filter(Boolean)
     .join('-');
+}
+
+function appliquerRemplacements(titre) {
+  let t = titre;
+  for (const { motif, par } of REMPLACEMENTS) {
+    t = t.replace(new RegExp(`\\s*(?:[-–—]\\s*)?(?:${motif.source})`, 'gi'), ` ${par}`);
+  }
+  return t.replace(/\s+/g, ' ').trim();
 }
 
 const EMOJI_START = /^((?:\p{Extended_Pictographic}(?:\uFE0F|\u200D|\p{Emoji_Modifier})*)+)\s*/u;
@@ -93,7 +113,9 @@ function analyse(fileName) {
   const title = /\s/.test(stem)
     ? stem.replace(/\s+/g, ' ').trim() // nom écrit avec des espaces : repris tel quel
     : stem.replace(/[-_]+/g, ' ').replace(/(\p{Ll})(\p{Lu})/gu, '$1 $2').trim(); // Nom-DeFiche → Nom De Fiche
-  return { ext, emoji, title, base: slug(stem) };
+  // « Mark Map », « markmap »… → toujours « MarkMap » dans le nom du fichier (c'est lui qui déclenche la carte)
+  const base = slug(stem).replace(/Mark-?Map/gi, 'MarkMap');
+  return { ext, emoji, title: appliquerRemplacements(title), base };
 }
 
 /** Repère chaque onglet de l'index et les fiches qu'il contient. */
@@ -135,6 +157,59 @@ function insertLi(html, section, pos, li) {
   return html.slice(0, cut) + `${indent}${li}\n` + html.slice(cut);
 }
 
+/** Clé de tri d'une fiche : titre sans « UEx.y », sans emoji ni symbole de début, tirets normalisés. */
+function sortKey(liHtml) {
+  const a = liHtml.match(/<a\s[^>]*>([\s\S]*?)<\/a\s*>/);
+  return (a ? a[1] : liHtml)
+    .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&')
+    .replace(/^\s*UE\s*\d+(?:\.\d+)?/i, '')
+    .replace(/^[^\p{L}\p{N}]+/u, '')
+    .replace(/\s*[-–—]\s*/g, ' - ') // « vie -3 » et « vie - 3 » se classent pareil
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+const compareKeys = (a, b) => a.localeCompare(b, 'fr', { numeric: true, sensitivity: 'base' });
+
+/**
+ * Classe par ordre alphabétique les fiches d'un onglet. Les lignes qui ne sont pas des fiches
+ * (séparateur « --- ») restent en place et délimitent des groupes triés séparément.
+ */
+function sortPanelEntries(html, section) {
+  const panel = parsePanels(html).find((p) => p.number === section);
+  if (!panel || panel.ulClose === -1) return html;
+  const ulOpen = html.indexOf('<ul', panel.start);
+  const innerStart = html.indexOf('>', ulOpen) + 1;
+  const inner = html.slice(innerStart, panel.ulClose);
+
+  const items = [];
+  const re = /<li(?:\s[^>]*)?>[\s\S]*?<\/li\s*>/g;
+  let m;
+  while ((m = re.exec(inner))) {
+    items.push({ start: m.index, end: m.index + m[0].length, text: m[0], fiche: /<a\s/.test(m[0]) });
+  }
+
+  const sorted = items.map((it) => it.text);
+  for (let i = 0; i < items.length; ) {
+    if (!items[i].fiche) { i++; continue; }
+    let j = i;
+    while (j < items.length && items[j].fiche) j++;
+    const groupe = items.slice(i, j).map((it) => ({ text: it.text, key: sortKey(it.text) }));
+    groupe.sort((x, y) => compareKeys(x.key, y.key)); // tri stable : égalité = ordre actuel conservé
+    groupe.forEach((g, k) => { sorted[i + k] = g.text; });
+    i = j;
+  }
+
+  let out = '';
+  let cursor = 0;
+  items.forEach((it, idx) => {
+    out += inner.slice(cursor, it.start) + sorted[idx];
+    cursor = it.end;
+  });
+  out += inner.slice(cursor);
+  return html.slice(0, innerStart) + out + html.slice(panel.ulClose);
+}
+
 // -------------------------------------------------------------------- main
 function main() {
   const ue = ARGS.ue || 'UE2';
@@ -173,6 +248,7 @@ function main() {
     .sort((a, b) => analyse(a).title.localeCompare(analyse(b).title, 'fr', { numeric: true })); // ordre alphabétique du nom affiché
   if (!names.length) throw new Error(`Aucun fichier à traiter dans ${path.relative(ROOT, inbox)}/`);
 
+  const manuel = pos !== null; // --after : placement manuel, sans tri alphabétique
   const rapport = []; // { ok, source, detail }
   for (const name of names) {
     const src = path.join(inbox, name);
@@ -191,7 +267,7 @@ function main() {
       if (type === 'page') url = `${BASE_URL}/${PAGES_DIR}/${ue}/${fileName}`;
       else if (type === 'markdown') {
         // « MarkMap » dans le nom du fichier → carte mentale interactive, sinon lecteur Markdown classique
-        const viewer = /markmap/i.test(name) ? 'markmap-viewer.html' : 'md-viewer.html';
+        const viewer = /markmap/i.test(fileName) ? 'markmap-viewer.html' : 'md-viewer.html';
         url = `${BASE_URL}/${PAGES_DIR}/${viewer}?file=${ue}/${fileName}`;
       }
       else url = `${BASE_URL}/${MEDIA_DIR}/${fileName}`;
@@ -214,7 +290,13 @@ function main() {
     }
   }
 
-  if (!DRY_RUN && rapport.some((r) => r.ok)) fs.writeFileSync(indexPath, html, 'utf8');
+  const ajoutees = rapport.some((r) => r.ok);
+  let ordre = [];
+  if (ajoutees && !manuel) {
+    html = sortPanelEntries(html, section);
+    ordre = (parsePanels(html).find((p) => p.number === section)?.entries ?? []).map((e) => e.label);
+  }
+  if (!DRY_RUN && ajoutees) fs.writeFileSync(indexPath, html, 'utf8');
 
   // ---- compte rendu
   console.log('');
@@ -223,6 +305,10 @@ function main() {
   const ko = rapport.length - ok;
   console.log(`\n${ok} ajoutée(s), ${ko} en erreur${DRY_RUN ? ' — simulation : rien n\'a été modifié' : ''}.`);
   if (ko) console.log('Les fichiers en erreur sont restés dans le dossier : corrige et relance.');
+  if (ordre.length) {
+    console.log(`\nOrdre de l'onglet ${section} (classement alphabétique) :`);
+    ordre.forEach((l, i) => console.log(`  ${String(i + 1).padStart(2)}. ${l}`));
+  }
 
   if (process.env.GITHUB_STEP_SUMMARY) {
     const md = [
@@ -230,6 +316,9 @@ function main() {
       '',
       ...rapport.map((r) => `- ${r.ok ? '✅' : '❌'} \`${r.source}\` — ${r.detail}`),
       '',
+      ...(ordre.length
+        ? ['<details><summary>Ordre de l\'onglet ' + section + '</summary>', '', ...ordre.map((l, i) => `${i + 1}. ${l}`), '', '</details>', '']
+        : []),
     ].join('\n');
     fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, md);
   }

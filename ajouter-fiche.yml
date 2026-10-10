@@ -1,0 +1,62 @@
+name: Ajouter des fiches
+
+# 1) Dépose tes fichiers dans le dossier a-ajouter/ (Add file > Upload files)
+# 2) Lance ce workflow : Actions > Ajouter des fiches > Run workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      ue:
+        description: "UE (ex : UE2)"
+        required: true
+        default: "UE2"
+      section:
+        description: "Numéro d'onglet (ex : 2.1 ou 2-1)"
+        required: true
+      emoji:
+        description: "Emoji par défaut (facultatif ; un emoji au début du nom de fichier est prioritaire)"
+        required: false
+      apres:
+        description: "Placement manuel, sans tri : insérer après la fiche n° (0 = tout en haut). Vide = classement alphabétique"
+        required: false
+      simulation:
+        description: "Simulation : affiche le résultat sans rien modifier"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: modifications-depot
+
+jobs:
+  ajouter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Importer les fiches
+        env:
+          UE: ${{ inputs.ue }}
+          SECTION: ${{ inputs.section }}
+          EMOJI: ${{ inputs.emoji }}
+          APRES: ${{ inputs.apres }}
+          SIMULATION: ${{ inputs.simulation }}
+        run: |
+          args=(--dir a-ajouter --ue "$UE" --section "$SECTION")
+          [ -n "$EMOJI" ] && args+=(--emoji "$EMOJI")
+          [ -n "$APRES" ] && args+=(--after "$APRES")
+          [ "$SIMULATION" = "true" ] && args+=(--dry-run)
+          node scripts/ajouter.mjs "${args[@]}"
+
+      # Même si une fiche est en erreur, on enregistre celles qui ont réussi.
+      - name: Enregistrer les changements
+        if: ${{ !cancelled() && !inputs.simulation }}
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "ajout de fiches : ${{ inputs.ue }} / ${{ inputs.section }}"

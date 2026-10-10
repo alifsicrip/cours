@@ -1,0 +1,154 @@
+# 🚨 Choc anaphylactique — Markmap IFSI
+## 🧠 Définition
+- **Anaphylaxie**
+  - Réaction d’hypersensibilité systémique aiguë
+  - Évolution potentiellement mortelle
+- **Choc anaphylactique**
+  - Défaillance circulatoire
+  - Hypoperfusion des organes
+  - Urgence vitale
+- **Mécanisme**
+  - Libération de médiateurs dont l’histamine
+  - Vasodilatation
+  - Fuite capillaire
+  - Bronchoconstriction possible
+  - Œdème des voies aériennes possible
+  - Hypotension et hypoperfusion
+## 🔎 Déclencheurs fréquents
+- **Aliments**
+  - Arachide
+  - Fruits à coque
+  - Lait, œuf, fruits de mer
+- **Médicaments**
+  - Antibiotiques
+  - AINS
+  - Produits anesthésiques
+  - Autres médicaments
+- **Venins**
+  - Guêpe
+  - Abeille
+  - Frelon
+- **Autres**
+  - Latex
+  - Allergène identifié ou non
+## 🚩 Signes d’alerte
+- **Cutanéo-muqueux**
+  - Urticaire
+  - Prurit
+  - Flush
+  - Œdème des lèvres, de la langue ou du visage
+  - **Signes cutanés parfois absents**
+- **Respiratoires**
+  - Dyspnée
+  - Sifflements / bronchospasme
+  - Stridor
+  - Voix rauque
+  - Œdème laryngé
+  - Désaturation
+- **Circulatoires**
+  - Hypotension
+  - Tachycardie
+  - Malaise
+  - Syncope
+  - Collapsus
+  - Marbrures
+- **Digestifs**
+  - Douleurs abdominales intenses
+  - Vomissements répétés
+  - Diarrhée
+- **Neurologiques**
+  - Angoisse brutale
+  - Confusion
+  - Altération de conscience
+- **Contexte**
+  - Début rapide après exposition possible à un allergène
+  - Aggravation en quelques minutes
+## 🩺 CAT IDE — Adrénaline, alerte, ABCDE
+- **🚨 1. Alerter immédiatement**
+  - Appel médical / équipe d’urgence
+  - Demander le chariot d’urgence
+  - Noter l’heure et le déclencheur suspecté
+- **💉 2. Adrénaline IM sans délai**
+  - Traitement de première intention
+  - Administration selon prescription, protocole et compétences
+  - Aider à utiliser l’auto-injecteur prescrit s’il est disponible
+  - Ne pas attendre l’apparition de signes cutanés
+- **🛑 3. Stopper l’exposition**
+  - Arrêter la perfusion ou l’administration suspecte si possible
+  - Conserver l’accès veineux
+  - Ne pas retarder la prise en charge pour retirer un dard
+- **🛏️ 4. Position adaptée**
+  - Allonger la personne
+  - Jambes surélevées si toléré
+  - Ne pas laisser se lever ni marcher
+  - Adapter si détresse respiratoire
+  - Grossesse : décubitus latéral gauche
+- **🫁 5. Évaluer ABCDE**
+  - Conscience et voies aériennes
+  - FR et SpO₂
+  - FC et TA
+  - Peau et signes digestifs
+  - Oxygène si indiqué
+  - Monitorage ECG, TA et SpO₂
+- **🔁 6. Réévaluer**
+  - Réponse à l’adrénaline
+  - Si persistance ou aggravation : nouvelle dose IM selon protocole
+  - Délai souvent de 5 à 10 minutes selon recommandations et réponse clinique
+- **💧 7. Préparer les soins complémentaires**
+  - Accès veineux
+  - Cristalloïdes si choc selon prescription
+  - β2-mimétique inhalé si bronchospasme en complément
+  - Assistance ventilatoire et réanimation si aggravation
+- **📈 8. Surveiller et tracer**
+  - Constantes rapprochées
+  - Conscience et respiration
+  - Perfusion périphérique
+  - Réponse au traitement et effets indésirables
+  - Tracer heure, dose, voie et évolution
+  - Surveillance médicale après l’épisode
+## 💊 Traitements — points clés
+- **Adrénaline IM**
+  - Traitement essentiel et prioritaire
+  - Injection dans la face antérolatérale de la cuisse
+  - Répéter selon protocole si réponse insuffisante
+- **Oxygène**
+  - Si hypoxémie ou détresse respiratoire selon situation
+- **Cristalloïdes IV**
+  - Si hypotension ou choc
+  - Selon prescription et réévaluation
+- **β2-mimétique inhalé**
+  - Complément si bronchospasme
+- **Antihistaminiques et corticoïdes**
+  - Ne remplacent jamais l’adrénaline
+  - Ne doivent pas retarder l’adrénaline
+  - Ne constituent pas le traitement vital de première intention
+- **Adrénaline IV**
+  - Réservée à une équipe médicale entraînée
+  - Titration et monitorage indispensables
+  - Pas d’injection IV directe improvisée
+## ⚠️ Complications et vigilance
+- **Respiratoires**
+  - Œdème laryngé
+  - Obstruction des voies aériennes
+  - Bronchospasme
+  - Insuffisance respiratoire aiguë
+- **Circulatoires**
+  - Choc
+  - Hypoperfusion
+  - Arrêt cardio-respiratoire
+- **Après amélioration**
+  - Récurrence biphasique possible
+  - Surveillance médicale indispensable
+- **Piège**
+  - Absence d’urticaire ne permet pas d’exclure l’anaphylaxie
+## 🎯 À retenir pour l’examen
+- **Exposition possible + atteinte respiratoire ou circulatoire aiguë = suspecter l’anaphylaxie**
+- **Adrénaline IM précoce = priorité**
+- **Ne pas laisser la personne se lever ou marcher**
+- **Antihistaminiques et corticoïdes ne remplacent pas l’adrénaline**
+- **Alerter, monitorer, réévaluer et tracer**
+## 📚 Sources
+- **SFMU / SFA / GFRUP / SP2A — Recommandations sur l’anaphylaxie en médecine d’urgence**
+  - https://www.sfmu.org/fr/vie-professionnelle/outils-professionnels/consensus/prise-en-charge-de-l-anaphylaxie-en-medecine-d-urgence-/con_id/437
+- **SFAR / SFA — Réactions d’hypersensibilité immédiate périopératoires, RFE 2025**
+  - https://sfar.org/diagnostic-et-prise-en-charge-des-reactions-dhypersensibilite-immediate-perioperatoires/

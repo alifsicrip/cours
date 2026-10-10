@@ -1,0 +1,163 @@
+# ❤️‍🩹 Choc cardiogénique — Markmap IFSI
+## 🧠 Définition
+- **Choc cardiogénique**
+  - État de choc lié à une défaillance de la pompe cardiaque
+  - Débit sanguin insuffisant pour perfuser les organes
+  - **Urgence vitale**
+- **Mécanisme**
+  - Défaillance de pompe
+  - Diminution du débit cardiaque
+  - Hypoperfusion tissulaire
+  - Hypoxie cellulaire
+  - Défaillances d’organes
+- **Point clé**
+  - Origine cardiaque
+  - Le remplissage vasculaire n’est pas systématique
+  - Risque d’aggravation de la congestion pulmonaire
+## 🫀 Causes
+- **Ischémique**
+  - Infarctus du myocarde
+  - Syndrome coronarien aigu
+- **Rythmique**
+  - Tachyarythmie sévère
+  - Bradyarythmie sévère
+- **Mécanique**
+  - Complication mécanique post-infarctus
+  - Valvulopathie aiguë
+- **Myocardique**
+  - Myocardite
+  - Cardiomyopathie
+  - Insuffisance cardiaque aiguë sévère
+- **Autres**
+  - Défaillance aiguë du ventricule droit selon le contexte
+## 🚩 Signes d’alerte
+- **Circulatoires**
+  - Hypotension
+  - Tachycardie ou trouble du rythme
+  - Pouls faible
+  - Marbrures
+  - Extrémités froides
+  - Temps de recoloration allongé
+- **Respiratoires**
+  - Dyspnée
+  - Polypnée
+  - Désaturation
+  - Crépitants
+  - Signes d’œdème aigu pulmonaire
+- **Neurologiques**
+  - Anxiété
+  - Agitation
+  - Confusion
+  - Somnolence
+- **Rénaux**
+  - Oligurie
+- **Cardiaques**
+  - Douleur thoracique possible
+  - Palpitations
+  - Signes d’insuffisance cardiaque
+- **Biologie**
+  - Lactate augmenté possible
+  - Troponine selon atteinte myocardique
+  - Créatinine perturbée possible
+## 🩺 CAT IDE — Alerter, monitorer, réévaluer
+- **🚨 1. Alerter immédiatement**
+  - Appel médical / équipe d’urgence
+  - Transmettre contexte, signes et évolution
+  - Noter l’heure
+- **🫁 2. Évaluer ABCDE**
+  - Conscience et voies aériennes
+  - FR et SpO₂
+  - FC et TA
+  - Perfusion périphérique et marbrures
+  - Douleur thoracique
+  - Signes de congestion pulmonaire
+- **❤️ 3. Monitorer**
+  - Scope ECG continu
+  - TA rapprochée
+  - SpO₂
+  - ECG 12 dérivations selon protocole
+- **💉 4. Préparer les examens**
+  - Accès veineux selon compétences et protocole
+  - Prélèvements prescrits
+  - Troponine
+  - Lactate et gaz du sang
+  - NFS
+  - Ionogramme et créatinine
+  - Coagulation selon prescription
+- **🫁 5. Oxygénation et respiration**
+  - Oxygène si hypoxémie ou indication clinique/prescription
+  - Préparer support ventilatoire si aggravation selon l’équipe
+- **💊 6. Traitements prescrits**
+  - Préparer le soutien hémodynamique
+  - Inotrope et/ou vasopresseur selon prescription spécialisée
+  - Traiter la cause
+  - Surveiller perfusions et effets indésirables
+- **⚠️ 7. Prudence sur le remplissage**
+  - Pas de remplissage systématique
+  - Risque d’aggravation de l’OAP
+  - Apport liquidien décidé et réévalué médicalement
+- **📈 8. Surveillance rapprochée**
+  - TA / PAM
+  - FC et rythme
+  - FR et SpO₂
+  - Conscience
+  - Douleur
+  - Marbrures et perfusion périphérique
+  - Diurèse et bilan hydrique
+  - Lactate selon prescription
+  - Réponse au traitement
+  - Traçabilité
+## 🧪 Examens
+- **ECG et scope**
+  - Rechercher un syndrome coronarien aigu
+  - Identifier un trouble du rythme
+- **Biologie**
+  - Troponine
+  - Lactate et gaz du sang
+  - NFS
+  - Ionogramme
+  - Créatinine
+- **Échocardiographie**
+  - Évaluer la fonction ventriculaire
+  - Rechercher une cause mécanique
+- **Imagerie et coronarographie**
+  - Selon l’étiologie et la décision médicale
+## 💊 Principes thérapeutiques
+- **Traiter la cause**
+  - Reperfusion coronaire urgente si infarctus en cause
+  - Correction d’un trouble du rythme selon indication
+  - Prise en charge d’une complication mécanique
+- **Soutien des fonctions vitales**
+  - Inotrope et/ou vasopresseur selon prescription spécialisée
+  - Assistance ventilatoire si nécessaire
+  - Assistance circulatoire dans certaines situations sélectionnées
+- **Réévaluation**
+  - Hémodynamique
+  - Perfusion des organes
+  - Diurèse
+  - Lactate
+  - Tolérance des traitements
+## ⚠️ Complications
+- **Respiratoires**
+  - Œdème aigu pulmonaire
+  - Insuffisance respiratoire aiguë
+- **Défaillances d’organes**
+  - Insuffisance rénale aiguë
+  - Défaillances multiviscérales
+- **Évolution grave**
+  - Troubles du rythme
+  - Arrêt cardio-respiratoire
+  - Décès
+## 🎯 À retenir pour l’examen
+- **Hypotension + hypoperfusion + contexte cardiaque = suspecter un choc cardiogénique**
+- **Alerte immédiate, ABCDE, scope et ECG**
+- **Surveillance rapprochée de la perfusion et de la réponse thérapeutique**
+- **Pas de remplissage systématique : risque d’aggraver l’OAP**
+- **Traiter rapidement la cause, notamment le SCA si présent**
+## 📚 Sources
+- **HAS — Prise en charge de l’infarctus du myocarde à la phase aiguë**
+  - https://www.has-sante.fr/jcms/c_484720/fr/prise-en-charge-de-l-infarctus-du-myocarde-a-la-phase-aigue-en-dehors-des-services-de-cardiologie
+- **SFMU — Recommandations et ressources professionnelles**
+  - https://www.sfmu.org/fr/publications/recommandations-de-la-sfmu
+- **HAS / SFAR / SFMU / SRLF — Organisation de la prise en charge de l’urgence vitale intra-hospitalière, 2026**
+  - https://www.has-sante.fr/jcms/p_3961703

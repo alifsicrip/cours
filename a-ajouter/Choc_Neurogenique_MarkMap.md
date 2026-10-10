@@ -1,0 +1,130 @@
+# 🧠 Choc neurogénique — Markmap IFSI
+## 🧠 Définition
+- **Choc neurogénique**
+  - Choc distributif lié à une perte du tonus sympathique
+  - Le plus souvent associé à une lésion médullaire haute
+  - Urgence vitale
+- **Mécanisme**
+  - Perte de vasoconstriction
+  - Vasodilatation
+  - Baisse des résistances vasculaires
+  - Bradycardie possible par perte du contrôle sympathique cardiaque
+  - Hypotension
+  - Hypoperfusion des organes
+- **À distinguer**
+  - **Choc spinal**
+    - Déficit neurologique sous la lésion
+    - Flaccidité et aréflexie possibles
+    - Notion différente du choc neurogénique
+  - **Choc hémorragique**
+    - Peut coexister après un traumatisme
+    - À rechercher systématiquement
+## 🚩 Signes d’alerte
+- **Circulatoires**
+  - Hypotension
+  - Bradycardie ou fréquence cardiaque inadaptée
+  - Pouls faible
+- **Cutanés**
+  - Peau parfois chaude et sèche sous la lésion
+  - Vasodilatation
+  - Présentation variable
+- **Neurologiques**
+  - Déficit moteur
+  - Déficit sensitif
+  - Niveau sensitif possible
+  - Troubles sphinctériens selon lésion
+- **Respiratoires**
+  - Risque accru en cas de lésion cervicale ou haute
+  - Faiblesse respiratoire
+  - Détresse respiratoire possible
+- **Signes de gravité**
+  - Hypoperfusion
+  - Altération de conscience
+  - Oligurie
+  - Aggravation respiratoire
+## 🩺 CAT IDE — Alerter, protéger, surveiller
+- **🚨 1. Alerter immédiatement**
+  - Appel médical / équipe d’urgence
+  - Transmettre mécanisme traumatique, TA, FC et examen neurologique
+- **🦴 2. Protéger le rachis**
+  - Maintenir l’alignement tête-cou-tronc
+  - Appliquer les consignes d’immobilisation/protection
+  - Éviter les mobilisations inutiles
+- **🫁 3. Évaluer ABCDE**
+  - Conscience et voies aériennes
+  - FR et SpO₂
+  - FC et TA
+  - Perfusion périphérique
+  - Température
+  - Anticiper le risque ventilatoire si lésion haute
+- **🩸 4. Rechercher une hémorragie**
+  - Examiner selon le contexte
+  - Ne pas attribuer toute hypotension au choc neurogénique
+  - Signaler tout saignement suspect
+- **💉 5. Préparer la prise en charge**
+  - Accès veineux selon compétences et protocole
+  - ECG et monitorage
+  - Prélèvements/examens prescrits
+  - Préparer les traitements prescrits
+- **❤️ 6. Surveiller le rythme et l’hémodynamique**
+  - ECG continu
+  - TA rapprochée
+  - Fréquence cardiaque
+  - Repérer bradycardie sévère et troubles du rythme
+- **📈 7. Réévaluer**
+  - Conscience
+  - Examen neurologique
+  - Ventilation
+  - TA et FC
+  - Perfusion périphérique
+  - Diurèse
+  - Réponse au traitement
+  - Traçabilité
+## 🧪 Examens et traitement
+- **Évaluation clinique**
+  - Constantes répétées
+  - Examen moteur et sensitif
+  - Recherche de signes respiratoires
+- **ECG et monitorage**
+  - Détecter bradycardie et troubles du rythme
+- **Imagerie**
+  - Imagerie rachidienne selon décision médicale
+- **Bilan biologique**
+  - Selon contexte et prescription
+  - Recherche de causes associées d’instabilité
+- **Principes thérapeutiques**
+  - Maintenir l’oxygénation
+  - Stratégie hémodynamique individualisée
+  - Cristalloïdes avec réévaluation selon prescription
+  - Vasopresseurs selon prescription spécialisée
+  - Traitement de la bradycardie si nécessaire
+- **Priorité traumatique**
+  - Prévenir l’hypoxémie
+  - Prévenir l’hypotension
+  - Limiter les lésions médullaires secondaires
+## ⚠️ Complications
+- **Hémodynamiques**
+  - Hypoperfusion des organes
+  - Défaillances d’organes
+  - Bradycardie sévère
+  - Troubles du rythme
+- **Respiratoires**
+  - Défaillance respiratoire si lésion haute
+- **Neurologiques**
+  - Aggravation secondaire si hypoxémie ou hypotension
+- **Autres**
+  - Complications traumatiques
+  - Complications de l’immobilisation
+## 🎯 À retenir pour l’examen
+- **Traumatisme médullaire + hypotension + bradycardie = penser au choc neurogénique**
+- **Peau parfois chaude, mais signe inconstant**
+- **Rechercher une hémorragie associée**
+- **Choc neurogénique ≠ choc spinal**
+- **Alerte, protection rachidienne, ABCDE et monitorage**
+## 📚 Sources
+- **SFMU — Traumatisme vertébro-médullaire de l’adulte**
+  - https://www.sfmu.org/fr/publications/recommandations-de-la-sfmu/prise-en-charge-d-un-blesse-adulte-presentant-un-traumatisme-vertebro-medullaire/con_id/246
+- **Recommandations françaises lésion médullaire, 2020**
+  - https://pubmed.ncbi.nlm.nih.gov/32229270/
+- **SFMU / SFAR — Aides cognitives en traumatologie grave**
+  - https://2020.sfmu.org/fr/vie-professionnelle/outils-professionnels/protocoles-de-soins/aide_cognitive/

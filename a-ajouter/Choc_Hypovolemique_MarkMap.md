@@ -1,0 +1,139 @@
+# 🩸 Choc hypovolémique — Markmap IFSI
+## 🧠 Définition
+- **Choc hypovolémique**
+  - Diminution importante du volume circulant efficace
+  - Baisse de la perfusion des organes
+  - **Urgence vitale**
+- **Deux mécanismes**
+  - **Choc hémorragique**
+    - Perte de sang
+    - Hémorragie externe ou interne
+  - **Choc non hémorragique**
+    - Pertes digestives importantes
+    - Déshydratation sévère
+    - Brûlures étendues
+    - Autres pertes liquidiennes importantes
+## 🔬 Physiopathologie
+- **Baisse de la volémie**
+  - Diminution du retour veineux
+  - Diminution du volume d’éjection systolique
+  - Diminution du débit cardiaque
+- **Hypoperfusion**
+  - Apport d’oxygène insuffisant aux tissus
+  - Métabolisme anaérobie
+  - Lactate augmenté possible
+  - Acidose lactique
+- **Conséquences**
+  - Souffrance cellulaire
+  - Défaillances d’organes
+## 🚩 Signes d’alerte
+- **Circulatoires**
+  - Tachycardie
+  - Pouls faible
+  - Pression pulsée réduite
+  - Temps de recoloration allongé
+  - Hypotension souvent tardive
+- **Cutanés**
+  - Pâleur
+  - Sueurs froides
+  - Extrémités froides
+  - Marbrures
+- **Neurologiques**
+  - Anxiété
+  - Agitation
+  - Confusion
+  - Somnolence
+- **Respiratoires**
+  - Polypnée
+  - Désaturation possible
+- **Rénaux**
+  - Oligurie
+- **Contexte évocateur**
+  - Traumatisme ou hémorragie
+  - Saignement post-opératoire
+  - Vomissements ou diarrhées importants
+  - Brûlures
+  - Déshydratation
+- **Biologie**
+  - Lactate augmenté possible
+  - Acidose
+  - Hémoglobine initialement parfois normale en cas d’hémorragie aiguë
+## 🩺 CAT IDE — Reconnaître, alerter, surveiller
+- **🚨 1. Alerter immédiatement**
+  - Appel médical / équipe d’urgence
+  - Décrire contexte, signes et évolution
+  - Noter l’heure
+- **🫁 2. Évaluer ABCDE**
+  - Conscience et voies aériennes
+  - FR et SpO₂
+  - FC et TA
+  - Peau, température, recoloration et marbrures
+  - Réévaluer fréquemment
+- **🩸 3. Rechercher la cause**
+  - Hémorragie visible ou suspectée
+  - Pertes liquidiennes
+  - Ne pas retarder l’alerte ni la réanimation
+- **🩹 4. Si hémorragie externe**
+  - Compression directe si possible
+  - Pansement compressif selon situation
+  - Garrot selon indication, formation et protocole
+  - Ne pas retirer un corps étranger planté
+- **💉 5. Préparer la prise en charge**
+  - Accès veineux selon compétences et protocole
+  - Prélèvements prescrits
+  - Préparer matériel de remplissage ou transfusion selon prescription
+- **💧 6. Traitement prescrit**
+  - Cristalloïdes selon prescription et réévaluation
+  - Choc hémorragique : contrôler rapidement le saignement
+  - Transfusion si indiquée selon décision médicale et protocole
+  - Éviter les apports excessifs non réévalués
+  - Pertes non hémorragiques : corriger la cause et réhydrater de façon adaptée
+- **📈 7. Surveillance**
+  - TA / PAM et FC
+  - FR et SpO₂
+  - Conscience
+  - Recoloration, peau froide, marbrures
+  - Diurèse et bilan hydrique
+  - Lactate et bilans prescrits
+  - Traçabilité des actions et de la réponse
+## 🧪 Examens
+- **Biologie selon prescription**
+  - NFS
+  - Groupe sanguin et RAI
+  - Coagulation
+  - Ionogramme et créatinine
+  - Gaz du sang et lactate
+- **Si hémorragie**
+  - Localiser et contrôler le saignement
+  - Évaluer la nécessité d’une transfusion
+  - Corriger les troubles de coagulation selon protocole
+- **Si pertes non hémorragiques**
+  - Évaluer les pertes
+  - Corriger la cause
+  - Adapter la réhydratation
+## ⚠️ Complications
+- **Hypoperfusion prolongée**
+  - Hypoxie tissulaire
+  - Acidose lactique
+  - Insuffisance rénale aiguë
+- **Hémorragie massive**
+  - Troubles de la coagulation
+  - Défaillances multiviscérales
+- **Évolution grave**
+  - Arrêt cardio-respiratoire
+  - Décès
+## 🎯 À retenir pour l’examen
+- **Tachycardie + peau froide/moite + confusion ou oligurie = alerte**
+- **L’hypotension peut être tardive**
+- **Alerte immédiate + ABCDE + contrôle du saignement si présent**
+- **Traitement adapté à la cause, avec surveillance et réévaluation**
+- **Choc hémorragique : éviter le remplissage excessif et ne pas retarder le contrôle du saignement**
+## 📚 Sources
+- **SFAR — Recommandations sur la réanimation du choc hémorragique**
+  - https://sfar.org/recommandations-sur-la-reanimation-du-choc-hemorragique/
+- **SFMU — Recommandations sur la réanimation du choc hémorragique**
+  - https://www.sfmu.org/fr/publications/recommandations-de-la-sfmu//recommandations-sur-la-reanimation-du-choc-hemorragique/con_id/413
+- **HAS — Urgences et défaillances viscérales aiguës**
+  - https://www.has-sante.fr/jcms/c_2615267/fr/xii-urgences-et-defaillances-viscerales-aigues
+- **SFAR — Choix du soluté pour le remplissage vasculaire**
+  - https://sfar.org/choix-du-solute-pour-le-remplissage-vasculaire-en-situation-critique/

@@ -1,0 +1,155 @@
+# 🚨 Choc septique — Markmap IFSI
+## 🧠 Définition
+- **Sepsis**
+  - Dysfonction d’organe menaçant le pronostic vital
+  - Réponse dérégulée de l’organisme à une infection
+- **Choc septique**
+  - Forme grave du sepsis
+  - Anomalies circulatoires et métaboliques persistantes
+  - Hypotension et hypoperfusion tissulaire possibles
+- **⚠️ Urgence vitale**
+  - Alerte médicale immédiate
+  - Traitement et réanimation sans délai
+## 🔬 Physiopathologie
+- **Infection**
+  - Réponse inflammatoire dérégulée
+  - Vasodilatation
+  - Augmentation de la perméabilité capillaire
+  - Hypovolémie relative
+  - Dépression myocardique possible
+- **Hypoperfusion**
+  - Baisse de l’apport d’oxygène aux tissus
+  - Métabolisme anaérobie
+  - Lactate élevé possible
+  - Dysfonction d’organes
+- **Défaillances possibles**
+  - Respiratoire
+  - Rénale
+  - Neurologique
+  - Hépatique
+  - Hématologique
+## 🚩 Signes d’alerte
+- **Circulatoires**
+  - Hypotension
+  - Tachycardie
+  - Marbrures
+  - Temps de recoloration allongé
+  - Extrémités froides ou parfois chaudes
+- **Respiratoires**
+  - Polypnée
+  - Désaturation
+  - Détresse respiratoire
+- **Neurologiques**
+  - Confusion
+  - Agitation
+  - Somnolence
+  - Altération de conscience
+- **Rénaux et cutanés**
+  - Oligurie
+  - Peau moite
+  - Marbrures
+- **Contexte infectieux**
+  - Fièvre ou hypothermie
+  - Frissons
+  - Foyer pulmonaire, urinaire, abdominal, cutané ou lié à un cathéter
+- **Biologie**
+  - Lactate élevé possible
+  - Créatinine perturbée
+  - Thrombopénie ou autres anomalies
+  - Aucun signe ou résultat isolé n’exclut le sepsis
+## 🩺 CAT IDE — Reconnaître, alerter, surveiller
+- **🚨 1. Alerter immédiatement**
+  - Appel médical / équipe d’urgence selon l’organisation
+  - Annoncer la suspicion de sepsis ou choc septique
+  - Noter l’heure de début et les signes
+- **🫁 2. Évaluer ABCDE**
+  - Conscience et voies aériennes
+  - FR et SpO₂
+  - FC et TA
+  - Perfusion périphérique, recoloration, marbrures
+  - Température et douleur
+  - Constantes rapprochées
+- **🩸 3. Accès veineux et prélèvements**
+  - Préparer l’accès veineux selon compétences et protocole
+  - Préparer hémocultures et prélèvements prescrits
+  - Si possible avant antibiothérapie
+  - Ne jamais retarder l’antibiothérapie pour les prélèvements
+- **💊 4. Antibiothérapie**
+  - Préparation et administration rapide sur prescription
+  - Vérifier allergies, identité, dose, voie et horaire
+  - Tracer l’heure d’administration
+- **💧 5. Réanimation prescrite**
+  - Cristalloïdes selon prescription
+  - Réévaluer réponse et tolérance au remplissage
+  - Oxygène si indiqué
+  - Vasopresseur, souvent noradrénaline, si nécessaire sur prescription
+  - Surveillance adaptée des perfusions et dispositifs
+- **📈 6. Surveillance continue**
+  - TA / PAM, FC, FR, SpO₂
+  - Conscience
+  - Température
+  - Marbrures et recoloration
+  - Diurèse horaire si indiquée
+  - Bilan hydrique
+  - Lactate et bilans prescrits
+  - Effets indésirables et réponse au traitement
+- **🔍 7. Contrôle du foyer infectieux**
+  - Préparer examens et gestes prescrits
+  - Signaler les dispositifs potentiellement infectés
+  - Participer au contrôle rapide du foyer
+## 🧪 Examens
+- **Lactate**
+  - Repère d’hypoperfusion
+  - Suivi de l’évolution
+- **Microbiologie**
+  - Hémocultures
+  - Prélèvements ciblés selon foyer
+- **Biologie**
+  - NFS
+  - Ionogramme et créatinine
+  - Bilan hépatique
+  - Coagulation
+  - Gaz du sang selon prescription
+- **Recherche du foyer**
+  - Examen clinique
+  - Imagerie et prélèvements selon orientation
+- **Dépistage**
+  - Ne pas utiliser le qSOFA seul
+  - Ne pas attendre un score ou une fièvre pour alerter
+## 💉 Principes thérapeutiques
+- **Traitement précoce**
+  - Antibiothérapie probabiliste adaptée puis réévaluée
+  - Remplissage individualisé
+  - Vasopresseur si nécessaire
+  - Oxygénation et soutien des organes
+  - Contrôle du foyer infectieux
+- **Réévaluation**
+  - Réponse hémodynamique
+  - Perfusion périphérique
+  - Diurèse
+  - Lactate
+  - Tolérance des traitements
+## ⚠️ Complications
+- **Défaillances multiviscérales**
+  - Respiratoire
+  - Rénale
+  - Neurologique
+  - Hépatique
+  - Hématologique
+- **Autres**
+  - Acidose lactique
+  - CIVD / troubles de coagulation
+  - Ischémie périphérique
+  - Arrêt cardio-respiratoire
+  - Décès
+## 🎯 À retenir pour l’examen
+- **Infection + dysfonction d’organe = suspecter un sepsis**
+- **Hypotension, marbrures, confusion, polypnée ou oligurie = alerte immédiate**
+- **Antibiothérapie et réanimation précoces**
+- **Prélèvements si possible sans retarder le traitement**
+- **Surveillance rapprochée et réévaluation continues**
+## 📚 Sources
+- **HAS — Recommandations sepsis, 2025**
+  - https://www.has-sante.fr/jcms/p_3587144/fr/prise-en-charge-du-sepsis-du-nouveau-ne-de-l-enfant-et-de-l-adulte-recommandations-pour-un-parcours-de-soins-integre
+- **SFAR — Documents sepsis, 11 février 2025**
+  - https://sfar.org/prise-en-charge-du-sepsis-du-nouveau-ne-de-lenfant-et-de-ladulte-has-2025/

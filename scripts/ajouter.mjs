@@ -135,7 +135,7 @@ function insertLi(html, section, pos, li) {
 // -------------------------------------------------------------------- main
 function main() {
   const ue = ARGS.ue || 'UE2';
-  const section = (ARGS.section || '').trim();
+  const section = (ARGS.section || '').trim().replace(/^UE\s*/i, '').replace(/^(\d+)[-,_\s]+(\d+)$/, '$1.$2'); // 2-5, 2,5, UE2.5 → 2.5
   const inbox = path.resolve(ROOT, ARGS.dir || 'a-ajouter');
   const tag = DRY_RUN ? ' (SIMULATION)' : '';
   console.log(`=== Import de fiches${tag} : ${ue}, onglet ${section || '?'} ===`);

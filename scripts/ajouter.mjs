@@ -137,7 +137,7 @@ function parsePanels(html) {
     const li = /<li(?:\s[^>]*)?>\s*<a\s[^>]*>([\s\S]*?)<\/a\s*>\s*<\/li\s*>/g;
     let e;
     while ((e = li.exec(body))) {
-      p.entries.push({ label: e[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(), start: p.start + e.index });
+      p.entries.push({ label: e[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(), start: p.start + e.index, end: p.start + e.index + e[0].length });
     }
   });
   return panels;
@@ -210,39 +210,141 @@ function sortPanelEntries(html, section) {
   return html.slice(0, innerStart) + out + html.slice(panel.ulClose);
 }
 
+// ---------------------------------------------------------------------------------------------
+// Mode « liste simple » (ex. UE4) : pas d'onglets dépliables, mais une seule liste de fiches dont
+// les libellés commencent par « UEx.y ». Chaque section = l'ensemble des fiches « UE4.3 », etc.
+// ---------------------------------------------------------------------------------------------
+const SECTION_IN_LABEL = /UE\s*(\d+)\s*[.,]\s*(\d+)/i;
+
+function flatRegion(html) {
+  const aside = html.indexOf('<aside'); // on s'arrête avant la barre latérale
+  const end = aside === -1 ? html.length : aside;
+  return { end, ulClose: html.lastIndexOf('</ul>', end) };
+}
+
+function parseFlat(html) {
+  const { end, ulClose } = flatRegion(html);
+  const region = html.slice(0, end);
+  const sections = [];
+  const re = /<li(?:\s[^>]*)?>\s*<a\s[^>]*>([\s\S]*?)<\/a\s*>\s*<\/li\s*>/g;
+  let m;
+  while ((m = re.exec(region))) {
+    const label = m[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+    const n = label.match(SECTION_IN_LABEL);
+    if (!n) continue;
+    const number = `${n[1]}.${n[2]}`;
+    let sec = sections.find((x) => x.number === number);
+    if (!sec) {
+      sec = { number, label: `UE${number}`, entries: [], ulClose };
+      sections.push(sec);
+    }
+    sec.entries.push({ label, start: m.index, end: m.index + m[0].length });
+  }
+  return sections;
+}
+
+function insertFlat(html, section, pos, li) {
+  const { ulClose } = flatRegion(html);
+  if (ulClose === -1) throw new Error('Structure inattendue : pas de </ul> dans la page.');
+  const sections = parseFlat(html);
+  const sec = sections.find((x) => x.number === section);
+
+  if (!sec) {
+    // Nouvelle section : ajoutée en fin de liste, avec les mêmes séparateurs que les autres
+    const first = sections.flatMap((x) => x.entries)[0];
+    const ind = first ? indentOf(html, first.start) : indentOf(html, ulClose) + '  ';
+    const avant = html.slice(0, ulClose).replace(/(?:<br\s*\/?>|\s)+$/i, '');
+    const sep = /---$/.test(avant) ? '' : `${ind}<br>\n${ind}<br>\n${ind}---\n`;
+    const bloc = `${sep}${ind}<br>\n${ind}<br>\n${ind}${li}\n${ind}<br>\n${ind}<br>\n${ind}---\n`;
+    const at = lineStart(html, ulClose);
+    return html.slice(0, at) + bloc + html.slice(at);
+  }
+
+  const ent = sec.entries;
+  const ind = indentOf(html, ent[0].start);
+  const useBr = /^\s*<br/i.test(html.slice(ent[0].end)); // les fiches sont-elles séparées par des <br> ?
+  const avant = pos === null || pos >= ent.length ? ent.length : pos; // nombre de fiches qui précèdent la nouvelle
+  if (avant === 0) {
+    const at = lineStart(html, ent[0].start);
+    return html.slice(0, at) + `${ind}${li}\n` + (useBr ? `${ind}<br>\n` : '') + html.slice(at);
+  }
+  const prev = ent[avant - 1];
+  return html.slice(0, prev.end) + (useBr ? `\n${ind}<br>` : '') + `\n${ind}${li}` + html.slice(prev.end);
+}
+
+function sortFlat(html, section) {
+  const sec = parseFlat(html).find((x) => x.number === section);
+  if (!sec) return html;
+  const textes = sec.entries.map((e) => html.slice(e.start, e.end));
+  const tries = textes
+    .map((t) => ({ t, key: sortKey(t) }))
+    .sort((a, b) => compareKeys(a.key, b.key)) // tri stable
+    .map((x) => x.t);
+  let out = '';
+  let cursor = 0;
+  sec.entries.forEach((e, i) => {
+    out += html.slice(cursor, e.start) + tries[i];
+    cursor = e.end;
+  });
+  return out + html.slice(cursor);
+}
+
+/** Lit l'index : onglets dépliables (UE2) ou liste simple (UE4). */
+function readIndex(html) {
+  const panels = parsePanels(html);
+  return panels.length ? { mode: 'onglets', sections: panels } : { mode: 'liste', sections: parseFlat(html) };
+}
+const insertEntry = (html, mode, section, pos, li) =>
+  mode === 'onglets' ? insertLi(html, section, pos, li) : insertFlat(html, section, pos, li);
+const sortSection = (html, mode, section) =>
+  mode === 'onglets' ? sortPanelEntries(html, section) : sortFlat(html, section);
+const entriesOf = (html, section) => readIndex(html).sections.find((x) => x.number === section)?.entries ?? [];
+
 // -------------------------------------------------------------------- main
 function main() {
   const ue = ARGS.ue || 'UE2';
   const section = (ARGS.section || '').trim().replace(/^UE\s*/i, '').replace(/^(\d+)[-,_\s]+(\d+)$/, '$1.$2'); // 2-5, 2,5, UE2.5 → 2.5
   const inbox = path.resolve(ROOT, ARGS.dir || 'a-ajouter');
   const tag = DRY_RUN ? ' (SIMULATION)' : '';
-  console.log(`=== Import de fiches${tag} : ${ue}, onglet ${section || '?'} ===`);
+  console.log(`=== Import de fiches${tag} : ${ue}, section ${section || '?'} ===`);
 
   if (!/^UE\d+$/.test(ue)) throw new Error(`UE invalide : « ${ue} ».`);
   const indexPath = path.join(ROOT, PAGES_DIR, ue, 'index.html');
   if (!fs.existsSync(indexPath)) throw new Error(`Index introuvable : ${path.relative(ROOT, indexPath)}`);
   let html = fs.readFileSync(indexPath, 'utf8');
 
-  const panels = parsePanels(html);
+  if (!/^\d+\.\d+$/.test(section)) throw new Error('Numéro de section manquant ou invalide (ex : 4.3).');
+  const index = readIndex(html);
+  const mode = index.mode;
   const relIndex = path.relative(ROOT, indexPath);
-  if (!panels.length) {
+  if (!index.sections.length) {
     throw new Error(
-      `Aucun onglet reconnu dans ${relIndex}.\n` +
-        `  Le script attend des blocs <div class="panel-header" …> comme dans pages/UE2/index.html ;\n` +
-        `  la structure de cette page est différente.`,
+      `Aucune section reconnue dans ${relIndex}.\n` +
+        `  Structures prises en charge :\n` +
+        `   - onglets dépliables : blocs <div class="panel-header"> (comme pages/UE2/index.html) ;\n` +
+        `   - liste simple : fiches dont le libellé commence par « UEx.y » (comme pages/UE4/index.html).`,
     );
   }
-  const panel = panels.find((p) => p.number === section);
-  if (!panel) {
-    const dispo = panels.map((p) => `  - ${p.number ?? '(sans numéro)'}  ←  « ${p.label} »`).join('\n');
-    throw new Error(`Onglet « ${section} » introuvable dans ${relIndex}. Onglets trouvés :\n${dispo}`);
+  const found = index.sections.find((x) => x.number === section);
+  if (!found) {
+    const dispo = index.sections
+      .map((x) => `  - ${x.number ?? '(sans numéro)'}  ←  « ${x.label} »`)
+      .join('\n');
+    if (mode === 'onglets') {
+      throw new Error(`Onglet « ${section} » introuvable dans ${relIndex}. Onglets trouvés :\n${dispo}`);
+    }
+    if (!section.startsWith(`${ue.slice(2)}.`)) {
+      throw new Error(`La section « ${section} » n'appartient pas à ${ue}. Sections trouvées :\n${dispo}`);
+    }
+    console.log(`ℹ Aucune fiche « UE${section} » dans la liste : la section sera créée en fin de page.`);
   }
+  const nbEntries = found ? found.entries.length : 0;
 
   let pos = null;
   if ((ARGS.after ?? '') !== '') {
     pos = Number(ARGS.after);
-    if (!Number.isInteger(pos) || pos < 0 || pos > panel.entries.length) {
-      throw new Error(`Position invalide : « ${ARGS.after} » (0 à ${panel.entries.length}).`);
+    if (!Number.isInteger(pos) || pos < 0 || pos > nbEntries) {
+      throw new Error(`Position invalide : « ${ARGS.after} » (0 à ${nbEntries}).`);
     }
   }
 
@@ -285,7 +387,7 @@ function main() {
       const label = `UE${section} ${emoji ? emoji + ' ' : ''}${a.title}`;
       const li = `<li><a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;
 
-      html = insertLi(html, section, pos, li);
+      html = insertEntry(html, mode, section, pos, li);
       if (pos !== null) pos += 1; // le lot reste dans l'ordre alphabétique
       if (!DRY_RUN) {
         fs.mkdirSync(destDir, { recursive: true });
@@ -301,8 +403,8 @@ function main() {
   const ajoutees = rapport.some((r) => r.ok);
   let ordre = [];
   if (ajoutees && !manuel) {
-    html = sortPanelEntries(html, section);
-    ordre = (parsePanels(html).find((p) => p.number === section)?.entries ?? []).map((e) => e.label);
+    html = sortSection(html, mode, section);
+    ordre = entriesOf(html, section).map((e) => e.label);
   }
   if (!DRY_RUN && ajoutees) fs.writeFileSync(indexPath, html, 'utf8');
 
@@ -314,18 +416,18 @@ function main() {
   console.log(`\n${ok} ajoutée(s), ${ko} en erreur${DRY_RUN ? ' — simulation : rien n\'a été modifié' : ''}.`);
   if (ko) console.log('Les fichiers en erreur sont restés dans le dossier : corrige et relance.');
   if (ordre.length) {
-    console.log(`\nOrdre de l'onglet ${section} (classement alphabétique) :`);
+    console.log(`\nOrdre de la section ${section} (classement alphabétique) :`);
     ordre.forEach((l, i) => console.log(`  ${String(i + 1).padStart(2)}. ${l}`));
   }
 
   if (process.env.GITHUB_STEP_SUMMARY) {
     const md = [
-      `### Import ${ue} — onglet ${section}${DRY_RUN ? ' (simulation)' : ''}`,
+      `### Import ${ue} — section ${section}${DRY_RUN ? ' (simulation)' : ''}`,
       '',
       ...rapport.map((r) => `- ${r.ok ? '✅' : '❌'} \`${r.source}\` — ${r.detail}`),
       '',
       ...(ordre.length
-        ? ['<details><summary>Ordre de l\'onglet ' + section + '</summary>', '', ...ordre.map((l, i) => `${i + 1}. ${l}`), '', '</details>', '']
+        ? ['<details><summary>Ordre de la section ' + section + '</summary>', '', ...ordre.map((l, i) => `${i + 1}. ${l}`), '', '</details>', '']
         : []),
     ].join('\n');
     fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, md);

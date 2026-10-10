@@ -1,0 +1,117 @@
+# 🩺🦠 Appendicite aiguë — IFSI S3
+## **🔑 Définition**
+- **Appendicite aiguë**
+  - Inflammation aiguë de l’appendice iléo-cæcal
+  - Souvent déclenchée par une obstruction de sa lumière
+- **Formes**
+  - Non compliquée
+    - Inflammation limitée à la paroi
+  - Compliquée
+    - Nécrose ou perforation
+    - Abcès ou péritonite
+## **🧬 Physiopathologie**
+- **Mécanisme**
+  - Obstruction de l’appendice
+    - Accumulation de sécrétions et pression augmentée
+      - Inflammation et prolifération bactérienne possibles
+        - Ischémie et nécrose
+          - Perforation possible
+            - Abcès localisé ou péritonite
+## **🔍 Ce que j’observe**
+- **Douleur**
+  - Continue, souvent péri-ombilicale au début
+    - Puis localisée en fosse iliaque droite
+  - Aggravation à la toux ou à la mobilisation possible
+- **Signes digestifs**
+  - Anorexie
+  - Nausées ou vomissements
+- **Signes associés**
+  - Fièvre souvent modérée
+  - Défense localisée possible
+- **🚨 Signes de gravité**
+  - Douleur diffuse ou qui s’aggrave brutalement
+  - Ventre rigide ou contracture
+  - Frissons ou fièvre élevée
+  - Tachycardie, hypotension ou confusion
+  - Suspicion de perforation, péritonite ou sepsis
+    - Alerte immédiate
+## **🧪 Examens**
+- **Examen clinique et constantes**
+  - Localisation et évolution de la douleur
+  - Défense et état général
+- **Biologie**
+  - NFS et CRP
+    - Réaction inflammatoire/infectieuse
+    - Interpréter avec la clinique
+- **Recherche urinaire selon contexte**
+  - BU ou ECBU
+    - Rechercher une cause urinaire
+- **Imagerie**
+  - Échographie et/ou scanner abdomino-pelvien
+    - Confirmer le diagnostic
+    - Localiser l’appendice
+    - Rechercher une complication
+    - Choix adapté à l’âge, à la grossesse et au contexte
+## **👩‍⚕️ CAT IDE**
+- **Évaluer et alerter**
+  - Douleur : intensité, siège, évolution
+  - Température, FC, PA, FR, SpO₂
+  - État général
+  - Alerte rapide si aggravation
+- **Préparer**
+  - Jeûne selon consignes médicales
+  - Expliquer les soins
+- **Sur prescription**
+  - Voie veineuse et prélèvements
+  - Antalgiques, solutés et antibiotiques si indiqués
+- **Surveiller**
+  - Constantes et douleur
+  - Vomissements, hydratation et diurèse
+  - Signes péritonéaux
+- **Transmettre**
+  - Heure de début et évolution
+  - Signes associés et constantes chiffrées
+  - Réponse aux traitements
+## **💊 Traitements**
+- **Appendicite non compliquée**
+  - Appendicectomie, souvent par cœlioscopie
+  - Antibiothérapie seule possible dans certains cas sélectionnés
+    - Décision médicale et surveillance étroite
+- **Forme compliquée**
+  - Contrôle de la source infectieuse
+    - Souvent chirurgie
+    - Drainage possible selon la situation
+  - Antibiothérapie selon prescription
+- **Après chirurgie**
+  - Surveiller douleur et constantes
+  - Surveiller plaie/pansement, transit et diurèse
+  - Repérer fièvre ou intolérance des traitements
+## **⚠️ Complications**
+- **Abcès appendiculaire**
+  - Collection de pus localisée
+- **Plastron appendiculaire**
+  - Tissus et anses voisins regroupés autour du foyer
+- **Péritonite**
+  - Diffusion au péritoine
+- **Sepsis ou choc septique**
+  - Altération générale, tachycardie, hypotension, polypnée, confusion ou oligurie
+- **Complications postopératoires**
+  - Infection ou abcès
+  - Iléus ou hématome
+  - Complication thromboembolique
+## **🧠 Mémo express**
+- **Douleur qui se localise en FID + nausées ± fièvre**
+  - Appendicite à évoquer
+- **Douleur généralisée + ventre rigide + altération générale**
+  - Alerte urgente
+## **📚 Sources**
+- **Assurance Maladie**
+  - Définition et fréquence, 18 juin 2024
+    - https://www.ameli.fr/assure/sante/themes/appendicite-aigue/definition-frequence
+  - Symptômes, diagnostic et évolution, 18 juin 2024
+    - https://www.ameli.fr/assure/sante/themes/appendicite-aigue/symptomes-diagnostic-evolution
+  - Traitement, 18 juin 2024
+    - https://www.ameli.fr/assure/sante/themes/appendicite-aigue/traitement-chirurgical
+- **Sociétés savantes**
+  - SFCD / SIAD, recommandations sur l’appendicite de l’adulte, 2021
+    - https://doi.org/10.1016/j.jchirv.2020.09.011

@@ -14,6 +14,9 @@
  *   --dry-run  simulation : rien n'est écrit
  *
  * Nom final :  <UE>-<n°>_<Nom-Fiche>.<ext>   ex : 2-1_Histoire-DeCellEco.md
+ *
+ * Fichier .md dont le nom contient « MarkMap » (majuscules indifférentes) :
+ * le lien ouvre la carte mentale interactive (pages/markmap-viewer.html).
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -186,7 +189,11 @@ function main() {
 
       let url;
       if (type === 'page') url = `${BASE_URL}/${PAGES_DIR}/${ue}/${fileName}`;
-      else if (type === 'markdown') url = `${BASE_URL}/${PAGES_DIR}/md-viewer.html?file=${ue}/${fileName}`;
+      else if (type === 'markdown') {
+        // « MarkMap » dans le nom du fichier → carte mentale interactive, sinon lecteur Markdown classique
+        const viewer = /markmap/i.test(name) ? 'markmap-viewer.html' : 'md-viewer.html';
+        url = `${BASE_URL}/${PAGES_DIR}/${viewer}?file=${ue}/${fileName}`;
+      }
       else url = `${BASE_URL}/${MEDIA_DIR}/${fileName}`;
       if (html.includes(`href="${url}"`)) throw new Error('ce lien existe déjà dans l\'index');
 

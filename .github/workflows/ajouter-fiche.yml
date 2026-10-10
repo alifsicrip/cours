@@ -1,0 +1,68 @@
+name: Ajouter une fiche
+
+on:
+  workflow_dispatch:
+    inputs:
+      fichier:
+        description: "Chemin du fichier déjà déposé dans le dépôt (ex : ma-fiche.html)"
+        required: true
+      ue:
+        description: "UE (ex : UE2)"
+        required: true
+        default: "UE2"
+      section:
+        description: "Numéro d'onglet (ex : 2.4)"
+        required: true
+      titre:
+        description: "Nom affiché (ex : Traumatisme Crânien)"
+        required: true
+      emoji:
+        description: "Emoji (facultatif)"
+        required: false
+      apres:
+        description: "Insérer après la fiche n° (vide = à la fin, 0 = tout en haut)"
+        required: false
+      nom:
+        description: "Nom du fichier final (vide = généré automatiquement)"
+        required: false
+      simulation:
+        description: "Simulation : affiche le résultat sans rien modifier"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  ajouter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Ajouter la fiche
+        env:
+          FICHIER: ${{ inputs.fichier }}
+          UE: ${{ inputs.ue }}
+          SECTION: ${{ inputs.section }}
+          TITRE: ${{ inputs.titre }}
+          EMOJI: ${{ inputs.emoji }}
+          APRES: ${{ inputs.apres }}
+          NOM: ${{ inputs.nom }}
+          SIMULATION: ${{ inputs.simulation }}
+        run: |
+          args=(--file "$FICHIER" --ue "$UE" --section "$SECTION" --title "$TITRE" --deplacer)
+          [ -n "$EMOJI" ] && args+=(--emoji "$EMOJI")
+          [ -n "$APRES" ] && args+=(--after "$APRES")
+          [ -n "$NOM" ]   && args+=(--name "$NOM")
+          [ "$SIMULATION" = "true" ] && args+=(--dry-run)
+          node scripts/ajouter.mjs "${args[@]}"
+
+      - name: Enregistrer les changements
+        if: ${{ !inputs.simulation }}
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "ajout fiche : ${{ inputs.titre }}"

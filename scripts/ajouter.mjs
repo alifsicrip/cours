@@ -125,8 +125,8 @@ function parsePanels(html) {
   let m;
   while ((m = re.exec(html))) {
     const label = m[1].replace(/<[^>]+>/g, '').replace('🔻', '').replace(/\s+/g, ' ').trim();
-    const num = label.match(/(\d+\.\d+)\s*-/);
-    panels.push({ label, number: num ? num[1] : null, start: m.index });
+    const num = label.match(/(\d+)\s*[.,]\s*(\d+)/); // 4.3 / 4,3 / UE4.3, suivi de - – : ou d'un titre
+    panels.push({ label, number: num ? `${num[1]}.${num[2]}` : null, start: m.index });
   }
   panels.forEach((p, i) => {
     p.end = i + 1 < panels.length ? panels[i + 1].start : html.length;
@@ -224,10 +224,18 @@ function main() {
   let html = fs.readFileSync(indexPath, 'utf8');
 
   const panels = parsePanels(html);
+  const relIndex = path.relative(ROOT, indexPath);
+  if (!panels.length) {
+    throw new Error(
+      `Aucun onglet reconnu dans ${relIndex}.\n` +
+        `  Le script attend des blocs <div class="panel-header" …> comme dans pages/UE2/index.html ;\n` +
+        `  la structure de cette page est différente.`,
+    );
+  }
   const panel = panels.find((p) => p.number === section);
   if (!panel) {
-    const dispo = panels.map((p) => p.number).filter(Boolean).join(', ');
-    throw new Error(`Onglet « ${section} » introuvable dans ${ue}. Disponibles : ${dispo}`);
+    const dispo = panels.map((p) => `  - ${p.number ?? '(sans numéro)'}  ←  « ${p.label} »`).join('\n');
+    throw new Error(`Onglet « ${section} » introuvable dans ${relIndex}. Onglets trouvés :\n${dispo}`);
   }
 
   let pos = null;

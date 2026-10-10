@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Carte mentale</title>
+  <!-- Favicon -->
+  <link rel="icon" href="/cours/assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/cours/assets/icons/icon.svg">
+  <link rel="apple-touch-icon" href="/cours/assets/icons/apple-touch-icon.png">
+  <!-- Barre d'outils Markmap (zoom, ajuster, déplier, mode sombre) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1f2937;
+      --bar: #f8f9fa;
+      --border: #dee2e6;
+      --accent: #34499e;
+    }
+    html.markmap-dark {
+      --bg: #1a1b26;
+      --fg: #e5e7eb;
+      --bar: #232433;
+      --border: #3b3d52;
+      --accent: #9db4ff;
+    }
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    .bar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.6rem 1rem;
+      background: var(--bar);
+      border-bottom: 1px solid var(--border);
+    }
+    .bar a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .bar h1 {
+      margin: 0;
+      font-size: 1.05rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    main {
+      position: relative;
+      flex: 1;
+      min-height: 0;
+    }
+    #mindmap {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    #message {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    #message[hidden] {
+      display: none;
+    }
+    .markmap-toolbar {
+      position: absolute;
+      right: 1rem;
+      bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="bar">
+    <a href="../index.html">← Accueil</a>
+    <h1 id="titre">Carte mentale</h1>
+  </header>
+
+  <main>
+    <svg id="mindmap" aria-label="Carte mentale interactive"></svg>
+    <p id="message">Chargement de la carte…</p>
+  </main>
+
+  <!-- Bibliothèques (versions fixées) -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.18.12/dist/browser/index.iife.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script>
+
+  <script>
+    // Usage : markmap-viewer.html?file=UE2/2-1_MarkMap-Genetique.md
+    // (chemin relatif au dossier pages/, comme md-viewer.html)
+    (async () => {
+      const $ = (selector) => document.querySelector(selector);
+      const message = $('#message');
+      const fail = (text) => {
+        message.textContent = text;
+        message.hidden = false;
+      };
+
+      const file = new URLSearchParams(location.search).get('file') || '';
+      const valid =
+        /\.md$/i.test(file) &&
+        !file.includes('..') &&
+        !file.includes(':') &&
+        !file.includes('\\') &&
+        !file.startsWith('/');
+      if (!valid) return fail('Fichier non valide : il faut un chemin vers un fichier .md du site.');
+
+      const url = new URL(file.split('/').map(encodeURIComponent).join('/'), location.href);
+      let markdown;
+      try {
+        const response = await fetch(url, { cache: 'no-cache' });
+        if (!response.ok) throw new Error('erreur ' + response.status);
+        markdown = await response.text();
+      } catch (err) {
+        return fail('Impossible de charger « ' + file + ' » (' + err.message + ').');
+      }
+
+      if (!window.markmap || !window.d3) {
+        return fail('Les bibliothèques Markmap n’ont pas pu être chargées. Vérifie ta connexion.');
+      }
+      const { Transformer, Markmap, Toolbar, deriveOptions, loadCSS, loadJS } = window.markmap;
+
+      // Markdown → arbre de la carte
+      const transformer = new Transformer();
+      const { root, features, frontmatter } = transformer.transform(markdown);
+
+      // Ressources supplémentaires éventuelles (formules, code…)
+      const { styles, scripts } = transformer.getUsedAssets(features);
+      if (styles) loadCSS(styles);
+      if (scripts) await loadJS(scripts, { getMarkmap: () => window.markmap });
+
+      // Titre : frontmatter « title », sinon premier titre, sinon nom du fichier
+      const fileName = file.split('/').pop().replace(/\.md$/i, '');
+      const rootText = (root.content || '').replace(/<[^>]+>/g, '').trim();
+      const title = (frontmatter && frontmatter.title) || rootText || fileName;
+      $('#titre').textContent = title;
+      document.title = title + ' — Carte mentale';
+
+      // Réglages par défaut de toutes les cartes ; l'en-tête « markmap: » d'un fichier .md peut les remplacer
+      const DEFAUTS = { colorFreezeLevel: 2, maxWidth: 600, initialExpandLevel: 2 };
+      const options = deriveOptions(Object.assign({}, DEFAUTS, frontmatter && frontmatter.markmap));
+
+      // Mode sombre si le système le demande
+      if (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('markmap-dark');
+      }
+
+      message.hidden = true;
+      const map = Markmap.create('#mindmap', options, root);
+
+      const { el } = Toolbar.create(map);
+      $('main').append(el);
+
+      // Réajuste la carte quand la fenêtre change de taille (rotation du téléphone…)
+      let timer;
+      addEventListener('resize', () => {
+        clearTimeout(timer);
+        timer = setTimeout(() => map.fit(), 200);
+      });
+    })();
+  </script>
+</body>
+</html>

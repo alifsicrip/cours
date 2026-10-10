@@ -21,6 +21,20 @@
 | 🟣 **Plastron appendiculaire** | Douleur et signes infectieux persistants, troubles du transit, masse mal limitée en fosse iliaque droite | Ans es intestinales et tissus voisins agglomérés autour du foyer ; traitement non opératoire initial parfois discuté |
 | 🔴 **Péritonite appendiculaire** | Douleur diffuse, défense/contracture, abdomen très douloureux, fièvre, altération générale | Infection diffusée au péritoine ; urgence médico-chirurgicale |
 
+**Formes Topographiques inhabituelles**
+| 👀 Localisation | 🆚 Diagnostic différentiel |
+|---|---|
+| Appendicite **rétro-caecale** (fosse lombaire droite) | Douleur lombaire droite évocatrice de pyélonéphrite ou cystite # urines normales |
+| Appendicite **sous-hépatique** (hypocondre droit) | Evocatrice d'une cholécystite aigüe # échographie abdominale |
+| Appendicite **pelvienne** (hypogastre droit) | Evocatrice d'une salpingite aigüe # échographie pelvienne |
+| Appendicite **méso-coeliaque** | Evocatrice d'occlusion fébrile et de sigmoïdite diverticulaire |
+
+> 🚨 **À retenir :
+> Formes évoluées**: Appendicite aigüe - 🚫AEG → Abcès péri-appendiculaire - Collection purulante → Plastron appendiculaire - masse mal limitée en fosse iliaque droite → Péritonite généralisée - AEG +++ → Choc septique
+> **Formes topographiques inhabituelles** : rétro-caecale | sous-hépatique | pelvienne | méso-coelique → à différencier de d'autres diagnostics
+> **Formes symptomatiques atypiques** : patient.e → sous antibiothérapie | immunodéprimé.e | enceinte | âgé.es → attention au retard diagnostic, symptômes moins bruyants
+
+
 ## 🚨 Ce que j’observe : signes de gravité
 
 | 👀 Je surveille | 🚨 Je m’alarme si… |
@@ -71,7 +85,7 @@
 ## 🧠 Mémo express
 **NÉCROSE → PERFORATION → ABCÈS LOCALISÉ ou PÉRITONITE DIFFUSE → risque de SEPSIS**
 
-🚨 **Douleur qui s’étend + ventre rigide + altération générale ou constantes instables = alerte immédiate.**
+🚨 **Douleur qui s’étend + ventre rigide "de bois" + altération générale ou constantes instables = alerte immédiate.**
 
 ## 📚 Sources
 - Assurance Maladie, *Définition et fréquence de l’appendicite aiguë* : https://www.ameli.fr/assure/sante/themes/appendicite-aigue/definition-frequence

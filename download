@@ -1,0 +1,5 @@
+node_modules
+assets/
+*.md
+# index gérés par scripts/ajouter.mjs (Prettier les étirerait sur 7 lignes par fiche)
+pages/*/index.html

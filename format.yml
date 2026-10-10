@@ -1,0 +1,23 @@
+name: Formater le code
+
+on:
+  push:
+    branches: [main]
+    paths: ["**/*.html"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npx --yes prettier@3 --write "**/*.html"
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "style: reformatage automatique"

@@ -23,8 +23,8 @@
 
 | 🔬 Examen | 🎯 Intérêt |
 |---|---|
-| 🩺 Examen clinique + constantes | Localisation/évolution de la douleur, défense, état général |
-| 🧫 NFS, CRP | Réaction inflammatoire/infectieuse ; résultats à interpréter avec la clinique |
+| 🩺 Examen clinique + constantes | Localisation/évolution de la douleur, défense à la palpation, état général |
+| 🧫 NFS, CRP | Réaction inflammatoire/infectieuse (élévation CRP et hyperleucocytose à PNN) ; résultats à interpréter avec la clinique |
 | 🚽 BU/ECBU selon contexte | Rechercher une cause urinaire |
 | 🖥️ Échographie et/ou scanner abdomino-pelvien | Confirmer le diagnostic, localiser l’appendice et rechercher une complication ; choix selon âge, grossesse et contexte |
 
@@ -32,7 +32,7 @@
 
 | 🎯 Priorité | ✅ Actions infirmières |
 |---|---|
-| 🚨 **Évaluer / alerter** | Douleur (intensité, siège, évolution), température, FC, PA, FR, SpO₂, état général ; alerte rapide si aggravation |
+| 🚨 **Évaluer / alerter** | **Diagnostic exclusivement sur faisceau d'indice d'où l'importance de l'interrogatoire infirmier** Douleur (intensité, siège, évolution), température, FC, PA, FR, SpO₂, état général ; alerte rapide si aggravation |
 | 🍽️ **Préparer** | Jeûne selon consignes médicales en prévision d’une intervention ; expliquer les soins |
 | 💉 **Sur prescription** | Voie veineuse, prélèvements, antalgiques, solutés et antibiotiques si indiqués |
 | 🫀 **Surveiller** | Constantes, douleur, vomissements, hydratation, diurèse et signes péritonéaux |
@@ -56,9 +56,9 @@
 
 ## 🧠 Mémo express
 
-**🤕 Douleur abdominale qui se localise en FID + nausées ± fièvre = appendicite à évoquer.**
+**🤕 Douleur abdominale qui se localise en FID + nausées/vomissements ± fièvre + défense à la palpation profonde = appendicite à suspecter => URGENCE CHIR. Si doute = imagerie échographie ou scanner appendiculaire**
 
-**🚨 Douleur qui se généralise + ventre rigide + altération générale/constantes instables = alerte urgente.**
+**🚨 Douleur qui se généralise + ventre rigide + altération générale/constantes instables = ALERTE URGENTE**
 
 ## 📚 Sources
 - Assurance Maladie, *Définition et fréquence de l’appendicite aiguë* (18 juin 2024) : https://www.ameli.fr/assure/sante/themes/appendicite-aigue/definition-frequence

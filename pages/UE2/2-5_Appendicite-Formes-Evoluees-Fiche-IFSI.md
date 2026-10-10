@@ -30,10 +30,9 @@
 | Appendicite **méso-coeliaque** | Evocatrice d'occlusion fébrile et de sigmoïdite diverticulaire |
 
 > 🚨 **À retenir :
-> Formes évoluées**: Appendicite aigüe - 🚫AEG → Abcès péri-appendiculaire - Collection purulante → Plastron appendiculaire - masse mal limitée en fosse iliaque droite → Péritonite généralisée - AEG +++ → Choc septique
-> **Formes topographiques inhabituelles** : rétro-caecale | sous-hépatique | pelvienne | méso-coelique → à différencier de d'autres diagnostics
-> **Formes symptomatiques atypiques** : patient.e → sous antibiothérapie | immunodéprimé.e | enceinte | âgé.es → attention au retard diagnostic, symptômes moins bruyants
-
+> Formes évoluées**: Appendicite aigüe - 🚫AEG → Abcès péri-appendiculaire - Collection purulante → Plastron appendiculaire - masse mal limitée en fosse iliaque droite → Péritonite généralisée - AEG +++ → Choc septique  
+**Formes topographiques inhabituelles** : rétro-caecale | sous-hépatique | pelvienne | méso-coelique → à différencier de d'autres diagnostics  
+**Formes symptomatiques atypiques** : patient.e → sous antibiothérapie | immunodéprimé.e | enceinte | âgé.es → attention au retard diagnostic, symptômes moins bruyants  
 
 ## 🚨 Ce que j’observe : signes de gravité
 

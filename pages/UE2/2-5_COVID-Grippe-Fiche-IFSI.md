@@ -2,8 +2,8 @@
 **UE 2.5 — Processus inflammatoires et infectieux | S3**
 
 ## 🚨 L’essentiel à retenir
-- 🤧 COVID-19 et grippe sont des infections respiratoires virales, transmissibles notamment par voie respiratoire
-- 👵 Les formes graves sont plus probables chez les personnes âgées, immunodéprimées, enceintes ou présentant certaines maladies chroniques
+ 🤧 COVID-19 et grippe sont des infections respiratoires virales, transmissibles notamment par voie respiratoire
+ 👵 Les formes graves sont plus probables chez les personnes âgées, immunodéprimées, enceintes ou présentant certaines maladies chroniques
 - 🫁 Repérer rapidement les signes de détresse respiratoire et d’aggravation générale
 - 🧼 Prévention : vaccination selon recommandations en vigueur, aération, hygiène des mains, masque selon contexte et précautions adaptées
 

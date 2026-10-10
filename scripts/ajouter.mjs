@@ -1,22 +1,22 @@
 #!/usr/bin/env node
 /**
- * Ajoute une fiche au site : copie le fichier au bon endroit, le renomme
- * proprement et insère la ligne correspondante dans l'index de l'UE.
+ * Importe en lot les fichiers déposés dans le dossier « a-ajouter/ » :
+ * chaque fichier est renommé automatiquement, rangé au bon endroit, puis
+ * ajouté à l'index de l'UE (en fin d'onglet).
  *
- * Mode interactif (terminal) :
- *   node scripts/ajouter.mjs [--dry-run]
+ *   node scripts/ajouter.mjs --ue UE2 --section 2.1 [--emoji 🧬] [--after 3] [--dry-run]
  *
- * Mode automatique (GitHub Actions) : dès que --file est fourni
- *   node scripts/ajouter.mjs --file ma-fiche.html --ue UE2 --section 2.4 \
- *        --title "Traumatisme Crânien" [--emoji 🧠] [--after 3] [--name 2-4_X.html] \
- *        [--deplacer] [--dry-run]
- *   --after : insérer après la fiche n° N (0 = tout en haut, absent = à la fin)
- *   --deplacer : supprime le fichier source une fois copié
+ *   --ue       UE concernée (défaut : UE2)
+ *   --section  numéro de l'onglet, tel qu'affiché dans l'index (ex : 2.1)
+ *   --emoji    emoji par défaut (un emoji au début du nom de fichier est prioritaire)
+ *   --after    insérer le lot après la fiche n° N (0 = en haut, absent = à la fin)
+ *   --dir      dossier à traiter (défaut : a-ajouter)
+ *   --dry-run  simulation : rien n'est écrit
+ *
+ * Nom final :  <UE>-<n°>_<Nom-Fiche>.<ext>   ex : 2-1_Histoire-DeCellEco.md
  */
 import fs from 'node:fs';
-import os from 'node:os';
 import path from 'node:path';
-import readline from 'node:readline';
 import { fileURLToPath } from 'node:url';
 
 // ---------------------------------------------------------------- réglages
@@ -44,75 +44,56 @@ function parseArgs(argv) {
   for (let i = 0; i < argv.length; i++) {
     if (!argv[i].startsWith('--')) continue;
     const key = argv[i].slice(2);
-    out[key] = key === 'dry-run' || key === 'deplacer' ? true : (argv[++i] ?? '');
+    out[key] = key === 'dry-run' ? true : (argv[++i] ?? '');
   }
   return out;
 }
 const ARGS = parseArgs(process.argv.slice(2));
-const AUTO = ARGS.file !== undefined;
 const DRY_RUN = Boolean(ARGS['dry-run']);
 
-// ------------------------------------------------------------------ saisie
-let rl;
-let lines;
-function initRl() {
-  rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-  lines = rl[Symbol.asyncIterator]();
-}
-
-async function ask(question, fallback = '') {
-  rl.setPrompt(fallback ? `${question} [${fallback}] ` : `${question} `);
-  rl.prompt();
-  const { value, done } = await lines.next();
-  if (done) throw new Error('Saisie interrompue.');
-  return value.trim() || fallback;
-}
-
-async function askChoice(question, options, { fallbackIndex } = {}) {
-  console.log(`\n${question}`);
-  options.forEach((o, i) => console.log(`  ${String(i + 1).padStart(2)}. ${o}`));
-  for (;;) {
-    const raw = await ask('Numéro :', fallbackIndex !== undefined ? String(fallbackIndex + 1) : '');
-    const n = Number(raw);
-    if (Number.isInteger(n) && n >= 1 && n <= options.length) return n - 1;
-    console.log('  Choix invalide.');
-  }
-}
-
 // ----------------------------------------------------------------- helpers
-function cleanPath(raw) {
-  let p = raw.trim().replace(/^['"]|['"]$/g, ''); // guillemets
-  p = p.replace(/\\(.)/g, '$1'); // espaces échappés (glisser-déposer)
-  if (p.startsWith('~')) p = path.join(os.homedir(), p.slice(1));
-  return path.resolve(p);
-}
-
-function slug(text) {
-  return text
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '') // accents
-    .replace(/['’]/g, '')
-    .replace(/[^A-Za-z0-9]+/g, ' ')
-    .trim()
-    .split(/\s+/)
-    .join('-');
-}
-
 const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
 const insideRoot = (p) => {
   const rel = path.relative(ROOT, p);
   return rel !== '' && !rel.startsWith('..') && !path.isAbsolute(rel);
 };
 
-function listUEs() {
-  const dir = path.join(ROOT, PAGES_DIR);
-  return fs
-    .readdirSync(dir)
-    .filter((d) => /^UE\d+$/.test(d) && fs.existsSync(path.join(dir, d, 'index.html')))
-    .sort((a, b) => Number(a.slice(2)) - Number(b.slice(2)));
+/** Sans accents, sans espaces ni caractères spéciaux ; mots reliés par des tirets. */
+function slug(text) {
+  return text
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/['’]/g, '')
+    .replace(/[^A-Za-z0-9]+/g, ' ')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .join('-');
 }
 
-/** Repère chaque panneau (onglet) de l'index et les fiches qu'il contient. */
+const EMOJI_START = /^((?:\p{Extended_Pictographic}(?:\uFE0F|\u200D|\p{Emoji_Modifier})*)+)\s*/u;
+const SECTION_PREFIX = /^(?:UE\s*)?\d+[-.]\d+[\s_-]+/i;
+
+/** Déduit emoji, titre affiché et nom technique à partir du nom du fichier déposé. */
+function analyse(fileName) {
+  const ext0 = path.extname(fileName).toLowerCase();
+  const ext = ext0 === '.htm' ? '.html' : ext0;
+  let stem = path.basename(fileName, path.extname(fileName)).normalize('NFC').trim();
+  stem = stem.replace(SECTION_PREFIX, ''); // « 2-1_ » déjà présent : on le remplace
+  let emoji = '';
+  const m = stem.match(EMOJI_START);
+  if (m) {
+    emoji = m[1];
+    stem = stem.slice(m[0].length);
+  }
+  const title = /\s/.test(stem)
+    ? stem.replace(/\s+/g, ' ').trim() // nom écrit avec des espaces : repris tel quel
+    : stem.replace(/[-_]+/g, ' ').replace(/(\p{Ll})(\p{Lu})/gu, '$1 $2').trim(); // Nom-DeFiche → Nom De Fiche
+  return { ext, emoji, title, base: slug(stem) };
+}
+
+/** Repère chaque onglet de l'index et les fiches qu'il contient. */
 function parsePanels(html) {
   const re = /<div\s+class="panel-header"[^>]*>([\s\S]*?)<\/div>/g;
   const panels = [];
@@ -131,10 +112,7 @@ function parsePanels(html) {
     const li = /<li(?:\s[^>]*)?>\s*<a\s[^>]*>([\s\S]*?)<\/a\s*>\s*<\/li\s*>/g;
     let e;
     while ((e = li.exec(body))) {
-      p.entries.push({
-        label: e[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(),
-        start: p.start + e.index,
-      });
+      p.entries.push({ label: e[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(), start: p.start + e.index });
     }
   });
   return panels;
@@ -143,146 +121,117 @@ function parsePanels(html) {
 const lineStart = (html, pos) => html.lastIndexOf('\n', pos - 1) + 1;
 const indentOf = (html, pos) => html.slice(lineStart(html, pos), pos).match(/^\s*/)[0];
 
-// -------------------------------------------------------------------- main
-async function main() {
-  if (!AUTO) initRl();
-  const tag = DRY_RUN ? ' (SIMULATION)' : '';
-  console.log(`=== Ajout d'une fiche${tag} ===`);
-
-  // 1. UE
-  const ues = listUEs();
-  if (!ues.length) throw new Error(`Aucune UE trouvée dans ${PAGES_DIR}/`);
-  let ue;
-  if (AUTO) {
-    ue = ARGS.ue || 'UE2';
-    if (!ues.includes(ue)) throw new Error(`UE inconnue : ${ue}. Disponibles : ${ues.join(', ')}`);
-  } else {
-    const def = ues.indexOf('UE2') >= 0 ? ues.indexOf('UE2') : 0;
-    ue = ues[await askChoice('Pour quelle UE ?', ues, { fallbackIndex: def })];
-  }
-  const indexPath = path.join(ROOT, PAGES_DIR, ue, 'index.html');
-  const html = fs.readFileSync(indexPath, 'utf8');
-  const panels = parsePanels(html);
-  if (!panels.length) throw new Error(`Aucun onglet reconnu dans ${indexPath}`);
-
-  // 2. Fichier source
-  let src;
-  if (AUTO) {
-    src = path.resolve(ROOT, ARGS.file);
-    if (!insideRoot(src)) throw new Error('Le fichier doit se trouver dans le dépôt.');
-    if (!fs.existsSync(src) || !fs.statSync(src).isFile()) throw new Error(`Fichier introuvable : ${ARGS.file}`);
-    if (!TYPES[path.extname(src).toLowerCase()]) {
-      throw new Error(`Type non géré. Formats acceptés : ${Object.keys(TYPES).join(' ')}`);
-    }
-  } else {
-    for (;;) {
-      src = cleanPath(await ask('\nFichier à ajouter (glisse-le ici) :'));
-      if (!fs.existsSync(src) || !fs.statSync(src).isFile()) console.log('  Fichier introuvable.');
-      else if (!TYPES[path.extname(src).toLowerCase()]) {
-        console.log(`  Type non géré. Formats acceptés : ${Object.keys(TYPES).join(' ')}`);
-      } else break;
-    }
-  }
-  let ext = path.extname(src).toLowerCase();
-  if (ext === '.htm') ext = '.html';
-  const type = TYPES[ext];
-
-  // 3. Nom, emoji, onglet
-  const title = AUTO ? (ARGS.title || '').trim() : await ask('\nNom affiché (ex : Traumatisme Crânien) :');
-  if (!title) throw new Error('Le nom est obligatoire.');
-  const emoji = AUTO ? (ARGS.emoji || '').trim() : await ask('Emoji (facultatif) :');
-
-  let panel;
-  if (AUTO) {
-    panel = panels.find((p) => p.number === (ARGS.section || '').trim());
-    if (!panel) {
-      const dispo = panels.map((p) => p.number).filter(Boolean).join(', ');
-      throw new Error(`Onglet « ${ARGS.section} » introuvable. Disponibles : ${dispo}`);
-    }
-  } else {
-    panel = panels[await askChoice('Dans quel onglet ?', panels.map((p) => p.label))];
-  }
-  const section = panel.number ?? ue.slice(2);
-
-  // 4. Position
-  let pos = panel.entries.length; // fin par défaut
-  if (AUTO) {
-    if ((ARGS.after ?? '') !== '') {
-      const n = Number(ARGS.after);
-      if (!Number.isInteger(n) || n < 0 || n > panel.entries.length) {
-        throw new Error(`Position invalide : « ${ARGS.after} » (0 à ${panel.entries.length}).`);
-      }
-      pos = n;
-    }
-  } else if (panel.entries.length) {
-    console.log(`\nFiches actuelles de « ${panel.label} » :`);
-    panel.entries.forEach((e, i) => console.log(`  ${String(i + 1).padStart(2)}. ${e.label}`));
-    const raw = await ask('Insérer APRÈS le numéro (0 = tout en haut, Entrée = à la fin) :');
-    if (raw !== '') {
-      const n = Number(raw);
-      if (Number.isInteger(n) && n >= 0 && n <= panel.entries.length) pos = n;
-      else console.log('  Valeur ignorée, ajout à la fin.');
-    }
-  }
-
-  // 5. Nom de fichier et lien
-  const proposed = `${section.replace('.', '-')}_${slug(title)}${ext}`;
-  const chosen = AUTO ? ARGS.name || proposed : await ask('\nNom du fichier', proposed);
-  const fileName = chosen.replace(/[^\w.\-]/g, '_');
-  const destDir = path.join(ROOT, type === 'media' ? MEDIA_DIR : path.join(PAGES_DIR, ue));
-  const dest = path.join(destDir, fileName);
-
-  let url;
-  if (type === 'page') url = `${BASE_URL}/${PAGES_DIR}/${ue}/${fileName}`;
-  else if (type === 'markdown') url = `${BASE_URL}/${PAGES_DIR}/md-viewer.html?file=${ue}/${fileName}`;
-  else url = `${BASE_URL}/${MEDIA_DIR}/${fileName}`;
-
-  const label = `UE${section} ${emoji ? emoji + ' ' : ''}${title}`;
-  const li = `<li><a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;
-
-  if (html.includes(`href="${url}"`)) throw new Error("Ce lien existe déjà dans l'index.");
-  const same = path.resolve(dest) === path.resolve(src);
-  const overwrite = fs.existsSync(dest) && !same;
-  if (overwrite && AUTO) throw new Error(`${path.relative(ROOT, dest)} existe déjà : choisis un autre nom (--name).`);
-
-  // 6. Récapitulatif
-  console.log('\n--- Récapitulatif ---');
-  console.log(`Fichier  : ${path.relative(ROOT, dest)}`);
-  console.log(`Onglet   : ${panel.label}`);
-  console.log(`Position : ${pos === panel.entries.length ? 'à la fin' : pos === 0 ? 'tout en haut' : `après « ${panel.entries[pos - 1].label} »`}`);
-  console.log(`Ligne    : ${li}`);
-  if (overwrite) console.log('⚠  Un fichier du même nom existe déjà : il sera REMPLACÉ.');
-  if (!AUTO && (await ask('\nConfirmer ? (O/n)', 'O')).toLowerCase().startsWith('n')) {
-    console.log('Annulé.');
-    return;
-  }
-
-  // 7. Écriture
-  if (panel.ulClose === -1) throw new Error('Pas de </ul> dans cet onglet : structure inattendue.');
-  const target = pos < panel.entries.length ? panel.entries[pos].start : panel.ulClose;
+/** Insère une ligne <li> dans l'onglet voulu, à la position pos (null = fin). */
+function insertLi(html, section, pos, li) {
+  const panel = parsePanels(html).find((p) => p.number === section);
+  if (!panel || panel.ulClose === -1) throw new Error(`Onglet ${section} : structure inattendue.`);
+  const at = pos === null || pos >= panel.entries.length ? panel.ulClose : panel.entries[pos].start;
   const indent =
     panel.entries.length > 0 ? indentOf(html, panel.entries[0].start) : indentOf(html, panel.ulClose) + '  ';
-  const at = lineStart(html, target);
-  const updated = html.slice(0, at) + `${indent}${li}\n` + html.slice(at);
+  const cut = lineStart(html, at);
+  return html.slice(0, cut) + `${indent}${li}\n` + html.slice(cut);
+}
 
-  if (DRY_RUN) {
-    console.log('\nSimulation terminée : aucun fichier modifié.');
-    return;
+// -------------------------------------------------------------------- main
+function main() {
+  const ue = ARGS.ue || 'UE2';
+  const section = (ARGS.section || '').trim();
+  const inbox = path.resolve(ROOT, ARGS.dir || 'a-ajouter');
+  const tag = DRY_RUN ? ' (SIMULATION)' : '';
+  console.log(`=== Import de fiches${tag} : ${ue}, onglet ${section || '?'} ===`);
+
+  if (!/^UE\d+$/.test(ue)) throw new Error(`UE invalide : « ${ue} ».`);
+  const indexPath = path.join(ROOT, PAGES_DIR, ue, 'index.html');
+  if (!fs.existsSync(indexPath)) throw new Error(`Index introuvable : ${path.relative(ROOT, indexPath)}`);
+  let html = fs.readFileSync(indexPath, 'utf8');
+
+  const panels = parsePanels(html);
+  const panel = panels.find((p) => p.number === section);
+  if (!panel) {
+    const dispo = panels.map((p) => p.number).filter(Boolean).join(', ');
+    throw new Error(`Onglet « ${section} » introuvable dans ${ue}. Disponibles : ${dispo}`);
   }
-  fs.mkdirSync(destDir, { recursive: true });
-  if (!same) fs.copyFileSync(src, dest);
-  fs.writeFileSync(indexPath, updated, 'utf8');
-  if (ARGS.deplacer && !same && insideRoot(src)) fs.unlinkSync(src);
 
-  console.log(`\n✔ Fiche ajoutée à ${path.relative(ROOT, indexPath)}`);
-  if (!AUTO) console.log('Étape suivante : git add -A && git commit -m "ajout fiche" && git push');
+  let pos = null;
+  if ((ARGS.after ?? '') !== '') {
+    pos = Number(ARGS.after);
+    if (!Number.isInteger(pos) || pos < 0 || pos > panel.entries.length) {
+      throw new Error(`Position invalide : « ${ARGS.after} » (0 à ${panel.entries.length}).`);
+    }
+  }
+
+  if (!insideRoot(inbox) || !fs.existsSync(inbox) || !fs.statSync(inbox).isDirectory()) {
+    throw new Error(`Dossier « ${ARGS.dir || 'a-ajouter'} » introuvable dans le dépôt.`);
+  }
+  const names = fs
+    .readdirSync(inbox, { withFileTypes: true })
+    .filter((d) => d.isFile() && !d.name.startsWith('.'))
+    .map((d) => d.name)
+    .sort((a, b) => analyse(a).title.localeCompare(analyse(b).title, 'fr', { numeric: true })); // ordre alphabétique du nom affiché
+  if (!names.length) throw new Error(`Aucun fichier à traiter dans ${path.relative(ROOT, inbox)}/`);
+
+  const rapport = []; // { ok, source, detail }
+  for (const name of names) {
+    const src = path.join(inbox, name);
+    try {
+      const a = analyse(name);
+      const type = TYPES[a.ext];
+      if (!type) throw new Error(`type « ${a.ext || 'inconnu'} » non géré`);
+      if (!a.base) throw new Error('nom vide une fois nettoyé');
+
+      const fileName = `${section.replace('.', '-')}_${a.base}${a.ext}`;
+      const destDir = path.join(ROOT, type === 'media' ? MEDIA_DIR : path.join(PAGES_DIR, ue));
+      const dest = path.join(destDir, fileName);
+      if (fs.existsSync(dest)) throw new Error(`${path.relative(ROOT, dest)} existe déjà`);
+
+      let url;
+      if (type === 'page') url = `${BASE_URL}/${PAGES_DIR}/${ue}/${fileName}`;
+      else if (type === 'markdown') url = `${BASE_URL}/${PAGES_DIR}/md-viewer.html?file=${ue}/${fileName}`;
+      else url = `${BASE_URL}/${MEDIA_DIR}/${fileName}`;
+      if (html.includes(`href="${url}"`)) throw new Error('ce lien existe déjà dans l\'index');
+
+      const emoji = a.emoji || (ARGS.emoji || '').trim();
+      const label = `UE${section} ${emoji ? emoji + ' ' : ''}${a.title}`;
+      const li = `<li><a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;
+
+      html = insertLi(html, section, pos, li);
+      if (pos !== null) pos += 1; // le lot reste dans l'ordre alphabétique
+      if (!DRY_RUN) {
+        fs.mkdirSync(destDir, { recursive: true });
+        fs.copyFileSync(src, dest);
+        fs.unlinkSync(src);
+      }
+      rapport.push({ ok: true, source: name, detail: `${path.relative(ROOT, dest)}  →  « ${label} »` });
+    } catch (err) {
+      rapport.push({ ok: false, source: name, detail: err.message });
+    }
+  }
+
+  if (!DRY_RUN && rapport.some((r) => r.ok)) fs.writeFileSync(indexPath, html, 'utf8');
+
+  // ---- compte rendu
+  console.log('');
+  for (const r of rapport) console.log(`${r.ok ? '✔' : '✘'} ${r.source}\n    ${r.detail}`);
+  const ok = rapport.filter((r) => r.ok).length;
+  const ko = rapport.length - ok;
+  console.log(`\n${ok} ajoutée(s), ${ko} en erreur${DRY_RUN ? ' — simulation : rien n\'a été modifié' : ''}.`);
+  if (ko) console.log('Les fichiers en erreur sont restés dans le dossier : corrige et relance.');
+
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    const md = [
+      `### Import ${ue} — onglet ${section}${DRY_RUN ? ' (simulation)' : ''}`,
+      '',
+      ...rapport.map((r) => `- ${r.ok ? '✅' : '❌'} \`${r.source}\` — ${r.detail}`),
+      '',
+    ].join('\n');
+    fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, md);
+  }
+  if (ko) process.exitCode = 1;
 }
 
 try {
-  await main();
+  main();
 } catch (err) {
   console.error(`\nErreur : ${err.message}`);
   process.exitCode = 1;
-} finally {
-  rl?.close();
 }

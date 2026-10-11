@@ -1,0 +1,211 @@
+# 🦠 Processus infectieux — Généralités | Markmap IFSI
+## 🧠 Définitions
+- **Agent infectieux**
+  - Micro-organisme pouvant provoquer une infection
+  - Bactérie, virus, champignon ou parasite
+- **Contamination**
+  - Entrée d’un agent infectieux dans l’organisme
+- **Infection**
+  - Pénétration et multiplication d’un agent infectieux
+  - Réaction de l’organisme
+  - Symptômes possibles
+- **Maladie infectieuse**
+  - Infection responsable de manifestations cliniques
+- **Colonisation**
+  - Présence d’un micro-organisme sans signes cliniques d’infection
+- **Contagiosité**
+  - Capacité de transmission d’un hôte à un autre
+- **Sepsis**
+  - Dysfonction d’organe menaçant le pronostic vital
+  - Réponse dérégulée à une infection
+## 🦠 Agents infectieux
+- **Bactéries**
+  - Organismes cellulaires
+  - Certaines sont utiles au microbiote
+  - Antibiotiques si infection bactérienne sensible
+- **Virus**
+  - Utilisent les cellules de l’hôte pour se multiplier
+  - Antiviraux pour certaines infections
+- **Champignons**
+  - Mycoses ou infections invasives
+  - Antifongiques selon diagnostic
+- **Parasites**
+  - Vivent aux dépens d’un hôte
+  - Antiparasitaires adaptés
+- **Bon usage des anti-infectieux**
+  - Antibiotiques inefficaces contre les virus
+  - Traitement adapté à l’agent et à l’indication
+  - Prévenir l’antibiorésistance
+## 🔄 Chaîne de transmission
+- **1. Agent infectieux**
+  - Bactérie, virus, champignon, parasite
+- **2. Réservoir**
+  - Personne
+  - Animal
+  - Environnement, eau ou aliments selon le germe
+- **3. Porte de sortie**
+  - Sécrétions respiratoires
+  - Sang
+  - Selles, urine ou lésions cutanées
+- **4. Mode de transmission**
+  - Contact direct ou indirect
+  - Gouttelettes
+  - Voie aérienne
+  - Voie sanguine
+  - Voie digestive
+  - Vecteur
+- **5. Porte d’entrée**
+  - Voies respiratoires ou digestives
+  - Muqueuses
+  - Peau lésée
+  - Voie sanguine
+  - Dispositif invasif
+- **6. Hôte réceptif**
+  - Susceptibilité variable
+  - État de santé et immunité
+## 🛡️ Défenses de l’organisme
+- **Barrières naturelles**
+  - Peau et muqueuses
+  - Mucus et cils respiratoires
+  - Acidité gastrique
+  - Microbiote
+- **Immunité innée**
+  - Réponse rapide
+  - Inflammation
+  - Phagocytes et complément
+- **Immunité adaptative**
+  - Lymphocytes B et T
+  - Anticorps
+  - Mémoire immunitaire
+- **Facteurs de risque**
+  - Immunodépression
+  - Âge extrême
+  - Maladie chronique
+  - Dénutrition
+  - Plaie ou chirurgie
+  - Dispositif invasif
+  - Vaccination incomplète selon l’infection
+## 🤒 Signes cliniques
+- **Généraux**
+  - Fièvre ou hypothermie
+  - Frissons et fatigue
+  - Altération de l’état général
+- **Locaux**
+  - Rougeur
+  - Chaleur
+  - Douleur
+  - Œdème
+  - Écoulement
+- **Selon le foyer**
+  - Toux ou dyspnée
+  - Dysurie
+  - Diarrhée
+  - Douleur abdominale
+  - Plaie purulente
+- **Signes de gravité**
+  - Confusion
+  - Polypnée
+  - Hypotension
+  - Marbrures
+  - Oligurie
+  - Désaturation
+  - Aggravation rapide
+- **Vigilance**
+  - L’absence de fièvre n’exclut pas une infection
+  - Vigilance accrue chez les personnes âgées ou immunodéprimées
+## 🧪 Examens et diagnostic
+- **Examen clinique**
+  - Rechercher le foyer
+  - Repérer les signes locaux et de gravité
+- **Biologie**
+  - NFS
+  - CRP
+  - Bilans selon le contexte
+  - Résultats non spécifiques
+- **Prélèvements microbiologiques**
+  - Hémocultures
+  - Urines
+  - Prélèvements respiratoires ou de plaie selon prescription
+- **Imagerie**
+  - Rechercher foyer ou complication
+- **Lactate et bilan d’organes**
+  - En cas de suspicion de sepsis ou de gravité
+  - Selon prescription
+- **Rôle IDE**
+  - Vérifier identité et prescription
+  - Respecter l’asepsie
+  - Prélever au bon moment et dans le bon contenant
+  - Étiqueter au lit du/de la patient·e
+  - Acheminer rapidement et tracer
+  - Ne pas retarder un traitement urgent en cas de sepsis suspecté
+## 💊 Principes de traitement
+- **Anti-infectieux**
+  - Antibiotiques pour certaines infections bactériennes
+  - Antiviraux pour certaines infections virales
+  - Antifongiques pour infections fongiques
+  - Antiparasitaires pour infections parasitaires
+- **Autres mesures**
+  - Traitement symptomatique selon le tableau clinique
+  - Soutien des fonctions vitales si nécessaire
+  - Contrôle du foyer si indiqué
+- **Réévaluation**
+  - Évolution clinique et biologique
+  - Adaptation aux résultats microbiologiques
+  - Surveillance de l’efficacité, des effets indésirables et des allergies
+## 🧼 Prévention — rôle IDE
+- **Hygiène des mains**
+  - Avant et après les soins
+  - Friction hydroalcoolique si adaptée
+- **Précautions standard**
+  - Tout·e patient·e
+  - Tout soin
+  - Tout lieu
+  - Quel que soit le statut infectieux
+- **Équipements de protection**
+  - Gants, masque, protection oculaire ou surblouse selon le risque
+- **Asepsie**
+  - Préparation cutanée
+  - Technique aseptique
+  - Entretien des dispositifs selon protocole
+- **Environnement**
+  - Linge, déchets, matériel et surfaces selon procédures
+- **Vaccination**
+  - Selon recommandations
+- **Précautions complémentaires**
+  - Contact
+  - Gouttelettes
+  - Air
+  - Selon l’agent et le protocole local
+## 🚨 Sepsis — alerte immédiate
+- **Définition**
+  - Infection suspectée avec dysfonction d’organe
+  - Urgence potentiellement vitale
+- **Signes possibles**
+  - Confusion, polypnée, hypotension
+  - Marbrures, oligurie, désaturation
+  - Aggravation rapide
+- **CAT IDE**
+  - Alerter immédiatement
+  - Évaluer ABCDE
+  - Surveiller les constantes
+  - Préparer les examens et traitements prescrits
+  - Ne pas attendre la fièvre
+  - Ne pas utiliser le qSOFA seul pour dépister
+## 🎯 À retenir pour l’examen
+- **Infection = agent infectieux + multiplication + réponse de l’organisme**
+- **Colonisation ≠ infection symptomatique**
+- **Transmission : agent → réservoir → sortie → transmission → entrée → hôte réceptif**
+- **Antibiotiques ≠ antiviraux**
+- **Précautions standard à chaque soin, pour toute personne**
+- **Infection + dysfonction d’organe = alerte sepsis**
+## 📚 Sources
+- **Assurance Maladie — Antibiotiques et antiviraux, 2026**
+  - https://www.ameli.fr/assure/sante/medicaments/comprendre-les-differents-medicaments/antibiotiques-antiviraux
+- **HAS — Recommandations sepsis, 2025**
+  - https://www.has-sante.fr/jcms/p_3587144/fr/prise-en-charge-du-sepsis-du-nouveau-ne-de-l-enfant-et-de-l-adulte-recommandations-pour-un-parcours-de-soins-integre
+- **Santé publique France — Infections associées aux soins**
+  - https://www.santepubliquefrance.fr/infections-associees-aux-soins/la-maladie
+- **SF2H — Précautions standard, 2017**
+  - https://www.santepubliquefrance.fr/sites/default/files/rdd/document/HY_XXV_PS_versionSF2H.pdf
+- **Assurance Maladie — Antibiotiques et antibiorésistance, 2026**
+  - https://www.ameli.fr/assure/sante/medicaments/utiliser-recycler-medicaments/bien-utiliser-les-antibiotiques/antibiotiques-et-antibioresistance

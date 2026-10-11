@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UE2 🔬 Sciences Biologiques et Médicales</title>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <!-- Favicon -->
+  <link rel="icon" href="/cours/assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/cours/assets/icons/icon.svg">
+  <link rel="apple-touch-icon" href="/cours/assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/cours/manifest.json">
+  <style>
+    .container {
+      width: 100%;
+      max-width: 600px;
+      margin: auto auto;
+    }
+    .panel {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .panel-header {
+      cursor: pointer;
+      background-color: #f8f9fa;
+      padding: 12px 15px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    .panel-header:hover {
+      background-color: #e9ecef;
+    }
+    .panel-content {
+      padding: 30px;
+      background-color: white;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out, padding 0.2s ease-out;
+    }
+    .panel-content li {
+      margin-bottom: 1.2em;
+    }
+    .hidden {
+      max-height: 0;
+      padding: 0;
+      border: none;
+    }
+    .icon {
+      transition: transform 0.3s ease;
+    }
+    .icon.rotated {
+      transform: rotate(180deg);
+    }
+    img,
+    video,
+    iframe {
+      max-inline-size: 100%;
+      block-size: auto;
+    }
+    /* Entrées jumelles (même titre, ex. « - 📄 » et « - 🪢 ») : côte à côte */
+    .panel-content li.duo {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.4em 0.7em;
+    }
+    .chip {
+      display: inline-block;
+      padding: 0.15em 0.7em;
+      border: 1px solid #c5cbe6;
+      border-radius: 999px;
+      background: #f4f6ff;
+      text-decoration: none;
+      line-height: 1.4;
+    }
+    .chip:hover {
+      background: #e3e8ff;
+    }
+  </style>
+</head>
+
+<body>
+  <main style="padding:4rem;max-width:720px;margin:0rem auto">
+    <img src="../../assets/icons/ue2.svg" alt="UE2" width="50" height="50">
+    <a href="../../index.html"><img src="../../assets/icons/LogoComplete_CripIFSI-transparent.png" alt="Accueil" width="200" height="200"></a>
+    <br>
+
+    <header class="main-header">
+      <br>
+      <h1 style="color:#34499E">🔬 Sciences Biologiques et Médicales</h1>
+      <p>Cartes mentales, infographies, ressources diverses</p>
+      <br>
+    </header>
+
+    <!-- Pour ajouter une fiche : npm run ajouter (voir scripts/ajouter.mjs) -->
+    <div class="container">
+
+      <!-- Onglet 2.1 -->
+      <div class="panel">
+        <div class="panel-header" onclick="togglePanel(this)">
+          <span class="icon rotated">🔻</span> 🔬 2.1 - Biologie Fondamentale
+        </div>
+        <div class="panel-content hidden">
+          <ul style="list-style-type:none;">
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-1 🌿 L’histoire de Cellul’Éco.md" target="_blank" rel="noopener noreferrer">UE2.1 🌿 L’histoire de Cellul’Éco - Conte</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-1 🧬🚲 Le voyage de Protéine — en 10 étapes.md" target="_blank" rel="noopener noreferrer">UE2.1 🧬🚲 Le voyage de Protéine - Conte</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-1 🦠 Microbiologie_systeme_immunitaire_IFSI.md" target="_blank" rel="noopener noreferrer">UE2.1 🌿🦠 Microbiologie Système Immunitaire - Conte</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-1_GenetiqueGeneralite_2026.html" target="_blank" rel="noopener noreferrer">UE2.1 🧬 Génétique - Généralité</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/assets/img/my_adn-arn_2026.jpg" target="_blank" rel="noopener noreferrer">UE2.1 👩‍🎨 ADN - ARN</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-1_GenetiqueLexique_2026.html" target="_blank" rel="noopener noreferrer">UE2.1 🧬 Génétique - Lexique</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-1_Heredite_2026.html" target="_blank" rel="noopener noreferrer">UE2.1 🫛 Hérédité</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-1_Antigene-Anticorps_2026.html" target="_blank" rel="noopener noreferrer">UE2.1 🛡️Antigène - Anticorps</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/assets/img/my_bioFondamentale_2026.jpg" target="_blank" rel="noopener noreferrer">UE2.1 👩‍🎨 Hérédité et Système sanguin</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/assets/img/my_hemostase-glycemie_2026.jpg" target="_blank" rel="noopener noreferrer">UE2.1 👩‍🎨 Hémostase et Glycémie</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-1_Thermoregulation_2026.html" target="_blank" rel="noopener noreferrer">UE2.1 🌡️ Thermorégulation</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Onglet 2.2 -->
+      <div class="panel">
+        <div class="panel-header" onclick="togglePanel(this)">
+          <span class="icon rotated">🔻</span> 🫀 2.2 - Systèmes et grandes fonctions - L'essentiel
+        </div>
+        <div class="panel-content hidden">
+          <ul style="list-style-type:none;">
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Circulatoire_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🫀Système Circulatoire</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Circulatoire_bis_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🫀Système Circulatoire bis</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/assets/img/my_appareil-circulatoire_2026.jpg" target="_blank" rel="noopener noreferrer">UE2.2 🫀My Système Circulatoire 👩‍🎨</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Respiratoire_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🫁 Système Respiratoire</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Neurologique_2026.html" target="_blank" rel="noopener noreferrer">UE 2.2 🧠Système Neurologique</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Renal_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🛂Système Rénal et urinaire</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Urologique_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🟡 Système Urologique</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Digestif_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🦷 Système Digestif</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/assets/img/my_appareil-digestif_2026.jpg" target="_blank" rel="noopener noreferrer">UE2.2 👩‍🎨 Système Digestif</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Locomoteur_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🦴 Système Locomoteur</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Reproducteur_2026.html" target="_blank" rel="noopener noreferrer">UE2.2🐣 Système Reproducteur</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_DesSens_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🦻🖐️👁️ Système des Sens</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Sanguin_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🩸 Système Sanguin</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Sanguin_bis_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🩸 Système Sanguin Bis</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Hemostase_2026.html" target="_blank" rel="noopener noreferrer">UE2.2🩸 Hémostase</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Systeme_Endocrinien_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🦋 Système Endocrinien</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_RegulationGlycemie_2026.html" target="_blank" rel="noopener noreferrer">UE2.1 🍬 Régulation de la Glycémie</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/UE2-1_marqueurs_biologiques-1.md" target="_blank" rel="noopener noreferrer">UE2.1 🧪 Examens : Marqueurs biologiques</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_GazDuSang_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🧪 Examens : Gaz Du Sang</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_Schemas_AnatPhy_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🎨 Schémas Anatomie Physiologie</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-2_TableauRecapitulatif_2026.html" target="_blank" rel="noopener noreferrer">UE2.2 🖼️ Tableau récap' Anatomie Physiologie</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-2_Normes-biologiques-adulte-pratique-IDE-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.2 🧪 Normes biologiques adulte pratique IDE IFSI</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/markmap-viewer.html?file=UE2/2-2_Normes-biologiques-adulte-pratique-IDE-IFSI-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.2 🧪 Normes_biologiques_adulte_pratique_IDE_IFSI MarkMap</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Onglet 2.3 -->
+      <div class="panel">
+        <div class="panel-header" onclick="togglePanel(this)">
+          <span class="icon rotated">🔻</span> 🦻 2.3 - Santé, Maladie, Handicap, Accidents de la vie - L'essentiel
+        </div>
+        <div class="panel-content hidden">
+          <ul style="list-style-type:none;">
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-3_Sante-Maladie-Handi_2026.html" target="_blank" rel="noopener noreferrer">UE2.3 🦻 Santé, Maladie, Handicap, Accidents de la vie - L'essentiel</a></li>
+            <li class="separateur">---</li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-3_Maladie-Handi-Accident_SelonLaProf_2026 (1).html" target="_blank" rel="noopener noreferrer">UE2.3 🦻 Santé, Maladie, Handicap, Accidents de la vie - 1</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-3_Maladie-Handi-Accident_SelonLaProf_2026 (2).html" target="_blank" rel="noopener noreferrer">UE2.3 🦻 Santé, Maladie, Handicap, Accidents de la vie - 2</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-3_Maladie-Handi-Accident_SelonLaProf_2026 (3).html" target="_blank" rel="noopener noreferrer">UE2.3 🦻 Santé, Maladie, Handicap, Accidents de la vie -3</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-3_Maladie-Handi-Accident_SelonLaProf_2026 (4).html" target="_blank" rel="noopener noreferrer">UE2.3 🦻 Santé, Maladie, Handicap, Accidents de la vie - 4</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-3_Maladie-Handi-Accident_SelonLaProf_2026 (5).html" target="_blank" rel="noopener noreferrer">UE2.3 🦻 Santé, Maladie, Handicap, Accidents de la vie - 5</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-3_Maladie-Handi-Accident_SelonLaProf_2026 (6).html" target="_blank" rel="noopener noreferrer">UE2.3 🦻 Santé, Maladie, Handicap, Accidents de la vie - 6</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-3_Maladie-Handi-Accident_SelonLaProf_2026 (7).html" target="_blank" rel="noopener noreferrer">UE2.3 🦻 Santé, Maladie, Handicap, Accidents de la vie - 7</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-3_Maladie-Handi-Accident_SelonLaProf_2026 (8).html" target="_blank" rel="noopener noreferrer">UE2.3 🦻 Santé, Maladie, Handicap, Accidents de la vie - 8</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-3_Maladie-Handi-Accident_SelonLaProf_2026 (9).html" target="_blank" rel="noopener noreferrer">UE2.3 🦻 Santé, Maladie, Handicap, Accidents de la vie - 9</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-3_Maladie-Handi-Accident_SelonLaProf_2026 (10).html" target="_blank" rel="noopener noreferrer">UE2.3 🦻 Santé, Maladie, Handicap, Accidents de la vie - 10</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Onglet 2.4 -->
+      <div class="panel">
+        <div class="panel-header" onclick="togglePanel(this)">
+          <span class="icon rotated">🔻</span> 🫟 2.4 - Processus traumatiques
+        </div>
+        <div class="panel-content hidden">
+          <ul style="list-style-type:none;">
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_PEC_Douleur_2026.html" target="_blank" rel="noopener noreferrer">UE2.4 💥 PEC de la Douleur</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_PlaiesAigues_2026.html" target="_blank" rel="noopener noreferrer">UE2.4 🫟 Plaies aigües</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Escarres.html" target="_blank" rel="noopener noreferrer">UE2.4 🫟 Escarres</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_PEC_Plaies_2026.html" target="_blank" rel="noopener noreferrer">UE2.4 🫟 PEC des Plaies</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/assets/img/pansements_synthese_rapport.pdf" target="_blank" rel="noopener noreferrer">UE2.4 🏥 Reco Pansements HAS</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Polytraumatisme_2026.html" target="_blank" rel="noopener noreferrer">UE2.4 🧑‍🦽 Polytraumastisme</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Polytrauma_bis.html" target="_blank" rel="noopener noreferrer">UE2.4 🧑‍🦽 Polytraumastisme Bis</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Trauma-Cranien_2026.html" target="_blank" rel="noopener noreferrer">UE2.4🧠 Traumatisme Crânien</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Trauma-Cranien_bis.html" target="_blank" rel="noopener noreferrer">UE2.4🧠 Traumatisme Crânien Bis</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_TraumatismeThoracique_2026.html" target="_blank" rel="noopener noreferrer">UE2.4 🫁 Traumatisme thoracique</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Trauma-Thoracique_bis.html" target="_blank" rel="noopener noreferrer">UE2.4 🫁 Traumatisme thoracique Bis</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Trauma-AbdoPelvien_2026.html" target="_blank" rel="noopener noreferrer">UE2.4 🔪 Traumatisme Abdomino-Pelvien</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Trauma-AbdoPelvien_bis.html" target="_blank" rel="noopener noreferrer">UE2.4 🔪 Traumatisme Abdomino-Pelvien Bis</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Trauma-Locomoteur_2026.html" target="_blank" rel="noopener noreferrer">UE2.4 🦴 Traumatisme Locomoteur</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Trauma-Locomoteur_Bis.html" target="_blank" rel="noopener noreferrer">UE2.4 🦴 Traumatisme Locomoteur Bis</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Trauma-Locomoteur_Tris.html" target="_blank" rel="noopener noreferrer">UE2.4 🦴 Traumatisme Locomoteur Ter</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Trauma-Psychique_2026.html" target="_blank" rel="noopener noreferrer">UE2.4 😱 Traumatisme Psychique</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Trauma-Psychique_Bis.html" target="_blank" rel="noopener noreferrer">UE2.4 😱 Traumatisme Psychique Bis</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_PLANCHE-SCHEMAS.html" target="_blank" rel="noopener noreferrer">UE2.4 🎨 Planches Schémas 🎨</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Synthese-Semestre1_2026.html" target="_blank" rel="noopener noreferrer">UE2.4 🥸 Synthèse Anat'Phy'- Révisions 🗣️</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Methode_Processus-Traumatique.html" target="_blank" rel="noopener noreferrer">UE2.4 🥸 Méthode - partiel</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-4_Phrases-types.html" target="_blank" rel="noopener noreferrer">UE2.4 🥸 Phrases types - partiel</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Onglet 2.5 -->
+      <div class="panel">
+        <div class="panel-header" onclick="togglePanel(this)">
+          <span class="icon rotated">🔻</span> 🔥 2.5 - Processus Infectieux
+        </div>
+        <div class="panel-content hidden">
+          <ul style="list-style-type:none;">
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Processus-Infectieux-Generalites-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Processus Infectieux Generalites - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/markmap-viewer.html?file=UE2/2-5_Processus-Infectieux-Generalites-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Processus Infectieux Generalites - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Appendicite-Aigue-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 😫 Appendicite Aigue - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/markmap-viewer.html?file=UE2/2-5_Appendicite-Aigue-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 😫 Appendicite Aigue - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_S3_Appendicite_Peritonite.md" target="_blank" rel="noopener noreferrer">UE2.5 🦠 Appendicite et Péritonites</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Appendicite-Formes-Evoluees-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🦠 Appendicite Formes Evoluees - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Appendicite-Formes-Evoluees-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🦠 Appendicite Formes Evoluees - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_S3_Choc_septique.md" target="_blank" rel="noopener noreferrer">UE2.5 ⚰️ Choc septique</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_COVID-Grippe-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🌬️ COVID Grippe - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_COVID-Grippe-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🌬️ COVID Grippe - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-5_DiarhéesInfectieuses.html" target="_blank" rel="noopener noreferrer">UE2.5 💩 Diarhées Infectieuses </a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Diarrhees-Aigues-Infectieuses-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Diarrhees Aigues Infectieuses - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Diarrhees-Aigues-Infectieuses-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Diarrhees Aigues Infectieuses - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Hepatites-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Hepatites - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Hepatites-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Hepatites - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-5_HepatitesVirales.html" target="_blank" rel="noopener noreferrer">UE2.5 🦠 Hépatites virales </a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Infections-Appareil-Urinaire-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Infections Appareil Urinaire - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Infections-Appareil-Urinaire-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Infections Appareil Urinaire - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Infections-Respiratoires-Basses-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🫁 Infections Respiratoires Basses - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Infections-Respiratoires-Basses-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🫁 Infections Respiratoires Basses - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Maladies-Eruptives-Enfant-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Maladies Eruptives Enfant - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Maladies-Eruptives-Enfant-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Maladies Eruptives Enfant - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Meningites-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🌬️🟣🦒 Meningites - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Meningites-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🌬️🟣🦒 Meningites - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Paludisme.md" target="_blank" rel="noopener noreferrer">UE2.5 🦟 Paludisme</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Paludisme-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Paludisme - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Paludisme-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Paludisme - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Pathos-infectieuses_enfant.md" target="_blank" rel="noopener noreferrer">UE2.5 👶🏼 Pathos infectieuses enfant</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Peritonite-Aigue-Syndrome-Peritoneal-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🦠 Peritonite Aigue Syndrome Peritoneal - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Peritonite-Aigue-Syndrome-Peritoneal-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🦠 Peritonite Aigue Syndrome Peritoneal - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_processus_infectieux_appareil_urinaire.md" target="_blank" rel="noopener noreferrer">UE2.5 🟡 Processus Infectieux de l'appareil unrinaire</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Rage-Tetanos-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Rage Tetanos - 📄</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Rage-Tetanos-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Rage Tetanos - 🪢</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Sepsis-Choc-Septique-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Sepsis Choc Septique - 📄</a></li>
+             <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Sepsis-Choc-Septique-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 Sepsis Choc Septique - 🪢</a></li>
+             <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Tuberculose-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🫁 Tuberculose - 📄</a></li>
+             <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_Tuberculose-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🫁 Tuberculose - 🪢</a></li>
+             <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_VIH-IST-Fiche-IFSI.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 VIH IST - 📄</a></li>
+             <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-5_VIH-IST-MarkMap.md" target="_blank" rel="noopener noreferrer">UE2.5 🆗 VIH IST - 🪢</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Onglet 2.6 -->
+      <div class="panel">
+        <div class="panel-header" onclick="togglePanel(this)">
+          <span class="icon rotated">🔻</span> 🟣 2.6 - Processus Psychopathologiques
+        </div>
+        <div class="panel-content hidden">
+          <ul style="list-style-type:none;">
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Psychiatrie_IntroGenerale.html" target="_blank" rel="noopener noreferrer">UE2.6 🪞 Psychiatrie Introduction Générale</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Psychiatrie-Intro2.html" target="_blank" rel="noopener noreferrer">UE2.6 🪞 Psychiatrie Introduction Générale 2</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Troubles-Psychotiques.html" target="_blank" rel="noopener noreferrer">UE2.6 👽 Troubles Psychotiques</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_EI-neuroleptiques.html" target="_blank" rel="noopener noreferrer">UE2.6 👽 Effets Indésirables des Neuroleptiques</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Troubles-de-lHumeur.html" target="_blank" rel="noopener noreferrer">UE2.6 🦸‍♀️ Troubles de l'humeur</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Troubles-de-lHumeur-T1vsT2.html" target="_blank" rel="noopener noreferrer">UE2.6 🦸‍♀️Trouble Bipolaire T1 vs T2</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Troubles-Anxieux.html" target="_blank" rel="noopener noreferrer">UE2.6 😨Troubles Anxieux</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_TCA.html" target="_blank" rel="noopener noreferrer">UE2.6 🍽️ TCA</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Addictions.html" target="_blank" rel="noopener noreferrer">UE2.6 🍺 Addictions</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Troubles-de-la-personnalite.html" target="_blank" rel="noopener noreferrer">UE2.6 👾 Troubles de la personnalité</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Psychopathologies_Classification.html" target="_blank" rel="noopener noreferrer">UE2.6 🛒Psychopathologies : classification</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Contentions-Isolement.html" target="_blank" rel="noopener noreferrer">UE2.6 🔐 Contentions et Isolement</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/assets/img/ue2-6_reco_manifeste (1).pdf" target="_blank" rel="noopener noreferrer">UE2.6 🔐 Contentions Reco HAS</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/assets/img/ue2-6_reco_manifeste (3).pdf" target="_blank" rel="noopener noreferrer">UE2.6 🔐 Isolement Reco HAS</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/assets/img/ue2-6_reco_manifeste (2).pdf" target="_blank" rel="noopener noreferrer">UE2.6 🔐 Manifeste Abolition Contention</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_Fiches-Revisions_Psychopathologies.html" target="_blank" rel="noopener noreferrer">UE2.6 🌝 Psychopathologies - Révisions 🗣️</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-6_PLANCHE-SCHEMAS.html" target="_blank" rel="noopener noreferrer">UE2.6 🎨 Planches Schémas 🎨</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Onglet 2.7 -->
+      <div class="panel">
+        <div class="panel-header" onclick="togglePanel(this)">
+          <span class="icon rotated">🔻</span> 🧪 2.7 - Processus Obstructifs / Troubles Métaboliques
+        </div>
+        <div class="panel-content hidden">
+          <ul style="list-style-type:none;">
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-7_Acidose_respiratoire.md" target="_blank" rel="noopener noreferrer">UE2.7 🫁  Acidose respiratoire</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Onglet 2.8 -->
+      <div class="panel">
+        <div class="panel-header" onclick="togglePanel(this)">
+          <span class="icon rotated">🔻</span> ❤️ 2.8 - Processus Obstructifs Cardio-Vasculaires
+        </div>
+        <div class="panel-content hidden">
+          <ul style="list-style-type:none;">
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-8_Histoire_lecture_ECG.md" target="_blank" rel="noopener noreferrer">UE2.8 ❤️ Histoire et lecture de l'ECG</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-8_ECG_QT_consequences_symptomes_marqueurs_pathologies.md" target="_blank" rel="noopener noreferrer">UE2.8 ❤️ ECG, QT : conséquences, symptômes, marqueurs, pathologies</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Onglet 2.11 -->
+      <div class="panel">
+        <div class="panel-header" onclick="togglePanel(this)">
+          <span class="icon rotated">🔻</span> 💊 2.11 - Pharmacologie et thérapeutique
+        </div>
+        <div class="panel-content hidden">
+          <ul style="list-style-type:none;">
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Generalites.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Généralités et définition en pharmacologie</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/assets/img/my_pharmacologie_2026.jpg" target="_blank" rel="noopener noreferrer">UE2.11 👩‍🎨 Pharmacologie</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Galienique-et-biodispo.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Formes pharmaceutiques</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_RisquesDangersDuMed.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Risques et dangers du médicament</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_StatutDuMedicament.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Statut du médicament</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_ClasseDesMedicaments-ATC.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Classe des Médicaments</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_ClasseDesMed_ficheRevision.html" target="_blank" rel="noopener noreferrer">UE2.11 💊 Classe des Médicaments - Révisions 🗣️</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Antalgiques.html" target="_blank" rel="noopener noreferrer">UE2.11 🌈 Les Antalgiques</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Surveil_Antalgique_ChecKList.png" target="_blank" rel="noopener noreferrer">UE2.11 🌈 Surveillance antalgiques - CheckList</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_AntiInflammatoire.html" target="_blank" rel="noopener noreferrer">UE2.11 🌟 Les Anti-Inflammatoires</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_AntiInflammatoire-img.html" target="_blank" rel="noopener noreferrer">UE2.11 🌟 Les Anti-Inflammatoires - Tableau</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/UE2/2-11_Surveil_AntiInflammatoire_ChecKList.png" target="_blank" rel="noopener noreferrer">UE2.11 🌟 Les Anti-Inflammatoires  - CheckList</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-11_y2_Anti-hyperglycemiants_et_insulines_contes.md" target="_blank" rel="noopener noreferrer">UE2.11 🍬 Les Anti-Hyperglycémiants et Insulines - Contes</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-11_y2_Anti-hyperglycémiants et insulines_risques.md" target="_blank" rel="noopener noreferrer">UE2.11 🍬 Les Anti-Hyperglycémiants et Insulines - Risques</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-11_S3_Anti-Calcique.md" target="_blank" rel="noopener noreferrer">UE2.11 🦴 Les Anti-Calciques</a></li>
+            <li><a href="https://alifsicrip.github.io/cours/pages/md-viewer.html?file=UE2/2-11_Hypnoanalgesie_enfant.md" target="_blank" rel="noopener noreferrer">UE2.11 🧒🏼Les Hypoanalgésies chez les enfants</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function togglePanel(header) {
+      const content = header.nextElementSibling;
+      const icon = header.querySelector('.icon');
+      content.classList.toggle("hidden");
+      icon.classList.toggle("rotated");
+    }
+
+    // Regroupe côte à côte les entrées consécutives de même titre
+    // (« UE2.5 … Paludisme - 📄 » + « UE2.5 … Paludisme - 🪢 »).
+    // Le HTML de la liste n'est pas modifié (compatible scripts/ajouter.mjs).
+    (function () {
+      const SUFFIXE = /\s*[-–—]\s*(\p{Extended_Pictographic}\uFE0F?)\s*$/u;
+      const NOMS = { '📄': 'Fiche', '🪢': 'MarkMap' };
+
+      document.querySelectorAll('.panel-content ul').forEach(function (ul) {
+        const entrees = Array.from(ul.children)
+          .filter(function (li) {
+            return li.tagName === 'LI' && li.children.length === 1 && li.firstElementChild.tagName === 'A';
+          })
+          .map(function (li) {
+            const a = li.firstElementChild;
+            const m = a.textContent.trim().match(SUFFIXE);
+            return { li: li, a: a, sym: m && m[1], titre: m ? a.textContent.trim().replace(SUFFIXE, '').trim() : null };
+          });
+
+        let i = 0;
+        while (i < entrees.length) {
+          const groupe = [entrees[i]];
+          if (entrees[i].titre) {
+            while (i + groupe.length < entrees.length) {
+              const prec = groupe[groupe.length - 1], suiv = entrees[i + groupe.length];
+              if (suiv.titre !== prec.titre || prec.li.nextElementSibling !== suiv.li) break;
+              groupe.push(suiv);
+            }
+          }
+          if (groupe.length > 1) {
+            const li = document.createElement('li');
+            li.className = 'duo';
+            const titre = document.createElement('span');
+            titre.textContent = groupe[0].titre;
+            li.appendChild(titre);
+            groupe.forEach(function (e) {
+              const nom = NOMS[e.sym] || 'Ouvrir';
+              e.a.textContent = e.sym;
+              e.a.className = 'chip';
+              e.a.title = nom;
+              e.a.setAttribute('aria-label', nom + ' – ' + groupe[0].titre);
+              li.appendChild(e.a);
+            });
+            groupe[0].li.replaceWith(li);
+            groupe.slice(1).forEach(function (e) { e.li.remove(); });
+          }
+          i += groupe.length;
+        }
+      });
+    })();
+  </script>
+
+  <!-- ceci est la barre latérale de navigation -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><img src="../../assets/icons/LogoComplete_CripIFSI-transparent.png" alt=""></div>
+    <br>
+    <nav>
+      <ul>
+        <li><a href="../../pages/UE1/index.html"><img src="../../assets/icons/ue1.svg" alt="UE1"> UE1</a></li>
+        <li><a href="../../pages/UE2/index.html"><img src="../../assets/icons/ue2.svg" alt="UE2"> UE2</a></li>
+        <li><a href="../../pages/UE3/index.html"><img src="../../assets/icons/ue3.svg" alt="UE3"> UE3</a></li>
+        <li><a href="../../pages/UE4/index.html"><img src="../../assets/icons/ue4.svg" alt="UE4"> UE4</a></li>
+        <li><a href="../../pages/UE5/index.html"><img src="../../assets/icons/ue5.svg" alt="UE5"> UE5</a></li>
+        <li><a href="../../pages/UE6/index.html"><img src="../../assets/icons/ue6.svg" alt="UE6"> UE6</a></li>
+        <li><a href="../../vocabulaire.html"><img src="../../assets/icons/voc.svg" alt="Voc"> Voc</a></li>
+      </ul>
+    </nav>
+    <button class="toggle" id="toggleBtn" aria-label="Toggle sidebar">☰</button>
+  </aside>
+
+  <footer>
+    <p><center>Anaïs Logerais | 52ème promotion | IFSI Crip 34</center></p>
+  </footer>
+</body>
+</html>

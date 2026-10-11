@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UE3 — Techniques</title>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <!-- Favicon -->
+  <link rel="icon" href="/cours/assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/cours/assets/icons/icon.svg">
+  <link rel="apple-touch-icon" href="/cours/assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/cours/manifest.json">
+  <style>
+    .container {
+      width: 100%;
+      max-width: 600px;
+      margin: auto auto;
+    }
+    .panel {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .panel-header {
+      cursor: pointer;
+      background-color: #f8f9fa;
+      padding: 12px 15px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    .panel-header:hover {
+      background-color: #e9ecef;
+    }
+    .panel-content {
+      padding: 30px;
+      background-color: white;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out, padding 0.2s ease-out;
+    }
+    .panel-content li {
+      margin-bottom: 1.2em;
+    }
+    .hidden {
+      max-height: 0;
+      padding: 0;
+      border: none;
+    }
+    .icon {
+      transition: transform 0.3s ease;
+    }
+    .icon.rotated {
+      transform: rotate(180deg);
+    }
+    img,
+    video,
+    iframe {
+      max-inline-size: 100%;
+      block-size: auto;
+    }
+    /* Entrées jumelles (même titre, ex. « - 📄 » et « - 🪢 ») : côte à côte */
+    .panel-content li.duo {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.4em 0.7em;
+    }
+    .chip {
+      display: inline-block;
+      padding: 0.15em 0.7em;
+      border: 1px solid #c5cbe6;
+      border-radius: 999px;
+      background: #f4f6ff;
+      text-decoration: none;
+      line-height: 1.4;
+    }
+    .chip:hover {
+      background: #e3e8ff;
+    }
+  </style>
+</head>
+<body> 
+  <main style="padding:4rem;max-width:720px;margin:0rem auto">
+    <img src="../../assets/icons/ue3.svg" alt="UE3" width="50" height="50">
+    <a href="../../index.html"><img src="../../assets/icons/LogoComplete_CripIFSI-transparent.png" alt="Accueil" width="200" height="200"></a>
+    <br>
+
+    <header class="main-header">
+      <br>
+      <h1 style="color:#F2C433">💉 Sciences et Techniques Infirmière : Fondements et Méthodes</h1>
+      <p>Cartes mentales, infographies, ressources diverses</p>
+      <br>
+    </header>
+
+    <!-- Pour ajouter une fiche : npm run ajouter (voir scripts/ajouter.mjs) -->
+    <div class="container">
+
+      <!-- Onglet 3.1 -->
+      <div class="panel">
+        <div class="panel-header" onclick="togglePanel(this)">
+          <span class="icon rotated">🔻</span> 🚿 3.1 - Soins de confort et de bien-être
+        </div>
+        <div class="panel-content hidden">
+          <ul style="list-style-type:none;">
+            <li hidden>📖<a href="https://alifsicrip.github.io/cours/pages/UE3/2-11_Pharmacodynamie.html" target="_blank" rel="noopener noreferrer">UE3.1 🚿 Concepts Soins de confort et de bien-être</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    function togglePanel(header) {
+      const content = header.nextElementSibling;
+      const icon = header.querySelector('.icon');
+      content.classList.toggle("hidden");
+      icon.classList.toggle("rotated");
+    }
+
+    // Regroupe côte à côte les entrées consécutives de même titre
+    // (« UE2.5 … Paludisme - 📄 » + « UE2.5 … Paludisme - 🪢 »).
+    // Le HTML de la liste n'est pas modifié (compatible scripts/ajouter.mjs).
+    (function () {
+      const SUFFIXE = /\s*[-–—]\s*(\p{Extended_Pictographic}\uFE0F?)\s*$/u;
+      const NOMS = { '📄': 'Fiche', '🪢': 'MarkMap' };
+
+      document.querySelectorAll('.panel-content ul').forEach(function (ul) {
+        const entrees = Array.from(ul.children)
+          .filter(function (li) {
+            return li.tagName === 'LI' && li.children.length === 1 && li.firstElementChild.tagName === 'A';
+          })
+          .map(function (li) {
+            const a = li.firstElementChild;
+            const m = a.textContent.trim().match(SUFFIXE);
+            return { li: li, a: a, sym: m && m[1], titre: m ? a.textContent.trim().replace(SUFFIXE, '').trim() : null };
+          });
+
+        let i = 0;
+        while (i < entrees.length) {
+          const groupe = [entrees[i]];
+          if (entrees[i].titre) {
+            while (i + groupe.length < entrees.length) {
+              const prec = groupe[groupe.length - 1], suiv = entrees[i + groupe.length];
+              if (suiv.titre !== prec.titre || prec.li.nextElementSibling !== suiv.li) break;
+              groupe.push(suiv);
+            }
+          }
+          if (groupe.length > 1) {
+            const li = document.createElement('li');
+            li.className = 'duo';
+            const titre = document.createElement('span');
+            titre.textContent = groupe[0].titre;
+            li.appendChild(titre);
+            groupe.forEach(function (e) {
+              const nom = NOMS[e.sym] || 'Ouvrir';
+              e.a.textContent = e.sym;
+              e.a.className = 'chip';
+              e.a.title = nom;
+              e.a.setAttribute('aria-label', nom + ' – ' + groupe[0].titre);
+              li.appendChild(e.a);
+            });
+            groupe[0].li.replaceWith(li);
+            groupe.slice(1).forEach(function (e) { e.li.remove(); });
+          }
+          i += groupe.length;
+        }
+      });
+    })();
+  </script>
+
+
+<!-- ceci est la barre latérale de navigation -->
+ <aside class="sidebar" id="sidebar">
+    <div class="brand"><img src="../../assets/icons/LogoComplete_CripIFSI-transparent.png"/></div>
+   <br>
+    <nav>
+      <ul>
+        <li><a href="../../pages/UE1/index.html"><img src="../../assets/icons/ue1.svg" alt="UE1"> UE1</a></li>
+        <li><a href="../../pages/UE2/index.html"><img src="../../assets/icons/ue2.svg" alt="UE2"> UE2</a></li>
+        <li><a href="../../pages/UE3/index.html"><img src="../../assets/icons/ue3.svg" alt="UE3"> UE3</a></li>
+        <li><a href="../../pages/UE4/index.html"><img src="../../assets/icons/ue4.svg" alt="UE4"> UE4</a></li>
+        <li><a href="../../pages/UE5/index.html"><img src="../../assets/icons/ue5.svg" alt="UE5"> UE5</a></li>
+        <li><a href="../../pages/UE6/index.html"><img src="../../assets/icons/ue6.svg" alt="UE6"> UE6</a></li>
+        <li><a href="../../vocabulaire.html"><img src="../../assets/icons/voc.svg" alt="Voc"> Voc</a></li>
+      </ul>
+    </nav>
+    <button class="toggle" id="toggleBtn" aria-label="Toggle sidebar">☰</button>
+</aside>
+<footer><p><center>Anaïs Logerais | 52ème promotion | IFSI Crip 34</center></p></footer>
+</body>
+</html>

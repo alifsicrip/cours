@@ -70,13 +70,34 @@ img{max-width:100%;height:auto}
     }
 }
 
-/* Coloration des liens hypertextes */
-a {
-  color: #0077cc; /* bleu personnalisé */
+/* Couleur de chaque UE */
+body.ue1 { --ue-color: #94235A; }
+body.ue2 { --ue-color: #34499E; }
+body.ue3 { --ue-color: #C99A00; }
+body.ue4 { --ue-color: #DE6712; }
+body.ue5 { --ue-color: #D12E2E; }
+body.ue6 { --ue-color: #1E8743; }
+body.voc { --ue-color: #566266; }
+
+/* Liens : couleur de l'UE par défaut (identique si visité), bleu au survol */
+a,
+a:link,
+a:visited {
+  color: var(--ue-color, #0077cc) !important;
   text-decoration: none;
+  transition: color .15s ease;
 }
 
-a:visited {
-  color: #0077cc;
+a:hover,
+a:visited:hover {
+  color: #0077cc !important;
+}
+
+/* Sidebar et cartes : on ne touche pas */
+.sidebar nav a,
+.card a,
+.sidebar nav a:hover,
+.card a:hover {
+  color: inherit !important;
 }
 

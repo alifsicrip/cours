@@ -79,17 +79,14 @@ body.ue5 { --ue-color: #D12E2E; }
 body.ue6 { --ue-color: #1E8743; }
 body.voc { --ue-color: #566266; }
 
-/* Liens : couleur de l'UE par défaut (identique si visité), bleu au survol */
-a,
-a:link,
-a:visited {
+html body a,
+html body a:link,
+html body a:visited {
   color: var(--ue-color, #0077cc) !important;
-  text-decoration: none;
-  transition: color .15s ease;
 }
 
-a:hover,
-a:visited:hover {
+html body a:hover,
+html body a:visited:hover {
   color: #0077cc !important;
 }
 

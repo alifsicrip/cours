@@ -1,0 +1,473 @@
+# 🩺 Arrêté du 26 juin 2026 — actes et soins IDE
+
+## **⚖️ Repères juridiques**
+- **📅 Texte applicable**
+  - Arrêté signé le 26 juin 2026
+  - Publié au Journal officiel le 27 juin 2026
+  - En vigueur depuis le 30 juin 2026
+- **🧭 Organisation en six articles**
+  - **Article 1** — rôle propre infirmier
+  - **Article 2** — soins pouvant être confiés à certains professionnel·les diplômé·es, sous responsabilité IDE
+  - **Article 3** — consultation infirmière autonome
+  - **Article 4** — actes et soins sur prescription
+  - **Article 5** — actes sur prescription avec médecin pouvant intervenir à tout moment
+  - **Article 6** — participation à des techniques mises en œuvre par le médecin
+- **⚠️ Règle de lecture**
+  - La vulgarisation aide à comprendre mais ne remplace pas le texte
+  - Les conditions, exclusions, compétences et protocoles restent applicables
+
+## **🟢 Article 1 — Rôle propre IDE**
+- **🩺 Évaluation clinique**
+  - Besoins et réponse clinique avec outils et échelles standardisées
+  - Souffrance psychique, risque suicidaire, fragilité et vulnérabilités psychosociales
+    - Repérer les risques
+    - Mettre en place des stratégies de prévention
+  - Santé sexuelle et troubles de la sexualité
+    - Adapter l’évaluation à l’âge, au handicap et aux vulnérabilités
+  - Troubles alimentaires, dénutrition et malnutrition
+    - Repérer les difficultés nutritionnelles
+  - Modifications de l’état physique ou psychique et anomalies biologiques
+    - Détecter un changement
+    - Informer ou alerter le médecin
+    - Adapter le plan de soins dans le champ infirmier
+  - Fonctions cognitives, psychiques et communication
+    - Apprécier mémoire, compréhension, comportement et communication
+  - Fonction urinaire par appareil de mesure vésical
+    - Estimer le remplissage de la vessie
+  - État nutritionnel et hydratation
+    - Évaluer les apports et accompagner les besoins
+    - Travailler avec un·e professionnel·le compétent·e si nécessaire
+  - Autonomie, dépendance, mobilité, marche, chutes et escarres
+    - Mesurer les capacités
+    - Prévenir les complications
+  - Observance et tolérance des traitements
+    - Vérifier la prise
+    - Repérer les effets indésirables
+  - Tabac et autres addictions
+    - Évaluer la dépendance
+    - Identifier motivations, freins et bénéfices attendus
+  - Douleur
+    - Évaluer la douleur
+    - Contribuer au plan de prévention et de prise en charge
+- **🧪 Recherche, collecte et traitement de données**
+  - Liquides biologiques pour TROD
+    - Sang, sécrétions nasales, urines ou salive selon le test
+    - Réaliser le test rapide et lire les résultats
+  - Obésité
+    - Recueillir poids, taille et périmètre abdominal
+    - Calculer l’IMC et identifier les besoins
+  - Dépistage standardisé des IST
+    - VIH, hépatites, syphilis, chlamydia et gonocoque
+    - Réaliser et lire les tests prévus
+  - Intradermoréaction tuberculinique
+    - Lire le test cutané de dépistage de la tuberculose
+  - ECG standard à 12 dérivations en équipe pluriprofessionnelle
+    - Enregistrer l’activité électrique cardiaque
+    - Transmettre systématiquement au médecin
+  - Mini-spiromètre
+    - Réaliser et lire fonctionnellement un examen simple du souffle
+  - Explorations fonctionnelles et dépistage sensoriel non vulnérant
+    - Participer aux examens autorisés
+    - Hors explorations mentionnées à l’article 6
+- **🩹 Soins et suivi clinique**
+  - Examen clinique et entretiens infirmiers
+    - Examiner la situation
+    - Recueillir le vécu de la personne
+  - Projet de soins individuel ou populationnel
+    - Définir des objectifs pour une personne ou une population
+  - Programmes d’hygiène et de confort, y compris palliatifs
+    - Organiser des soins adaptés aux besoins et au confort
+  - Hypothermie ou hyperthermie
+    - Prendre en charge une température trop basse ou trop élevée
+  - Nutrition entérale ou parentérale
+    - Accompagner l’alimentation par sonde ou voie veineuse
+  - Dialyse rénale ou péritonéale
+    - Assurer les soins infirmiers relevant du cadre prévu
+  - Milieu stérile
+    - Protéger les personnes nécessitant un environnement contrôlé
+  - Soins de support en oncologie
+    - Contribuer au confort et à la qualité de vie pendant le cancer
+  - Soins de support en psychiatrie
+    - Accompagner les besoins et le rétablissement
+  - Personnes intubées, trachéotomisées ou trachéostomisées
+    - Soigner et surveiller
+    - Aspirer les sécrétions dans le cadre applicable
+  - Maintien des fonctions vitales sans geste invasif ni médicament
+    - Soutenir les fonctions vitales avec des moyens non invasifs
+  - Diabète avec pompe à insuline
+    - Assurer le suivi infirmier prévu
+  - Transports sanitaires spécifiquement prévus
+    - Transports programmés entre établissements
+    - Certains transports paramédicalisés dans le cadre expressément listé
+  - Sédation profonde et continue
+    - Mettre en œuvre, surveiller et évaluer selon le cadre légal
+- **📣 Prévention, éducation et accompagnement**
+  - Éducation pour la santé, prévention et dépistage
+    - Organiser des actions pour prévenir et repérer tôt les risques
+  - Ateliers socio-éducatifs et socio-thérapeutiques
+    - Animer des activités individuelles ou collectives adaptées
+  - IST, PrEP et Doxy-PeP
+    - Informer, prévenir, dépister, orienter et conseiller selon les recommandations
+  - Contraception d’urgence
+    - Délivrer uniquement dans les lieux autorisés par l’arrêté
+  - Entretien motivationnel et écoute active
+    - Aider la personne à exprimer ses objectifs et soutenir le changement
+  - Obésité
+    - Accompagner durablement alimentation et activité physique
+  - Tabac et autres addictions
+    - Repérer les risques, accompagner et orienter
+  - Approches complémentaires standardisées
+    - Activité physique
+    - Relaxation
+    - Soutien des proches et groupes de parole
+  - Éducation thérapeutique du patient
+    - Élaborer un diagnostic éducatif
+    - Définir un programme personnalisé et les apprentissages prioritaires
+    - Planifier et conduire les séances
+    - Évaluer les acquis et réajuster
+  - Apprentissage et soutien motivationnel
+    - Favoriser l’adhésion au plan de soins
+    - Soutenir l’observance
+    - Développer l’autonomie et les compétences d’auto-soins
+    - Expliquer le bon usage des dispositifs médicaux
+  - Directives anticipées et personne de confiance
+    - Informer
+    - Aider à rédiger et recueillir les documents
+    - Accompagner les mesures d’anticipation, y compris en psychiatrie
+- **🩹 Prévention, évaluation et traitement des plaies**
+  - Plaies chroniques
+    - Prise en charge dans le périmètre autorisé
+    - Respecter les exclusions prévues par l’arrêté
+  - Plaies aiguës
+    - Prise en charge de certaines plaies
+    - Respecter les exclusions pour situations à risque
+  - Évaluation de la plaie et repérage des urgences
+    - Décrire le lit et le type de plaie
+    - Repérer les complications
+    - Orienter si la situation est exclue ou nécessite une prise en charge spécialisée
+  - Évaluation globale de la personne
+    - Glycémie et HbA1c
+    - Infection et dénutrition
+    - Traitements en cours
+    - État vasculaire et pouls
+    - Anticoagulation et INR
+    - Neuropathie sensitive
+    - Statut vaccinal
+  - Antalgie de palier 1 dans le cadre prévu
+    - Exclut l’aspirine et les AINS dans cette disposition
+  - Soins locaux
+    - Préserver l’hydratation cutanée
+    - Mobiliser et décharger la plaie si nécessaire
+    - Nettoyer et réaliser une détersion mécanique lorsque prévue
+    - Adapter l’environnement et donner des conseils
+  - Pansements et suivi
+    - Réaliser les soins de plaie, escarre, ulcère, fistule ou stomie
+    - Réaliser, surveiller, renouveler et retirer les pansements
+  - Index de pression systolique
+    - Comparer la pression cheville/bras pour contribuer à évaluer la circulation artérielle
+  - Compression en situation clinique simple
+    - Poser ou changer sans modifier la force de compression prescrite
+    - S’appuyer sur l’index de pression systolique
+  - Surveillance de la compression
+    - Repérer une intolérance
+    - Informer le médecin si l’état change
+- **🔬 Recherche**
+  - Protocoles infirmiers et programmes de recherche
+    - Rédiger des protocoles de soins
+    - Contribuer à la recherche scientifique
+  - Évaluation d’une situation de santé publique
+    - Analyser une situation collective et les besoins d’une population
+
+## **🤝 Article 2 — Soins pouvant être confiés à certains professionnel·les**
+- **⚠️ Cadre**
+  - Réalisation possible sous responsabilité IDE
+  - Aide-soignant·e, auxiliaire de puériculture ou AES diplômé·e
+  - Respect des conditions réglementaires et de l’article R. 4311-5
+- **🌡️ Recherche et collecte de données**
+  - Paramètres observables non invasifs
+    - Recueillir les observations accessibles sans examen paraclinique
+  - Troubles du comportement
+    - Observer et signaler les changements
+  - Maltraitance et violences sexuelles ou sexistes
+    - Repérer les signes et risques, puis alerter
+  - Dispositifs d’immobilisation ou contention
+    - Rechercher les signes d’alerte
+  - Échantillons biologiques non invasifs
+    - Recueillir les échantillons autorisés
+    - Hors prélèvements invasifs d’urine, de salive et de selles
+- **🧼 Mise en œuvre de soins**
+  - Toilette, hygiène bucco-dentaire, alimentation, hydratation et habillage
+    - Aider aux soins quotidiens
+  - Soins de bouche non médicamenteux
+    - Assurer les soins buccaux simples autorisés
+  - Lever, mobilisation, marche et installation
+    - Aider aux déplacements hors techniques de rééducation
+    - Installer selon pathologie, handicap ou dépendance
+  - Activités socioéducatives, sociothérapeutiques et écoute active
+    - Accompagner sans réaliser de psychothérapie
+  - Vérification de la prise des médicaments non injectables
+    - Vérifier la prise dans le cadre prévu
+  - Tests à la sueur et sécrétions lacrymales
+    - Participer aux gestes prévus
+  - Entretien de l’environnement et prévention des infections
+    - Maintenir un environnement propre et limiter les infections associées aux soins
+  - Aide à la prise de médicaments non injectables
+    - Aider à la prise selon les règles applicables
+  - Lavage, irrigation oculaire et collyres
+    - Réaliser les soins oculaires prévus
+  - Aspiration endotrachéale sur trachéotomie cicatrisée
+    - Dégager les sécrétions dans la situation explicitement prévue
+  - Masque de VNI chronique
+    - Poser ou changer le masque
+    - Hors dispositifs d’insufflation ou d’exsufflation
+  - Ventilation manuelle par masque
+    - Participer à la ventilation prévue
+  - Vidange d’un dispositif de recueil
+    - Vider le collecteur concerné
+  - Préparation préopératoire
+    - Préparer la personne, notamment par des soins cutanés
+  - Désinfection et stérilisation
+    - Participer au circuit de traitement des dispositifs réutilisables
+  - Défibrillateur semi-automatique
+    - Utiliser et surveiller selon la formation et le cadre prévu
+  - Aérosols non médicamenteux
+    - Administrer les produits autorisés
+- **🛡️ Prévention, repérage et surveillance**
+  - Prévention des escarres
+    - Contribuer à éviter les lésions de pression
+  - Parasitoses externes
+    - Repérer et effectuer les soins prévus
+  - Anomalies d’injections et perfusions
+    - Repérer et signaler les anomalies
+  - Anomalies de cathéters, sondes et drains
+    - Repérer et signaler les anomalies
+  - Hygiène et équilibre alimentaire
+    - Surveiller et transmettre les besoins repérés
+  - Fonctions vitales non invasives
+    - Surveiller sans médicament ni geste invasif
+  - Élimination urinaire et intestinale
+    - Surveiller les habitudes et changements
+  - Après ponction
+    - Surveiller la personne après le geste
+  - Nutrition entérale/parentérale et dialyse
+    - Assurer la surveillance prévue
+  - Milieu stérile, chambre d’isolement, intubation ou trachéotomie
+    - Contribuer à la surveillance adaptée
+  - Effets secondaires des médicaments et douleur
+    - Repérer les effets indésirables
+    - Participer à l’évaluation de la douleur
+  - Programme individualisé de prévention
+    - Suivre les actions prévues
+
+## **🗣️ Article 3 — Consultation infirmière**
+- **Consultation autonome**
+  - Conduite dans les domaines d’activité et de compétence infirmiers
+- **Traçabilité**
+  - Reporter la consultation au dossier patient
+- **Lieux possibles**
+  - Établissement de santé
+  - Établissement médico-social
+  - Cabinet libéral
+  - Domicile
+  - Autre structure autorisée
+- **Exercice libéral**
+  - Périmètre et remboursement définis par la convention applicable
+
+## **🔵 Article 4 — Actes et soins sur prescription**
+- **🧪 Recueil de données cliniques**
+  - Prélèvements non sanglants sur peau ou muqueuse directement accessible
+    - Prélever une zone accessible sans geste plus invasif
+  - Prélèvements de sécrétions et excrétions
+    - Recueillir les échantillons nécessaires
+  - Recueil aseptique d’urines
+    - Éviter la contamination de l’échantillon
+  - Prélèvements sanguins veineux, capillaires, par cathéter ou artériels pour gazométrie
+    - Prélever selon la technique indiquée
+  - Indications techniques au laboratoire
+    - Transmettre les informations utiles à l’analyse
+  - Pression veineuse centrale
+    - Mesurer une pression du système veineux central
+  - ECG de plus de 12 dérivations, EEG et potentiels évoqués
+    - Enregistrer l’activité électrique cardiaque, cérébrale ou sensorielle
+- **💉 Mise en œuvre de soins**
+  - Injections, perfusions, scarifications, saignées, instillations et pulvérisations
+    - Administrer ou appliquer selon prescription et conditions
+  - Vaccinations ne relevant pas de l’article 1
+    - Réaliser les actes vaccinaux de cette catégorie
+  - Injections et perfusions dans cathéters et montages
+    - Administrer les produits autorisés hors exclusions prévues
+  - Pose/retrait de cathéter court périphérique ou intra-osseux, aiguille ou trocart
+    - Installer ou retirer un accès pour prélèvement ou perfusion
+    - Possibilité sous échographie
+  - Retrait de cathéter périphérique long ou périnerveux
+    - Retirer certains cathéters en place
+  - Dispositifs transcutanés
+    - Poser, changer, retirer et surveiller leurs effets
+  - Dispositif de réparation cutanée
+    - Retirer le dispositif concerné
+  - Contention physique ou mécanique ponctuelle
+    - Poser ou retirer le dispositif autorisé
+  - Canule de trachéotomie
+    - Changer la canule
+    - Le premier changement est effectué par un médecin
+  - Systèmes de tamponnement
+    - Renouveler ou retirer le dispositif
+  - Sonde vésicale
+    - Installer une sonde dans la vessie
+  - Sonde à oxygène
+    - Mettre en place le dispositif d’apport d’oxygène
+  - Sonde gastrique
+    - Poser pour tubage, aspiration, lavage ou alimentation gastrique
+  - Sonde rectale, lavement, extraction de fécalome, goutte-à-goutte rectal
+    - Réaliser les gestes indiqués
+  - Instillation intra-urétrale et irrigation vaginale
+    - Administrer ou irriguer par les voies prévues
+  - Lavage des sinus par cathéter fixé par le médecin
+    - Effectuer le lavage dans les conditions prévues
+  - Bains d’oreilles et instillations médicamenteuses
+    - Réaliser les soins prescrits
+  - Soins de bouche médicamenteux avec aide instrumentale
+    - Réaliser les soins buccaux indiqués
+  - Aérosols et pulvérisations médicamenteux
+    - Administrer un médicament par ces voies
+  - Administration médicamenteuse, préparation et dilution
+    - Préparer et administrer le traitement dans le cadre autorisé
+  - Traitement antalgique selon protocole
+    - Appliquer ou adapter selon protocole médical écrit, daté, signé et intégré au dossier
+  - Anesthésiques locaux
+    - Appliquer les produits autorisés
+  - TENS et analgésie intrathécale
+    - Participer aux techniques antalgiques prévues
+  - Engagements thérapeutiques et protocoles d’isolement
+    - Appliquer les protocoles associant médecin, IDE et personne
+  - Cures de sevrage
+    - Mettre en œuvre les soins prévus
+- **🩹 Traitement de la plaie**
+  - Dilatation de cicatrices ou stomies
+    - Participer aux techniques prévues
+  - Appareillage et irrigation de plaie, fistule ou stomie
+    - Installer le dispositif ou irriguer selon indication
+  - Plaies postopératoires, y compris plasties
+    - Surveiller et soigner la plaie opératoire
+  - Traitement par pression négative
+    - Poser, renouveler, surveiller et retirer le TPN
+  - Compression en situation à risque ou complexe
+    - Poser une bande ou modifier le traitement dans le cadre autorisé
+- **🫁 Autres soins et surveillances**
+  - Soins adaptés aux souhaits et au confort hors protocoles standards
+    - Adapter les soins dans le cadre autorisé
+  - Ventilation assistée et monitorage
+    - Vérifier le fonctionnement, les paramètres et surveiller la personne
+    - Hors matériel de ventilation lié à l’anesthésie
+  - Dialyse et échanges plasmatiques
+    - Brancher, surveiller et débrancher les dispositifs
+  - Oxygénothérapie normobare et caisson hyperbare
+    - Installer et surveiller la personne sous oxygène ou en caisson
+  - Diabète sous pompe à insuline
+    - Assurer le suivi prévu
+  - Transports sanitaires spécifiquement prévus
+    - Surveiller dans les contextes expressément listés
+  - Sédation profonde et continue
+    - Mettre en œuvre, surveiller et évaluer selon le cadre légal
+
+## **🟠 Article 5 — Prescription écrite et médecin disponible à tout moment**
+- **Produits d’origine humaine**
+  - Injecter ou perfuser après les contrôles d’identité et de compatibilité exigés
+- **Analgésie péridurale, intrathécale ou périnerveuse**
+  - Injection après pose du cathéter par le médecin et première injection réalisée par lui
+- **Circulation extracorporelle**
+  - Préparer, utiliser et surveiller l’appareil remplaçant temporairement certaines fonctions circulatoires
+- **Retrait de cathéters centraux et intrathécaux**
+  - Retirer les cathéters concernés selon prescription
+- **Garrot pneumatique chirurgical**
+  - Contrôler temporairement le flux sanguin pendant une intervention
+- **Dispositifs d’immobilisation**
+  - Poser les dispositifs prescrits
+- **Défibrillateur manuel**
+  - Utiliser l’appareil délivrant un choc électrique selon le cadre prévu
+- **Postopératoire immédiat**
+  - Réaliser les soins et surveillances spécifiques sous réserve des dispositions réglementaires
+
+## **🟣 Article 6 — Participation à des techniques mises en œuvre par le médecin**
+- **Cadre**
+  - Organisation pluriprofessionnelle spécifique
+  - Participation infirmière à une technique mise en œuvre par le médecin
+- **Première injection d’une série d’allergènes**
+  - Participer à la première injection d’un traitement de désensibilisation
+- **EEG avec effort ou médicaments modificateurs**
+  - Enregistrer l’activité cérébrale dans des conditions particulières
+- **Pression hémodynamique par technique invasive**
+  - Mesurer certaines pressions circulatoires par geste vulnérant
+- **Urgence vitale**
+  - Participer aux actions destinées à sauver la vie
+- **Explorations fonctionnelles avec effort, stimulation ou provocation**
+  - Contribuer à des tests spécialisés déclenchant une réponse mesurée
+- **Télésurveillance de dispositifs rythmiques implantés**
+  - Surveiller à distance certains dispositifs implantés
+- **Réglages de stimulation cérébrale profonde**
+  - Participer à l’ajustement du dispositif implanté
+- **Ablation de drains pleuraux ou médiastinaux**
+  - Retirer des drains thoraciques
+- **Ponction thérapeutique**
+  - Participer à une ponction visant à soulager ou traiter
+- **Immobilisation après réduction**
+  - Poser un système d’immobilisation après remise en place d’un os ou d’une articulation
+- **Transplantation et greffe**
+  - Participer aux activités de greffe en équipe pluridisciplinaire
+- **Techniques psychiatriques**
+  - Électroconvulsivothérapie
+  - Stimulation magnétique transcrânienne
+  - Participer à ces traitements spécialisés
+
+## **🔄 Différences avec le cadre antérieur**
+- **Avant le 26 juin 2026**
+  - Une grande partie des actes figurait dans le Code de la santé publique, notamment les anciens articles R. 4311-5 et suivants
+  - Distinction entre rôle propre, prescription et collaboration
+- **Depuis le 26 juin 2026**
+  - Les listes sont détaillées par cadre et domaines d’activité
+  - Le rôle propre, les soins pouvant être confiés, la consultation, la prescription et la participation aux techniques médicales sont distingués
+- **Consultation infirmière**
+  - Désormais explicitement organisée à l’article 3
+  - Conduite en autonomie dans le champ infirmier
+  - Tracée dans le dossier patient
+- **Évaluation et prévention**
+  - Santé mentale, addictions, santé sexuelle, éducation thérapeutique et plaies sont formulées plus explicitement
+- **Actes techniques**
+  - Article 4 : actes sur prescription
+  - Article 5 : prescription et médecin pouvant intervenir à tout moment
+  - Article 6 : participation à une technique mise en œuvre par le médecin
+- **Délégation**
+  - Article 2 détaille les soins pouvant être confiés à certain·es professionnel·les diplômé·es, sous responsabilité IDE
+- **⚠️ Nuance**
+  - Ce n’est pas le remplacement d’un ancien arrêté unique
+  - Avant la réforme, une grande partie du cadre se trouvait dans le Code de la santé publique
+  - Comparer les conditions et exclusions, pas seulement les intitulés
+
+## **⭐ À retenir**
+- **Lire l’article correspondant au cadre** avant de conclure qu’un acte est autorisé
+- **Rôle propre ≠ absence de limites**
+  - Compétences, données acquises de la science, conditions réglementaires et traçabilité restent indispensables
+- **Sur prescription**
+  - Vérifier la conformité de la prescription et les conditions particulières
+- **Articles 5 et 6**
+  - Distinguer l’acte infirmier sur prescription de la participation à une technique mise en œuvre par le médecin
+- **Les exclusions comptent autant que les autorisations**
+  - Notamment pour les plaies et certains gestes spécialisés
+
+## **📚 Sources officielles**
+- **Arrêté du 26 juin 2026 — texte intégral**
+  - https://www.legifrance.gouv.fr/eli/arrete/2026/6/26/SFHH2610764A/jo/texte
+- **Article 1 — rôle propre**
+  - https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054325660
+- **Article 2 — soins pouvant être confiés**
+  - https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054325662
+- **Article 3 — consultation infirmière**
+  - https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054325663
+- **Article 4 — actes sur prescription**
+  - https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054325665
+- **Article 5 — prescription et médecin disponible**
+  - https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000054321962
+- **Article 6 — participation aux techniques médicales**
+  - https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054325667
+- **Code de la santé publique**
+  - https://www.legifrance.gouv.fr/codes/

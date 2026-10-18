@@ -1,0 +1,156 @@
+# 🧠🚨 Crise suicidaire — IFSI S3
+## **🔑 Définition**
+- **Crise suicidaire**
+  - État de souffrance psychique et de rupture d’équilibre
+    - Les idées suicidaires peuvent devenir envahissantes
+    - Situation évolutive et potentiellement réversible avec une aide adaptée
+- **Risque suicidaire**
+  - S’évalue dans le contexte global
+    - Idées et intention
+    - Scénario ou préparatifs
+    - Accès à des moyens dangereux
+    - Impulsivité et antécédents
+    - Facteurs déclenchants et soutien disponible
+- **Principes de soin**
+  - Écoute sans jugement
+  - Évaluation clinique
+  - Sécurisation
+  - Alliance thérapeutique
+  - Continuité des soins
+## **🔍 Ce que j’observe**
+- **Signes de souffrance**
+  - Désespoir et sentiment d’impasse
+  - Culpabilité ou dévalorisation
+  - Isolement et retrait relationnel
+  - Rupture des habitudes
+- **Expression suicidaire**
+  - Paroles de mort directes ou indirectes
+  - Idées suicidaires
+  - Scénario, intention ou préparatifs
+    - Alerte immédiate si risque imminent
+- **Facteurs de vigilance**
+  - Agitation ou anxiété majeure
+  - Impulsivité
+  - Consommation d’alcool ou d’autres substances
+  - Antécédent de tentative
+  - Aggravation psychiatrique récente
+  - Rupture, perte ou événement déclenchant
+## **🗣️ Évaluer sans juger**
+- **Idées suicidaires**
+  - Demander directement si la personne pense à se faire du mal ou à mourir
+    - Poser la question n’augmente pas le risque
+  - Explorer fréquence, intensité et caractère envahissant
+- **Intention et urgence**
+  - Demander si un scénario ou un moment a été envisagé
+  - Rechercher des préparatifs
+  - Rechercher un accès à un moyen dangereux
+- **Contexte**
+  - Explorer les événements récents
+  - Rechercher les antécédents de tentative
+  - Repérer les consommations de substances
+- **Ressources**
+  - Identifier les personnes de confiance
+  - Explorer les soutiens et les possibilités de soins
+- **Limites**
+  - Ne pas se fier uniquement à une échelle ou à une impression
+  - Réévaluer selon l’évolution
+  - Ne pas promettre le secret si la sécurité est en jeu
+## **👩‍⚕️ CAT IDE**
+- **Sécuriser**
+  - Si danger immédiat, rester avec la personne
+  - Appeler de l’aide
+  - Ne pas laisser seule
+  - Réduire l’accès aux objets ou médicaments dangereux selon protocole
+  - Ne pas se mettre en danger
+- **Créer le lien**
+  - Posture calme et respectueuse
+  - Écoute active et sans jugement
+  - Reconnaître la souffrance
+  - Éviter banalisation, reproches et injonctions
+- **Évaluer l’état clinique**
+  - Conscience et agitation
+  - Intoxication éventuelle
+  - Blessure ou ingestion éventuelle
+  - Constantes et urgence somatique
+- **Alerter et orienter**
+  - Transmettre immédiatement les éléments préoccupants
+  - Alerter le médecin ou le/la psychiatre
+  - Urgence médicale en cas de passage à l’acte ou de risque imminent
+- **Tracer**
+  - Paroles significatives et observations objectives
+  - Évaluation, alertes et décisions
+  - Relais organisé
+- **Assurer la continuité**
+  - Organiser les contacts et rendez-vous
+  - Ne pas laisser sans solution de suivi
+  - Réévaluer après changement de situation ou sortie
+## **⚠️ Facteurs de risque et de protection**
+- **Facteurs de risque**
+  - Antécédent de tentative ou automutilations
+  - Idées envahissantes, intention ou préparatifs
+  - Accès à un moyen dangereux
+  - Dépression ou autre trouble psychiatrique
+  - Agitation et impulsivité
+  - Alcool ou autres substances
+  - Isolement, rupture ou deuil
+  - Douleur chronique ou maladie grave selon le contexte
+- **Facteurs de protection**
+  - Personne de confiance disponible
+  - Demande d’aide et alliance avec les soignant·es
+  - Accès réel aux soins et au suivi
+  - Liens sociaux soutenants
+  - Raisons de vivre exprimées
+  - Plan de sécurité et environnement sécurisé
+## **🏥 Prise en charge et suivi**
+- **Évaluation médicale et psychiatrique**
+  - Rechercher troubles associés
+  - Rechercher intoxication ou cause somatique
+  - Évaluer le risque et les besoins
+- **Protection**
+  - Hospitalisation à envisager en urgence si risque élevé
+  - Décision selon évaluation clinique et cadre légal
+- **Intervention**
+  - Écoute et soutien
+  - Prise en charge des troubles associés
+  - Impliquer l’entourage si approprié et sécurisant
+- **Continuité des soins**
+  - Organiser le suivi dès le début
+  - Donner des contacts accessibles
+  - Réévaluer après toute évolution importante
+- **Médicaments**
+  - Selon trouble associé et prescription
+  - Ne remplacent jamais sécurisation, évaluation et suivi
+## **🧠 Mémo express**
+- **Démarche IDE**
+  - Écouter
+    - Questionner directement
+      - Évaluer
+        - Sécuriser
+          - Alerter
+            - Organiser le relais
+- **À éviter**
+  - Minimiser ou banaliser
+  - Culpabiliser ou moraliser
+  - Laisser seule une personne en danger immédiat
+- **À retenir**
+  - Parler du suicide n’augmente pas le risque
+  - La parole peut aider à exprimer la souffrance et à rechercher de l’aide
+## **📞 Ressources en France**
+- **3114**
+  - Numéro national de prévention du suicide
+  - Gratuit, 24 h/24 et 7 j/7
+  - Pour les personnes en souffrance, les proches et les professionnel·les
+- **15 ou 112**
+  - Urgence immédiate
+  - Passage à l’acte en cours ou danger imminent
+## **📚 Sources**
+- **Ministère chargé de la Santé**
+  - Que faire et à qui s’adresser face à une crise suicidaire, mise à jour du 3 février 2026
+    - https://sante.gouv.fr/prevention-en-sante/sante-mentale/la-prevention-du-suicide/article/que-faire-et-a-qui-s-adresser-face-a-une-crise-suicidaire
+  - Numéro national de prévention du suicide — 3114, mise à jour du 25 février 2025
+    - https://sante.gouv.fr/prevention-en-sante/sante-mentale/promotion-et-prevention/la-prevention-du-suicide/article/le-numero-national-de-prevention-du-suicide
+- **Haute Autorité de Santé**
+  - La crise suicidaire : reconnaître et prendre en charge
+    - https://www.has-sante.fr/jcms/c_271964/fr/la-crise-suicidaire-reconnaitre-et-prendre-en-charge
+  - Dépression de l’adulte — repérage et prise en charge initiale
+    - https://www.has-sante.fr/jcms/pprd_2974237/fr/depression-de-l-adulte-reperage-et-prise-en-charge-initiale

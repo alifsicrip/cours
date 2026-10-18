@@ -1,0 +1,136 @@
+# 🧠 Épisode dépressif caractérisé (EDC)
+
+- **🎯 Définition**
+  - Épisode de symptômes dépressifs présents presque tous les jours pendant au moins 2 semaines
+  - Souffrance psychique significative et modification du fonctionnement habituel
+  - Retentissement social, familial, professionnel ou scolaire
+  - À distinguer d’une tristesse passagère ou d’une réaction émotionnelle ponctuelle
+  - Rechercher un antécédent maniaque/hypomaniaque pour ne pas méconnaître un trouble bipolaire
+
+- **🔎 Symptômes**
+  - **🌧️ Symptômes principaux**
+    - Humeur dépressive, tristesse, désespoir
+    - Perte d’intérêt ou de plaisir = anhédonie
+    - Perte d’énergie, fatigabilité importante
+  - **🧠 Autres symptômes**
+    - Attention/concentration diminuées, indécision
+    - Dévalorisation, baisse de l’estime de soi
+    - Culpabilité excessive, sentiment d’inutilité
+    - Vision pessimiste de l’avenir
+    - Troubles du sommeil : insomnie ou hypersomnie
+    - Modification de l’appétit et/ou du poids
+    - Idées de mort ou idées suicidaires
+  - **🩺 Autres signes possibles**
+    - Ralentissement psychomoteur ou agitation
+    - Douleurs, plaintes somatiques, baisse de libido
+    - Retrait social, difficultés à réaliser les activités quotidiennes
+
+- **📌 Repère diagnostique HAS/CIM-10**
+  - Au moins 2 des 3 symptômes principaux
+  - Au moins 2 autres symptômes
+  - Présence presque quotidienne pendant au moins 2 semaines
+  - Souffrance significative et retentissement fonctionnel
+  - Diagnostic médical : l’IDE observe, évalue dans son champ de compétences et transmet
+
+- **📊 Sévérité**
+  - **🟡 Légère**
+    - 2 symptômes principaux + au moins 2 autres
+    - Activités possibles avec effort supplémentaire
+  - **🟠 Modérée**
+    - 2 symptômes principaux + 3 à 4 autres
+    - Retentissement plus net sur la vie quotidienne
+  - **🔴 Sévère**
+    - 3 symptômes principaux + au moins 4 autres
+    - Altération marquée du fonctionnement
+    - Possible incapacité à assurer hygiène, alimentation ou activités habituelles
+    - Risque suicidaire et symptômes psychotiques possibles
+  - Intensité appréciée cliniquement : nombre de symptômes, intensité, retentissement et risque
+
+- **🧭 Évaluation clinique**
+  - Chronologie, durée, évolution, épisodes antérieurs
+  - Sommeil, alimentation, hydratation, hygiène, activités et liens sociaux
+  - Antécédents personnels/familiaux pertinents
+  - Traitements, observance, effets indésirables et substances psychoactives
+  - Recherche d’un trouble bipolaire et de causes somatiques possibles
+  - **🚨 Évaluer le risque suicidaire**
+    - Idées de mort et idées suicidaires
+    - Fréquence, intention, scénario, accès aux moyens, préparatifs
+    - Antécédents de tentative et facteurs de protection
+  - Questions directes et non jugeantes
+    - « Avez-vous pensé à vous faire du mal ou à mourir ? »
+    - « Avez-vous imaginé comment le faire ? »
+    - « Pensez-vous passer à l’acte ? »
+
+- **👩‍⚕️ CAT IDE**
+  - **🤝 Accueillir**
+    - Écoute active, empathie, calme, respect du rythme
+    - Valider la souffrance sans minimiser ni culpabiliser
+  - **👀 Observer**
+    - Humeur, discours, contact, agitation/ralentissement
+    - Sommeil, alimentation, hydratation, hygiène, retrait social
+  - **🗣️ Évaluer et alerter**
+    - Questionner clairement le risque suicidaire
+    - Transmettre au médecin/psychiatre selon l’urgence
+  - **🛡️ Sécuriser**
+    - Si danger imminent : ne pas laisser la personne seule
+    - Prévenir immédiatement l’équipe médicale
+    - Appliquer le protocole institutionnel et limiter l’accès aux moyens dangereux selon les consignes
+  - **📝 Tracer**
+    - Propos importants exacts, observations objectives, heure
+    - Risques/facteurs de protection, personnes prévenues, décisions
+  - **🌱 Soutenir**
+    - Aider à fractionner les activités
+    - Soutenir les besoins essentiels sans injonctions
+    - Associer les proches avec accord et selon la sécurité
+  - **🔄 Assurer la continuité**
+    - Transmissions, rendez-vous, relais et suivi
+
+- **🚨 Urgence**
+  - Danger immédiat ou urgence vitale : 15 ou 112 en France
+  - 3114 : prévention du suicide, gratuit 24 h/24 et 7 j/7
+  - Le 3114 ne remplace pas les secours en cas de danger immédiat
+
+- **💊 Prise en charge : repères**
+  - **🟡 Léger**
+    - Psychothérapie/psychothérapie de soutien
+    - Suivi et réévaluation
+    - Antidépresseur généralement non recommandé d’emblée selon HAS
+  - **🟠 Modéré**
+    - Psychothérapie
+    - Antidépresseur possible en association selon décision médicale partagée
+  - **🔴 Sévère**
+    - Antidépresseur et orientation rapide vers un psychiatre
+    - Évaluer urgence, risque suicidaire et éventuel besoin de soins spécialisés
+  - **💊 Surveillance IDE sous antidépresseur**
+    - Observance, effets indésirables, interactions et compréhension
+    - Amélioration non immédiate : plusieurs semaines possibles
+    - Surveiller agitation, anxiété majorée, impulsivité et idées suicidaires nouvelles/aggravées
+    - Repérer une activation maniaque/hypomaniaque
+    - Ne pas modifier ni arrêter brutalement sans avis prescripteur
+
+- **⚖️ Vigilances / diagnostics différentiels**
+  - Trouble bipolaire : humeur élevée/irritable, réduction du besoin de sommeil, accélération, activité accrue ou prises de risque
+  - Troubles anxieux, deuil, trouble de l’adaptation, stress post-traumatique, addictions
+  - Pathologies somatiques ou médicaments pouvant contribuer aux symptômes
+  - Symptômes psychotiques, refus majeur de boire/manger, incapacité à assurer les besoins essentiels : avis médical urgent
+
+- **⚠️ Complications**
+  - Risque suicidaire et tentative de suicide
+  - Dénutrition, déshydratation, négligence de soi
+  - Isolement et désinsertion sociale/professionnelle
+  - Récidive ou évolution prolongée
+  - Comorbidités anxieuses, addictives ou somatiques
+
+- **🧷 À retenir pour le partiel**
+  - Durée ≥ 2 semaines + symptômes quasi quotidiens + souffrance et retentissement
+  - Repère HAS/CIM-10 : ≥ 2 symptômes principaux + ≥ 2 autres
+  - Toujours rechercher le risque suicidaire
+  - CAT IDE : accueillir → observer → questionner → alerter → sécuriser → tracer → suivre
+  - Ne pas banaliser, culpabiliser ou donner des injonctions
+  - Diagnostic et prescription : médecin ; accompagnement, surveillance et transmissions : IDE dans son champ de compétences
+
+- **📚 Sources officielles françaises**
+  - Assurance Maladie, « Épisode dépressif caractérisé (EDC) de l’adulte », 9 décembre 2025 : https://www.ameli.fr/medecin/sante-prevention/pathologies/episode-depressif-caracterise-adulte
+  - HAS, « Dépression de l’adulte : repérage et prise en charge initiale » : https://www.has-sante.fr/jcms/pprd_2974237/fr/depression-de-l-adulte-reperage-et-prise-en-charge-initiale
+  - HAS, « Épisode dépressif caractérisé de l’adulte : prise en charge en premier recours » : https://www.has-sante.fr/jcms/c_1739917/fr/episode-depressif-caracterise-de-l-adulte-prise-en-charge-en-premier-recours
+  - Assurance Maladie, « Dépression : symptômes, diagnostic et évolution », 26 septembre 2025 : https://www.ameli.fr/assure/sante/themes/depression-troubles-depressifs/symptomes-diagnostic-evolution

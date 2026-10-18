@@ -1,0 +1,99 @@
+# 🧠 Trouble bipolaire — MarkMap IFSI S3
+
+- **🧩 Définition**
+  - **Trouble de l’humeur chronique** avec épisodes thymiques récurrents
+  - **Épisode maniaque** : humeur élevée/irritable + énergie augmentée
+  - **Épisode hypomaniaque** : activation moins sévère que la manie
+  - **Épisode dépressif** : tristesse et/ou perte d’intérêt + autres symptômes
+  - **Périodes intercritiques** : stabilisation possible entre épisodes
+- **🧭 Types principaux**
+  - **Type I** : au moins un épisode maniaque ; dépression possible
+  - **Type II** : épisodes dépressifs + hypomanie, sans manie caractérisée
+  - **Autres présentations** : symptômes mixtes, cycles fréquents, formes atypiques
+- **🔺 Épisode maniaque**
+  - **Humeur** : euphorie, exaltation, expansivité ou irritabilité
+  - **Énergie** : hyperactivité, agitation, multiplication des projets
+  - **Pensée / parole** : débit rapide, idées qui défilent, distractibilité, fuite des idées
+  - **Sommeil** : besoin de sommeil diminué
+  - **Estime de soi** : puissance, grandeur, confiance excessive
+  - **Comportements** : dépenses, impulsivité, désinhibition, prises de risque
+  - **Formes sévères** : délire, hallucinations, désorganisation, agitation majeure
+  - **Durée repère** : généralement au moins 1 semaine, ou moins si hospitalisation nécessaire
+- **🔸 Épisode hypomaniaque**
+  - **Activation thymique** : humeur et énergie augmentées
+  - **Signes** : sommeil réduit, parole accrue, projets nombreux, distractibilité
+  - **Changement observable** par rapport au fonctionnement habituel
+  - **Durée repère** : au moins 4 jours consécutifs
+  - **Retentissement** généralement moins sévère que la manie
+- **🔻 Épisode dépressif**
+  - **Humeur** : tristesse, vide, désespoir, irritabilité
+  - **Intérêt** : anhédonie, retrait
+  - **Sommeil / appétit** : insomnie ou hypersomnie ; perte ou prise de poids/appétit
+  - **Psychomotricité** : ralentissement ou agitation
+  - **Cognition** : fatigue, concentration et décisions difficiles
+  - **Image de soi** : culpabilité, dévalorisation
+  - **🚨 Risque** : pensées de mort et idées suicidaires
+  - **Durée repère** : habituellement au moins 2 semaines
+- **🔀 Épisode mixte**
+  - **Coexistence** de symptômes dépressifs et d’activation
+  - **Signes** : désespoir + agitation, irritabilité, pensées accélérées, sommeil réduit
+  - **🚨 Vigilance accrue** : impulsivité et risque de passage à l’acte
+- **🔎 Diagnostic / évaluation**
+  - **Diagnostic clinique spécialisé** et histoire longitudinale
+  - **Chronologie** : épisodes, durée, intensité, fonctionnement habituel
+  - **Retentissement** : familial, social, professionnel, soins personnels
+  - **Risques** : suicide, mise en danger, psychose, agitation, épuisement
+  - **Facteurs à explorer** : sommeil, substances, traitements, antécédents personnels/familiaux
+  - **Bilan complémentaire** selon contexte et traitements envisagés
+- **🩺 CAT IDE**
+  - **Observer** : humeur, sommeil, énergie, parole, impulsivité, alimentation, hydratation
+  - **Évaluer** : vécu, besoins, prises de risque, idées suicidaires
+  - **Sécuriser** : environnement adapté, réduire stimulations si agitation, prévenir les dangers
+  - **Alerter** : manie sévère, psychose, agitation majeure, danger ou risque suicidaire
+  - **Communiquer** : calme, phrases courtes, attitude non jugeante, limites cohérentes
+  - **Surveiller** : efficacité, observance, effets indésirables, examens prescrits
+  - **Tracer** : faits objectifs, paroles pertinentes, évaluation du risque, actions et transmissions
+  - **Assurer la continuité** : transmissions, suivi, psychoéducation et prévention des rechutes
+- **🚑 Urgences**
+  - **Risque suicidaire imminent** : intention, scénario, moyens disponibles ou passage à l’acte
+  - **Manie sévère** : agitation, psychose, désorganisation, mise en danger
+  - **Danger immédiat en France** : 15 ou 112
+  - **Prévention du suicide** : 3114, gratuit 24 h/24 et 7 j/7
+- **💊 Traitements — principes**
+  - **Régulateurs de l’humeur** : lithium, lamotrigine, valproate selon indication
+  - **Antipsychotiques** : notamment certains épisodes maniaques ou symptômes psychotiques
+  - **Antidépresseurs** : parfois, selon stratégie spécialisée ; surveiller l’activation thymique
+  - **Psychothérapie / psychoéducation** : repérage des signes précoces, adaptation, observance
+  - **Rythmes de vie** : sommeil régulier, limitation des substances, prévention des rechutes
+  - **Ne jamais arrêter brutalement** sans avis médical
+- **⚠️ Surveillance médicamenteuse**
+  - **Lithium** : lithiémie et surveillances rénale/thyroïdienne selon prescription
+  - **Suspicion d’intoxication au lithium** : vomissements, diarrhée, tremblements marqués, ataxie, confusion → évaluation urgente
+  - **Valproate** : risque tératogène majeur, mesures réglementaires de prévention
+  - **Lamotrigine** : éruption nouvelle, surtout avec fièvre ou atteinte des muqueuses → évaluation médicale rapide
+  - **Antipsychotiques** : sédation, symptômes extrapyramidaux, poids/métabolisme, constipation selon molécule
+- **🧯 Complications**
+  - **Risque suicidaire** et automutilations
+  - **Conséquences** financières, sociales, professionnelles, relationnelles
+  - **Épuisement** et perturbation des besoins vitaux en phase maniaque
+  - **Comorbidités** addictives, anxieuses ou somatiques
+  - **Récidives** et hospitalisations
+- **🆚 Différentiels / pièges**
+  - **Dépression unipolaire** : rechercher antécédents maniaques/hypomaniaques
+  - **Trouble borderline** : différenciation clinique spécialisée
+  - **TDAH** : rechercher la nature épisodique et la rupture du fonctionnement habituel
+  - **Substances / causes médicales** : explorer les consommations et traitements
+  - **Troubles psychotiques** : analyser la chronologie thymique et psychotique
+- **🧠 À retenir pour le partiel**
+  - **Manie** : humeur élevée/irritable + énergie augmentée + retentissement important
+  - **Hypomanie** : activation moins sévère mais inhabituelle et persistante
+  - **Dépression** : humeur triste ou anhédonie ; évaluer systématiquement le risque suicidaire
+  - **CAT IDE** : observer → évaluer → sécuriser → alerter → surveiller → tracer → transmettre
+  - **Traitement prolongé** : observance et surveillance essentielles
+- **📚 Sources officielles françaises**
+  - **Assurance Maladie** : symptômes — https://www.ameli.fr/assure/sante/themes/trouble-bipolaire/symptomes
+  - **Assurance Maladie** : diagnostic et bilan — https://www.ameli.fr/assure/sante/themes/trouble-bipolaire/diagnostic-bilan-initial-evolution
+  - **Assurance Maladie** : traitement — https://www.ameli.fr/assure/sante/themes/trouble-bipolaire/traitement
+  - **Assurance Maladie** : suivi — https://www.ameli.fr/assure/sante/themes/trouble-bipolaire/suivi-medical-vie-quotidien
+  - **HAS** : repérage et prise en charge initiale — https://www.has-sante.fr/jcms/c_1747465/fr/patients-souffrant-de-troubles-bipolaires-reperage-et-prise-en-charge-initiale-en-premier-recours
+  - **Ministère chargé de la Santé** : vivre avec un trouble bipolaire — https://sante.gouv.fr/actualites-presse/actualites-du-ministere/article/sante-mentale-vivre-avec-un-trouble-bipolaire-432903

@@ -1,0 +1,112 @@
+# 🧠 EDC & TDR — Markmap IFSI
+## 🩺 Définitions
+- **EDC — épisode dépressif caractérisé**
+  - Symptômes dépressifs quasi quotidiens
+  - Durée habituelle d’au moins **2 semaines**
+  - Souffrance significative et retentissement fonctionnel
+  - Peut être isolé ou s’inscrire dans un TDR
+- **TDR — trouble dépressif récurrent**
+  - Répétition d’épisodes dépressifs caractérisés
+  - Rechercher les périodes d’amélioration entre les épisodes
+  - Pas d’antécédent de manie
+## 🔎 Signes cliniques
+- **Humeur**
+  - Tristesse persistante, désespoir, irritabilité
+- **Intérêt et énergie**
+  - Perte de plaisir, fatigue
+  - Ralentissement ou agitation psychomotrice
+- **Cognition**
+  - Concentration réduite, indécision
+  - Dévalorisation, culpabilité, baisse d’estime de soi
+- **Sommeil et alimentation**
+  - Insomnie ou hypersomnie
+  - Baisse ou hausse de l’appétit / du poids
+- **Retentissement**
+  - Isolement, difficultés d’hygiène et d’activités quotidiennes
+- **Risque**
+  - Idées de mort, idées suicidaires, scénario, intention ou passage à l’acte
+## 📊 Évaluation
+- **Évolution**
+  - Début, durée, épisodes antérieurs, rémissions
+  - Traitements antérieurs et réponse
+- **Fonctionnement**
+  - Sommeil, alimentation, hydratation, hygiène, activités, relations
+- **Risque suicidaire**
+  - Idées de mort et scénario
+  - Intention, accès aux moyens, antécédents
+  - Facteurs de protection et ressources
+  - Réévaluation régulière
+- **Diagnostic différentiel**
+  - Manie / hypomanie : rechercher un trouble bipolaire
+  - Addictions, anxiété, causes somatiques ou médicamenteuses
+## 💊 Prise en charge
+- **Relation d’aide**
+  - Écoute active, empathie, absence de jugement
+  - Information et décisions partagées
+- **Psychothérapie**
+  - Recommandée, adaptée à la personne et à la sévérité
+- **Antidépresseur**
+  - Décision médicale individualisée
+  - Pas systématique dans les formes légères
+  - Selon l’évaluation, association à une psychothérapie
+  - Forme sévère : avis spécialisé rapide
+- **Suivi**
+  - Rapproché au début et après modification du traitement
+  - Efficacité, tolérance, observance, risque suicidaire
+  - Pas d’arrêt brutal sans avis médical
+- **TDR**
+  - Prévenir rechutes et récidives
+  - Repérer les signes précoces
+  - Assurer la continuité des soins
+## 👩‍⚕️ CAT IDE
+- **Accueillir**
+  - Écouter sans minimiser ni culpabiliser
+  - Respecter dignité et rythme
+- **Observer**
+  - Humeur, discours, comportement, retrait
+  - Sommeil, alimentation, hygiène, psychomotricité
+- **Sécuriser**
+  - Rechercher le risque suicidaire
+  - Alerter sans délai en cas de risque
+  - Appliquer protocole et consignes médicales
+- **Accompagner**
+  - Soutenir les soins quotidiens
+  - Proposer des objectifs simples et réalistes
+- **Surveiller**
+  - Prise et effets indésirables
+  - Agitation inhabituelle ou aggravation
+  - Transmettre rapidement les changements
+- **Coordonner**
+  - Transmissions factuelles
+  - Continuité des soins
+  - Entourage avec l’accord de la personne
+## 🚨 Urgence
+- **Signes d’alerte**
+  - Intention suicidaire, scénario, tentative récente
+  - Impossibilité de garantir la sécurité
+  - Refus de boire / manger avec danger vital
+  - Symptômes psychotiques, confusion, aggravation rapide
+- **Conduite**
+  - Rester auprès de la personne
+  - Alerter l’équipe médicale / psychiatrique
+  - Sécuriser l’environnement selon le protocole
+  - Évaluation urgente
+- **Numéros en France**
+  - **15 ou 112** : urgence immédiate
+  - **3114** : prévention du suicide, 24 h/24 et 7 j/7
+## 🧠 À retenir
+- **EDC = épisode actuel**
+- **TDR = épisodes répétés**
+- **Au moins 2 semaines** pour la durée typique d’un EDC
+- Toujours évaluer le risque suicidaire
+- Toujours rechercher une manie / hypomanie antérieure
+- Rôle IDE : observer, écouter, sécuriser, surveiller, transmettre
+## 📚 Sources
+- Assurance Maladie — EDC adulte
+  - https://www.ameli.fr/medecin/sante-prevention/pathologies/episode-depressif-caracterise-adulte
+- HAS — prise en charge de l’EDC en premier recours
+  - https://www.has-sante.fr/jcms/c_1739917/fr/depression
+- Assurance Maladie — symptômes, diagnostic et évolution
+  - https://www.ameli.fr/assure/sante/themes/depression-troubles-depressifs/symptomes-diagnostic-evolution
+- 3114 — prévention du suicide
+  - https://3114.fr/

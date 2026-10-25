@@ -1,0 +1,139 @@
+# 🧠 Troubles bipolaires (TB I / TB II) & borderline (TPB) — Markmap IFSI
+## 🩺 Définitions
+- **Trouble bipolaire de type I**
+  - Au moins un épisode maniaque
+  - Épisodes dépressifs possibles
+  - Retentissement important, urgence possible
+- **Trouble bipolaire de type II**
+  - Épisodes hypomaniaques
+  - Au moins un épisode dépressif caractérisé
+  - Aucun épisode maniaque caractérisé
+- **Trouble de la personnalité borderline / limite**
+  - Instabilité émotionnelle, relationnelle et identitaire durable
+  - Peur intense de l’abandon
+  - Impulsivité possible
+- **Différencier**
+  - Bipolarité : épisodes thymiques, rupture avec l’état habituel
+  - Borderline : fonctionnement durable et instabilité souvent liée au contexte
+  - Coexistence possible, diagnostic médical
+## 🔎 Ce que je vois
+- **Manie — surtout TB I**
+  - Humeur exaltée ou très irritable
+  - Énergie augmentée, besoin de sommeil diminué
+  - Débit verbal accéléré, idées qui fusent
+  - Sentiment de puissance, désinhibition
+  - Dépenses et conduites à risque
+  - Parfois symptômes psychotiques
+- **Hypomanie — TB II**
+  - Changement net d’humeur et d’énergie
+  - Sommeil réduit, activité et sociabilité augmentées
+  - Parole rapide, impulsivité
+  - Changement perceptible par l’entourage
+- **Épisode dépressif**
+  - Tristesse, irritabilité, perte de plaisir
+  - Fatigue, ralentissement
+  - Sommeil et appétit perturbés
+  - Culpabilité, désespoir, idées suicidaires
+- **Borderline / TPB**
+  - Émotions intenses et changeantes
+  - Peur de l’abandon, relations instables
+  - Vide intérieur, image de soi fluctuante
+  - Colère, impulsivité
+  - Automutilations ou gestes suicidaires possibles
+  - Dissociation transitoire sous stress possible
+## 📏 Ce que je mesure
+- **Constantes et état somatique**
+  - FC, PA, température, FR, SpO₂ selon la situation
+  - Hydratation, alimentation, sommeil, vigilance
+- **Évolution**
+  - Début, durée, intensité, sommeil, énergie, humeur
+  - Discours, comportement, retentissement
+  - Informations des proches avec accord
+- **Risque suicidaire et auto-agressif**
+  - Idées de mort, intention, scénario, accès aux moyens
+  - Antécédents, automutilations, facteurs de protection
+  - Réévaluation après tout changement clinique
+- **Mise en danger**
+  - Conduites à risque, dépenses, sexualité à risque
+  - Agressivité, errance, substances psychoactives
+- **Traitements**
+  - Prises effectives, tolérance, effets indésirables
+  - Surveillance clinique et biologique selon prescription
+  - Ne pas modifier ni arrêter sans avis prescripteur
+- **Outils**
+  - Échelles validées du service si prévues
+  - Aucun outil ne remplace l’entretien clinique
+## 👩‍⚕️ Ce que je fais en tant qu’IDE
+- **Accueillir**
+  - Écoute calme, respectueuse, sans jugement
+  - Reconnaître la souffrance sans banaliser
+- **Sécuriser**
+  - Évaluer le danger
+  - Alerter et appliquer le protocole
+  - Ne pas laisser seule une personne en danger imminent
+- **Adapter la relation**
+  - Messages simples, cadre clair et cohérent
+  - Limites posées calmement, sans rapport de force
+- **Favoriser l’apaisement**
+  - Réduire les stimulations en cas d’agitation
+  - Favoriser repos, sommeil et environnement sécurisant
+- **Observer et transmettre**
+  - Sommeil, discours, humeur, impulsivité
+  - Alimentation, soins, interactions, idées suicidaires
+  - Transmissions factuelles et datées
+- **Surveiller**
+  - Administration selon prescription
+  - Efficacité, tolérance, effets indésirables
+  - Signaler aggravation, agitation nouvelle ou toxicité suspectée
+- **Soutenir la continuité**
+  - Alliance thérapeutique, plan de crise, suivi
+  - Proches avec accord de la personne et dans le cadre légal
+## 💊 Prise en charge
+- **Trouble bipolaire**
+  - Suivi psychiatrique et psychoéducation
+  - Régularité du sommeil et des rythmes
+  - Traitement selon prescription
+  - Repérage précoce des rechutes
+  - Manie, épisode mixte ou forme sévère : évaluation urgente
+- **Borderline / TPB**
+  - Psychothérapie structurée au centre des soins
+  - Régulation émotionnelle et tolérance à la détresse
+  - Médicaments selon indication médicale pour symptômes ciblés ou comorbidités
+  - Continuité des soins et prévention des crises
+- **Dans les deux cas**
+  - Rechercher addictions, anxiété, dépression et troubles du sommeil
+  - Construire un plan de prévention de crise
+## 🚨 Alertes immédiates
+- **Danger suicidaire**
+  - Intention, scénario, accès aux moyens, tentative récente
+  - Automutilation grave ou aggravation brutale
+- **Manie sévère / épisode mixte**
+  - Sommeil presque absent, agitation majeure
+  - Désinhibition, conduites dangereuses
+  - Confusion ou symptômes psychotiques
+- **Danger somatique ou comportemental**
+  - Déshydratation, épuisement, risque vital
+  - Intoxication ou violence imminente
+- **Conduite**
+  - Rester auprès de la personne si danger imminent
+  - Alerter l’équipe médicale / psychiatrique
+  - Sécuriser selon le protocole et obtenir une évaluation urgente
+- **Numéros en France**
+  - **15 / 112** : urgence immédiate
+  - **3114** : prévention du suicide, 24 h/24 et 7 j/7
+## 🧠 À retenir
+- **TB I = au moins un épisode maniaque**
+- **TB II = hypomanie + épisode dépressif caractérisé, sans manie**
+- **TPB = instabilité durable émotionnelle, relationnelle et identitaire**
+- Toujours évaluer le risque suicidaire et les mises en danger
+- Les diagnostics peuvent coexister et relèvent d’une évaluation médicale
+- **Ce que je vois → Ce que je mesure → Ce que je fais en tant qu’IDE**
+## 📚 Sources
+- HAS — repérage et prise en charge initiale du trouble bipolaire
+  - https://www.has-sante.fr/jcms/c_1747465/fr/patient-avec-un-trouble-bipolaire-reperage-et-prise-en-charge-initiale-en-premier-recours
+- HAS — ALD n° 23, troubles bipolaires, actualisation 2025
+  - https://www.has-sante.fr/jcms/c_849818/
+- Assurance Maladie — troubles de la personnalité de l’adulte, janvier 2026
+  - https://www.ameli.fr/assure/sante/themes/sante-mentale-de-l-adulte/troubles-de-la-personnalite-de-l-adulte
+- 3114 — prévention du suicide
+  - https://3114.fr/

@@ -1,0 +1,197 @@
+# Actes, soins et prescription infirmière — réforme 2026
+- **📌 Cadre juridique**
+  - Loi du 27 juin 2025 sur la profession infirmière
+  - Décret du 24 décembre 2025
+  - Deux arrêtés du 26 juin 2026
+  - **Principe**
+    - Autonomie dans les limites du champ de compétence
+    - Conditions réglementaires, formation, prescription, protocoles et surveillance à respecter
+- **🧭 Cadres d’exercice**
+  - **Rôle propre**
+    - L’IDE évalue, décide et réalise les soins listés sans prescription préalable
+  - **Sur prescription**
+    - L’acte exige une prescription conforme aux textes
+  - **Prescription avec médecin disponible**
+    - Certains actes nécessitent qu’un médecin puisse intervenir à tout moment
+  - **Participation médicale**
+    - Certains actes sont réalisés en collaboration avec le médecin
+  - **Réalisation confiée**
+    - Certains soins peuvent être confiés à des professionnel·le·s diplômé·e·s selon le Code
+  - **Prescription infirmière**
+    - Uniquement les produits et examens figurant sur la liste réglementaire
+- **🩺 Missions principales**
+  - **Évaluer et raisonner**
+    - Examen clinique infirmier
+    - Recueil et analyse des données
+    - Diagnostic infirmier
+    - Repérage des risques et réévaluation
+  - **Prévenir et éduquer**
+    - Prévention, dépistage relevant des compétences
+    - Éducation à la santé
+    - Accompagnement de l’autonomie
+  - **Soigner et surveiller**
+    - Soins préventifs, curatifs, palliatifs et relationnels
+    - Surveillance clinique et adaptation du plan de soins dans le champ de compétence
+  - **Coordonner**
+    - Transmissions et continuité des soins
+    - Collaboration et orientation
+  - **Développer les pratiques**
+    - Protocoles infirmiers
+    - Recherche et évaluation de situations de santé publique
+- **🟢 Rôle propre — arrêté du 26 juin 2026, article 1**
+  - **Évaluation**
+    - Besoins et réponse clinique avec outils standardisés
+    - Souffrance psychique, risque suicidaire, fragilité et vulnérabilités psychosociales
+    - Santé sexuelle, troubles alimentaires, dénutrition et malnutrition
+    - Changements de l’état physique ou psychique
+    - Anomalies biologiques à signaler au médecin
+  - **Soins**
+    - Examen clinique et entretiens infirmiers
+    - Projet de soins individuel ou populationnel
+    - Soins d’hypothermie/hyperthermie
+    - Soins en assistance nutritive et dialyse
+    - Soins en milieu stérile, oncologie et psychiatrie
+    - Soins aux personnes intubées, trachéotomisées ou trachéostomisées et aspirations
+    - Maintien des fonctions vitales par moyens non invasifs et non médicamenteux
+    - Suivi de personnes diabétiques sous pompe à insuline
+    - Soins et surveillance dans certains transports sanitaires
+    - Sédation profonde et continue dans les conditions réglementaires
+  - **Recherche**
+    - Protocoles de soins infirmiers
+    - Contribution à la recherche scientifique
+    - Évaluation de situations de santé publique
+- **👥 Soins dont la réalisation peut être confiée — article 2**
+  - Recueils non invasifs et observations
+  - Aide à l’hygiène, alimentation, hydratation, habillage et mobilisation
+  - Prévention des escarres et thromboses
+  - Aide à la prise de médicaments non injectables dans les conditions prévues
+  - **Conditions**
+    - Acte expressément prévu par le texte
+    - Compétences de la personne vérifiées
+    - Situation et organisation adaptées
+    - Pas de délégation automatique
+- **📝 Actes sur prescription — article 4**
+  - Prélèvements cutanés et sur muqueuses accessibles
+  - Prélèvements de sécrétions et excrétions
+  - Recueil aseptique d’urines
+  - Prélèvements sanguins et ponction artérielle pour gazométrie
+  - ECG de plus de 12 dérivations, EEG et potentiels évoqués
+  - Injections, perfusions, administrations médicamenteuses prévues par le texte
+  - Traitements antalgiques selon protocole écrit, daté et signé
+  - Cures de sevrage et autres actes listés par l’article 4
+- **🔴 Actes avec médecin pouvant intervenir à tout moment — article 5**
+  - Produits d’origine humaine avec contrôles requis
+  - Certaines injections antalgiques dans des cathéters spécifiques
+    - Cathéter posé par le médecin
+    - Première injection réalisée par le médecin
+  - Appareils de circulation extracorporelle
+  - Retrait de cathéters centraux et intrathécaux
+  - Garrot pneumatique chirurgical
+  - Dispositifs d’immobilisation
+  - Défibrillateur manuel
+  - Certains soins post-opératoires immédiats
+- **🤝 Participation avec le médecin — article 6**
+  - Examens fonctionnels spécifiques
+  - Actions en urgence vitale
+  - Télésurveillance de dispositifs implantables
+  - Réglages de stimulation cérébrale profonde
+  - Ablation de drains pleuraux ou médiastinaux
+  - Ponctions thérapeutiques
+  - Certaines activités de transplantation et greffe
+  - Actes psychiatriques spécifiques
+- **💊 Prescription infirmière — arrêté du 26 juin 2026**
+  - **Vaccins**
+    - Vaccins du calendrier vaccinal à partir de 11 ans
+    - Exception : vaccins vivants atténués chez les personnes immunodéprimées
+    - Vaccin grippe à partir de 11 ans
+    - Vaccin Covid-19 à partir de 5 ans
+    - Conditions de déclaration et formation à vérifier
+  - **Plaies et escarres**
+    - Supports de prévention des escarres
+    - Bas, chaussettes et bandes de contention à force identique
+    - Pansements et matériels listés pour une durée initiale de 7 jours
+    - Sprays protecteurs cutanés
+    - Anesthésiques locaux non injectables
+    - Certains antiseptiques uniquement dans les 5 premiers jours de certaines plaies traumatiques souillées ou brûlures, hors pied diabétique
+    - Nitrate d’argent à faible dosage pour hyperbourgeonnement
+  - **Santé sexuelle et reproductive**
+    - Renouvellement de contraceptifs oraux prescrits depuis moins d’un an
+      - 6 mois maximum
+      - Non renouvelable par l’IDE
+    - Préservatifs
+    - Contraception d’urgence
+    - Dosage bêta-HCG pour confirmation et datation de grossesse
+    - Dépistage VIH, hépatites B/C, syphilis, chlamydia et gonocoque
+  - **Sevrage tabagique**
+    - Substituts nicotiniques
+    - Bilan cholestérol, triglycérides et glycémie à jeun pour facteurs de risque cardiovasculaire
+  - **Médicaments et solutions**
+    - Antalgiques de palier I, y compris antipyrétiques
+    - Adaptation de posologie dans la douleur selon la prescription initiale
+    - Solutions stériles et produits antiseptiques
+    - Sérum physiologique à prescription médicale facultative
+  - **Dispositifs médicaux hors plaies**
+    - Cerceaux de lit
+    - Location de béquilles et cannes
+    - Soulève-malade
+    - Matériel d’incontinence et urogénital
+    - Matériel de stomie et irrigation colique
+    - Sondes vésicales pour auto/hétérosondage et renouvellement de sondes à demeure
+    - Se référer à la liste exhaustive de l’arrêté pour les références exactes
+  - **Examens biologiques**
+    - INR sous AVK : renouvellement une fois, quelques jours en cas de déséquilibre
+    - NFS, plaquettes et ionogramme dans le cadre prévu
+    - ECBU avec antibiogramme si nécessaire
+    - Glycémie à jeun ou en urgence si déséquilibre/hypoglycémie
+    - Chez les personnes diabétiques connues : créatininémie, rapport albuminurie/créatininurie et HbA1c
+      - Si non prescrits dans les trois derniers mois
+  - **Conditions transversales**
+    - Toute prescription est inscrite au dossier patient ou au dossier médical partagé
+    - Le pharmacien doit pouvoir consulter la prescription initiale en cas de renouvellement à l’identique
+    - Vérifier les indications, âges, exclusions, durées et annexes du texte
+- **⚖️ Conséquences possibles d’un manquement**
+  - **Civile ou indemnitaire**
+    - Faute ayant causé un dommage
+    - Indemnisation selon le régime applicable
+  - **Pénale**
+    - Infraction constituée selon les faits
+    - Poursuites et sanctions possibles
+  - **Disciplinaire ou déontologique**
+    - Non-respect des règles professionnelles ou du secret
+    - Sanction possible
+  - **Employeur et organisation**
+    - Défaut de traçabilité ou procédure non respectée
+    - Mesures internes et analyse d’événement indésirable
+  - **À retenir**
+    - Un manquement ne conduit pas automatiquement à une sanction
+    - Les faits, le dommage, le lien de causalité et le statut sont examinés
+- **🔄 Avant / après**
+  - **Avant**
+    - Textes antérieurs centrés sur le rôle propre et les actes prescrits
+    - Listes de prescription plus anciennes et plus limitées
+  - **Depuis 2026**
+    - Missions et compétences redéfinies
+    - Consultation et diagnostic infirmiers explicités
+    - Nouvelle liste d’actes et soins
+    - Nouvelle liste de prescriptions autorisées sous conditions
+- **⚖️ Avantages et limites**
+  - **IDE**
+    - Avantages : autonomie et reconnaissance renforcées
+    - Limites : formation, responsabilité, coordination et traçabilité
+  - **Médecin**
+    - Avantages : complémentarité et relais de suivi
+    - Limites : rôles à clarifier et coordination nécessaire
+  - **Patient·e·s et société**
+    - Avantages : accès potentiellement plus rapide et meilleure continuité
+    - Limites : bénéfices dépendants des effectifs, moyens et organisation
+- **⭐ À retenir**
+  - Autonomie ne signifie pas absence de limites
+  - Rôle propre, prescription et participation médicale sont différents
+  - Prescription infirmière = liste réglementaire fermée et conditionnelle
+  - Vérifier, évaluer, sécuriser, surveiller, tracer et alerter
+- **📚 Sources officielles**
+  - Loi du 27 juin 2025 — https://www.legifrance.gouv.fr/eli/loi/2025/6/27/TSSX2507271L/jo/texte
+  - Décret du 24 décembre 2025 — https://www.legifrance.gouv.fr/eli/decret/2025/12/24/SFHH2531735D/jo/texte
+  - Arrêté du 26 juin 2026 sur les actes et soins — https://www.legifrance.gouv.fr/loda/id/JORFTEXT000054321952/
+  - Arrêté du 26 juin 2026 sur la prescription infirmière — https://www.legifrance.gouv.fr/loda/id/JORFTEXT000054321926/
+  - Code de la santé publique, articles L. 4311-1 et R. 4311-1 et suivants

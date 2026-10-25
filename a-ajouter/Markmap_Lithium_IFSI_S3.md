@@ -1,0 +1,143 @@
+# 💊 Lithium — UE 2.11 — S3 IFSI
+## 🌿🪪 Carte d’identité
+- **💊 DCI / spécialité**
+  - Carbonate de lithium ; Téralithe® / Téralithe LP®
+- **🧠 Classe**
+  - Thymorégulateur (régulateur de l’humeur)
+- **🎯 Indication principale**
+  - Épisodes maniaques et prévention des récidives du trouble bipolaire, selon RCP
+- **⚠️ Point clé**
+  - Marge thérapeutique étroite
+  - Lithémie + surveillance clinique et biologique indispensables
+## 🧠⚙️ Mécanisme et effets recherchés
+- **🧠 Mécanisme**
+  - Complexe et pas entièrement élucidé
+  - Modulation de voies de signalisation intracellulaire et de la neurotransmission
+- **🎯 Effets recherchés**
+  - Réduction des symptômes maniaques : excitation, agitation, impulsivité, diminution du besoin de sommeil
+  - Prévention des récidives et diminution de l’intensité des épisodes thymiques
+  - Bénéfice anti-suicidaire à long terme possible dans le trouble bipolaire
+- **🚨 À retenir**
+  - Ne remplace jamais l’évaluation immédiate du risque suicidaire
+## 🧪💊 LADMER
+- **💊 Libération**
+  - Vérifier spécialité, dosage et forme ; ne pas substituer sans validation
+- **🧪 Absorption**
+  - Absorption digestive ; prise régulière selon prescription
+- **🚚 Distribution**
+  - Diffusion dans l’eau corporelle et vers le système nerveux central
+- **🏭 Métabolisation**
+  - Pas de métabolisme hépatique significatif
+- **🚽 Élimination**
+  - Principalement rénale
+  - Réabsorption liée au sodium
+  - Déshydratation, baisse des apports sodés ou insuffisance rénale → hausse possible de la lithémie
+- **🎯 Réponse**
+  - Effet thymorégulateur progressif ; suivi tout au long du traitement
+## 🩸 Lithémie et surveillance
+- **🩸 Lithémie = concentration sanguine de lithium**
+- **⏱️ Prélèvement**
+  - Délai précis après la dernière prise, souvent 12 h selon prescription et spécialité
+- **🎯 Cible**
+  - Dépend de l’indication, de la phase, de la formulation et de la personne
+  - Ne pas modifier la dose sur un résultat isolé
+- **🔁 Dosages rapprochés**
+  - Instauration, modification de dose ou traitement associé
+  - Maladie intercurrente, déshydratation ou suspicion de toxicité
+- **🧪 Autres suivis**
+  - Créatinine/DFG, ionogramme, TSH, calcémie
+  - ECG et autres examens selon contexte/prescription
+## 🚫🛡️ Précautions
+- **🫗 Insuffisance rénale**
+  - Accumulation possible ; surveiller fonction rénale
+- **🌡️ Déshydratation, fièvre, diarrhées/vomissements, transpiration importante**
+  - Baisse du volume hydrique → lithémie pouvant augmenter
+- **🧂 Changement des apports en sel**
+  - Apports sodés stables ; éviter changements non encadrés
+- **🤰 Grossesse / projet / allaitement**
+  - Avis spécialisé ; ne pas arrêter seul·e
+- **🦋 Antécédents thyroïdiens, hypercalcémie, troubles cardiaques**
+  - Surveillance ciblée selon prescription
+- **👵 Personne âgée**
+  - Risque accru d’accumulation, d’interactions et de déshydratation
+## 🔄🧩 Interactions prioritaires
+- **💊 AINS (ex. ibuprofène), certains diurétiques, IEC, ARA II**
+  - Élimination rénale diminuée → lithémie élevée et intoxication
+  - Vérifier prescription et automédication ; prévenir médecin/pharmacien
+- **🌡️ Pertes hydriques ou changement des apports sodés**
+  - Risque de hausse de lithémie
+- **🧠 Certains antidépresseurs / médicaments sérotoninergiques**
+  - Risque de syndrome sérotoninergique selon association
+  - Surveiller agitation, tremblements, sueurs, diarrhée, hyperréflexie/fièvre
+- **🧪 Médicaments néphrotoxiques**
+  - Atteinte rénale possible → accumulation
+## 😵⚠️ Effets indésirables
+- **🤢 Fréquents / dose-dépendants**
+  - Tremblement fin, nausées, diarrhée, soif, polyurie, fatigue
+- **🦋 Thyroïde**
+  - Hypothyroïdie possible ; fatigue, frilosité, prise de poids ; TSH
+- **🫗 Rénal / hydrique**
+  - Polyurie, troubles de concentration des urines, déshydratation
+- **🧠 Neurologiques**
+  - Tremblement marqué, troubles de l’équilibre/parole, confusion
+  - Suspicion de toxicité → avis médical urgent même si lithémie antérieure acceptable
+- **❤️ Cardiaques**
+  - Palpitations, malaise, syncope → alerte immédiate
+## 🚨⚠️ Intoxication au lithium
+- **🔎 Déclencheurs**
+  - Surdosage, déshydratation, infection/fièvre, vomissements/diarrhées, insuffisance rénale, interaction
+- **🚩 Signes**
+  - Digestifs : nausées/vomissements/diarrhée importants
+  - Neurologiques : tremblement grossier, ataxie, dysarthrie, confusion, somnolence, convulsions
+  - Cardiaques : malaise, syncope, trouble du rythme
+- **🆘 Conduite**
+  - Alerter immédiatement ; appliquer le protocole d’urgence
+  - Pas de dose supplémentaire avant décision médicale
+  - Surveiller conscience, constantes, neurologie et diurèse
+  - Préparer lithémie, fonction rénale, ionogramme et ECG selon prescription
+  - Tracer dernière prise, dose, symptômes, pertes hydriques et co-traitements
+## 👩‍⚕️🩺 Conduite infirmière
+- **🔎 Avant administration**
+  - Identité, prescription, dosage, forme, horaire, dernière prise
+  - Rechercher signes de toxicité, nouveaux traitements, maladie intercurrente
+- **🩸 Surveillance biologique**
+  - Lithémie selon délai/calendrier prescrits
+  - Fonction rénale, ionogramme, TSH, calcémie et examens complémentaires
+- **👀 Surveillance clinique**
+  - Humeur, sommeil, risque suicidaire
+  - Tremblements, marche/parole, troubles digestifs, soif/polyurie, poids, hydratation
+- **💧 Prévention**
+  - Hydratation régulière et apports sodés stables
+  - Vigilance chaleur, sport intense, fièvre, pertes digestives
+- **💬 Éducation**
+  - Prise régulière ; ne pas arrêter, doubler une dose oubliée ou modifier la dose sans consigne
+  - Éviter l’automédication, notamment les AINS, sans avis
+- **📣 Transmission SAED**
+  - Situation → Antécédents/contexte → Évaluation → Demande
+- **🚨 Alerte rapide**
+  - Vomissements/diarrhées importants, déshydratation
+  - Tremblement nouveau/aggravé, ataxie, confusion, parole inhabituelle
+  - Baisse de diurèse, syncope ou suspicion de trouble du rythme
+## 🧬 Populations particulières
+- **👵 Personne âgée**
+  - Risque accru d’intoxication et de déshydratation
+- **🫗 Insuffisance rénale**
+  - Élimination diminuée ; décision médicale et suivi rapproché
+- **🦋 Trouble thyroïdien / hypercalcémie**
+  - Suivi biologique et avis médical
+- **🤰 Grossesse / projet de grossesse**
+  - Consultation spécialisée ; ne pas interrompre brutalement sans plan médical
+- **🌡️ Fièvre / canicule / gastro-entérite**
+  - Risque de pertes hydriques/sodées et d’augmentation de la lithémie
+## ✅🧠 L’essentiel
+- **🩸 Lithémie obligatoire** : marge thérapeutique étroite
+- **🫗 Rein + hydratation + sodium** : déterminent le risque d’accumulation
+- **🔄 AINS, diurétiques, IEC/ARA II** : interactions prioritaires
+- **🧠 Ataxie, confusion, tremblement marqué** : alerte pour intoxication
+- **⛔ Ne pas arrêter ni ajuster seul·e** : décision médicale et suivi
+## 📚 Sources
+- **Base de données publique des médicaments (ANSM / Ministère)** — Téralithe LP 400 mg, RCP et notice, mis à jour le 27/07/2026 — consulté le 25/10/2026 : https://base-donnees-publique.medicaments.gouv.fr/medicament/67292476/extrait
+- **Base de données publique des médicaments** — RCP lithium, interactions et mises en garde — consulté le 25/10/2026 : https://base-donnees-publique.medicaments.gouv.fr/medicament/62124478/extrait
+- **Assurance Maladie** — Traitement du trouble bipolaire — consulté le 25/10/2026 : https://www.ameli.fr/assure/sante/themes/trouble-bipolaire/traitement
+- **Assurance Maladie** — Suivi médical et vie au quotidien, 31/03/2025 — consulté le 25/10/2026 : https://www.ameli.fr/assure/sante/themes/trouble-bipolaire/suivi-medical-vie-quotidien
+- **HAS** — Patient avec un trouble bipolaire : repérage et prise en charge initiale — consulté le 25/10/2026 : https://www.has-sante.fr/jcms/c_2579941/fr/patient-avec-un-trouble-bipolaire-reperage-et-prise-en-charge-initiale-en-premier-recours

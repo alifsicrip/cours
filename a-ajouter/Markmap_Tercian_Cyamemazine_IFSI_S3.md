@@ -1,0 +1,147 @@
+# 💊 Tercian® (cyamémazine) — UE 2.11 — S3 IFSI
+## 🌿🪪 Carte d’identité
+- **💊 DCI** : cyamémazine (Tercian®)
+- **🧠 Classe** : antipsychotique conventionnel / neuroleptique, phénothiazine
+- **⚙️ Actions**
+  - Antidopaminergique
+  - Antihistaminique → sédation
+  - Adrénolytique → hypotension possible
+  - Anticholinergique → constipation, rétention urinaire, sécheresse buccale
+- **💧 Formes**
+  - Comprimés, gouttes buvables, injectable IM selon spécialité
+- **🎯 Indications selon le RCP**
+  - États psychotiques aigus ou chroniques
+  - Certaines formes d’anxiété de l’adulte en traitement court
+  - Certaines situations en association à un antidépresseur selon le RCP
+- **⚠️ Point clé**
+  - Surveiller vigilance, TA, rythme cardiaque, transit et signes neurologiques
+## 🧠⚙️ Mécanisme et effets recherchés
+- **🧠 Antidopaminergique**
+  - Effet antipsychotique
+  - EPS et hyperprolactinémie possibles
+- **😴 Antihistaminique**
+  - Sédation / somnolence
+- **🩸 Adrénolytique**
+  - Hypotension orthostatique, vertiges
+- **🚽 Anticholinergique**
+  - Constipation, sécheresse buccale, troubles visuels, rétention urinaire
+- **🎯 Efficacité**
+  - Symptômes psychotiques, agitation/anxiété selon indication, sommeil et fonctionnement
+## 🧪💊 LADMER
+- **💊 Libération**
+  - Vérifier forme, concentration et dose
+  - Ne pas convertir les gouttes sans consulter la notice de la présentation
+- **🧪 Absorption**
+  - Orale ou IM selon spécialité
+- **🚚 Distribution**
+  - Effets centraux sédatifs et antipsychotiques
+- **🏭 Métabolisation**
+  - Hépatique ; prudence si insuffisance hépatique
+- **🚽 Élimination**
+  - Cyamémazine et métabolites notamment par voie urinaire
+- **🎯 Réponse**
+  - Évaluer efficacité et tolérance après initiation/adaptation
+## 🚫🛡️ Contre-indications et précautions
+- **👁️ Glaucome par fermeture de l’angle**
+  - Effet anticholinergique : risque d’aggravation
+- **🚽 Rétention urinaire / troubles urétroprostatiques**
+  - Repérer difficultés mictionnelles
+- **🦠 Antécédent d’agranulocytose**
+  - Contre-indication indiquée dans le RCP
+- **❤️ QT long, bradycardie, hypokaliémie, cardiopathie**
+  - Risque de trouble du rythme ; ECG/ionogramme selon contexte
+- **⚡ Épilepsie**
+  - Seuil épileptogène possiblement abaissé
+- **👵 Personne âgée / constipation chronique**
+  - Sédation, hypotension, chutes, EPS, risque d’iléus
+- **🧪 Insuffisance hépatique/rénale sévère**
+  - Risque d’accumulation
+- **🧠 Parkinson**
+  - Risque d’aggravation motrice ; avis spécialisé
+## 🔄🧩 Interactions prioritaires
+- **🍷 Alcool, opioïdes, benzodiazépines, hypnotiques**
+  - Sédation accrue, chutes ; risque respiratoire selon association
+- **❤️ Médicaments allongeant le QT**
+  - Risque de torsades de pointes
+  - Certaines associations contre-indiquées selon RCP (citalopram, escitalopram, hydroxyzine, dompéridone)
+- **🩸 Antihypertenseurs / médicaments hypotenseurs**
+  - Hypotension orthostatique
+- **🚽 Autres anticholinergiques**
+  - Constipation sévère, rétention urinaire, confusion
+- **💊 Dopaminergiques hors Parkinson**
+  - Antagonisme pharmacologique ; vérifier le RCP
+## 😵⚠️ Effets indésirables
+- **😴 Sédation**
+  - Vigilance, réveillabilité, marche, chutes
+- **🩸 Hypotension orthostatique**
+  - Vertiges, faiblesse, malaise, chute
+- **🚽 Effets anticholinergiques**
+  - Constipation, distension abdominale, bouche sèche, vision trouble, rétention urinaire
+- **❤️ QT / trouble du rythme**
+  - Palpitations, malaise, syncope → alerte urgente
+- **🧠 EPS**
+  - Rigidité, tremblements, akinésie, dystonie, akathisie
+- **🌡️ Syndrome malin des neuroleptiques**
+  - Fièvre + rigidité + confusion/instabilité végétative → urgence
+- **🦠 Trouble hématologique rare**
+  - Fièvre, angine, infection inhabituelle → avis médical
+- **⚡ Convulsions / confusion**
+  - Sécuriser et alerter
+## 🚨⚠️ Surdosage / complication aiguë
+- **🚩 Signes possibles**
+  - Somnolence profonde, confusion, hypotension
+  - Tachycardie/trouble du rythme, convulsions
+  - Dépression respiratoire, trouble de conscience
+- **🆘 Conduite**
+  - Alerter immédiatement
+  - Surveiller conscience, respiration, SpO₂, TA, FC, température
+  - Préparer ECG/examens selon protocole
+  - Tracer dose, forme, heure et associations
+  - Ne pas faire vomir ; ne pas laisser seul·e si vigilance altérée
+## 👩‍⚕️🩺 Conduite infirmière
+- **🔎 Avant administration**
+  - Identité, prescription, dose, forme, horaire
+  - Co-traitements, alcool/autres substances
+  - Risques : chute, constipation, rétention urinaire, glaucome, QT, épilepsie
+- **👀 Surveillance clinique**
+  - État psychique et risque suicidaire
+  - Vigilance, marche, TA/vertiges, palpitations
+  - Transit, douleurs/distension abdominales, mictions
+  - Rigidité, tremblement, dystonie, akathisie, fièvre
+- **💬 Éducation**
+  - Éviter alcool et automédication sédative
+  - Se lever progressivement si vertiges
+  - Signaler constipation importante, rétention urinaire, palpitations/syncope, fièvre avec rigidité, mouvements anormaux
+  - Ne pas arrêter/modifier sans avis médical
+- **📣 Transmission SAED**
+  - Situation → Antécédents/contexte → Évaluation → Demande
+- **🚨 Alerter sans délai**
+  - Fièvre + rigidité + confusion
+  - Syncope, douleur thoracique, palpitations importantes
+  - Somnolence profonde, dyspnée, convulsions
+  - Distension abdominale importante, arrêt des gaz/selles, rétention urinaire aiguë
+  - Dystonie avec gêne respiratoire ou déglutition difficile
+## 🧬 Populations particulières
+- **👵 Personne âgée**
+  - Risque accru de sédation, hypotension, chutes, constipation et EPS
+- **❤️ Risque cardiaque / QT long**
+  - Vérifier facteurs de risque et associations
+- **🚽 Constipation chronique**
+  - Surveillance active du transit ; risque d’iléus
+- **🧠 Épilepsie / Parkinson**
+  - Vigilance renforcée
+- **🧪 Insuffisance hépatique/rénale sévère**
+  - Surveillance renforcée selon décision médicale
+## ✅🧠 L’essentiel
+- **😴 Sédation** : vigilance et chutes
+- **🩸 Hypotension orthostatique** : vertiges au lever
+- **🚽 Constipation / rétention urinaire** : surveiller transit et mictions
+- **❤️ QT / syncope** : alerte urgente
+- **🌡️ Fièvre + rigidité + confusion** : suspicion de syndrome malin
+- **🧠 EPS** : repérer et transmettre les signes neurologiques
+## 📚 Sources
+- **Base de données publique des médicaments (ANSM)** — Tercian 25 mg, RCP/notice, mise à jour 11/07/2025 : https://base-donnees-publique.medicaments.gouv.fr/medicament/63400513/extrait
+- **Base de données publique des médicaments (ANSM)** — Tercian 100 mg, RCP/notice, base mise à jour 31/08/2026 : https://base-donnees-publique.medicaments.gouv.fr/medicament/60271248/extrait
+- **Base de données publique des médicaments (ANSM)** — Tercian 40 mg/ml gouttes, RCP/notice, base mise à jour 29/09/2026 : https://base-donnees-publique.medicaments.gouv.fr/medicament/66615713/extrait
+- **Base de données publique des médicaments (ANSM)** — Tercian injectable 50 mg/5 ml, RCP, mise à jour 06/05/2024 : https://base-donnees-publique.medicaments.gouv.fr/medicament/64506829/extrait
+- **ANSM** — Document de référence sur le RCP Tercian et ses risques : https://ansm.sante.fr/uploads/2020/12/15/tercian-25-mg-rcp-aout-1999-18042019.pdf

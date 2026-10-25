@@ -1,0 +1,135 @@
+# 💊 Kétamine en soins psychiatriques — UE 2.11 — S3 IFSI
+## 🌿🪪 Carte d’identité
+- **🧪 DCI : kétamine**
+  - Kétamine = mélange racémique
+  - Eskétamine = molécule distincte
+- **💊 Classe**
+  - Anesthésique général dissociatif
+  - Antagoniste non compétitif des récepteurs NMDA du glutamate
+- **🏥 Formes**
+  - Kétamine : solution injectable IV/IM, usage hospitalier
+  - Eskétamine (Spravato®) : pulvérisation nasale, usage hospitalier
+- **⚠️ En psychiatrie**
+  - Kétamine IV : protocoles spécialisés, notamment dépression résistante ; utilisation pouvant être hors AMM
+  - Eskétamine : indication et surveillance spécifiques selon RCP
+## 🧠⚙️ Mécanisme et effet recherché
+- **🧠 Mécanisme**
+  - Blocage des récepteurs NMDA
+  - Modulation de la neurotransmission glutamatergique et de la plasticité synaptique
+- **🎯 Effet recherché**
+  - Amélioration rapide possible des symptômes dépressifs chez certain·es patient·es
+  - Réponse variable ; réévaluation clinique indispensable
+- **🚨 Point de vigilance**
+  - L’amélioration rapide ne signifie pas guérison
+  - Elle ne supprime pas le risque suicidaire ni le besoin de suivi
+## 🧪💊 LADMER
+- **💊 Libération / administration**
+  - Kétamine : IV/IM selon prescription et protocole spécialisé
+  - Eskétamine : pulvérisation nasale supervisée selon RCP
+  - Ne pas transposer les modalités entre les deux produits
+- **🧪 Absorption**
+  - Dépend de la voie ; IV et intranasale ont des profils différents
+- **🚚 Distribution**
+  - Passage rapide au cerveau → effets psychiques rapides possibles
+- **🏭 Métabolisation**
+  - Principalement hépatique ; prudence si atteinte hépatique
+- **🚽 Élimination**
+  - Métabolites éliminés surtout par voie urinaire
+- **🎯 Réponse**
+  - Effets psychiques et cardiovasculaires possibles rapidement
+  - Surveillance pendant la séance et la récupération
+- **🧠 Mémo**
+  - Pharmacodynamie = action NMDA → effets thérapeutiques potentiels et dissociation
+  - Pharmacocinétique = devenir du médicament → effets variables selon voie et patient
+## 🚫🛡️ Précautions et contre-indications
+- **🫀 Risque cardiovasculaire**
+  - Hypertension non contrôlée ou risque cardiovasculaire/cérébrovasculaire important
+  - Surveiller TA/FC ; respecter les contre-indications propres au RCP
+- **🧠 Risque psychiatrique**
+  - Antécédents psychotiques, manie, dissociation sévère ou confusion
+  - Évaluation spécialisée préalable et surveillance de l’état mental
+- **🧍 Addictions / mésusage**
+  - Tolérance, dépendance ou usage problématique possibles
+  - Évaluer les antécédents et suivre le protocole
+- **🧪 Atteinte hépatique / administrations répétées**
+  - Risque d’atteinte hépatobiliaire
+  - Bilan hépatique selon prescription/protocole
+- **🤰 Grossesse / allaitement**
+  - Avis spécialisé ; vérifier le RCP
+- **🚨 Risque suicidaire**
+  - Ne remplace jamais l’évaluation du risque ni les mesures de protection
+## 🔄🧩 Interactions importantes
+- **🍷 Alcool, opioïdes, benzodiazépines, dépresseurs du SNC**
+  - Sédation majorée ; risque respiratoire selon contexte
+- **❤️ Psychostimulants, sympathomimétiques, certains traitements thyroïdiens**
+  - Hausse possible de TA/FC
+- **💊 Autres psychotropes**
+  - Vérifier les co-traitements et le protocole ; ne pas interrompre seul·e
+## 😵⚠️ Effets indésirables
+- **🌀 Dissociation / déréalisation**
+  - Déconnexion, perception modifiée, anxiété
+  - Présence rassurante, environnement calme, réévaluation
+- **😴 Somnolence, vertiges, nausées**
+  - Surveiller conscience, équilibre, vomissements et risque de chute
+- **❤️ Hausse de TA/FC**
+  - Surveiller TA, FC, céphalées, douleur thoracique, dyspnée
+- **🧠 Anxiété, agitation, hallucinations**
+  - Évaluer état mental et sécurité ; prévenir l’équipe
+- **🫁 Dépression respiratoire / conscience altérée**
+  - Urgence : alerter, surveiller FR/SpO₂/conscience, appliquer le protocole
+- **🧪 Usage répété/prolongé**
+  - Risque urinaire, rénal et hépatobiliaire
+  - Signaler dysurie, hématurie, douleur pelvienne ou anomalies biologiques
+## 🚨⚠️ Surdosage / complication aiguë
+- **🚩 Signes possibles**
+  - Conscience altérée, confusion/agitation sévère
+  - HTA/tachycardie marquées, douleur thoracique
+  - Convulsions ou difficulté respiratoire
+- **👩‍⚕️ Conduite**
+  - Alerter immédiatement
+  - Surveiller conscience, FR, SpO₂, TA, FC, température
+  - Préparer ECG et matériel d’urgence selon protocole
+  - Tracer molécule, dose, voie, heure et co-traitements
+  - Ne pas laisser la personne seule
+## 👩‍⚕️🩺 Conduite infirmière en séance
+- **🔎 Avant**
+  - Vérifier identité, molécule, prescription, voie, dose, protocole, information/consentement
+  - Paramètres de base et état psychique
+  - Co-traitements, consommations, antécédents et risque suicidaire
+  - Environnement calme et matériel requis disponibles
+- **👀 Pendant / après**
+  - Conscience, orientation, dissociation, anxiété, nausées
+  - TA/FC, respiration et SpO₂ selon protocole
+  - Respecter la durée de surveillance et les critères de sortie
+  - Spravato® : réévaluer notamment la TA vers 40 min après administration et l’état clinique avant la sortie
+  - Prévenir les chutes ; organiser le retour selon les consignes ; pas de conduite selon RCP/protocole
+- **📣 Transmissions**
+  - Réponse clinique, effets indésirables, paramètres, risque suicidaire et critères de sortie
+  - SAED en cas d’alerte
+- **🚨 Alerter sans délai**
+  - Douleur thoracique, dyspnée, syncope, paramètres très anormaux
+  - Baisse de vigilance, respiration anormale, convulsions
+  - Symptômes psychotiques aigus ou risque suicidaire immédiat
+## 🧬 Populations particulières
+- **👵 Personne âgée / fragile**
+  - Vigilance sur effets cardiovasculaires, confusion et chutes
+- **🫀 Risque cardiovasculaire**
+  - Évaluation spécialisée et surveillance tensionnelle renforcées
+- **🧠 Trouble psychotique ou maniaque**
+  - Évaluation préalable ; risque de déstabilisation
+- **🧪 Atteinte hépatique / administrations répétées**
+  - Bilan et réévaluation médicale
+- **🧍 Après la séance**
+  - Maintenir suivi psychiatrique, plan de sécurité et traitement de fond indiqué
+## ✅🧠 L’essentiel
+- **🧪 Kétamine ≠ eskétamine** : molécules et cadres différents
+- **🏥 Usage psychiatrique spécialisé** : kétamine IV pouvant être hors AMM
+- **❤️ Surveiller TA/FC et respiration**
+- **🧠 Surveiller dissociation et état mental**
+- **🚨 Amélioration rapide ≠ disparition du risque suicidaire**
+## 📚 Sources
+- **SFAR / CNUP** — Préconisations kétamine en psychiatrie, mise à jour 15/07/2025 — consulté le 25/10/2026 : https://sfar.org/download/preconisations-sfar-ketamine-en-psychiatrie-version-longue/
+- **Base de données publique des médicaments (ANSM / Ministère)** — KETAMINE PANPHARMA 50 mg/mL, RCP mis à jour le 19/12/2025 — consulté le 25/10/2026 : https://base-donnees-publique.medicaments.gouv.fr/medicament/69278297/extrait
+- **Base de données publique des médicaments** — SPRAVATO 28 mg, fiche/RCP — consulté le 25/10/2026 : https://base-donnees-publique.medicaments.gouv.fr/medicament/67355371/extrait
+- **HAS** — SPRAVATO (eskétamine), dépression résistante — consulté le 25/10/2026 : https://www.has-sante.fr/jcms/p_3538219/fr/spravato-esketamine-depression
+- **ANSM** — Surveillance des médicaments et bon usage de la kétamine — consulté le 25/10/2026 : https://ansm.sante.fr/uploads/2024/09/06/2-la-surveillance-des-medicaments.pdf

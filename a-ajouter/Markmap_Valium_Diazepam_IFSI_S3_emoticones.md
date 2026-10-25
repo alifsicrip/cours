@@ -1,0 +1,149 @@
+# 💊 Valium® (diazépam) — UE 2.11 — S3 IFSI
+## 🌿🪪 Carte d’identité
+- **💊 DCI** : diazépam
+- **🧠 Classe** : benzodiazépine anxiolytique — ATC N05BA01
+- **⚙️ Mécanisme** : renforce l’action inhibitrice du GABA via le récepteur GABA-A
+- **🎯 Effets**
+  - 😌 Anxiolytique
+  - 😴 Sédatif / hypnotique
+  - 💪 Myorelaxant
+  - ⚡ Anticonvulsivant
+  - 🧠 Amnésiant
+- **📌 Indications du RCP Valium comprimé**
+  - Manifestations anxieuses sévères et/ou invalidantes
+  - Prévention et traitement du delirium tremens / sevrage alcoolique
+- **⚠️ Priorités IDE**
+  - Vigilance, respiration, chutes
+  - Interactions sédatives
+  - Dépendance et sevrage
+## 🧠⚙️ Mécanisme
+- **🧠 GABA-A**
+  - Renforce l’action du neurotransmetteur inhibiteur GABA
+- **😌 Anxiolyse**
+  - Réduction des manifestations anxieuses
+- **😴 Sédation**
+  - Baisse de vigilance / somnolence
+- **💪 Myorelaxation**
+  - Diminution du tonus musculaire
+- **⚡ Anticonvulsivant**
+  - Effet anticonvulsivant dans certaines situations
+- **🧠 Amnésie antérograde**
+  - Mémorisation perturbée après la prise
+## 🧪💊 LADMER
+- **💊 Libération**
+  - Vérifier spécialité, forme, dosage, voie
+  - Gouttes : suivre la concentration de la présentation exacte
+- **🧪 Absorption**
+  - Orale rapide ; Tmax comprimé environ 0,5–1,5 h selon RCP
+- **🚚 Distribution**
+  - Système nerveux central ; passage placentaire et dans le lait
+- **🏭 Métabolisation**
+  - Hépatique ; métabolites actifs
+- **🚽 Élimination**
+  - Prolongée ; accumulation possible chez la personne âgée ou en cas d’atteinte hépatique
+- **🎯 Réponse**
+  - Évaluer efficacité, vigilance, respiration et tolérance
+## 🚫🛡️ Contre-indications / précautions
+- **🫁 Insuffisance respiratoire sévère**
+  - Risque de dépression respiratoire
+- **😴 Apnée du sommeil**
+  - Contre-indication du Valium comprimé dans le RCP consulté
+- **🧪 Insuffisance hépatique sévère**
+  - Risque d’encéphalopathie hépatique ; contre-indication du RCP consulté
+- **💪 Myasthénie**
+  - Aggravation possible de la faiblesse musculaire
+- **👵 Personne âgée / risque de chute**
+  - Sensibilité accrue, confusion, somnolence et chutes
+- **🧪 Insuffisance hépatique/rénale légère à modérée**
+  - Prudence, adaptation médicale possible
+- **⚠️ Antécédent de dépendance**
+  - Risque d’usage problématique accru
+- **🤰 Grossesse / allaitement**
+  - Réévaluation médicale ; risque fœtal/néonatal et passage dans le lait
+## 🔄🧩 Interactions
+- **🍷 Alcool**
+  - Sédation importante, altération de vigilance, risque respiratoire
+- **💉 Opioïdes**
+  - Sédation, dépression respiratoire, coma, décès
+- **😴 Autres dépresseurs du SNC**
+  - Hypnotiques, autres BZD, neuroleptiques sédatifs, antihistaminiques H1 sédatifs
+  - Confusion, chutes, dépression respiratoire possible
+- **💊 Médicaments du métabolisme hépatique**
+  - Exposition au diazépam augmentée ou diminuée
+- **🚗 Conduite**
+  - Réflexes et vigilance diminués ; conduite déconseillée selon RCP
+## 😵⚠️ Effets indésirables
+- **😴 Somnolence / baisse de vigilance**
+  - Évaluer éveil, sécuriser les déplacements
+- **🫁 Dépression respiratoire**
+  - Respiration lente/superficielle, baisse SpO₂, difficulté à réveiller → urgence
+- **🧠 Confusion**
+  - Désorientation, propos incohérents, comportement inhabituel
+- **🚶 Ataxie / faiblesse**
+  - Troubles de coordination et chutes
+- **🧠 Amnésie antérograde**
+  - Difficulté à se souvenir d’événements après la prise
+- **😠 Réactions paradoxales**
+  - Agitation, irritabilité, agressivité, désinhibition
+- **🧩 Dépendance / tolérance**
+  - Repérer sans jugement, transmettre
+## 🔥🚫 Dépendance et sevrage
+- **⏳ Risque**
+  - Augmente avec dose, durée et antécédents
+- **🛑 Arrêt brutal**
+  - À éviter après prise régulière
+- **🚩 Signes de sevrage**
+  - Rebond anxieux, insomnie, irritabilité, tremblements, sueurs, troubles perceptifs
+- **⚡ Sevrage sévère**
+  - Confusion, hallucinations, convulsions → urgence
+- **📉 Réduction**
+  - Progressive et individualisée, selon plan médical
+- **📌 Durée**
+  - Traitement le plus bref possible
+  - RCP Valium comprimé : généralement 8–12 semaines maximum, réduction comprise
+## 🚨⚠️ Surdosage
+- **🚩 Signes**
+  - Somnolence marquée, confusion, ataxie, hypotonie, coma
+  - Dépression respiratoire surtout avec alcool/opioïdes/sédatifs
+- **🆘 Conduite IDE**
+  - Alerter immédiatement
+  - Évaluer conscience, voies aériennes, FR, SpO₂, TA, FC
+  - Surveillance rapprochée
+  - Tracer dose, heure et co-ingestions
+  - Ne pas faire vomir ; antidote uniquement sur décision médicale
+## 👩‍⚕️🩺 Conduite infirmière
+- **🔎 Avant administration**
+  - Identité, prescription, dose, voie, horaire, indication
+  - Vigilance, FR, risque de chute
+  - Alcool, opioïdes et autres sédatifs
+  - Antécédents respiratoires, apnée du sommeil, atteinte hépatique, myasthénie
+- **👀 Surveillance**
+  - Efficacité sur anxiété / symptômes de sevrage selon indication
+  - Vigilance, confusion, désinhibition
+  - Respiration, SpO₂ selon contexte
+  - Équilibre, coordination, chutes
+  - Tolérance, dépendance et symptômes de sevrage
+- **💬 Éducation**
+  - Pas d’alcool
+  - Ne pas ajouter de sédatifs sans avis
+  - Ne pas conduire si vigilance/réflexes altérés
+  - Respecter dose et durée ; ne pas arrêter brutalement
+  - Réduction uniquement selon plan médical
+- **📣 Transmissions SAED**
+  - Situation → Antécédents/contexte → Évaluation → Demande
+- **🚨 Alerte immédiate**
+  - Difficulté respiratoire ou personne difficile à réveiller
+  - Convulsions, coma, confusion sévère
+## 🧠✅ L’essentiel
+- **🧠 Diazépam = benzodiazépine**
+- **🫁 Respiration** : risque majoré par opioïdes, alcool et autres sédatifs
+- **😴 Vigilance** : somnolence, confusion, ataxie, chutes
+- **🔥 Dépendance** : risque avec durée/dose ; pas d’arrêt brutal
+- **⏳ Durée** : aussi brève que possible ; RCP comprimé 8–12 semaines généralement, réduction comprise
+- **🚨 Urgence** : difficulté respiratoire, personne impossible à réveiller, convulsions
+## 📚 Sources officielles
+- **Base de données publique des médicaments (ANSM)** — Valium 10 mg comprimé, RCP/notice (19/01/2024) : https://base-donnees-publique.medicaments.gouv.fr/medicament/60290800/extrait
+- **Base de données publique des médicaments (ANSM)** — Valium 1 % gouttes, RCP/notice (25/06/2025) : https://base-donnees-publique.medicaments.gouv.fr/medicament/63196256/extrait
+- **BDPM** — Groupe générique diazépam 10 mg : https://m.base-donnees-publique.medicaments.gouv.fr/groupe-generique-268
+- **BDPM** — Groupe générique diazépam 2 mg : https://m.base-donnees-publique.medicaments.gouv.fr/groupe-generique-266
+- **BDPM** — Groupe générique diazépam 5 mg : https://m.base-donnees-publique.medicaments.gouv.fr/groupe-generique-267

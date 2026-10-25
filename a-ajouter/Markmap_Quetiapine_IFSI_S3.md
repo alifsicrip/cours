@@ -1,0 +1,136 @@
+# 💊 Quétiapine — UE 2.11 — S3 IFSI
+## 🌿🪪 Carte d’identité
+- **DCI : quétiapine (fumarate)**
+- **Classe : antipsychotique atypique, code ATC N05AH04**
+- **Voie : orale**
+  - Comprimés à libération immédiate (LI) ou prolongée (LP)
+  - **LI et LP ne sont pas interchangeables sans décision adaptée**
+- **Spécialités : Xeroquel LP et génériques**
+## 🧠⚙️ Mécanisme et effets recherchés
+- **🧠 Mécanisme**
+  - Antagonisme notamment des récepteurs 5‑HT₂ et D₂
+  - Norquétiapine : métabolite actif
+  - Affinité H₁ → somnolence
+  - Affinité α₁ → hypotension orthostatique et vertiges
+- **🎯 Indications selon le RCP de la spécialité**
+  - Schizophrénie → réduction des symptômes psychotiques
+  - Trouble bipolaire → épisodes maniaques ou dépressifs et prévention des récidives selon RCP
+  - En complément d’un antidépresseur dans certains épisodes dépressifs majeurs résistants, selon RCP
+- **🎯 Efficacité à suivre**
+  - Humeur, sommeil, agitation, hallucinations/idées délirantes, fonctionnement
+  - Risque suicidaire et tolérance
+## 🧪💊 LADMER
+- **💊 Libération**
+  - LI et LP : profils d’exposition différents
+  - Ne pas écraser ni mâcher un comprimé LP
+- **🧪 Absorption**
+  - Bonne absorption orale
+  - Respecter les consignes alimentaires de la spécialité ; plusieurs LP se prennent au moins 1 h avant un repas
+- **🚚 Distribution**
+  - Large distribution ; liaison importante aux protéines plasmatiques
+- **🏭 Métabolisation**
+  - Principalement hépatique, surtout CYP3A4
+  - Formation de norquétiapine active
+- **🚽 Élimination**
+  - Métabolites surtout urinaires, aussi dans les selles
+  - Demi-vie indicative de la quétiapine : environ 7 h, variable selon formulation et patient
+- **🎯 Réponse**
+  - Effet clinique progressif selon l’indication
+  - Somnolence et hypotension possibles précocement
+- **Mémo**
+  - Pharmacodynamie = mécanisme → effets recherchés et indésirables
+  - Pharmacocinétique = devenir du médicament → administration, interactions, surveillance
+## 🚫🛡️ Contre-indications et précautions
+- **Contre-indications majeures**
+  - Hypersensibilité à la quétiapine/excipients
+  - Association à des inhibiteurs puissants du CYP3A4 selon le RCP
+- **Précautions**
+  - Risque cardiovasculaire, QT long, bradycardie, troubles électrolytiques → vigilance ECG/électrolytes si prescrits
+  - Hypotension, déshydratation, risque de chute → TA, vertiges, lever progressif
+  - Diabète, surpoids, dyslipidémie → poids, glycémie/HbA1c, lipides
+  - Antécédent de leucopénie/neutropénie → signes infectieux, NFS si prescrite
+  - Insuffisance hépatique, âge avancé, grossesse/allaitement → réévaluation médicale et surveillance renforcée
+## 🔄🧩 Interactions prioritaires
+- **Inhibiteurs puissants du CYP3A4**
+  - Ex. certains azolés, clarithromycine, ritonavir
+  - Augmentation de l’exposition ; association contre-indiquée selon RCP
+- **Inducteurs du CYP3A4**
+  - Ex. carbamazépine, phénytoïne, rifampicine, millepertuis
+  - Diminution possible de l’efficacité
+- **Alcool, opioïdes, benzodiazépines, sédatifs**
+  - Sédation accrue, dépression du SNC, chutes
+- **Médicaments allongeant le QT / troubles électrolytiques**
+  - Risque rythmique accru
+- **👩‍⚕️ Conduite**
+  - Conciliation médicamenteuse ; ne pas modifier seul·e le traitement
+## 😵⚠️ Effets indésirables
+- **Fréquents**
+  - Somnolence, vertiges, bouche sèche, constipation
+  - Tachycardie, hypotension orthostatique
+- **Métaboliques**
+  - Prise de poids, hyperglycémie, augmentation des lipides
+  - Surveiller poids/IMC et bilans prescrits
+- **EPS — symptômes extrapyramidaux**
+  - Tremblement, rigidité, akathisie, mouvements anormaux
+  - Décrire et transmettre au prescripteur
+- **🚨 Signes graves**
+  - Syndrome malin des neuroleptiques : fièvre + rigidité + confusion/instabilité végétative → urgence
+  - Trouble du rythme : palpitations importantes, syncope → urgence
+  - Neutropénie/agranulocytose : fièvre, angine, infection → alerte rapide
+  - Réaction cutanée grave : éruption étendue, bulles, muqueuses atteintes, œdème facial → urgence
+## 🚨⚠️ Surdosage / intoxication
+- **🔎 Causes**
+  - Erreur de prise, dose excessive, co-ingestion de dépresseurs du SNC
+- **🚨 Signes**
+  - Somnolence profonde, conscience altérée, tachycardie, hypotension, convulsions ou trouble du rythme
+- **👩‍⚕️ Conduite**
+  - Évaluer conscience, respiration, circulation et constantes
+  - Alerter l’équipe médicale / secours selon le contexte
+  - Suivre le protocole local ; centre antipoison selon organisation
+  - Ne pas faire vomir ; conserver emballages et noter heure/dose/co-ingestions
+  - ECG et bilans selon prescription ; traitement surtout symptomatique
+## 👩‍⚕️🩺 Conduite infirmière
+- **Avant administration**
+  - Identité, prescription, dose, forme LI/LP, horaire, voie, allergies, interactions
+  - Vérifier les consignes alimentaires ; comprimé LP avalé entier
+- **👀 Surveillance clinique**
+  - État psychique, humeur, sommeil, agitation, risque suicidaire
+  - Vigilance, TA/FC, vertiges, chutes, transit, signes neurologiques/cutanés/infectieux
+- **🧪 Surveillance métabolique**
+  - Poids/IMC, glycémie/HbA1c et lipides selon prescription/protocole
+- **🩺 Rôle propre**
+  - Observer, prévenir les chutes, informer, tracer et transmettre
+- **📋 Prescription / protocole**
+  - ECG, prélèvements et interventions selon cadre réglementaire
+- **💬 Éducation**
+  - Prise régulière ; pas d’arrêt brutal ni changement de forme/dose sans avis médical
+  - Éviter alcool ; prudence conduite si somnolence
+- **Alerte immédiate**
+  - Altération de conscience, syncope, palpitations sévères
+  - Fièvre + rigidité/confusion
+  - Réaction cutanée grave, fièvre avec signes infectieux
+  - Aggravation aiguë du risque suicidaire
+- **📣 Transmission SAED**
+  - Situation → Antécédents/contexte → Évaluation → Demande
+## 🧬👥 Populations particulières
+- **Personne âgée**
+  - Sensibilité accrue à la sédation, hypotension, chutes
+- **Insuffisance hépatique**
+  - Métabolisme hépatique ; adaptation médicale et surveillance
+- **Grossesse/allaitement**
+  - Évaluation bénéfice/risque par le prescripteur
+- **Moins de 18 ans**
+  - Non recommandée pour plusieurs spécialités ; vérifier le RCP exact
+- **Psychose liée à une démence**
+  - Indication non approuvée ; risques accrus chez cette population
+## ✅🧠 L’essentiel
+- **🧠 Antipsychotique atypique** : action notamment dopaminergique et sérotoninergique
+- **💊 LI ≠ LP** : respecter forme, horaires et consignes ; ne pas écraser LP
+- **😴 Somnolence + hypotension** : prévenir les chutes
+- **🧪 Risque métabolique** : poids, glycémie, lipides
+- **🚨 Fièvre + rigidité/confusion, syncope, réaction cutanée grave** : urgence
+## 📚 Sources
+- **Base de données publique des médicaments (ANSM / Ministère chargé de la Santé)** — RCP et notice QUETIAPINE SANDOZ LP 300 mg — consulté le 25/10/2026 : https://base-donnees-publique.medicaments.gouv.fr/medicament/66437367/extrait
+- **Base de données publique des médicaments** — RCP quétiapine, effets indésirables et mises en garde — consulté le 25/10/2026 : https://base-donnees-publique.medicaments.gouv.fr/medicament/60985570/extrait
+- **HAS** — Avis QUETIAPINE ITALFARMACO, mai 2026 — consulté le 25/10/2026 : https://www.has-sante.fr/upload/docs/evamed/CT-21758_QUETIAPINE_ITALFARMACO_PIC_INS_AvisDef_CT21758.pdf
+- **Ministère chargé de la Santé** — Déclaration des effets indésirables, mise à jour 06/08/2024 — consulté le 25/10/2026 : https://sante.gouv.fr/soins-et-maladies/medicaments/la-surveillance-des-medicaments/article/la-declaration-des-effets-indesirables

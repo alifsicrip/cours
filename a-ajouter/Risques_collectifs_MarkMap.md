@@ -1,0 +1,333 @@
+# 🚨 Risques collectifs & situations sanitaires exceptionnelles
+## 🎓 IFSI — S3
+- **🧭 Notions fondamentales**
+  - **Risque collectif**
+    - Événement affectant simultanément un grand nombre de personnes
+    - Peut dépasser les capacités habituelles de réponse
+    - Exemples
+      - Accident de transport avec nombreuses victimes 🚆
+      - Attentat
+      - Catastrophe industrielle 🏭
+      - Épidémie 🦠
+      - Canicule 🌡️
+      - Inondation 🌊
+  - **Situation sanitaire exceptionnelle (SSE)**
+    - Événement inhabituel ou grave
+    - Nécessite une adaptation de l’organisation des soins
+    - Enjeux
+      - Prendre en charge les personnes blessées ou malades
+      - Maintenir les soins indispensables aux autres patient·es
+      - Mobiliser les ressources adaptées
+      - Organiser le retour à la normale
+- **🧩 Dispositifs à distinguer**
+  - **🚒 ORSEC**
+    - Organisation de la Réponse de Sécurité Civile
+    - Finalité
+      - Organiser les secours et la protection des populations
+    - Pilotage
+      - Préfet·ète
+    - Exemple
+      - Secours et évacuation lors d’un accident collectif
+  - **🏥 ORSAN**
+    - Organisation de la réponse du système de santé
+    - Finalité
+      - Adapter l’offre de soins
+      - Coordonner les acteurs sanitaires
+    - Pilotage
+      - Directeur·rice général·e de l’ARS
+    - Exemple
+      - Répartir les victimes entre plusieurs établissements
+  - **🏨 Plan blanc**
+    - Niveau 2 du plan de gestion des tensions hospitalières et des SSE
+    - Concerne les établissements de santé
+    - Pilotage
+      - Directeur·rice de l’établissement
+  - **🧑‍🦽 Plan bleu**
+    - Concerne les établissements et services médico-sociaux concernés
+    - Organise la réponse de la structure
+    - Exemple
+      - EHPAD confronté à une canicule
+  - **🧠 Mémo**
+    - ORSEC = secours et sécurité civile
+    - ORSAN = santé à l’échelle régionale
+    - Plan blanc = hôpital
+    - Plan bleu = médico-social
+- **🚒 ORSEC et NOVI**
+  - **ORSEC**
+    - Organisation de la Réponse de Sécurité Civile
+    - Placé sous l’autorité du/de la préfet·ète
+    - Coordonne
+      - Sapeurs-pompiers
+      - SAMU et SMUR
+      - Forces de sécurité
+      - Associations agréées
+      - Collectivités et partenaires
+  - **NOVI**
+    - Signification
+      - NOmbreuses VIctimes
+    - Appartient au dispositif ORSEC
+    - Déclenchement
+      - Décision du/de la préfet·ète
+    - Objectifs
+      - Coordonner les secours
+      - Organiser le zonage
+      - Organiser le tri et les évacuations
+      - Articuler les secours avec les établissements de santé
+  - **🗺️ Organisation du terrain**
+    - Zone d’exclusion ou de danger 🔴
+      - Zone dangereuse
+      - Accès réservé aux intervenant·es autorisé·es et protégé·es
+    - Zone contrôlée ou de secours 🟠
+      - Actions de secours
+      - Prise en charge initiale selon le zonage
+    - Zone de soutien 🟢
+      - Regroupement des moyens
+      - Logistique et coordination
+    - PRV
+      - Point de rassemblement des victimes
+      - Regroupement et organisation de la prise en charge
+    - PMA 🩺
+      - Poste médical avancé
+      - Prise en charge médicale préhospitalière
+      - Tri et préparation des évacuations
+    - Évacuation 🚑
+      - Transport régulé
+      - Orientation vers une structure adaptée
+      - Décision médicale et régulation
+    - **⚠️ Variabilité**
+      - Découpage et appellations adaptés au type d’événement
+      - Risque NRBC = procédures spécialisées
+      - Ne jamais pénétrer dans une zone dangereuse sans consigne, habilitation et protection
+  - **🩺 Tri des victimes**
+    - Prioriser les victimes
+      - Gravité
+      - Urgence
+      - Ressources disponibles
+    - Réalisé par des professionnel·les formé·es
+    - Réévaluation possible
+      - L’état clinique peut évoluer
+    - PMA
+      - Poste de prise en charge médicale préhospitalière
+      - Organisation selon les consignes opérationnelles
+    - Ne correspond pas à un diagnostic médical complet
+    - **Exemple**
+      - Accident de car
+      - Plusieurs victimes prises en charge simultanément
+      - Identification des urgences vitales
+      - Organisation des priorités et évacuations
+- **🏥 ORSAN**
+  - **Définition**
+    - Organisation de la réponse du système de santé aux SSE
+    - Dispositif régional
+    - Pilotage
+      - Directeur·rice général·e de l’ARS
+    - Activation
+      - Totale ou partielle
+      - Selon la nature et la gravité de l’événement
+  - **Objectifs**
+    - Accueillir les personnes blessées ou malades
+    - Adapter les capacités de soins
+    - Répartir les patient·es selon les ressources
+    - Maintenir la continuité des soins habituels
+    - Organiser le retour à la normale
+  - **Volets opérationnels — 5 plans officiels**
+    - **🚑 AMAVI**
+      - Accueil massif de blessé·es non contaminé·es
+      - Exemple
+        - Accident collectif
+        - Attentat
+        - Catastrophe naturelle
+    - **☢️ NRC**
+      - Risque nucléaire, radiologique ou chimique
+      - Exemple
+        - Accident industriel avec exposition toxique ou radioactive
+    - **🦠 REB**
+      - Risque épidémique et biologique
+      - Exemple
+        - Épidémie
+        - Agent infectieux émergent ou à potentiel pandémique
+    - **🌡️ EPI-CLIM**
+      - Épidémies saisonnières
+      - Tensions hospitalières
+      - Événements climatiques ou environnementaux
+      - Exemple
+        - Grippe saisonnière
+        - Canicule
+        - Grand froid
+        - Pollution
+    - **🧠 MÉDICO-PSY**
+      - Prise en charge médico-psychologique de nombreuses victimes
+      - Exemple
+        - Soutien après un attentat
+        - Soutien après une catastrophe
+    - **⚠️ À ne pas confondre**
+      - ORSAN comprend 5 plans opérationnels
+      - La vaccination exceptionnelle est une disposition spécifique transversale
+      - Ce n’est pas un sixième plan ORSAN
+    - **🔄 Articulation**
+      - Plusieurs plans peuvent être déclenchés concomitamment
+      - Selon les besoins et la stratégie régionale
+- **🏨 Organisation hospitalière**
+  - **PGTHSSE**
+    - Plan de gestion des tensions hospitalières et des situations sanitaires exceptionnelles
+    - Élaboré sous la responsabilité de la direction
+    - Deux niveaux de réponse
+      - **🟡 Niveau 1 — Plan de mobilisation interne**
+        - Gestion d’une tension hospitalière
+        - Mesures possibles
+          - Rappel de personnel
+          - Lits supplémentaires
+          - Adaptation des flux
+          - Renforcement de la vigilance
+      - **🔴 Niveau 2 — Plan blanc**
+        - Gestion d’une SSE nécessitant une mobilisation renforcée
+        - Mesures possibles
+          - Réorganisation majeure
+          - Renforts humains
+          - Déprogrammation possible
+          - Accueil massif de victimes
+  - **⚙️ Cellule de crise hospitalière**
+    - Coordonne les décisions
+    - Suit la situation
+    - Évalue les capacités disponibles
+    - Organise les ressources humaines et matérielles
+    - Suit les lits et les flux
+    - Assure les liens avec l’ARS et les partenaires
+    - Organise la continuité des soins
+    - Prépare la levée du dispositif
+  - **Déclenchement**
+    - Direction de l’établissement
+      - À son initiative avec information sans délai de l’ARS
+      - Ou à la demande du/de la directeur·rice général·e de l’ARS
+    - Préfet·ète
+      - Peut demander à l’ARS la mise en œuvre du niveau plan blanc
+  - **Exemple**
+    - Afflux massif aux urgences
+    - Activation de l’organisation de crise
+    - Renfort des équipes
+    - Adaptation des circuits
+    - Répartition des patient·es
+- **🧠 CUMP — Cellule d’urgence médico-psychologique**
+  - **Rôle**
+    - Participer à la prise en charge médico-psychologique après un événement potentiellement traumatique
+    - Accueillir et orienter selon l’organisation prévue
+    - Concerne les victimes, proches et témoins selon les besoins
+  - **Articulation**
+    - S’inscrit dans la réponse médico-psychologique
+    - En lien avec ORSAN MÉDICO-PSY
+  - **Exemple**
+    - Après un attentat
+    - Une personne indemne physiquement mais très choquée peut être orientée vers le dispositif
+- **🧑‍🦽 Plan bleu**
+  - **Objectif**
+    - Préparer les établissements médico-sociaux à une SSE
+  - **Contenu**
+    - Cellule de crise
+    - Procédures de gestion
+    - Continuité de l’activité
+    - Recensement des moyens
+    - Formation des professionnel·les
+  - **Exemple**
+    - Canicule en EHPAD
+    - Surveillance renforcée de l’hydratation
+    - Adaptation des activités
+    - Organisation des moyens humains et matériels
+- **🏛️ Échelons de réponse**
+  - **🏘️ Communal**
+    - Maire
+    - Sauvegarde de la population
+    - Plan communal de sauvegarde si activé
+  - **🏢 Départemental**
+    - Préfet·ète
+    - Coordination ORSEC
+    - Services de secours
+  - **🗺️ Zonal**
+    - Préfet·ète de zone
+    - Coordination et renforts interdépartementaux
+  - **🇫🇷 National**
+    - Gouvernement et ministères
+    - Coordination et renforts nationaux
+  - **⚠️ Articulation**
+    - Pas de succession automatique
+    - Plusieurs niveaux peuvent agir simultanément
+- **👩‍⚕️ Rôle infirmier·ère**
+  - **🧰 Avant — anticiper**
+    - Connaître les procédures et circuits
+    - Participer aux formations et exercices
+    - Repérer les équipements de protection
+    - Connaître les modalités d’alerte et de transmission
+  - **🛡️ Pendant — protéger, agir, transmettre**
+    - Appliquer les consignes
+    - Respecter son périmètre de compétence
+    - Assurer sa sécurité et celle des patient·es
+    - Respecter le zonage
+    - Utiliser les équipements de protection requis
+    - Participer à l’accueil et à l’orientation selon l’organisation
+    - Réaliser les soins relevant de ses compétences et protocoles
+    - Transmettre des informations fiables, précises et tracées
+    - Préserver dignité et confidentialité
+  - **🔄 Après — réévaluer et accompagner**
+    - Participer à la continuité et à la reprise des soins
+    - Tracer les actes et événements
+    - Signaler les difficultés et expositions
+    - Participer au retour d’expérience
+    - Prendre en compte les besoins psychologiques
+  - **⚠️ Priorité absolue**
+    - Ne pas s’exposer ni exposer autrui
+    - En contexte NRBC
+      - Risque de contamination des intervenant·es et des locaux
+      - Appliquer les procédures spécialisées
+- **🧪 Mini-cas clinique**
+  - **Situation**
+    - Accident de train
+    - Nombreuses victimes
+    - Plusieurs hôpitaux sollicités
+  - **Terrain**
+    - Préfet·ète
+    - Déclenchement possible d’ORSEC-NOVI
+    - Coordination des secours
+  - **Réponse sanitaire**
+    - ARS
+    - Coordination dans le cadre ORSAN
+    - Volet AMAVI notamment
+  - **Établissement**
+    - Direction
+    - Activation du niveau adapté du PGTHSSE
+    - Plan blanc possible en cas d’afflux massif
+  - **Rôle infirmier**
+    - Appliquer les consignes
+    - Sécuriser le circuit
+    - Accueillir et prendre en charge selon les priorités
+    - Surveiller et transmettre
+  - **Question de partiel**
+    - Différence ORSEC-NOVI et ORSAN-AMAVI
+      - ORSEC-NOVI = réponse de sécurité civile et secours sur le terrain sous l’autorité du/de la préfet·ète
+      - ORSAN-AMAVI = réponse du système de santé pour accueillir et prendre en charge l’afflux massif de victimes
+- **⭐ Essentiel à mémoriser**
+  - ORSEC = sécurité civile, préfet·ète
+  - NOVI = nombreuses victimes, dispositif ORSEC
+  - ORSAN = organisation sanitaire régionale, ARS
+  - AMAVI = accueil massif de victimes
+  - Plan blanc = niveau 2 du plan hospitalier
+  - Niveau 1 = plan de mobilisation interne
+  - Plan bleu = établissement médico-social
+  - Sécurité des intervenant·es = préalable indispensable
+- **📚 Sources officielles**
+  - Ministère chargé de la Santé
+    - Dispositif ORSAN
+      - https://sante.gouv.fr/prevention-en-sante/securite-sanitaire/article/le-dispositif-orsan-cadre-integre-de-preparation-et-de-reponse-du-systeme-de
+    - Prise en charge des urgences collectives
+      - https://sante.gouv.fr/prevention-en-sante/securite-sanitaire/article/la-prise-en-charge-des-urgences-collectives
+    - Plan de gestion des tensions hospitalières et des SSE
+      - https://sante.gouv.fr/prevention-en-sante/securite-sanitaire/guide-gestion-tensions-hospitalieres-SSE
+    - Plan bleu des établissements médico-sociaux
+      - https://sante.gouv.fr/prevention-en-sante/securite-sanitaire/article/le-plan-bleu-des-etablissements-medico-sociaux
+    - Formation et entraînement aux SSE
+      - https://sante.gouv.fr/prevention-en-sante/securite-sanitaire/article/la-formation-et-entrainement-aux-situations-sanitaires-exceptionnelles
+  - Ministère de l’Intérieur
+    - ORSEC
+      - https://www.securite-civile.interieur.gouv.fr/reagir-face-aux-risques-et-aux-menaces/comment-se-preparer-face-aux-risques/orsec-loutil-de-gestion-de-crise-du-prefet
+  - Légifrance
+    - Code de la santé publique
+      - Articles R.3131-10 et R.3131-11
+      - https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000033217274/

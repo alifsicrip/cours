@@ -1,0 +1,204 @@
+# 💉 Kétamine IV en psychiatrie
+## 🧠 Situations cliniques
+- **🆘 Crise suicidaire**
+  - Idées suicidaires et souffrance psychique intense
+  - Objectif : réduction rapide possible des idées suicidaires
+  - Toujours sécurisation + évaluation psychiatrique + continuité des soins
+- **🔁 Trouble dépressif récurrent (TDR)**
+  - Plusieurs épisodes dépressifs caractérisés au cours de la vie
+  - Rémissions ou améliorations entre les épisodes
+  - TDR ≠ dépression résistante
+- **🧱 Dépression résistante**
+  - Réponse insuffisante à des traitements antidépresseurs adéquats
+  - En pratique : au moins 2 essais adaptés de classes différentes
+  - Réévaluer diagnostic, observance, comorbidités et stratégie
+## 💊 Place de la kétamine
+- **🎯 Objectifs**
+  - Réponse antidépressive rapide chez certains patients
+  - Diminution rapide possible des idées suicidaires
+  - Traitement complémentaire, jamais isolé
+- **⚠️ Limites**
+  - Réponse variable et parfois transitoire
+  - Risque suicidaire jamais considéré comme levé sur le seul ressenti
+  - Ne remplace ni hospitalisation indiquée, ni psychothérapie, ni suivi
+- **🔬 Ne pas confondre**
+  - Kétamine racémique IV
+    - Usage psychiatrique spécialisé
+    - Cadre réglementaire à vérifier selon indication et textes en vigueur
+  - Eskétamine intranasale (Spravato®)
+    - Médicament différent
+    - AMM en association ISRS/IRSN dans certaines dépressions résistantes
+    - HAS 2024 : remboursement limité à certaines situations sévères et résistantes
+## ⚙️ Pharmacologie – LADMER
+- **L – Libération**
+  - Solution injectable, IV selon prescription et protocole spécialisé
+- **A – Absorption**
+  - IV : biodisponibilité 100 %
+  - Effet rapide
+- **D – Distribution**
+  - Diffusion rapide vers le SNC
+- **M – Métabolisme**
+  - Principalement hépatique
+  - Formation de norkétamine
+- **E – Élimination**
+  - Métabolites principalement rénaux
+- **R – Réponse**
+  - Antagoniste non compétitif des récepteurs NMDA
+  - Modulation glutamatergique
+  - Plasticité synaptique impliquée dans l'effet antidépresseur
+  - Mécanisme exact non entièrement élucidé
+## ⏱️ Cinétique clinique
+- **⚡ Début**
+  - Amélioration possible en quelques heures
+  - Évaluation dans les heures/jours
+- **⌛ Durée**
+  - Effet parfois transitoire
+  - Réapparition possible des symptômes ou idées suicidaires
+- **🔁 Répétition**
+  - Jamais automatique
+  - Décision spécialisée + réévaluation bénéfice/risque
+## 🚩 Effets indésirables
+- **🌀 Dissociation**
+  - Impression de sortir de son corps
+  - Irréalité, altération perceptive
+- **👁️ Perceptions inhabituelles**
+  - Distorsions sensorielles, hallucinations, rêves intenses
+- **😴 Sédation**
+  - Somnolence, baisse vigilance, risque de chute
+- **❤️ Cardiovasculaires**
+  - HTA, tachycardie, palpitations
+- **🫁 Respiratoires**
+  - Dépression respiratoire possible
+  - Vigilance accrue selon dose, vitesse et associations
+- **🤢 Digestifs**
+  - Nausées, vomissements, hypersalivation
+- **🚻 / 🧪 Exposition répétée**
+  - Vigilance urinaire et hépatique selon contexte
+## ⛔ Précautions
+- **⚠️ Évaluation médicale**
+  - Risque cardiovasculaire et tensionnel
+  - Symptômes psychotiques ou maniaques
+  - Addictions / risque de mésusage
+  - Grossesse, atteintes hépatiques ou rénales
+  - Associations sédatives
+- **💊 Interactions**
+  - Benzodiazépines, opioïdes, alcool, sédatifs
+    - Sédation et dépression respiratoire majorées
+  - Stimulants sympathomimétiques
+    - PA/FC potentiellement majorées
+  - Autres psychotropes
+    - Conciliation médicamenteuse
+## 👩‍⚕️ Rôle IDE
+- **AVANT**
+  - Vérifier identité, prescription, produit, concentration, dose, débit, voie
+  - Informer sur objectif et sensations possibles
+  - Évaluer humeur, idées suicidaires, intention, scénario, facteurs de protection
+  - Relever paramètres selon protocole : PA, FC, FR, SpO₂, conscience
+  - Vérifier traitements, prises récentes, alcool/substances
+  - Préparer environnement calme et matériel d'urgence
+- **PENDANT**
+  - Surveillance rapprochée : conscience, respiration, SpO₂, PA, FC
+  - Repérer dissociation, anxiété, agitation, confusion
+  - Présence calme, réduire stimulations, rassurer
+  - Alerter si détérioration respiratoire, cardiovasculaire ou neurologique
+- **APRÈS**
+  - Poursuivre surveillance selon protocole
+  - Réévaluer constantes, vigilance, orientation et tolérance
+  - Réévaluer idées suicidaires : amélioration ≠ disparition du risque
+  - Maintenir mesures de protection prescrites
+  - Organiser continuité des soins et suivi
+  - Tracer et transmettre
+## 🆘 Événement indésirable : CAT IDE
+- **🫁 Désaturation / respiration ralentie**
+  - Alerter
+  - Évaluer ABC
+  - Voies aériennes et assistance selon compétences/protocole
+  - Préparer matériel d'urgence
+- **❤️ HTA / douleur thoracique / tachycardie mal tolérée**
+  - Alerter médecin
+  - Contrôler paramètres
+  - ECG selon protocole
+- **🌀 Dissociation anxiogène**
+  - Rester présent·e
+  - Voix calme, environnement apaisé
+  - Surveiller conscience et constantes
+  - Alerter si intense ou persistant
+- **😴 Somnolence excessive**
+  - Évaluer conscience et ventilation
+  - Sécuriser, alerter, surveiller
+- **🤢 Vomissements + vigilance altérée**
+  - Prévenir inhalation
+  - Position adaptée selon état et protocole
+  - Alerter
+## 🧠 Évaluation psychiatrique
+- **Idées suicidaires**
+  - Présence, fréquence, intensité, caractère envahissant
+  - Intention, scénario, imminence, accès aux moyens
+- **Autres dimensions**
+  - Désespoir, impulsivité, agitation, anxiété, insomnie
+  - Facteurs de protection
+  - Capacité à demander de l'aide
+  - Plan de sécurité et continuité des soins
+- **Outils possibles selon équipe**
+  - MADRS : symptômes dépressifs
+  - PHQ-9 : symptômes dépressifs
+  - C-SSRS : idéation et comportements suicidaires
+## 🩺 Situations cliniques
+- **Amélioration après séance**
+  - Accueillir le vécu
+  - Réévaluer idées, intention et scénario
+  - Maintenir sécurité et transmettre
+  - Ne pas conclure que le risque est levé
+- **Dissociation anxiogène**
+  - Rester auprès du patient
+  - Parler calmement, réduire stimulations
+  - Surveiller et alerter si besoin
+- **Absence de réponse**
+  - Tracer et transmettre
+  - Maintenir évaluation du risque
+  - Réévaluation médicale de la stratégie
+## 🗣️ Transmission SAED
+- **S – Situation**
+  - Hospitalisation pour épisode dépressif et crise suicidaire
+  - Kétamine IV administrée selon prescription
+- **A – Antécédents / appréciation**
+  - TDR, traitements, antécédents
+  - Idées suicidaires, intention, scénario, protections
+- **E – Évaluation**
+  - PA, FC, FR, SpO₂, vigilance
+  - Tolérance psychique
+  - Évolution clinique et suicidaire
+- **D – Demande**
+  - Réévaluation médicale / conduite à tenir
+## 🎯 À mémoriser
+- **NMDA / glutamate**
+  - Cible pharmacologique
+- **Effet rapide possible**
+  - Mais réponse variable et transitoire
+- **Crise suicidaire**
+  - Adjuvant possible, jamais substitut à la sécurisation
+- **TDR ≠ résistance**
+  - Récurrence des épisodes ≠ échec thérapeutique
+- **Surveillance**
+  - PA, FC, FR, SpO₂, conscience, état psychique
+- **Rôle IDE**
+  - Vérifier – informer – surveiller – sécuriser – tracer – transmettre
+## 📚 Sources
+- **SFAR–CNUP (2025)**
+  - Préconisations kétamine IV en psychiatrie
+  - https://sfar.org/utilisation-de-la-ketamine-intraveineuse-iv-pour-le-traitement-des-pathologies-mentales-en-psychiatrie/
+- **HAS (2024)**
+  - Avis Spravato – dépression
+  - https://www.has-sante.fr/jcms/p_3538219/fr/spravato-esketamine-depression
+- **Base de données publique des médicaments**
+  - Spravato – fiche et avis HAS
+  - https://base-donnees-publique.medicaments.gouv.fr/medicament/67355371/extrait
+- **EMA**
+  - Spravato – EPAR
+  - https://www.ema.europa.eu/fr/medicines/human/EPAR/spravato
+- **HAS**
+  - Crise suicidaire : reconnaître et prendre en charge
+  - https://www.has-sante.fr/jcms/c_271964/fr/la-crise-suicidaire-reconnaitre-et-prendre-en-charge
+- **Inserm**
+  - Dossier Dépression
+  - https://www.inserm.fr/dossier/depression/

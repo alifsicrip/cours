@@ -1,0 +1,1862 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>📚 Vocabulaire Médical</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Favicon -->
+  <link rel="icon" href="/cours/assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/cours/assets/icons/icon.svg">
+  <link rel="apple-touch-icon" href="/cours/assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/cours/manifest.json">
+  <style>
+    .container {
+      width: 100%;
+      max-width: 600px;
+      margin: auto auto;
+    }
+    .panel {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .panel-header {
+      cursor: pointer;
+      background-color: #f8f9fa;
+      padding: 12px 15px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    .panel-header:hover {
+      background-color: #e9ecef;
+    }
+    .panel-content {
+      padding: 30px;
+      background-color: white;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out, padding 0.2s ease-out;
+    }
+    .panel-content li {
+      margin-bottom: 1.2em;
+    }
+    .hidden {
+      max-height: 0;
+      padding: 0;
+      border: none;
+    }
+    .icon {
+      transition: transform 0.3s ease;
+    }
+    .icon.rotated {
+      transform: rotate(180deg);
+    }
+    img,
+    video,
+    iframe {
+      max-inline-size: 100%;
+      block-size: auto;
+    }
+    .chip {
+      display: inline-block;
+      padding: 0.15em 0.7em;
+      border: 1px solid #c5cbe6;
+      border-radius: 999px;
+      background: #f4f6ff;
+      text-decoration: none;
+      line-height: 1.4;
+      color: inherit;
+      font: inherit;
+      cursor: pointer;
+    }
+    .chip:hover {
+      background: #e3e8ff;
+    }
+
+    /* ---- Spécifique à la page Vocabulaire ---- */
+    .modes {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .mode-btn {
+      flex: 1;
+      padding: 10px 12px;
+      border: 1px solid #c5cbe6;
+      border-radius: 5px;
+      background: #f4f6ff;
+      font: inherit;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    .mode-btn:hover { background: #e3e8ff; }
+    .mode-btn[aria-pressed="true"] {
+      background: #34499E;
+      border-color: #34499E;
+      color: #fff;
+    }
+    .search-input {
+      width: 100%;
+      padding: 12px 15px;
+      font: inherit;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 14px;
+    }
+    .search-input:focus {
+      outline: 2px solid #34499E;
+      outline-offset: 1px;
+    }
+    .jump {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+    .jump .chip { padding: 0.2em 0.65em; }
+    .jump .chip:disabled { opacity: 0.35; cursor: default; background: #f4f6ff; }
+    .jump.letters .chip { min-width: 2.1em; text-align: center; padding: 0.2em 0.4em; }
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+      font-size: 0.9em;
+    }
+    .count {
+      margin-left: auto;
+      font-weight: normal;
+      font-size: 0.85em;
+      padding: 0.05em 0.6em;
+      border: 1px solid #c5cbe6;
+      border-radius: 999px;
+      background: #f4f6ff;
+    }
+    .panel-content ul { list-style: none; padding: 0; margin: 0; }
+    .panel-content h3 {
+      font-size: 1em;
+      margin: 1.6em 0 0.8em;
+      padding-bottom: 0.3em;
+      border-bottom: 1px solid #c5cbe6;
+      color: #34499E;
+    }
+    .panel-content h3:first-child { margin-top: 0; }
+    .panel-content li:last-child { margin-bottom: 0; }
+    .terme { font-weight: bold; }
+    .en {
+      display: inline-block;
+      margin-left: 0.4em;
+      padding: 0.05em 0.6em;
+      border: 1px solid #c5cbe6;
+      border-radius: 999px;
+      background: #f4f6ff;
+      font-size: 0.85em;
+      font-style: italic;
+      white-space: normal;
+    }
+    .def { display: block; margin-top: 0.25em; line-height: 1.5; }
+    .vide { text-align: center; padding: 1.5em 0; }
+    [hidden] { display: none !important; }
+    #haut {
+      position: fixed; right: 16px; bottom: 16px; z-index: 99;
+      width: 44px; height: 44px; border-radius: 50%;
+      border: 1px solid #c5cbe6; background: #f4f6ff;
+      font-size: 18px; cursor: pointer; display: none;
+    }
+    #haut:hover { background: #e3e8ff; }
+    @media (max-width: 480px) {
+      .panel-content { padding: 18px; }
+    }
+  </style>
+</head>
+
+<body class="voc">   <!-- Vocabulaire -->
+<main style="padding:4rem;max-width:720px;margin:0rem auto">
+    <img src="assets/icons/voc.svg" alt="Vocabulaire" width="50" height="50">
+    <a href="index.html"><img src="assets/icons/LogoComplete_CripIFSI-transparent.png" alt="Accueil" width="200" height="200"></a>
+    <br>
+
+    <header class="main-header">
+      <br>
+      <h1 style="color:#34499E">📚 Vocabulaire Médical</h1>
+      <p>Dictionnaire médical français-anglais : recherche par lettre ou par sujet</p>
+      <br>
+    </header>
+
+    <div class="container">
+
+      <div class="modes" role="group" aria-label="Mode de recherche">
+        <button type="button" class="mode-btn" id="modeLettres" aria-pressed="true">🔤 Par lettre</button>
+        <button type="button" class="mode-btn" id="modeSujets" aria-pressed="false">🩺 Par sujet</button>
+      </div>
+
+      <input type="search" class="search-input" id="recherche" placeholder="🔍 Rechercher un terme, une définition, un mot anglais…" autocomplete="off" aria-label="Rechercher dans le vocabulaire">
+
+      <nav class="jump letters" id="navLettres" aria-label="Aller à une lettre"></nav>
+      <nav class="jump" id="navSujets" aria-label="Aller à un sujet" hidden></nav>
+
+      <div class="toolbar">
+        <span id="resume"></span>
+        <button type="button" class="chip" id="toutDeplier">Tout déplier</button>
+      </div>
+
+      <div id="vueLettres"></div>
+      <div id="vueSujets" hidden></div>
+      <p class="vide" id="vide" hidden>Aucun terme trouvé 🤷</p>
+
+    </div>
+  </main>
+
+  <button id="haut" title="Retour en haut" aria-label="Retour en haut">↑</button>
+
+  <script>
+    // ============================================================
+    //  DONNÉES — pour ajouter un terme : l'ajouter dans « vocabulary »
+    //  (sous sa lettre) puis, si possible, dans un sujet de « SUJETS ».
+    //  Un terme absent de SUJETS apparaît dans « Non classé ».
+    // ============================================================
+    const vocabulary = {
+  "A": [
+    {
+      "word": "Aboulie",
+      "definition": "Diminution ou disparition de la volonté, rendant incapable de décider ou d'agir.",
+      "translation": "Abulia"
+    },
+    {
+      "word": "Acrophobie",
+      "definition": "Peur intense et irrationnelle des hauteurs.",
+      "translation": "Acrophobia"
+    },
+    {
+      "word": "Addiction",
+      "definition": "Dépendance physique ou psychique à une substance ou comportement.",
+      "translation": "Addiction"
+    },
+    {
+      "word": "Adhésif",
+      "definition": "Se dit d'un patient présentant une dépendance relationnelle marquée vis-à-vis du soignant, avec une recherche constante de présence et de réassurance qui complique la mise de limites professionnelles.",
+      "translation": "Clingy / Adhesive patient"
+    },
+    {
+      "word": "Affect",
+      "definition": "Comportements observables exprimant un état émotionnel.",
+      "translation": "Affect"
+    },
+    {
+      "word": "Affectivité",
+      "definition": "Dimension de la vie psychique qui regroupe l'ensemble des réactions émotionnelles et des vécus affectifs d'une personne (intensité, qualité, stabilité), observables notamment dans les troubles de l'humeur en psychiatrie.",
+      "translation": "Affectivity"
+    },
+    {
+      "word": "Agitation",
+      "definition": "Activité motrice désordonnée avec agressivité ou turbulence.",
+      "translation": "Agitation"
+    },
+    {
+      "word": "Agnosie",
+      "definition": "Incapacité à reconnaître des objets malgré sens intact.",
+      "translation": "Agnosia"
+    },
+    {
+      "word": "Agoraphobie",
+      "definition": "Peur intense des espaces ouverts ou de la foule.",
+      "translation": "Agoraphobia"
+    },
+    {
+      "word": "Agressivité",
+      "definition": "Comportement hostile pouvant être constructive ou destructive.",
+      "translation": "Aggressiveness"
+    },
+    {
+      "word": "Algomanie",
+      "definition": "Recherche pathologique et répétée de la douleur.",
+      "translation": "Algolagnia"
+    },
+    {
+      "word": "Amnésie",
+      "definition": "Perte partielle ou totale de la mémoire.",
+      "translation": "Amnesia"
+    },
+    {
+      "word": "Analgésie",
+      "definition": "Suppression ou diminution de la sensibilité à la douleur sans perte de conscience.",
+      "translation": "Analgesia"
+    },
+    {
+      "word": "Angoisse",
+      "definition": "Sensation d'oppression avec crainte d'un malheur imminent.",
+      "translation": "Anguish"
+    },
+    {
+      "word": "Anhédonie",
+      "definition": "Incapacité persistante à ressentir du plaisir dans des activités habituellement agréables, souvent observée dans les épisodes dépressifs majeurs et certains troubles psychotiques.",
+      "translation": "Anhedonia"
+    },
+    {
+      "word": "Anorexie",
+      "definition": "Perte pathologique de l'appétit.",
+      "translation": "Anorexia"
+    },
+    {
+      "word": "Anorexie mentale",
+      "definition": "Refus volontaire de s'alimenter menaçant le pronostic vital.",
+      "translation": "Anorexia nervosa"
+    },
+    {
+      "word": "Antibiotique",
+      "definition": "Substance qui détruit ou inhibe la croissance des bactéries.",
+      "translation": "Antibiotic"
+    },
+    {
+      "word": "Anxiété",
+      "definition": "Tension nerveuse chronique avec peur diffuse.",
+      "translation": "Anxiety"
+    },
+    {
+      "word": "Apathie",
+      "definition": "Diminution significative de l'élan vital avec perte d'intérêt, de motivation et d'initiative, entraînant un désengagement des activités habituelles sans tristesse nécessairement exprimée.",
+      "translation": "Apathy"
+    },
+    {
+      "word": "Aphasie",
+      "definition": "Perte partielle ou totale de la capacité à parler.",
+      "translation": "Aphasia"
+    },
+    {
+      "word": "Apragmatisme",
+      "definition": "Diminution marquée de l'initiative et de la capacité à engager ou à mener à bien des actions, alors que les capacités motrices et intellectuelles de base sont préservées, fréquemment rencontrée dans les syndromes dépressifs et schizophréniques.",
+      "translation": "Apragmatism"
+    },
+    {
+      "word": "Apraxie",
+      "definition": "Incapacité à effectuer mouvements volontaires coordonnés.",
+      "translation": "Apraxia"
+    },
+    {
+      "word": "Asepsie",
+      "definition": "Ensemble des méthodes permettant de prévenir la contamination par des micro-organismes.",
+      "translation": "Asepsis"
+    },
+    {
+      "word": "Astasie",
+      "definition": "Impossibilité de maintenir la station debout.",
+      "translation": "Astasia"
+    },
+    {
+      "word": "Ataxie",
+      "definition": "Mauvaise coordination des mouvements volontaires.",
+      "translation": "Ataxia"
+    },
+    {
+      "word": "Athymhormie",
+      "definition": "Perte de l'élan vital et de l'affectivité.",
+      "translation": "Athymhormia"
+    },
+    {
+      "word": "Autolyse",
+      "definition": "Comportement volontairement autodestructeur mortel.",
+      "translation": "Autolysis"
+    }
+  ],
+  "B": [
+    {
+      "word": "Barrages",
+      "definition": "Interruptions brutales et inexplicables du discours.",
+      "translation": "Blocking"
+    },
+    {
+      "word": "Biodisponibilité",
+      "definition": "Fraction du médicament administré qui atteint la circulation systémique sous forme inchangée.",
+      "translation": "Bioavailability"
+    },
+    {
+      "word": "Bipolarité",
+      "definition": "Alternance répétée d'épisodes dépressifs et maniaques.",
+      "translation": "Bipolarity"
+    },
+    {
+      "word": "Borderline",
+      "definition": "État limite entre névrose et psychose avec instabilité relationnelle.",
+      "translation": "Borderline"
+    },
+    {
+      "word": "Bouffée délirante aiguë",
+      "definition": "Délire soudain avec troubles de l'humeur et confusion.",
+      "translation": "Acute delusional episode"
+    },
+    {
+      "word": "Boulimie",
+      "definition": "Ingestion excessive et répétitive d'aliments.",
+      "translation": "Bulimia"
+    },
+    {
+      "word": "Bradyphémie",
+      "definition": "Ralentissement marqué du débit verbal.",
+      "translation": "Bradyphemia"
+    },
+    {
+      "word": "Bradypsychie",
+      "definition": "Ralentissement du cours de la pensée.",
+      "translation": "Bradypsychia"
+    },
+    {
+      "word": "Bronchodilatateur",
+      "definition": "Médicament qui dilate les bronches pour faciliter la respiration.",
+      "translation": "Bronchodilator"
+    }
+  ],
+  "C": [
+    {
+      "word": "Cachexie",
+      "definition": "Maigreur extrême menaçant le pronostic vital.",
+      "translation": "Cachexia"
+    },
+    {
+      "word": "Cacophagie",
+      "definition": "Ingestion pathologique de matières non comestibles.",
+      "translation": "Coprophagia"
+    },
+    {
+      "word": "Capacité Pulmonaire Totale (CPT)",
+      "definition": "Volume total d'air contenu dans les poumons après inspiration maximale.",
+      "translation": "Total Lung Capacity (TLC)"
+    },
+    {
+      "word": "Capacité Résiduelle Fonctionnelle (CRF)",
+      "definition": "Volume d'air restant dans les poumons à la fin d'une expiration normale.",
+      "translation": "Functional Residual Capacity (FRC)"
+    },
+    {
+      "word": "Capacité Vitale Forcée (CVF)",
+      "definition": "Volume maximum de gaz expiré lors d'une expiration forcée après inspiration maximale.",
+      "translation": "Forced Vital Capacity (FVC)"
+    },
+    {
+      "word": "Cathéter artériel (KTA)",
+      "definition": "Tuyau placé dans une artère permettant la mesure continue de la pression artérielle et des prélèvements.",
+      "translation": "Arterial catheter"
+    },
+    {
+      "word": "Cathéter veineux central (KTC)",
+      "definition": "Dispositif inséré dans une veine centrale pour administrer médicaments ou mesurer paramètres.",
+      "translation": "Central venous catheter"
+    },
+    {
+      "word": "Catatonie",
+      "definition": "Syndrome psychomoteur aigu associant des anomalies motrices (stupor, maintien de postures, rigidité, négativisme, stéréotypies) constituant une urgence diagnostique et thérapeutique en psychiatrie.",
+      "translation": "Catatonia"
+    },
+    {
+      "word": "Chimiothérapie",
+      "definition": "Traitement médicamenteux visant à détruire les cellules cancéreuses.",
+      "translation": "Chemotherapy"
+    },
+    {
+      "word": "Clairance",
+      "definition": "Volume de plasma épuré d'une substance par unité de temps, mesurant l'élimination d'un composé.",
+      "translation": "Clearance"
+    },
+    {
+      "word": "Clairance de la créatinine",
+      "definition": "Mesure du volume de plasma épuré de créatinine par unité de temps, reflétant la filtration rénale.",
+      "translation": "Creatinine clearance"
+    },
+    {
+      "word": "Clinomanie",
+      "definition": "Manie pathologique de rester couché.",
+      "translation": "Clinomania"
+    },
+    {
+      "word": "Clinophilie",
+      "definition": "Tendance prolongée à demeurer au lit.",
+      "translation": "Clinophilia"
+    },
+    {
+      "word": "Compliance pulmonaire",
+      "definition": "Mesure de la distensibilité des poumons (facilité d'étirement).",
+      "translation": "Lung Compliance"
+    },
+    {
+      "word": "Compliant",
+      "definition": "Se dit d'un patient qui suit correctement les prescriptions médicales.",
+      "translation": "Compliant"
+    },
+    {
+      "word": "Compulsion",
+      "definition": "Acte imposé par force intérieure irrésistible.",
+      "translation": "Compulsion"
+    },
+    {
+      "word": "Confusion",
+      "definition": "Dissolution partielle ou complète de la conscience.",
+      "translation": "Confusion"
+    },
+    {
+      "word": "Consentement éclairé",
+      "definition": "Acte par lequel une personne accepte de recevoir des soins après information des risques et bénéfices.",
+      "translation": "Informed consent"
+    },
+    {
+      "word": "Contre-transfert",
+      "definition": "Ensemble des réactions émotionnelles et inconscientes du soignant envers le patient, en écho au vécu transférentiel de ce dernier, pouvant influencer positivement ou négativement la relation thérapeutique.",
+      "translation": "Countertransference"
+    },
+    {
+      "word": "Coq à l'âne",
+      "definition": "Passage brusque et répétitif d'un sujet de conversation à un autre sans lien logique apparent, traduisant une désorganisation du cours de la pensée, typiquement observé dans certains tableaux psychotiques.",
+      "translation": "Derailment / Tangential speech"
+    },
+    {
+      "word": "Coprolalie",
+      "definition": "Émission involontaire de paroles grossières.",
+      "translation": "Coprolalia"
+    },
+    {
+      "word": "Corticoïde",
+      "definition": "Hormone ou médicament aux propriétés anti-inflammatoires et immunosuppressives.",
+      "translation": "Corticosteroid"
+    },
+    {
+      "word": "COX (Cyclooxygénase)",
+      "definition": "Enzyme de la voie de l'acide arachidonique catalysant la formation de prostaglandines.",
+      "translation": "Cyclooxygenase (COX)"
+    },
+    {
+      "word": "Crise clastique",
+      "definition": "Épisode bref de décharge agressive caractérisé par la destruction ou la détérioration volontaire d'objets, souvent sur fond de tension psychique intense.",
+      "translation": "Clastic crisis / Destructive outburst"
+    },
+    {
+      "word": "Cyclothymie",
+      "definition": "Alternance de périodes d'exaltation et de dépression.",
+      "translation": "Cyclothymia"
+    },
+    {
+      "word": "Cytokines",
+      "definition": "Petites protéines sécrétées par des cellules immunitaires qui régulent la réponse immunitaire.",
+      "translation": "Cytokines"
+    }
+  ],
+  "D": [
+    {
+      "word": "Décompensation",
+      "definition": "Crise psychiatrique avec perte de contrôle.",
+      "translation": "Decompensation"
+    },
+    {
+      "word": "Défaillance cardiaque (Insuffisance cardiaque)",
+      "definition": "Dysfonctionnement du muscle cardiaque empêchant le cœur de remplir efficacement sa fonction de pompe.",
+      "translation": "Heart failure"
+    },
+    {
+      "word": "Défaillance multiviscérale",
+      "definition": "Dysfonctionnement simultané de plusieurs organes vitaux.",
+      "translation": "Multiple organ failure"
+    },
+    {
+      "word": "Délire",
+      "definition": "Croyances fixes et irrationnelles sans rapport avec la réalité.",
+      "translation": "Delirium"
+    },
+    {
+      "word": "Dépersonnalisation",
+      "definition": "Expérience subjective de distanciation ou d'étrangeté par rapport à soi-même (corps, pensées, sentiments) avec impression de ne plus se reconnaître, rencontrée dans certains troubles anxieux, dépressifs ou dissociatifs.",
+      "translation": "Depersonalization"
+    },
+    {
+      "word": "Dépression",
+      "definition": "Tristesse pathologique avec ralentissement psychomoteur.",
+      "translation": "Depression"
+    },
+    {
+      "word": "Déréalisation",
+      "definition": "Sensation de vivre dans un environnement irréel, comme si le monde extérieur était lointain, étrange ou brouillé alors que le sujet garde conscience du caractère subjectif de cette impression.",
+      "translation": "Derealization"
+    },
+    {
+      "word": "Desquamation",
+      "definition": "Perte de squames (cellules mortes de la peau) sous forme de pellicules ou lambeaux.",
+      "translation": "Desquamation"
+    },
+    {
+      "word": "Diagnostic",
+      "definition": "Détermination de l'état de santé d'une personne à partir de renseignements et d'examens.",
+      "translation": "Diagnosis"
+    },
+    {
+      "word": "Diagnostic différentiel",
+      "definition": "Démarche clinique consistant à comparer plusieurs hypothèses diagnostiques possibles à partir des signes, symptômes et examens, pour retenir la maladie la plus probable et éliminer les autres.",
+      "translation": "Differential diagnosis"
+    },
+    {
+      "word": "Dialyse",
+      "definition": "Technique de substitution rénale permettant d'éliminer les toxines du sang en cas d'insuffisance rénale.",
+      "translation": "Dialysis"
+    },
+    {
+      "word": "Diffluent",
+      "definition": "Se dit d'un discours ou d'un cours de pensée qui devient relâché, difficilement structuré et peu cohérent, avec un affaiblissement des liens logiques entre les idées, comme dans certains états confusionnels ou psychotiques.",
+      "translation": "Diffuse / Incoherent"
+    },
+    {
+      "word": "Dissociation",
+      "definition": "Perte de cohérence des idées et ambivalence affective.",
+      "translation": "Dissociation"
+    },
+    {
+      "word": "Diurétique",
+      "definition": "Médicament qui augmente la production et l'élimination d'urine.",
+      "translation": "Diuretic"
+    },
+    {
+      "word": "Dose létale",
+      "definition": "Quantité d'une substance susceptible de provoquer la mort.",
+      "translation": "Lethal dose"
+    },
+    {
+      "word": "DSM",
+      "definition": "Manuel diagnostique des troubles mentaux.",
+      "translation": "DSM"
+    },
+    {
+      "word": "Dyskinésie",
+      "definition": "Mouvements involontaires et anormaux.",
+      "translation": "Dyskinesia"
+    },
+    {
+      "word": "Dyslogie",
+      "definition": "Trouble du langage dû à altération intellectuelle.",
+      "translation": "Dyslogy"
+    },
+    {
+      "word": "Dyspepsie",
+      "definition": "Trouble de la digestion se manifestant par douleurs, nausées ou sensation de plénitude gastrique.",
+      "translation": "Dyspepsia"
+    },
+    {
+      "word": "Dysphorie",
+      "definition": "État de malaise émotionnel douloureux.",
+      "translation": "Dysphoria"
+    },
+    {
+      "word": "Dysthymie",
+      "definition": "Perturbation chronique de l'humeur.",
+      "translation": "Dysthymia"
+    }
+  ],
+  "E": [
+    {
+      "word": "Écholalie",
+      "definition": "Répétition automatique des paroles entendues.",
+      "translation": "Echolalia"
+    },
+    {
+      "word": "Électrocardiogramme (ECG)",
+      "definition": "Représentation graphique de l'activité électrique du cœur.",
+      "translation": "Electrocardiogram (ECG)"
+    },
+    {
+      "word": "Embolie pulmonaire",
+      "definition": "Obstruction d'une artère pulmonaire par un caillot sanguin.",
+      "translation": "Pulmonary embolism"
+    },
+    {
+      "word": "Émotions",
+      "definition": "Réactions psychophysiologiques brèves à un événement interne ou externe, associant des modifications subjectives (ressenti), comportementales (expression, comportement) et corporelles (rythme cardiaque, respiration).",
+      "translation": "Emotions"
+    },
+    {
+      "word": "Enzyme",
+      "definition": "Protéine catalysant des réactions biochimiques sans être consommée.",
+      "translation": "Enzyme"
+    },
+    {
+      "word": "Épilepsie",
+      "definition": "Maladie neurologique caractérisée par des crises convulsives récurrentes.",
+      "translation": "Epilepsy"
+    },
+    {
+      "word": "Érotomanie",
+      "definition": "Délire d'être aimé par autrui.",
+      "translation": "Erotomania"
+    },
+    {
+      "word": "Étiologie",
+      "definition": "Étude des causes d'une maladie.",
+      "translation": "Etiology"
+    },
+    {
+      "word": "Évaluation clinique",
+      "definition": "Examen physique et mental d'un patient complété par une collecte d'informations.",
+      "translation": "Clinical assessment"
+    }
+  ],
+  "F": [
+    {
+      "word": "Fantasme",
+      "definition": "Représentation mentale inconsciente de désirs.",
+      "translation": "Fantasy"
+    },
+    {
+      "word": "Fibrillation atriale",
+      "definition": "Trouble du rythme caractérisé par une activité électrique désorganisée des oreillettes.",
+      "translation": "Atrial fibrillation"
+    },
+    {
+      "word": "Fibrine",
+      "definition": "Protéine filamenteuse formant un réseau qui stabilise le caillot sanguin.",
+      "translation": "Fibrin"
+    },
+    {
+      "word": "Frein à la relation",
+      "definition": "Facteur personnel, institutionnel ou interrelationnel qui limite la qualité ou la profondeur de la relation soignant‑soigné, par exemple la peur, le jugement ou le manque de temps.",
+      "translation": "Barrier to the therapeutic relationship"
+    },
+    {
+      "word": "Frustration",
+      "definition": "Tension due à une satisfaction empêchée.",
+      "translation": "Frustration"
+    }
+  ],
+  "H": [
+    {
+      "word": "Habitus sécuritaire (coupe le lien)",
+      "definition": "Posture professionnelle centrée principalement sur la maîtrise du risque et la sécurité, au détriment de l'alliance et de l'écoute, pouvant entraîner une mise à distance excessive du patient.",
+      "translation": "Security-focused stance (breaking the bond)"
+    },
+    {
+      "word": "Hallucination",
+      "definition": "Perception sensorielle sans stimulus réel.",
+      "translation": "Hallucination"
+    },
+    {
+      "word": "HC (Hospitalisation Complète)",
+      "definition": "Modalité d'hospitalisation psychiatrique avec présence continue du patient dans l'unité de soins, 24 heures sur 24, incluant hébergement et prise en charge pluridisciplinaire.",
+      "translation": "Full-time inpatient hospitalization"
+    },
+    {
+      "word": "Hématémèse",
+      "definition": "Vomissement de sang provenant d'un saignement du tube digestif haut.",
+      "translation": "Hematemesis"
+    },
+    {
+      "word": "Hémoglobine",
+      "definition": "Protéine des globules rouges responsable du transport de l'oxygène.",
+      "translation": "Hemoglobin"
+    },
+    {
+      "word": "Histocompatibilité",
+      "definition": "Degré de compatibilité immunologique entre deux individus (CMH/HLA).",
+      "translation": "Histocompatibility"
+    },
+    {
+      "word": "HL (Hospitalisation Libre)",
+      "definition": "Hospitalisation en psychiatrie fondée sur le consentement du patient, qui accepte les soins et conserve la possibilité de quitter l'établissement après avis médical.",
+      "translation": "Voluntary psychiatric hospitalization"
+    },
+    {
+      "word": "Humeur",
+      "definition": "État affectif général, durable et relativement stable qui colore la perception de soi et du monde (ex. humeur dépressive ou exaltée) et dont les troubles majeurs constituent le cœur des troubles de l'humeur.",
+      "translation": "Mood"
+    },
+    {
+      "word": "Hyperkaliémie",
+      "definition": "Augmentation du taux de potassium dans le sang.",
+      "translation": "Hyperkalemia"
+    },
+    {
+      "word": "Hypermimie",
+      "definition": "Mimiques faciales excessivement expressives.",
+      "translation": "Hypermimia"
+    },
+    {
+      "word": "Hypernatrémie",
+      "definition": "Augmentation du taux de sodium dans le sang.",
+      "translation": "Hypernatremia"
+    },
+    {
+      "word": "Hypersensibilité",
+      "definition": "Réaction immunitaire excessive ou inappropriée à un antigène.",
+      "translation": "Hypersensitivity"
+    },
+    {
+      "word": "Hypertension artérielle (HTA)",
+      "definition": "Augmentation anormale de la pression artérielle favorisant les risques cardiovasculaires.",
+      "translation": "Hypertension"
+    },
+    {
+      "word": "Hypochondrie",
+      "definition": "Préoccupation excessive de sa santé.",
+      "translation": "Hypochondria"
+    },
+    {
+      "word": "Hypokaliémie",
+      "definition": "Diminution du taux de potassium dans le sang.",
+      "translation": "Hypokalemia"
+    },
+    {
+      "word": "Hyponatrémie",
+      "definition": "Diminution du taux de sodium dans le sang.",
+      "translation": "Hyponatremia"
+    }
+  ],
+  "I": [
+    {
+      "word": "Idées fixes",
+      "definition": "Pensées persistantes envahissant la conscience.",
+      "translation": "Fixed ideas"
+    },
+    {
+      "word": "Idiopathique",
+      "definition": "Se dit d'une maladie dont la cause est inconnue.",
+      "translation": "Idiopathic"
+    },
+    {
+      "word": "Illusion",
+      "definition": "Déformation erronée d'un stimulus réel.",
+      "translation": "Illusion"
+    },
+    {
+      "word": "Impulsions verbales",
+      "definition": "Émission soudaine de paroles grossières.",
+      "translation": "Verbal impulsions"
+    },
+    {
+      "word": "Impulsivité",
+      "definition": "Incapacité à contrôler ses actions soudaines.",
+      "translation": "Impulsivity"
+    },
+    {
+      "word": "Incurie",
+      "definition": "Négligence grave de l'hygiène personnelle.",
+      "translation": "Neglect"
+    },
+    {
+      "word": "Infarctus du myocarde",
+      "definition": "Nécrose d'une partie du muscle cardiaque due à une interruption de l'apport sanguin.",
+      "translation": "Myocardial infarction"
+    },
+    {
+      "word": "Inhibition",
+      "definition": "Ralentissement ou blocage des fonctions psychiques.",
+      "translation": "Inhibition"
+    },
+    {
+      "word": "Instabilité",
+      "definition": "Incapacité à maintenir idées ou sentiments constants.",
+      "translation": "Instability"
+    },
+    {
+      "word": "Instabilité motrice",
+      "definition": "Incapacité à rester immobile.",
+      "translation": "Motor instability"
+    },
+    {
+      "word": "Insuffisance rénale chronique (IRC)",
+      "definition": "Destruction progressive des néphrons entraînant une réduction permanente de la filtration rénale.",
+      "translation": "Chronic kidney disease (CKD)"
+    },
+    {
+      "word": "Interprétation",
+      "definition": "Élaboration personnelle de la signification perçue.",
+      "translation": "Interpretation"
+    },
+    {
+      "word": "Intubation endotrachéale",
+      "definition": "Insertion d'un tube dans la trachée pour assurer une voie aérienne et permettre la ventilation.",
+      "translation": "Endotracheal intubation"
+    },
+    {
+      "word": "Ischémie",
+      "definition": "Insuffisance de la circulation sanguine dans une partie du corps entraînant un manque d'oxygène.",
+      "translation": "Ischemia"
+    }
+  ],
+  "J": [
+    {
+      "word": "Jargonophasie",
+      "definition": "Discours incompréhensible par néologismes.",
+      "translation": "Jargonaphasia"
+    }
+  ],
+  "L": [
+    {
+      "word": "Labilité de l'humeur",
+      "definition": "Variations rapides et marquées de l'humeur, avec passages fréquents d'un état émotionnel à un autre, souvent disproportionnés par rapport aux événements.",
+      "translation": "Emotional lability"
+    },
+    {
+      "word": "Lipides",
+      "definition": "Molécules organiques hydrophobes incluant triglycérides, phospholipides et stéroïdes.",
+      "translation": "Lipids"
+    },
+    {
+      "word": "Logorrhée",
+      "definition": "Flux verbal anormalement abondant, rapide et difficile à interrompre, souvent peu structuré, fréquemment observé dans les épisodes maniaques ou certains états confusionnels.",
+      "translation": "Logorrhea / Pressured speech"
+    }
+  ],
+  "M": [
+    {
+      "word": "Manie",
+      "definition": "Exaltation de l'humeur avec hyperactivité.",
+      "translation": "Mania"
+    },
+    {
+      "word": "Maniérisme",
+      "definition": "Gestes et langage artificiels et stéréotypés.",
+      "translation": "Mannerism"
+    },
+    {
+      "word": "Mégalomanie",
+      "definition": "Surestimation délirante de ses capacités.",
+      "translation": "Megalomaniac"
+    },
+    {
+      "word": "Mélancolie",
+      "definition": "Dépression psychotique avec tristesse profonde.",
+      "translation": "Melancholia"
+    },
+    {
+      "word": "Mutisme",
+      "definition": "Refus ou incapacité à parler.",
+      "translation": "Mutism"
+    }
+  ],
+  "N": [
+    {
+      "word": "Néologisme",
+      "definition": "Création spontanée de nouveaux mots.",
+      "translation": "Neologism"
+    },
+    {
+      "word": "Neurologie",
+      "definition": "Spécialité médicale étudiant le système nerveux central et périphérique.",
+      "translation": "Neurology"
+    },
+    {
+      "word": "Névrose",
+      "definition": "Trouble psychique exprimant un conflit inconscient.",
+      "translation": "Neurosis"
+    },
+    {
+      "word": "Névrose traumatique",
+      "definition": "Réaction pathologique prolongée à un traumatisme.",
+      "translation": "Traumatic neurosis"
+    },
+    {
+      "word": "Nosographie",
+      "definition": "Discipline qui décrit et classe les maladies mentales en entités cliniques distinctes selon leurs symptômes, leur évolution et parfois leurs causes connues.",
+      "translation": "Nosography"
+    },
+    {
+      "word": "Numération formule sanguine (NFS)",
+      "definition": "Examen quantifiant les différents types de cellules sanguines (globules rouges, blancs, plaquettes).",
+      "translation": "Complete blood count (CBC)"
+    }
+  ],
+  "O": [
+    {
+      "word": "Obnubilation",
+      "definition": "Obscurcissement de la conscience et ralentissement.",
+      "translation": "Obnubilation"
+    },
+    {
+      "word": "Obsession",
+      "definition": "Pensée répétitive et pénible impossibles à contrôler.",
+      "translation": "Obsession"
+    },
+    {
+      "word": "Onirisme",
+      "definition": "État de rêve éveillé confondu avec la réalité.",
+      "translation": "Oneirism"
+    }
+  ],
+  "P": [
+    {
+      "word": "Palilalie",
+      "definition": "Répétition compulsive de syllabes ou mots.",
+      "translation": "Palilalia"
+    },
+    {
+      "word": "Palpation",
+      "definition": "Action d'appuyer les doigts sur une partie du corps pour recueillir des informations.",
+      "translation": "Palpation"
+    },
+    {
+      "word": "Paranoïa",
+      "definition": "Délire chronique basé sur interprétation faussée.",
+      "translation": "Paranoia"
+    },
+    {
+      "word": "Paraphilie",
+      "definition": "Comportement sexuel considéré comme déviant.",
+      "translation": "Paraphilia"
+    },
+    {
+      "word": "Paraphrénie",
+      "definition": "Psychose chronique à thèmes imaginatifs fantastiques.",
+      "translation": "Paraphrenia"
+    },
+    {
+      "word": "Passage à l'acte",
+      "definition": "Acte impulsif soudain et souvent violent.",
+      "translation": "Acting out"
+    },
+    {
+      "word": "Patient.e acteur/actrice de ses soins",
+      "definition": "Principe selon lequel le patient participe activement aux décisions, à la planification et à l'évaluation de ses soins, dans une démarche de partenariat avec les professionnels.",
+      "translation": "Patient as an active participant in care"
+    },
+    {
+      "word": "Percussion",
+      "definition": "Action de frapper de petits coups sur une région du corps et d'observer les sons produits.",
+      "translation": "Percussion"
+    },
+    {
+      "word": "Perversion",
+      "definition": "Obtention du plaisir sexuel par voies anormales.",
+      "translation": "Perversion"
+    },
+    {
+      "word": "Pharmacocinétique",
+      "definition": "Étude du devenir d'un médicament dans l'organisme : ADME (absorption, distribution, métabolisme, élimination).",
+      "translation": "Pharmacokinetics"
+    },
+    {
+      "word": "Pharmacodynamie",
+      "definition": "Étude des effets des médicaments sur l'organisme et de leurs mécanismes d'action.",
+      "translation": "Pharmacodynamics"
+    },
+    {
+      "word": "Phobie",
+      "definition": "Peur intense et irrationnelle d'un objet spécifique.",
+      "translation": "Phobia"
+    },
+    {
+      "word": "PLA₂ (Phospholipase A₂)",
+      "definition": "Enzyme hydrolysant les phospholipides, libérant de l'acide arachidonique.",
+      "translation": "Phospholipase A₂ (PLA₂)"
+    },
+    {
+      "word": "Planomanie",
+      "definition": "Besoin irrépressible de vagabonder.",
+      "translation": "Planomania"
+    },
+    {
+      "word": "Posologie",
+      "definition": "Indication de la dose, de la fréquence et de la durée d'administration d'un médicament.",
+      "translation": "Dosage"
+    },
+    {
+      "word": "Potassium (K⁺)",
+      "definition": "Électrolyte essentiel, principal cation intracellulaire.",
+      "translation": "Potassium (K⁺)"
+    },
+    {
+      "word": "Prodrome",
+      "definition": "Ensemble de signes et symptômes précoces, souvent discrets et non spécifiques, annonçant l'installation d'un épisode psychiatrique caractérisé, comme un épisode psychotique ou thymique.",
+      "translation": "Prodrome"
+    },
+    {
+      "word": "Prostaglandines",
+      "definition": "Médiateurs lipidiques dérivés de l'acide arachidonique synthétisés via COX.",
+      "translation": "Prostaglandins"
+    },
+    {
+      "word": "Protéine plasmatique",
+      "definition": "Protéine présente dans le plasma ayant des rôles de transport, coagulation et défense.",
+      "translation": "Plasma protein"
+    },
+    {
+      "word": "Protéines",
+      "definition": "Macromolécules composées d'acides aminés, essentielles aux fonctions cellulaires.",
+      "translation": "Proteins"
+    },
+    {
+      "word": "Psychopathie",
+      "definition": "Personnalité présentant comportements antisociaux.",
+      "translation": "Psychopathy"
+    },
+    {
+      "word": "Psychorigidité",
+      "definition": "Incapacité d'adaptation aux situations nouvelles.",
+      "translation": "Psychorigidity"
+    },
+    {
+      "word": "Psychose",
+      "definition": "Pathologie avec perte de contact avec la réalité.",
+      "translation": "Psychosis"
+    },
+    {
+      "word": "Psychosténie",
+      "definition": "Trouble psychique caractérisé par une fatigue intellectuelle et difficulté de concentration.",
+      "translation": "Psychasthenia"
+    },
+    {
+      "word": "PTI (Protection Travailleur.e Isolé.e)",
+      "definition": "Ensemble de dispositifs techniques et organisationnels destinés à assurer la sécurité d'un professionnel travaillant seul, en permettant l'alerte rapide et la géolocalisation en cas de danger.",
+      "translation": "Lone worker protection"
+    }
+  ],
+  "Q": [
+    {
+      "word": "Quérulence",
+      "definition": "Délire de revendication avec plaintes judiciaires répétées.",
+      "translation": "Querulousness"
+    }
+  ],
+  "R": [
+    {
+      "word": "Raisonnement hypothético-déductif (scientifique)",
+      "definition": "Méthode consistant à formuler des hypothèses à partir d'observations puis à les tester.",
+      "translation": "Hypothetico-deductive reasoning"
+    },
+    {
+      "word": "Rapport de Tiffeneau (VEMS/CVF)",
+      "definition": "Rapport entre le VEMS et la CVF, un rapport < 0,70 suggère un trouble obstructif.",
+      "translation": "Tiffeneau-Pinelli Index (FEV1/FVC ratio)"
+    },
+    {
+      "word": "Réanimation",
+      "definition": "Ensemble des techniques pour pallier la défaillance d'une ou plusieurs fonctions vitales.",
+      "translation": "Intensive care"
+    },
+    {
+      "word": "Réanimation cardiopulmonaire (RCP)",
+      "definition": "Manœuvres visant à rétablir la circulation et l'oxygénation en cas d'arrêt cardiorespiratoire.",
+      "translation": "Cardiopulmonary resuscitation (CPR)"
+    },
+    {
+      "word": "Résistance des voies aériennes",
+      "definition": "Mesure de l'opposition au flux d'air dans les voies respiratoires.",
+      "translation": "Airway Resistance"
+    },
+    {
+      "word": "Rituels",
+      "definition": "Comportements répétitifs compulsifs à valeur magique.",
+      "translation": "Rituals"
+    }
+  ],
+  "S": [
+    {
+      "word": "Schizophrénie",
+      "definition": "Trouble chronique altérant pensée et relations sociales.",
+      "translation": "Schizophrenia"
+    },
+    {
+      "word": "Score de Glasgow",
+      "definition": "Échelle pour quantifier le niveau de conscience d'un patient.",
+      "translation": "Glasgow Coma Scale"
+    },
+    {
+      "word": "Sédation",
+      "definition": "Administration de médicaments pour diminuer l'anxiété, la douleur ou l'agitation.",
+      "translation": "Sedation"
+    },
+    {
+      "word": "Sidération",
+      "definition": "Immobilisme psychique de type catalepsie.",
+      "translation": "Stupor"
+    },
+    {
+      "word": "Sodium (Na⁺)",
+      "definition": "Principal cation extracellulaire essentiel à la régulation hydrique et de la pression artérielle.",
+      "translation": "Sodium (Na⁺)"
+    },
+    {
+      "word": "Soins intensifs",
+      "definition": "Prise en charge spécialisée nécessitant surveillance et traitements continus.",
+      "translation": "Intensive care unit (ICU)"
+    },
+    {
+      "word": "Spirométrie",
+      "definition": "Mesure des volumes et débits respiratoires pour évaluer la fonction pulmonaire.",
+      "translation": "Spirometry"
+    },
+    {
+      "word": "Stéréotypie verbale",
+      "definition": "Répétition mécanique de mots sans sens contextuel.",
+      "translation": "Verbal stereotypy"
+    },
+    {
+      "word": "Syndrome",
+      "definition": "Ensemble de signes et symptômes formant une entité clinique.",
+      "translation": "Syndrome"
+    },
+    {
+      "word": "Syndrome inflammatoire",
+      "definition": "Ensemble de signes cliniques et biologiques indiquant une réaction inflammatoire.",
+      "translation": "Inflammatory syndrome"
+    },
+    {
+      "word": "Syndrome positif",
+      "definition": "Ensemble de symptômes psychotiques « en plus » du fonctionnement habituel, tels que les hallucinations, les idées délirantes ou la désorganisation de la pensée et du comportement.",
+      "translation": "Positive symptoms"
+    }
+  ],
+  "T": [
+    {
+      "word": "Tachyphémie",
+      "definition": "Trouble de la parole caractérisé par une accélération anormale et progressive du débit verbal, parfois jusqu'à rendre le discours difficilement intelligible, rencontré dans certaines affections neurologiques et psychiatriques.",
+      "translation": "Tachyphemia"
+    },
+    {
+      "word": "Tachypsychie",
+      "definition": "Accélération anormale du cours de la pensée, avec sensation de pensées qui se bousculent et fuite des idées, se traduisant souvent par un discours très rapide et parfois incohérent dans les états maniaques ou hypomaniaques.",
+      "translation": "Tachypsychia"
+    },
+    {
+      "word": "Tamponnade",
+      "definition": "Compression du cœur due à l'accumulation de liquide dans le péricarde.",
+      "translation": "Cardiac tamponade"
+    },
+    {
+      "word": "Thrombopénie",
+      "definition": "Diminution du nombre de plaquettes avec risque hémorragique.",
+      "translation": "Thrombocytopenia"
+    },
+    {
+      "word": "Thrombose coronaire",
+      "definition": "Formation d'un caillot dans une artère coronaire, pouvant entraîner un infarctus.",
+      "translation": "Coronary thrombosis"
+    },
+    {
+      "word": "Trouble",
+      "definition": "Altération significative du fonctionnement psychique, émotionnel ou comportemental d'une personne, entraînant une souffrance ou un retentissement sur sa vie personnelle, sociale ou professionnelle.",
+      "translation": "Disorder"
+    }
+  ],
+  "V": [
+    {
+      "word": "Vaccination",
+      "definition": "Administration d'un antigène pour stimuler une réponse immunitaire protectrice.",
+      "translation": "Vaccination"
+    },
+    {
+      "word": "Ventilation mécanique",
+      "definition": "Assistance artificielle à la respiration à l'aide d'un respirateur.",
+      "translation": "Mechanical ventilation"
+    },
+    {
+      "word": "Volume Expiratoire Maximal par Seconde (VEMS)",
+      "definition": "Volume maximal d'air expiré lors de la première seconde d'une expiration forcée.",
+      "translation": "Forced Expiratory Volume in one second (FEV1)"
+    },
+    {
+      "word": "Volume Résiduel (VR)",
+      "definition": "Volume d'air restant dans les poumons après une expiration maximale.",
+      "translation": "Residual Volume (RV)"
+    }
+  ],
+  "X": [
+    {
+      "word": "Xérose",
+      "definition": "Sécheresse anormale de la peau ou des muqueuses.",
+      "translation": "Xerosis"
+    }
+  ]
+};
+
+    const SUJETS = [
+  {
+    "id": "psy",
+    "icone": "🧠",
+    "titre": "Psychiatrie",
+    "groupes": [
+      {
+        "titre": "Humeur et affects",
+        "mots": [
+          "Affect",
+          "Affectivité",
+          "Humeur",
+          "Émotions",
+          "Dépression",
+          "Dysthymie",
+          "Dysphorie",
+          "Manie",
+          "Bipolarité",
+          "Cyclothymie",
+          "Mélancolie",
+          "Labilité de l'humeur",
+          "Anhédonie",
+          "Apathie",
+          "Athymhormie",
+          "Aboulie",
+          "Apragmatisme",
+          "Frustration",
+          "Inhibition",
+          "Instabilité"
+        ]
+      },
+      {
+        "titre": "Angoisse, phobies, obsessions",
+        "mots": [
+          "Angoisse",
+          "Anxiété",
+          "Acrophobie",
+          "Agoraphobie",
+          "Phobie",
+          "Obsession",
+          "Compulsion",
+          "Rituels",
+          "Idées fixes",
+          "Hypochondrie",
+          "Névrose",
+          "Névrose traumatique",
+          "Psychosténie",
+          "Psychorigidité"
+        ]
+      },
+      {
+        "titre": "Délires et psychoses",
+        "mots": [
+          "Délire",
+          "Bouffée délirante aiguë",
+          "Érotomanie",
+          "Mégalomanie",
+          "Paranoïa",
+          "Paraphrénie",
+          "Quérulence",
+          "Interprétation",
+          "Onirisme",
+          "Psychose",
+          "Schizophrénie",
+          "Syndrome positif",
+          "Dissociation",
+          "Fantasme"
+        ]
+      },
+      {
+        "titre": "Perception, conscience et identité",
+        "mots": [
+          "Hallucination",
+          "Illusion",
+          "Confusion",
+          "Obnubilation",
+          "Sidération",
+          "Dépersonnalisation",
+          "Déréalisation"
+        ]
+      },
+      {
+        "titre": "Pensée et langage",
+        "mots": [
+          "Barrages",
+          "Bradyphémie",
+          "Bradypsychie",
+          "Tachyphémie",
+          "Tachypsychie",
+          "Coq à l'âne",
+          "Diffluent",
+          "Dyslogie",
+          "Écholalie",
+          "Jargonophasie",
+          "Logorrhée",
+          "Mutisme",
+          "Néologisme",
+          "Palilalie",
+          "Coprolalie",
+          "Stéréotypie verbale",
+          "Impulsions verbales"
+        ]
+      },
+      {
+        "titre": "Comportement et motricité",
+        "mots": [
+          "Agitation",
+          "Instabilité motrice",
+          "Impulsivité",
+          "Passage à l'acte",
+          "Crise clastique",
+          "Agressivité",
+          "Catatonie",
+          "Maniérisme",
+          "Hypermimie",
+          "Clinomanie",
+          "Clinophilie",
+          "Planomanie",
+          "Incurie",
+          "Autolyse",
+          "Algomanie",
+          "Décompensation"
+        ]
+      },
+      {
+        "titre": "Conduites alimentaires, addictions et personnalité",
+        "mots": [
+          "Anorexie mentale",
+          "Boulimie",
+          "Cacophagie",
+          "Addiction",
+          "Borderline",
+          "Psychopathie",
+          "Paraphilie",
+          "Perversion"
+        ]
+      },
+      {
+        "titre": "Cadre de soin et classification",
+        "mots": [
+          "DSM",
+          "Nosographie",
+          "Trouble",
+          "HC (Hospitalisation Complète)",
+          "HL (Hospitalisation Libre)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "neuro",
+    "icone": "⚡",
+    "titre": "Neurologie",
+    "groupes": [
+      {
+        "titre": null,
+        "mots": [
+          "Neurologie",
+          "Épilepsie",
+          "Aphasie",
+          "Agnosie",
+          "Apraxie",
+          "Amnésie",
+          "Astasie",
+          "Ataxie",
+          "Dyskinésie",
+          "Confusion",
+          "Score de Glasgow"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cardio",
+    "icone": "🫀",
+    "titre": "Cardiologie et circulation",
+    "groupes": [
+      {
+        "titre": null,
+        "mots": [
+          "Électrocardiogramme (ECG)",
+          "Fibrillation atriale",
+          "Infarctus du myocarde",
+          "Ischémie",
+          "Thrombose coronaire",
+          "Hypertension artérielle (HTA)",
+          "Défaillance cardiaque (Insuffisance cardiaque)",
+          "Tamponnade",
+          "Embolie pulmonaire",
+          "Cathéter artériel (KTA)",
+          "Réanimation cardiopulmonaire (RCP)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pneumo",
+    "icone": "🫁",
+    "titre": "Pneumologie et respiration",
+    "groupes": [
+      {
+        "titre": null,
+        "mots": [
+          "Capacité Pulmonaire Totale (CPT)",
+          "Capacité Résiduelle Fonctionnelle (CRF)",
+          "Capacité Vitale Forcée (CVF)",
+          "Volume Expiratoire Maximal par Seconde (VEMS)",
+          "Volume Résiduel (VR)",
+          "Rapport de Tiffeneau (VEMS/CVF)",
+          "Spirométrie",
+          "Compliance pulmonaire",
+          "Résistance des voies aériennes",
+          "Bronchodilatateur",
+          "Embolie pulmonaire",
+          "Intubation endotrachéale",
+          "Ventilation mécanique"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nephro",
+    "icone": "💧",
+    "titre": "Rein et ionogramme",
+    "groupes": [
+      {
+        "titre": null,
+        "mots": [
+          "Clairance de la créatinine",
+          "Insuffisance rénale chronique (IRC)",
+          "Dialyse",
+          "Diurétique",
+          "Potassium (K⁺)",
+          "Hyperkaliémie",
+          "Hypokaliémie",
+          "Sodium (Na⁺)",
+          "Hypernatrémie",
+          "Hyponatrémie"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hemato",
+    "icone": "🩸",
+    "titre": "Hématologie, immunité et infection",
+    "groupes": [
+      {
+        "titre": null,
+        "mots": [
+          "Numération formule sanguine (NFS)",
+          "Hémoglobine",
+          "Fibrine",
+          "Thrombopénie",
+          "Protéine plasmatique",
+          "Cytokines",
+          "Histocompatibilité",
+          "Hypersensibilité",
+          "Syndrome inflammatoire",
+          "Vaccination",
+          "Antibiotique",
+          "Asepsie"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pharma",
+    "icone": "💊",
+    "titre": "Pharmacologie",
+    "groupes": [
+      {
+        "titre": null,
+        "mots": [
+          "Pharmacocinétique",
+          "Pharmacodynamie",
+          "Biodisponibilité",
+          "Clairance",
+          "Posologie",
+          "Dose létale",
+          "Antibiotique",
+          "Bronchodilatateur",
+          "Corticoïde",
+          "Diurétique",
+          "Chimiothérapie",
+          "Analgésie",
+          "Sédation",
+          "COX (Cyclooxygénase)",
+          "PLA₂ (Phospholipase A₂)",
+          "Prostaglandines"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rea",
+    "icone": "🚑",
+    "titre": "Réanimation et soins critiques",
+    "groupes": [
+      {
+        "titre": null,
+        "mots": [
+          "Réanimation",
+          "Soins intensifs",
+          "Réanimation cardiopulmonaire (RCP)",
+          "Ventilation mécanique",
+          "Intubation endotrachéale",
+          "Cathéter artériel (KTA)",
+          "Cathéter veineux central (KTC)",
+          "Défaillance multiviscérale",
+          "Score de Glasgow",
+          "Sédation",
+          "Dialyse"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "digest",
+    "icone": "🍽️",
+    "titre": "Digestif et nutrition",
+    "groupes": [
+      {
+        "titre": null,
+        "mots": [
+          "Anorexie",
+          "Cachexie",
+          "Dyspepsie",
+          "Hématémèse"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bio",
+    "icone": "🧪",
+    "titre": "Biochimie",
+    "groupes": [
+      {
+        "titre": null,
+        "mots": [
+          "Enzyme",
+          "Lipides",
+          "Protéines",
+          "Protéine plasmatique",
+          "COX (Cyclooxygénase)",
+          "PLA₂ (Phospholipase A₂)",
+          "Prostaglandines",
+          "Fibrine",
+          "Hémoglobine",
+          "Cytokines"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clinique",
+    "icone": "🩺",
+    "titre": "Sémiologie et démarche clinique",
+    "groupes": [
+      {
+        "titre": null,
+        "mots": [
+          "Diagnostic",
+          "Diagnostic différentiel",
+          "Étiologie",
+          "Évaluation clinique",
+          "Raisonnement hypothético-déductif (scientifique)",
+          "Palpation",
+          "Percussion",
+          "Prodrome",
+          "Syndrome",
+          "Idiopathique",
+          "Desquamation",
+          "Xérose"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "relation",
+    "icone": "🤝",
+    "titre": "Relation de soin et éthique",
+    "groupes": [
+      {
+        "titre": null,
+        "mots": [
+          "Adhésif",
+          "Compliant",
+          "Consentement éclairé",
+          "Contre-transfert",
+          "Frein à la relation",
+          "Habitus sécuritaire (coupe le lien)",
+          "Patient.e acteur/actrice de ses soins",
+          "PTI (Protection Travailleur.e Isolé.e)"
+        ]
+      }
+    ]
+  }
+];
+
+    // ---------- Utilitaires ----------
+    const norm = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+
+    const parMot = {};
+    Object.keys(vocabulary).forEach(l => vocabulary[l].forEach(t => { parMot[t.word] = t; }));
+    const tri = (a, b) => a.word.localeCompare(b.word, 'fr', { sensitivity: 'base' });
+
+    function togglePanel(header, forceOpen) {
+      const content = header.nextElementSibling;
+      const icon = header.querySelector('.icon');
+      const ouvrir = forceOpen === undefined ? content.classList.contains('hidden') : forceOpen;
+      content.classList.toggle('hidden', !ouvrir);
+      icon.classList.toggle('rotated', !ouvrir);
+    }
+
+    function creerTerme(t) {
+      const li = el('li');
+      li.dataset.q = norm(t.word + ' ' + t.definition + ' ' + (t.translation || ''));
+      li.appendChild(el('span', 'terme', t.word));
+      if (t.translation) li.appendChild(el('span', 'en', '🇬🇧 ' + t.translation));
+      li.appendChild(el('span', 'def', t.definition));
+      return li;
+    }
+
+    function creerPanneau(id, titre, nb) {
+      const panel = el('div', 'panel');
+      panel.id = id;
+      const head = el('div', 'panel-header');
+      head.tabIndex = 0;
+      head.setAttribute('role', 'button');
+      head.onclick = () => togglePanel(head);
+      head.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); togglePanel(head); } };
+      head.appendChild(el('span', 'icon rotated', '🔻'));
+      head.appendChild(el('span', null, titre));
+      head.appendChild(el('span', 'count', String(nb)));
+      const content = el('div', 'panel-content hidden');
+      panel.append(head, content);
+      return { panel, content };
+    }
+
+    // ---------- Vue par lettre ----------
+    function construireLettres() {
+      const vue = document.getElementById('vueLettres');
+      const nav = document.getElementById('navLettres');
+      'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').forEach(l => {
+        const b = el('button', 'chip', l);
+        b.type = 'button';
+        if (!vocabulary[l]) { b.disabled = true; nav.appendChild(b); return; }
+        b.onclick = () => ouvrirEtAller('lettre-' + l);
+        nav.appendChild(b);
+        const termes = vocabulary[l].slice().sort(tri);
+        const { panel, content } = creerPanneau('lettre-' + l, '🔤 ' + l, termes.length);
+        const ul = el('ul');
+        termes.forEach(t => ul.appendChild(creerTerme(t)));
+        content.appendChild(ul);
+        vue.appendChild(panel);
+      });
+    }
+
+    // ---------- Vue par sujet ----------
+    function construireSujets() {
+      const vue = document.getElementById('vueSujets');
+      const nav = document.getElementById('navSujets');
+      const classes = new Set();
+      SUJETS.forEach(s => s.groupes.forEach(g => g.mots.forEach(m => classes.add(m))));
+      const nonClasses = Object.keys(parMot).filter(m => !classes.has(m));
+      const liste = SUJETS.slice();
+      if (nonClasses.length) liste.push({ id: 'autres', icone: '📎', titre: 'Non classé', groupes: [{ titre: null, mots: nonClasses }] });
+
+      liste.forEach(s => {
+        const uniques = new Set();
+        s.groupes.forEach(g => g.mots.forEach(m => { if (parMot[m]) uniques.add(m); else console.warn('Terme inconnu dans SUJETS :', m); }));
+        const b = el('button', 'chip', s.icone + ' ' + s.titre);
+        b.type = 'button';
+        b.onclick = () => ouvrirEtAller('sujet-' + s.id);
+        nav.appendChild(b);
+
+        const { panel, content } = creerPanneau('sujet-' + s.id, s.icone + ' ' + s.titre, uniques.size);
+        s.groupes.forEach(g => {
+          const termes = g.mots.filter(m => parMot[m]).map(m => parMot[m]).sort(tri);
+          if (!termes.length) return;
+          const bloc = el('div', 'groupe');
+          if (g.titre) bloc.appendChild(el('h3', null, g.titre));
+          const ul = el('ul');
+          termes.forEach(t => ul.appendChild(creerTerme(t)));
+          bloc.appendChild(ul);
+          content.appendChild(bloc);
+        });
+        vue.appendChild(panel);
+      });
+    }
+
+    // ---------- Navigation ----------
+    function ouvrirEtAller(id) {
+      const panel = document.getElementById(id);
+      if (!panel) return;
+      if (panel.hidden) { document.getElementById('recherche').value = ''; filtrer(); }
+      togglePanel(panel.querySelector('.panel-header'), true);
+      panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    let mode = 'lettres';
+    function changerMode(m) {
+      mode = m;
+      const lettres = m === 'lettres';
+      document.getElementById('modeLettres').setAttribute('aria-pressed', lettres);
+      document.getElementById('modeSujets').setAttribute('aria-pressed', !lettres);
+      document.getElementById('vueLettres').hidden = !lettres;
+      document.getElementById('navLettres').hidden = !lettres;
+      document.getElementById('vueSujets').hidden = lettres;
+      document.getElementById('navSujets').hidden = lettres;
+      document.getElementById('toutDeplier').textContent = 'Tout déplier';
+      filtrer();
+    }
+
+    // ---------- Recherche (insensible aux accents et à la casse) ----------
+    function filtrer() {
+      const q = norm(document.getElementById('recherche').value.trim());
+      const vue = document.getElementById(mode === 'lettres' ? 'vueLettres' : 'vueSujets');
+      let totalPanneaux = 0, totalTermes = 0;
+      const termesVus = new Set();
+
+      vue.querySelectorAll('.panel').forEach(panel => {
+        let visibles = 0;
+        panel.querySelectorAll('li').forEach(li => {
+          const ok = !q || li.dataset.q.includes(q);
+          li.hidden = !ok;
+          if (ok) { visibles++; termesVus.add(li.dataset.q); }
+        });
+        panel.querySelectorAll('.groupe').forEach(g => {
+          g.hidden = !Array.from(g.querySelectorAll('li')).some(li => !li.hidden);
+        });
+        panel.hidden = visibles === 0;
+        if (visibles) totalPanneaux++;
+        if (q && visibles) togglePanel(panel.querySelector('.panel-header'), true);
+        panel.querySelector('.count').textContent = q ? visibles + ' / ' + panel.dataset.total : panel.dataset.total;
+      });
+
+      totalTermes = termesVus.size;
+      document.getElementById('vide').hidden = totalPanneaux > 0;
+      const nbTotal = Object.keys(parMot).length;
+      document.getElementById('resume').textContent = q
+        ? totalTermes + ' terme' + (totalTermes > 1 ? 's' : '') + ' trouvé' + (totalTermes > 1 ? 's' : '')
+        : nbTotal + ' termes';
+    }
+
+    function toutDeplier() {
+      const vue = document.getElementById(mode === 'lettres' ? 'vueLettres' : 'vueSujets');
+      const btn = document.getElementById('toutDeplier');
+      const deplier = btn.textContent === 'Tout déplier';
+      vue.querySelectorAll('.panel:not([hidden]) .panel-header').forEach(h => togglePanel(h, deplier));
+      btn.textContent = deplier ? 'Tout replier' : 'Tout déplier';
+    }
+
+    // ---------- Initialisation ----------
+    construireLettres();
+    construireSujets();
+    document.querySelectorAll('.panel').forEach(p => { p.dataset.total = p.querySelector('.count').textContent; });
+    document.getElementById('modeLettres').onclick = () => changerMode('lettres');
+    document.getElementById('modeSujets').onclick = () => changerMode('sujets');
+    document.getElementById('recherche').addEventListener('input', filtrer);
+    document.getElementById('toutDeplier').onclick = toutDeplier;
+    const haut = document.getElementById('haut');
+    haut.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.addEventListener('scroll', () => { haut.style.display = window.scrollY > 300 ? 'block' : 'none'; });
+    filtrer();
+  </script>
+
+  <!-- ceci est la barre latérale de navigation -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><img src="assets/icons/LogoComplete_CripIFSI-transparent.png" alt=""></div>
+    <br>
+    <nav>
+      <ul>
+        <li><a href="pages/UE1/index.html"><img src="assets/icons/ue1.svg" alt="UE1"> UE1</a></li>
+        <li><a href="pages/UE2/index.html"><img src="assets/icons/ue2.svg" alt="UE2"> UE2</a></li>
+        <li><a href="pages/UE3/index.html"><img src="assets/icons/ue3.svg" alt="UE3"> UE3</a></li>
+        <li><a href="pages/UE4/index.html"><img src="assets/icons/ue4.svg" alt="UE4"> UE4</a></li>
+        <li><a href="pages/UE5/index.html"><img src="assets/icons/ue5.svg" alt="UE5"> UE5</a></li>
+        <li><a href="pages/UE6/index.html"><img src="assets/icons/ue6.svg" alt="UE6"> UE6</a></li>
+        <li><a href="vocabulaire.html"><img src="assets/icons/voc.svg" alt="Voc"> Voc</a></li>
+      </ul>
+    </nav>
+    <button class="toggle" id="toggleBtn" aria-label="Toggle sidebar">☰</button>
+  </aside>
+
+  <footer>
+    <p><center>Anaïs Logerais | 52ème promotion | IFSI Crip 34</center></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,176 @@
+# 💊 ODEFSEY® — MARKMAP
+## **Antirétroviral • VIH-1 • UE 2.11**
+- **🎯 À retenir**
+  - Association de 3 antirétroviraux
+  - 1 comprimé par jour avec un repas
+  - Contrôle la multiplication du VIH-1
+  - Ne guérit pas le VIH
+  - Ne jamais arrêter seul
+## **🧾 Composition**
+- **Emtricitabine 200 mg**
+  - INTI : bloque la transcriptase inverse
+  - Interrompt la chaîne d’ADN viral
+- **Rilpivirine 25 mg**
+  - INNTI : inhibe directement la transcriptase inverse
+- **Ténofovir alafénamide 25 mg**
+  - INTI : bloque la transcriptase inverse
+- **Classe**
+  - Association d’antirétroviraux
+  - ATC : J05AR19
+## **🎯 Indication**
+- **VIH-1**
+  - Adultes et adolescents ≥ 12 ans
+  - Poids ≥ 35 kg
+  - Absence de résistance connue aux composants/classes concernés
+  - Charge virale initiale ≤ 100 000 copies ARN VIH-1/mL
+  - Décision par médecin expérimenté dans le VIH
+## **⚙️ Mécanisme**
+- **Transcriptase inverse**
+  - Enzyme utilisée par le VIH pour fabriquer son ADN
+- **Emtricitabine + TAF**
+  - Faux matériaux incorporés à la chaîne
+  - Interruption de la synthèse d’ADN viral
+- **Rilpivirine**
+  - Se fixe sur la transcriptase inverse
+  - Bloque son fonctionnement
+- **Résultat**
+  - ↓ charge virale
+  - Objectif : charge virale indétectable
+  - Amélioration immunitaire possible
+## **💊 Administration**
+- **Posologie**
+  - 1 comprimé par jour
+  - Avec un repas
+  - Avaler entier
+  - Ne pas écraser, couper ou croquer
+  - Heure régulière
+- **Oubli**
+  - ≤ 12 h : prendre dès que possible avec repas
+  - > 12 h : ne pas prendre la dose oubliée
+  - Reprendre le rythme habituel
+- **Vomissement**
+  - Dans les 4 h : reprendre un comprimé avec nourriture
+  - Après 4 h : attendre la dose suivante
+- **Conservation**
+  - Flacon d’origine
+  - Bien fermé
+  - À l’abri de l’humidité
+- **⚠️ Ne jamais interrompre seul**
+  - Risque de rebond viral
+  - Risque de résistances
+## **🚫 Interactions majeures**
+- **Contre-indiquées**
+  - IPP : oméprazole, ésoméprazole, pantoprazole…
+  - Rifampicine, rifabutine, rifapentine
+  - Carbamazépine, oxcarbazépine
+  - Phénobarbital, phénytoïne
+  - Dexaméthasone systémique sauf dose unique
+  - Millepertuis
+- **Espacement**
+  - Antiacides : ≥ 2 h avant ou ≥ 4 h après
+  - Anti-H2 : ≥ 12 h avant ou ≥ 4 h après
+- **Prudence**
+  - Médicaments allongeant QT
+  - Certains antifongiques et antibiotiques
+  - Ciclosporine, dabigatran
+  - Médicaments néphrotoxiques
+  - Automédication et phytothérapie
+- **Réflexe IDE**
+  - Conciliation médicamenteuse
+  - Vérifier chaque nouveau traitement
+## **🚩 Effets indésirables**
+- **Digestifs**
+  - Nausées, vomissements, diarrhée
+  - Douleurs abdominales
+- **Neurologiques / psychiques**
+  - Céphalées, vertiges, somnolence
+  - Insomnie, rêves anormaux
+  - Humeur dépressive / dépression
+- **Biologiques**
+  - ↑ transaminases
+  - ↑ cholestérol / LDL / triglycérides
+  - ↑ amylase
+  - Parfois anomalies NFS
+- **Rénaux**
+  - Altération fonction rénale
+  - Atteinte tubulaire / insuffisance rénale aiguë rapportée
+- **Cutanés / allergiques**
+  - Rash
+  - Rarement réaction cutanée sévère
+  - Angio-œdème
+- **🚨 Alertes**
+  - Œdème visage/langue/gorge ou gêne respiratoire
+  - Rash étendu + fièvre / signes généraux
+  - Ictère ou altération importante de l’état général
+  - Oligurie / dégradation rénale
+  - Fièvre et inflammation après initiation : penser IRIS
+## **🧪 Surveillance**
+- **Efficacité**
+  - Charge virale VIH
+  - CD4
+- **Rein**
+  - Créatinine
+  - DFG / clairance
+  - Diurèse selon contexte
+- **Foie**
+  - ASAT / ALAT
+  - Bilirubine
+  - Ictère, urines foncées, douleur HCD
+- **Métabolique**
+  - Cholestérol / LDL
+  - Triglycérides
+  - Glycémie
+  - Poids
+- **Autres**
+  - NFS selon prescription
+  - Tolérance digestive
+  - Sommeil et humeur
+  - Observance
+## **👩‍⚕️ Rôle IDE**
+- **Avant**
+  - Identité + prescription + dose + horaire + voie
+  - Vérifier prise avec repas
+  - Rechercher interactions
+  - Repérer oublis, vomissements, difficultés d’accès
+  - Consulter bilans disponibles
+- **Pendant**
+  - Évaluer tolérance et effets indésirables
+  - Repérer signes rénaux, hépatiques, allergiques
+  - Évaluer humeur et sommeil
+  - Vérifier observance sans jugement
+  - Transmettre toute anomalie
+- **Éducation**
+  - Prise quotidienne avec repas
+  - Ne jamais arrêter seul
+  - Signaler tout nouveau médicament
+  - Confidentialité et non-stigmatisation
+  - I=I : indétectable = intransmissible sexuellement si suppression virale durable confirmée
+## **🧠 Situations cliniques**
+- **Oméprazole associé**
+  - Contre-indication
+  - Risque ↓ rilpivirine et échec virologique
+  - Alerter prescripteur / pharmacien
+- **Oubli de 5 h**
+  - Prendre avec repas dès que possible
+- **Arrêt car patient se sent guéri**
+  - Expliquer rebond viral / résistances
+  - Contacter équipe spécialisée
+- **Fièvre et inflammation après début**
+  - Évaluer rapidement
+  - Possible syndrome inflammatoire de restauration immunitaire
+## **🎓 Essentiel partiel**
+- **3 molécules : emtricitabine + rilpivirine + TAF**
+- **Cible : transcriptase inverse du VIH-1**
+- **1 prise/jour avec repas**
+- **IPP contre-indiqués**
+- **Surveiller : charge virale, CD4, rein, foie, lipides, humeur, observance**
+- **Ne jamais interrompre sans avis médical**
+## **📚 Sources**
+- **Base de Données Publique des Médicaments**
+  - https://base-donnees-publique.medicaments.gouv.fr/medicament/64689693/extrait
+- **EMA — Odefsey / RCP**
+  - https://www.ema.europa.eu/en/medicines/human/EPAR/odefsey
+- **EMA — Résumé EPAR français**
+  - https://www.ema.europa.eu/fr/documents/overview/odefsey-epar-summary-public_fr.pdf
+- **Support pédagogique IFSI**
+  - Vérifier le RCP en vigueur et les protocoles du service

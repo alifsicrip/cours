@@ -1,0 +1,307 @@
+# 🤝 RELATION SOIGNANT·E–SOIGNÉ·E
+## 🎯 Relation de soin
+- **🤝 Une rencontre humaine**
+  - Lien entre personne soignée et professionnel·le
+  - Répondre aux besoins spécifiques
+  - Relation d’aide
+- **🧭 Une relation subjective**
+  - Dépend du contact et de l’écoute
+  - Influencée par le vécu et les émotions
+  - Influencée par l’histoire et les attentes
+  - Permettre l’expression des difficultés
+- **🔬 Une relation rigoureuse**
+  - Subjectivité compatible avec la rigueur
+  - Observation clinique pertinente
+  - Analyse et méthode
+- **🌱 Une relation évolutive**
+  - Ajustement permanent
+  - Adaptation à la personne et au contexte
+  - Respect du rythme
+- **⚠️ Limites de la compréhension**
+  - Ne jamais prétendre comprendre totalement l’autre
+  - Formuler des hypothèses
+  - Vérifier auprès de la personne
+  - Ne pas imposer sa vision du bien ou du mal
+  - Chercher des solutions avec la personne
+
+## 💚 Empathie et accordage émotionnel
+- **Empathie affective**
+  - Résonner émotionnellement avec autrui
+  - Ressentir avec l’autre
+  - Garder conscience que l’émotion appartient à l’autre
+- **Empathie cognitive**
+  - Identifier ce que l’autre pense ou ressent
+  - Se représenter son point de vue
+  - Comprendre ses états mentaux
+- **Accordage émotionnel**
+  - Partager les vécus sans se les approprier
+  - Trouver un point de rencontre
+  - Ne pas réduire la relation à un objectif de guérison
+  - Ajuster sa posture au vécu de la personne
+- **Posture empathique**
+  - Ne pas imposer ses valeurs
+  - Reconnaître les stratégies adaptatives de la personne
+  - Aider à identifier ses propres ressources
+  - Respecter le rythme et les limites
+
+## 🧸 Demande d’aide et théorie de l’attachement
+- **Demande d’aide**
+  - Situation de vulnérabilité
+  - Dépendance momentanée envers une personne qui peut aider
+  - Recherche de sécurité
+  - Attentes positives
+    - Confiance
+    - Espoir d’être aidé·e
+  - Anticipations anxieuses
+    - Méfiance
+    - Honte
+    - Peur du jugement
+- **Théorie de l’attachement**
+  - Attachement
+    - Lien affectif durable entre deux personnes
+  - Figure d’attachement
+    - Protection
+    - Réconfort
+    - Sécurité
+  - Base de sécurité
+    - Soutien lors des situations angoissantes
+  - Profils présentés dans le cours
+    - Sécurisant
+    - Évitant ou indifférent
+    - Ambivalent ou résistant
+    - Désorganisé ou désorienté
+  - ⚠️ Ne pas étiqueter la personne
+  - ⚠️ Ne pas déduire automatiquement son comportement de son profil
+- **Réticence à s’exprimer**
+  - Méfiance
+  - Honte
+  - Peur ou sentiment de menace autour du sujet
+  - Ne pas forcer la parole
+  - Travailler autour du sujet
+    - Explorer la fonction du sujet
+    - Respecter les stratégies de protection
+
+## 🌡️ Émotions du ou de la soignant·e
+- **Émotions utiles à la relation**
+  - Soutiennent l’empathie
+  - Favorisent la compréhension
+  - Facilitent l’engagement relationnel
+- **Émotions paralysantes**
+  - Impuissance
+  - Irritation
+  - Anxiété
+  - Difficulté à mentaliser
+  - Blocage de l’empathie
+- **Ressentis reconnus et exprimés**
+  - Identifier les émotions du patient
+  - Partager les ressentis
+  - Construire une relation de confiance
+  - Rechercher des solutions communes
+- **Ressentis inaccessibles**
+  - Distorsion de l’expression émotionnelle
+  - Vécu angoissant
+  - Engagement relationnel limité
+  - Difficulté à reconnaître et comprendre les émotions
+- **Causes possibles**
+  - Désaccord sur les objectifs
+  - Désaccord sur les tâches
+  - Focus thérapeutique inadéquat
+  - Réveil d’émotions douloureuses
+  - Remise en cause des stratégies adaptatives
+- **Transformer le ressenti en ressource**
+  - Le considérer comme un indice
+  - Prendre du recul
+  - Analyser ce qui se joue dans la relation
+  - En parler en équipe si nécessaire
+  - Ajuster les propositions
+  - Vérifier leur pertinence avec la personne
+
+## 🤝 Alliance thérapeutique
+- **Définition**
+  - Collaboration entre personne soignée et professionnel·le
+  - Construction progressive
+  - Processus dynamique
+  - Participation active de la personne
+- **3 dimensions**
+  - Affective
+    - Qualité du lien
+    - Confiance
+    - Empathie
+    - Bienveillance
+  - Cognitive
+    - Accord sur le problème
+    - Accord sur les objectifs
+  - Collaborative
+    - Accord sur les tâches
+    - Participation active
+- **Facteurs liés à la personne**
+  - Histoire et expériences antérieures
+  - Attentes
+  - Émotions
+  - Ressources
+  - Besoins
+- **Facteurs liés au ou à la soignant·e**
+  - Empathie
+  - Considération
+  - Regard positif inconditionnel
+  - Comportement chaleureux
+  - Congruence
+  - Communication claire et non contradictoire
+  - Facilitation de l’expression des émotions
+  - Valorisation des progrès
+  - Attention aux expériences négatives et micro-ruptures
+- **Facteurs relationnels**
+  - Ajustement interpersonnel
+  - Objectifs partagés
+  - Confiance
+  - Continuité de la prise en soin
+  - Recherche d’un objet commun d’attention
+- **Distance professionnelle**
+  - Distance élastique
+  - Alternance entre investissement émotionnel et prise de recul
+  - Ajustement permanent
+  - Attention portée à ses ressentis
+- **WAI**
+  - Working Alliance Inventory
+  - Outil d’évaluation de l’alliance thérapeutique
+  - Explore lien, objectifs et tâches
+  - Ne remplace pas le dialogue avec la personne
+
+## 🔎 Symptômes et signes cliniques
+- **Symptôme**
+  - Du côté de la personne
+  - Expression de la plainte et de la souffrance
+  - Ce que la personne dit de son état
+  - Peut différer de ce que le professionnel observe
+- **Signe clinique**
+  - Du côté de l’observateur·rice
+  - Manifestation repérée ou constatée
+  - Contribue à orienter la compréhension clinique
+- **Diagnostic**
+  - Mise en cohérence des éléments cliniques
+  - Partage d’un langage commun
+  - Ne décrit pas à lui seul toute la situation
+- **Manifestations comportementales possibles**
+  - Agitation motrice
+  - Agitation cognitive
+  - Hypervigilance
+  - Mutisme
+  - Confusion mentale
+  - Perturbation du langage
+  - Hallucinations
+- **⚠️ Vigilance clinique**
+  - Une manifestation isolée ne suffit pas à poser un diagnostic
+  - Décrire et contextualiser
+  - Rechercher les signes associés
+  - Évaluer l'évolution
+- **Entretien clinique**
+  - Faire émerger les signes pertinents
+  - Recueillir les symptômes subjectifs
+  - Repérer les manifestations objectivables
+  - Éviter les questions suggestives
+  - Utiliser un questionnement neutre
+- **Données à explorer**
+  - Motif de consultation
+  - Symptômes associés
+  - Histoire personnelle
+  - Facteurs déclenchants
+  - Antécédents
+  - Conséquences
+  - Situation socio-économique
+  - Situation familiale
+  - Traitements
+  - Parcours de soins
+
+## 🌍 Prise en soin inclusive
+- **Principe**
+  - Accueillir tout le monde sans discrimination
+  - Garantir une qualité de soin équitable
+  - Considérer la personne comme sujet de droits
+- **Posture professionnelle**
+  - Écouter les besoins
+  - Respecter le ressenti
+  - Non-jugement
+  - Éviter morale et infantilisation
+  - Respecter le consentement
+  - Favoriser la participation active
+- **Prévenir les stéréotypes**
+  - Ne pas présumer de l'histoire ou des besoins
+  - Ne pas attribuer automatiquement les symptômes au poids
+  - Ne pas attribuer automatiquement les symptômes à l'origine ou à la culture
+  - Ne pas réduire la personne à son handicap ou à son diagnostic
+  - Se renseigner sur les oppressions systémiques
+- **Minorités et accès aux soins**
+  - Violences et précarité
+  - Ruptures de parcours
+  - Méfiance et anxiété possibles
+  - Risque de reproduire les discriminations dans le soin
+- **Minorités de genre et sexuelles**
+  - Ne pas présumer de l'orientation sexuelle
+  - Éviter clichés et stéréotypes
+  - Respecter prénom et pronoms d'usage
+  - Éviter les attitudes de mépris ou de jugement
+- **Posture inclusive**
+  - Ne pas se montrer tout-puissant·e
+  - Accepter de se remettre en question
+  - Ne pas reporter sa frustration sur la personne
+  - Aborder les symptômes dans leur contexte
+  - Centrer la prise en soin sur l'individu
+  - Tenir compte des forces, intérêts, limites et besoins
+  - Créer un espace accueillant et sécurisant
+  - Favoriser confiance et alliance thérapeutique
+- **Situations de violence**
+  - Repérer les situations
+  - Appliquer les obligations et procédures de signalement adaptées
+
+## 🏥 Mise en situation clinique
+- **Situation**
+  - Une personne refuse une proposition de soin
+  - Le ou la soignant·e ressent de l'irritation
+- **Réaction à éviter**
+  - « Vous ne faites aucun effort »
+  - Juger
+  - Culpabiliser
+  - Imposer une solution
+- **Posture adaptée**
+  - Identifier son propre ressenti
+  - Suspendre le jugement
+  - Explorer les raisons du refus
+  - « Qu'est-ce qui vous gêne dans ce que je vous propose ? »
+  - Écouter et reformuler
+  - Rechercher un objectif commun
+  - Ajuster les propositions
+  - Respecter le consentement
+  - Partager en équipe si nécessaire
+
+## 🧠 À mémoriser
+- **Relation de soin**
+  - Rencontre singulière
+  - Subjectivité et rigueur
+  - Ajustement relationnel
+- **Empathie**
+  - Affective = résonner
+  - Cognitive = comprendre le point de vue
+- **Accordage émotionnel**
+  - Rejoindre le vécu sans se l'approprier
+- **Alliance thérapeutique**
+  - Lien
+  - Objectifs
+  - Tâches
+- **Distance professionnelle**
+  - Engagement émotionnel
+  - Prise de recul
+  - Ajustement permanent
+- **Symptôme**
+  - Vécu exprimé par la personne
+- **Signe clinique**
+  - Manifestation repérée par le ou la professionnel·le
+- **Soin inclusif**
+  - Consentement
+  - Non-jugement
+  - Individualisation
+  - Respect des droits
+
+## 📚 Source
+- **Support de cours**
+  - Lacourt, E., *Relation entre soignant et soigné*, IFSI – Pôle métiers du soin
+  - Psychologue du développement, inclusion et handicap

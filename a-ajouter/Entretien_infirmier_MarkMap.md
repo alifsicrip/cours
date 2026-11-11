@@ -1,0 +1,264 @@
+# 🩺 L’ENTRETIEN INFIRMIER
+## 🎯 Définition et finalités
+- **🤝 Définition**
+  - Rencontre et échange volontaire entre une personne soignée et un·e infirmier·ère
+  - Contexte spécifique
+  - Échange structuré avec un objectif de communication
+  - Intention de soin
+- **💚 Finalités**
+  - Aider la personne à exprimer ses difficultés et son vécu
+  - Répondre à un besoin d’information
+  - Faire formuler les demandes
+  - Recueillir des données utiles
+  - Construire ensemble un projet de soins
+- **🚫 Ce que l’entretien n’est pas**
+  - Conversation improvisée sans objectif
+  - Débat d’opinions
+  - Communication unilatérale
+  - Relation d’autorité
+  - Interrogatoire
+- **✅ Caractéristiques**
+  - Situation finalisée et limitée dans le temps
+  - Situation relationnelle
+  - Situation interactive
+  - Situation structurée et dynamique
+
+## ⚖️ Cadre légal présenté dans le cours
+- **Rôle propre**
+  - CSP article R.4311-5
+    - Alinéa 40 : entretien d’accueil privilégiant l’écoute
+    - Alinéa 41 : aide et soutien psychologique
+  - CSP article R.4311-6 en santé mentale
+    - Alinéa 4 : surveillance des engagements thérapeutiques associant médecin, infirmier·ère et patient·e
+- **Rôle prescrit**
+  - CSP article R.4311-7
+    - Alinéa 42 : entretien individuel et techniques de médiation à visée thérapeutique ou psychothérapeutique en équipe pluridisciplinaire
+- **⚠️ Vérification réglementaire**
+  - Références reproduites telles qu’indiquées dans le support
+  - Vérifier la version en vigueur du Code de la santé publique avant un usage réglementaire
+
+## 🗂️ Formes et types d’entretien
+- **Formes**
+  - Entretien formel
+    - Programmé
+    - Répond à une demande précise
+    - Objectifs identifiés
+    - Exemple : entretien d’accueil
+  - Entretien informel
+    - Imprévu ou spontané
+    - À l’initiative du ou de la soignant·e ou de la personne
+    - Faire verbaliser
+    - Désamorcer une crise
+    - Exemple : entretien d’aide
+- **Types selon l’objectif**
+  - Entretien d’accueil
+    - Première rencontre
+    - Faire connaissance
+    - Précède le recueil de données
+  - Entretien de recueil de données
+    - Début d’hospitalisation ou de prise en soin
+    - Recueillir les informations nécessaires
+  - Entretien de soutien ou d’aide
+    - Aide ponctuelle
+    - Répondre à un problème immédiat
+    - Aider à exprimer des émotions pénibles
+  - Entretien de relation d’aide thérapeutique
+    - Accompagnement centré sur la personne
+    - S’inscrit dans un projet thérapeutique défini
+  - Entretien d’écoute de crise
+    - Ponctuel et imprévisible
+    - Situation urgente
+    - Réduire anxiété, agitation ou agressivité
+
+## 🧭 Méthodes d’entretien
+- **Directif**
+  - Questionnaire oral précis et structuré
+  - Questions fermées
+  - Opinions exclues
+  - Recueillir des informations ciblées
+  - Vérifier un problème précis
+  - Exemple : « Avez-vous pris votre traitement ce matin ? »
+- **Semi-directif**
+  - Entretien guidé
+  - Questions ouvertes
+  - Approfondissement
+  - Liens et reformulation
+  - Réorienter si nécessaire
+  - Explorer une difficulté et les ressources
+  - Exemple : « Qu’est-ce qui est le plus difficile depuis votre retour ? »
+- **Non directif**
+  - Entretien libre et peu structuré au départ
+  - Accompagner le cheminement de pensée
+  - Questions ouvertes et indirectes
+  - Faciliter la communication
+  - Faire verbaliser
+  - Exemple : « Qu’aimeriez-vous me raconter aujourd’hui ? »
+- **🧠 Mémo**
+  - Directif = cadrer
+  - Semi-directif = guider
+  - Non directif = laisser développer
+
+## 🪜 Étapes de l’entretien infirmier
+- **1. Préparation**
+  - Définir les objectifs
+  - Choisir le cadre environnemental
+  - Définir les modalités de temps
+  - Être disponible physiquement et psychologiquement
+  - Poser le cadre à la personne
+  - Rechercher son consentement
+- **2. Début**
+  - Établir la confiance
+  - Se présenter
+  - Installer confortablement
+  - Adopter une posture d’accueil et d’écoute
+  - Préciser l’objectif et les modalités
+  - Veiller à la confidentialité
+- **3. Corps de l’entretien**
+  - Maintenir la confiance
+  - Rester centré·e sur la personne
+  - Garder le fil des objectifs
+  - Écouter et accepter les silences
+  - Encourager l’expression libre
+  - Adapter communication verbale et non verbale
+  - Faire preuve d’empathie
+  - Respecter le rythme
+- **4. Clôture**
+  - Annoncer la fin
+  - Résumer les points clés
+  - Proposer les suites de l’accompagnement
+  - Expliquer les éléments transmis à l’équipe
+  - Recueillir l’accord selon le cadre applicable
+  - Informer du suivi
+- **5. Traçabilité**
+  - Transmettre les informations pertinentes
+  - Être clair·e et précis·e
+  - Respecter éthique, déontologie et secret professionnel
+  - Transmission orale selon l’urgence
+  - Transmission écrite dans le dossier patient
+  - Assurer la continuité des soins
+
+## 👂 Techniques de communication
+- **Écoute active**
+  - Technique d’accompagnement
+  - Approche centrée sur la personne
+  - Carl Rogers
+  - Point de départ de l’intervention d’aide
+  - Disponibilité et attention
+  - Respect du rythme et des silences
+- **Reformulation**
+  - Redire autrement et plus clairement
+  - Vérifier la compréhension
+  - Montrer les signes de l’écoute
+  - Encourager la personne à poursuivre
+  - Aider la personne à préciser sa pensée
+  - Exemple
+    - « Vous avez peur de ne plus pouvoir vivre seul·e, c’est bien cela ? »
+- **Questionnement**
+  - Question ouverte
+    - Laisser s’exprimer librement
+    - Visée exploratoire
+    - Exemple : « Comment vivez-vous cette situation ? »
+  - Question fermée
+    - Valider ou obtenir une réponse précise
+    - Exemple : « Avez-vous mal maintenant ? »
+  - Question d’approfondissement
+    - Développer une idée
+    - Exemple : « Qu’est-ce qui vous inquiète le plus ? »
+  - Question directe
+    - Réponse immédiate et précise
+  - Question indirecte
+    - Obtenir une réponse sans demander frontalement
+  - Question alternative
+    - Choix entre deux possibilités
+    - Exemple : « Maintenant ou après le repas ? »
+- **⚠️ Erreurs de questionnement**
+  - Feux roulants
+    - Enchaîner trop rapidement
+    - Laisser le temps de répondre
+  - Questions trop longues
+    - Plusieurs questions simultanées
+    - Scinder en questions simples
+  - Question sans réponse
+    - Reformuler
+    - Reprendre à un autre moment
+
+## 🌍 Variables influençant l’entretien
+- **Matérielles**
+  - Lieu calme
+  - Intimité
+  - Pas de bruits ni d’interruptions
+  - Limiter téléphone et passages
+  - Espace adapté et non encombré
+- **Symboliques**
+  - Temps disponible
+  - Disponibilité réelle
+  - Unité de temps et d’action
+- **Liées au ou à la soignant·e**
+  - Crainte de ne pas être à la hauteur
+  - Peur des silences
+  - Multiplication des questions fermées
+  - Difficulté à rester centré·e sur la personne
+  - Difficulté à adopter une posture non directive
+- **Liées à la personne soignée**
+  - État physique
+  - État mental
+  - Fatigue ou douleur éventuelle
+- **Motivationnelles et contextuelles**
+  - Demande de la personne
+  - Initiative du ou de la soignant·e
+  - Demande d’un tiers
+
+## 🏥 Exemple clinique
+- **Situation**
+  - La personne dit : « Je ne veux pas rentrer chez moi, je vais être incapable de me débrouiller »
+- **Posture à éviter**
+  - « Mais si, ne vous inquiétez pas, tout ira bien »
+  - Minimiser le vécu
+  - Fermer l’expression
+- **Posture adaptée**
+  - Accueillir l’émotion
+  - « Vous semblez inquiet·ète à l’idée du retour à domicile »
+  - Explorer
+  - « Qu’est-ce qui vous fait le plus peur ? »
+  - Écouter sans interrompre
+  - Reformuler
+  - « Vous avez surtout peur de ne pas pouvoir gérer seul·e les gestes du quotidien »
+  - Identifier besoins et ressources
+  - Conclure et expliquer les suites
+
+## 🧠 À mémoriser
+- **Définition**
+  - Rencontre + intention de soin + objectif + cadre
+- **3 méthodes**
+  - Directif
+  - Semi-directif
+  - Non directif
+- **5 étapes**
+  - Préparer
+  - Débuter
+  - Conduire
+  - Clôturer
+  - Tracer
+- **3 outils**
+  - Écoute active
+  - Reformulation
+  - Questionnement adapté
+- **Posture professionnelle**
+  - Empathie
+  - Disponibilité
+  - Confidentialité
+  - Consentement
+  - Respect du rythme
+- **Finalité**
+  - Comprendre la personne
+  - Construire un accompagnement pertinent avec elle
+
+## 📚 Références du support
+- **Ouvrages**
+  - Dabrion, M. (2014), *Soins relationnels, la communication, l’entretien professionnel infirmier, la relation d’aide*, De Boeck
+  - Guittet, A. (2013), *L’entretien : techniques et pratiques*, 8e édition, Armand Colin
+  - Rybok, C., Beauzée, N., Lelevrier-Vasseur, A. et Cobie, M. C. (2023), *L’entretien infirmier en santé mentale*, Érès
+- **Article**
+  - Rybok, C., Beauzée, N. et Lelevrier-Vasseur, A. (2004), « Entretien infirmier en santé mentale, ressources et compétences du patient », *Thérapie familiale*, p. 293–302
+- **Références réglementaires citées**
+  - Code de la santé publique, articles R.4311-5, R.4311-6 et R.4311-7

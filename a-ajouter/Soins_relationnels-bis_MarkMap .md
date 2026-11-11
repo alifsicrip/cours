@@ -1,0 +1,313 @@
+# 🩺 Soins relationnels — Carte mentale IFSI
+## 🎯 Définition et outils du soin relationnel
+- **Prendre soin de la personne**
+  - Ne pas seulement réaliser un soin sur elle
+  - Prendre en compte sa vie relationnelle et son environnement
+- **Concepts comme outils**
+  - 🤝 Relation
+  - 💬 Communication verbale et non verbale
+  - ✋ Toucher
+  - 🔄 Négociation
+  - 🧩 Médiation
+## 🤝 Relation
+- **Définition**
+  - Ensemble des rapports et liens entre des personnes
+  - Succession d’interactions
+  - Processus continu et dynamique
+  - Dimensions cognitives et émotionnelles
+  - Attentes réciproques
+- **Types de relations**
+  - **Civilité / convivialité**
+    - Politesse
+    - Courtoisie
+    - Respect
+    - Codes et rituels culturels
+  - **Fonctionnelle**
+    - Objectif précis, technique ou professionnel
+    - Centrée sur le présent
+    - Orientée vers l’action et les besoins
+    - Exemple : recueil de données cliniques
+  - **Confiance**
+    - Sentiment de sécurité mutuel
+    - Qualité du lien
+    - Base de la relation d’aide et de l’alliance thérapeutique
+  - **Aidante / soutien**
+    - Accueil de la souffrance et du mal-être
+    - Favoriser l’expression de la plainte
+    - Apporter un soulagement
+    - Mobiliser des aptitudes et techniques relationnelles
+  - **Relation de soin**
+    - Centrée sur la personne
+    - Respect de son individualité, sa culture, ses valeurs et ses capacités
+    - Interaction dynamique
+    - Réajustement selon l’évolution
+    - Inclut famille et professionnel·les impliqué·es
+- **Empathie**
+  - **Affective**
+    - Résonner émotionnellement avec autrui
+    - Distinguer les émotions de l’autre des siennes
+  - **Cognitive**
+    - Identifier ce que l’autre pense ou ressent
+    - Se représenter ses états mentaux
+  - **Limites**
+    - Formuler une hypothèse
+    - Ne jamais prétendre comprendre totalement le patient
+    - Ne pas imposer sa vision du bien ou du mal
+    - Aider la personne à trouver ses propres solutions
+- **Accordage émotionnel**
+  - Partager le vécu sans se l’approprier
+  - Trouver un point de rencontre
+  - Ne pas réduire la relation au seul objectif de guérison
+- **Rencontre et sécurité**
+  - Première rencontre avec un inconnu
+    - Peut être sécurisante
+    - Peut être vécue comme menaçante
+  - Réticences à parler
+    - Méfiance
+    - Honte
+    - Sentiment de menace autour du sujet
+  - Posture
+    - Respecter le rythme
+    - Ne pas forcer la parole
+    - Travailler autour du sujet sur sa fonction plutôt que son contenu
+- **Contexte institutionnel**
+  - Relation inscrite dans un cadre social et thérapeutique
+  - Rôles et positions des acteurs
+  - Relations de pouvoir
+  - Relations morcelées selon les tâches et fonctions
+  - Conflits
+    - Interpersonnels
+    - Intergroupes
+    - Peuvent freiner communication et coopération
+  - Perceptions de l’autre influencent les comportements
+- **Triangle dramatique de Karpman**
+  - **Bourreau**
+    - Critique
+    - Ironise
+    - Dévalorise
+  - **Victime**
+    - Subit
+    - S’apitoie
+    - Se plaint
+  - **Sauveur**
+    - Ne peut s’empêcher d’aider
+  - **Vigilance**
+    - Éviter de s’enfermer dans ces rôles
+- **Juste distance thérapeutique**
+  - Ni attachement excessif
+  - Ni détachement
+  - Ni indifférence
+  - Ni dégoût ni maltraitance
+  - **Effet miroir**
+    - Émotions du patient faisant écho à l’histoire du soignant
+  - **Posture professionnelle**
+    - Percevoir ses émotions
+    - Les accepter
+    - Les mettre en mots dans un lieu adapté
+  - **Compétences nécessaires**
+    - Connaissance de soi
+    - Estime de soi
+    - Confiance en soi
+    - Affirmation de soi
+- **Alliance thérapeutique**
+  - **Construction**
+    - Climat émotionnel positif
+    - Confiance
+    - Respect
+    - Bienveillance
+    - Écoute attentive
+    - Collaboration
+  - **Dimension affective**
+    - Investissement émotionnel
+    - Empathie
+    - Bienveillance
+    - Climat de confiance
+    - Écoute active
+  - **Dimension cognitive**
+    - Accord sur le problème
+    - Accord sur les attentes réciproques
+    - Accord sur les attentes et objectifs
+  - **Phénomène dynamique**
+    - Se construit progressivement
+    - Peut connaître des ruptures
+    - Pas nécessairement linéaire
+    - Permet d’aborder les problèmes
+    - Peut améliorer l’observance
+  - **Facteurs liés au patient**
+    - Capacités interpersonnelles et intrapersonnelles
+    - Relations sociales et familiales
+    - Attachement et expériences émotionnelles passées
+    - Motivation et espoir
+    - Sévérité des symptômes
+    - Capacité à parler de soi et de ses émotions
+    - Sentiment d’être à l’aise et non jugé
+    - Participation à la définition des objectifs
+  - **Facteurs liés au soignant**
+    - Empathie et considération
+    - Regard positif inconditionnel
+    - Comportement chaleureux
+    - Compréhension, intérêt et congruence
+    - Communication claire et non contradictoire
+    - Facilitation de l’expression des émotions
+    - Valorisation des progrès
+    - Attention aux micro-ruptures
+  - **Enfants, adolescent·es et familles**
+    - Multiplicité des interlocuteurs
+    - Prendre en compte chacun
+    - Clarifier objectifs et tâches avec le jeune
+  - **Distance élastique**
+    - Alterner investissement émotionnel et prise de distance
+    - Ajustement permanent
+## 💬 Communication
+- **Définition**
+  - Mode d’expression
+  - Moyen de construire et développer les relations
+  - Besoin fondamental et composante de la vie sociale
+- **Communication verbale**
+  - Utilise les mots
+  - **Enjeux**
+    - Opératoires : informations, opinions, consignes, arguments
+    - Sociaux : instaurer ou consolider un rapport social
+    - Affectifs et symboliques : image de soi et reconnaissance de l’identité
+  - **Langage**
+    - Faculté d’utiliser une langue pour communiquer sa pensée
+    - Crée un monde commun
+    - Transporte valeurs, jugements et préjugés culturels
+- **Communication non verbale**
+  - Messages sans passer par les mots
+  - Langage analogique / para-verbal
+  - **Éléments**
+    - Espace vital : intime, privé, social, public
+    - Silence : attention, colère, ennui, douleur, chagrin…
+    - Expression faciale : émotions
+    - Regard : attention et possible intrusion
+    - Gestes et posture : ouverture et écoute
+    - Apparence : premières observations réciproques
+- **Lien entre les deux**
+  - Indissociables
+  - Peuvent renforcer ou discréditer le message
+  - **Congruence**
+    - Discours clair
+    - Attitudes et gestes cohérents
+    - Toucher doux et respectueux
+## ✋ Toucher relationnel
+- **Définition**
+  - Sensation et perception corporelle liées à la peau
+  - Implique proximité et intimité réciproque
+  - Présent dans de nombreux soins
+  - Peut devenir un soin en lui-même
+- **Bénéfices pour la personne soignée**
+  - Prévenir ou soulager la douleur
+  - Alléger le vécu des soins
+  - Diminuer le stress
+  - Faciliter l’expression des émotions
+  - Améliorer l’estime de soi
+  - Améliorer la communication
+  - Intégrer les modifications du schéma corporel
+- **Bénéfices pour le soignant**
+  - Initier ou enrichir la relation d’aide
+  - Évaluer, prévenir ou soulager la douleur
+  - Faciliter les soins
+  - Identifier ses limites dans la distance intime
+- **Bénéfices pour l’entourage**
+  - Retrouver une place privilégiée
+  - Participer à l’amélioration de la qualité de vie
+  - Faire face à la maladie
+- **Deux types selon Van Den Bruggen**
+  - **Gnostique**
+    - Recherche d’information
+    - Visée diagnostique
+  - **Pathique**
+    - Recherche d’un contact
+    - Visée thérapeutique
+    - Exemple : massage thérapeutique
+## 🔄 Négociation
+- **Définition**
+  - Rechercher à plusieurs une ou plusieurs solutions
+  - Satisfaire au mieux les besoins de chaque partie
+  - Pas réservée aux conflits
+- **Processus**
+  - **Préparation**
+    - Objectif maximum
+    - Objectif minimum acceptable
+    - Objectif cible réaliste
+  - **Discussion**
+    - Comprendre le problème
+    - Identifier les objectifs de chacun
+  - **Proposition**
+    - Résumer les échanges
+    - Analyser les conséquences
+    - Envisager des solutions
+  - **Accord**
+    - Compromis ou consensus
+- **Négociation conflictuelle**
+  - Polémique
+  - Passage en force
+  - Stratagèmes
+  - Disqualification
+- **Négociation collaborative**
+  - Construire une solution avec l’autre
+  - Approche gagnant-gagnant
+  - **Approche directe / engagement**
+    - Annoncer l’objectif
+    - Argumenter
+    - Reformuler et réguler l’échange
+    - Rechercher l’accord
+  - **Approche indirecte / contrôle**
+    - Respecter le rythme de l’interlocuteur
+    - Questionner
+    - Accompagner la découverte d’une solution
+- **Résultats possibles**
+  - Concession
+  - Compromis
+  - Consensus
+  - Gagnant-gagnant
+  - Gagnant-perdant
+  - Perdant-perdant
+## 🧩 Médiation
+- **Définition**
+  - Intervention d’un tiers neutre, indépendant et impartial
+  - Faciliter la circulation des informations
+  - Éclaircir ou rétablir les relations
+- **Fonctions**
+  - Éviter fusion ou confrontation
+  - Introduire de la distance
+  - Accompagner la réflexion
+  - Établir ou rétablir la communication
+  - Respecter neutralité et déontologie
+- **Obstacles possibles**
+  - Troubles cognitifs
+  - Barrière de la langue
+  - Troubles psychiques
+- **Médiation relationnelle du soignant**
+  - Mettre la personne en relation avec un objet médiateur
+  - Favoriser relation, communication et échanges
+- **Activités à médiation**
+  - Jeu
+  - Lecture
+  - Dessin
+  - Peinture
+  - Relation à soi-même, aux objets, à autrui et à la société
+## ⭐ Repères pour la pratique infirmière
+- **Avant le soin**
+  - Identifier le besoin et le contexte
+  - Préparer une entrée en relation respectueuse
+- **Pendant le soin**
+  - Écouter et observer le verbal et le non-verbal
+  - Vérifier la cohérence du message
+  - Ajuster la distance thérapeutique
+  - Respecter le rythme et les limites
+  - Négocier si nécessaire
+- **Après le soin**
+  - Évaluer le vécu de la personne
+  - Vérifier l’objectif partagé
+  - Réfléchir aux ajustements nécessaires
+- **À retenir**
+  - Prendre soin ne se limite pas au geste technique
+  - L’empathie ne signifie pas fusionner avec l’autre
+  - L’alliance thérapeutique se construit à deux
+  - La communication verbale et non verbale sont indissociables
+  - Le toucher engage l’intimité
+  - La négociation recherche une solution acceptable
+  - La médiation facilite la relation
+  - Le soignant connaît ses ressources et ses limites

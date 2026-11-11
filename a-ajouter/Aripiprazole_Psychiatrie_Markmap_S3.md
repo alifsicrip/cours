@@ -1,0 +1,229 @@
+# 💊 Aripiprazole en psychiatrie
+## 🧠 Situations cliniques
+- **🆘 Crise suicidaire**
+  - Pas un traitement spécifique anti-suicide
+  - Peut être prescrit pour pathologie associée : manie, symptômes psychotiques
+  - Surveillance suicidaire rapprochée
+- **🔁 Trouble dépressif récurrent (TDR)**
+  - Épisodes dépressifs caractérisés successifs
+  - Rémissions ou améliorations entre épisodes
+  - Pas de prévention systématique des récidives dépressives
+- **🧱 Dépression résistante**
+  - Réponse insuffisante à des antidépresseurs adéquats
+  - Potentialisation possible d’un antidépresseur
+  - Hors AMM en France pour les spécialités usuelles
+## 💊 Indications et formes
+- **AMM orale**
+  - Schizophrénie
+  - Épisodes maniaques du trouble bipolaire I
+  - Prévention des récidives maniaques chez certains patients répondeurs
+- **Dépression résistante**
+  - Potentialisation possible
+  - Décision médicale spécialisée
+  - Ne remplace pas l’antidépresseur
+- **Formes**
+  - Comprimé / orodispersible / solution buvable
+  - Injectable courte action : IM, pas IV
+  - Abilify Maintena : IM retard, entretien schizophrénie
+## ⚙️ Pharmacologie – LADMER
+- **L – Libération**
+  - Formes orales et injectables spécifiques
+- **A – Absorption**
+  - Orale : pic 3 à 5 h
+  - Biodisponibilité ≈ 87 %
+- **D – Distribution**
+  - Liaison protéines plasmatiques > 99 %
+- **M – Métabolisme**
+  - Hépatique
+  - CYP2D6 et CYP3A4
+  - Déhydro-aripiprazole actif
+- **E – Élimination**
+  - Demi-vie ≈ 75 h métaboliseurs rapides CYP2D6
+  - Plus longue chez métaboliseurs lents
+- **R – Réponse**
+  - Modulation dopaminergique et sérotoninergique
+## 🧩 Mécanisme
+- **D₂**
+  - Agoniste partiel
+  - Module la dopamine sans blocage complet
+- **5-HT₁A**
+  - Agoniste partiel
+- **5-HT₂A**
+  - Antagoniste
+- **Effets**
+  - Antipsychotique
+  - Antimaniaque
+  - Potentialisation antidépressive dans certaines résistances
+## 🚩 Effets indésirables
+- **🏃 Akathisie**
+  - Besoin irrépressible de bouger
+  - Tension interne, impossibilité de rester assis
+  - Peut être confondue avec anxiété/agitation
+- **🧍 Symptômes extrapyramidaux**
+  - Tremblements, rigidité, dystonie, dyskinésie
+- **😴 Somnolence / fatigue**
+  - Risque de chute
+- **🌙 Insomnie / anxiété**
+  - Nervosité, agitation
+- **🤢 Digestifs**
+  - Nausées, vomissements, constipation
+- **❤️ Cardiovasculaires**
+  - Tachycardie, hypotension orthostatique, syncope
+  - QT prolongé rapporté
+- **⚖️ Métaboliques**
+  - Hyperglycémie / diabète possibles
+  - Variation du poids
+- **🎲 Impulsivité**
+  - Jeu pathologique
+  - Achats compulsifs
+  - Hypersexualité
+  - Hyperphagie / alimentation compulsive
+- **🧠 Psychiatriques**
+  - Idées/comportements suicidaires rapportés
+  - Agitation, agressivité
+- **🚨 Syndrome malin des neuroleptiques**
+  - Hyperthermie, rigidité, confusion
+  - Instabilité végétative
+  - Urgence médicale
+## 🆘 Akathisie : piège clinique
+- **Ce que la personne dit**
+  - « Je ne tiens plus en place »
+  - « J’ai une tension à l’intérieur »
+  - « Je dois marcher tout le temps »
+- **Ce que j’observe**
+  - Marche incessante, piétinement
+  - Se lève et se rassoit
+  - Bouge constamment les jambes
+- **CAT IDE**
+  - Accueillir sans minimiser
+  - Rechercher lien avec début/augmentation traitement
+  - Évaluer idées suicidaires et impulsivité
+  - Alerter rapidement
+  - Ne pas modifier seul·e la dose
+## ⛔ Précautions
+- **Contre-indication**
+  - Hypersensibilité à la molécule ou excipient
+- **Vigilances**
+  - Cardiovasculaire / QT
+  - Convulsions
+  - Hyperglycémie et poids
+  - Symptômes extrapyramidaux
+  - Chutes et déglutition
+  - Grossesse / allaitement
+  - Psychose liée à démence chez personne âgée : non indiqué
+## 🔄 Interactions
+- **Inhibiteurs CYP2D6**
+  - Fluoxétine, paroxétine
+  - Concentrations augmentées
+- **Inhibiteurs CYP3A4**
+  - Kétoconazole, itraconazole, certains antiprotéases
+  - Concentrations augmentées
+- **Inducteurs CYP3A4**
+  - Carbamazépine, rifampicine, phénytoïne, millepertuis
+  - Concentrations diminuées
+- **Alcool / sédatifs**
+  - Sédation majorée
+- **Antihypertenseurs**
+  - Hypotension majorée possible
+- **Médicaments allongeant QT**
+  - Vigilance rythmique
+- **ISRS / IRSNa**
+  - Interactions possibles
+  - Syndrome sérotoninergique rapporté
+## 👩‍⚕️ Surveillance IDE
+- **AVANT**
+  - Vérifier identité, prescription, dose, forme, voie
+  - Évaluer humeur, sommeil, agitation, symptômes maniaques/psychotiques
+  - Rechercher idées suicidaires
+  - Rechercher akathisie et symptômes moteurs
+  - PA/FC ; ECG si indiqué
+  - Poids, glycémie, bilan métabolique selon protocole
+  - Conciliation médicamenteuse
+- **PENDANT**
+  - Évaluer efficacité et tolérance
+  - Rechercher akathisie et symptômes extrapyramidaux
+  - Surveiller idées suicidaires et impulsivité
+  - Sommeil, anxiété, vigilance
+  - Transit, poids, paramètres métaboliques
+  - Malaise, palpitations, syncope
+- **AU LONG COURS**
+  - Réévaluer bénéfice/risque et observance
+  - Repérer rechute ou aggravation
+  - Maintenir surveillance suicidaire
+  - Tracer et transmettre
+  - Ne pas arrêter seul·e
+## 🚨 Urgences – CAT IDE
+- **🌡️ Fièvre + rigidité + confusion**
+  - Suspecter syndrome malin des neuroleptiques
+  - Urgence médicale immédiate
+- **🏃 Akathisie intense + idées suicidaires**
+  - Sécuriser, évaluer risque, rester auprès du patient
+  - Alerter rapidement
+- **😵 Syncope / malaise**
+  - Sécuriser, constantes, conscience
+  - Alerter, ECG selon protocole
+- **🧠 Dystonie aiguë**
+  - Alerter
+  - Évaluer déglutition et respiration
+- **🎲 Impulsivité nouvelle**
+  - Questionner sans jugement
+  - Évaluer conséquences, transmettre
+- **💊 Surdosage**
+  - Alerter médecin / centre antipoison selon procédure
+  - Surveillance cardiovasculaire et ECG en milieu adapté
+## 🩺 Situations cliniques
+- **Dépression résistante**
+  - Aripiprazole associé à un antidépresseur
+  - Surveiller akathisie, humeur, sommeil, idées suicidaires
+- **Agitation après introduction**
+  - Suspecter akathisie
+  - Ne pas attribuer automatiquement à la pathologie
+  - Alerter
+- **Crise suicidaire**
+  - Réévaluer intention, scénario, accès aux moyens
+  - Sécuriser et transmettre
+  - Aripiprazole ≠ traitement anti-suicide
+- **Fièvre et rigidité**
+  - Suspecter SMN
+  - Urgence médicale
+## 🗣️ Transmission SAED
+- **S – Situation**
+  - Traitement par aripiprazole pour …
+  - Apparition de … depuis …
+- **A – Antécédents / appréciation**
+  - Traitements associés, dernière modification, antécédents
+- **E – Évaluation**
+  - Humeur, idées suicidaires
+  - Akathisie / symptômes extrapyramidaux
+  - PA, FC, température, transit
+- **D – Demande**
+  - Réévaluation médicale rapide / conduite à tenir
+## 🎯 À mémoriser
+- **Classe**
+  - Antipsychotique atypique / psycholeptique
+- **Mécanisme**
+  - Agoniste partiel D₂ et 5-HT₁A
+  - Antagoniste 5-HT₂A
+- **Dépression résistante**
+  - Potentialisation possible, hors AMM en France
+- **Crise suicidaire**
+  - Pas un traitement anti-suicide
+- **EI clé**
+  - Akathisie, impulsivité, symptômes extrapyramidaux
+- **Urgence**
+  - SMN : fièvre + rigidité + confusion + instabilité végétative
+- **Rôle IDE**
+  - Observer – questionner – sécuriser – surveiller – tracer – transmettre
+## 📚 Sources
+- **BDPM / ANSM – RCP aripiprazole EG**
+  - https://base-donnees-publique.medicaments.gouv.fr/medicament/63076762/extrait
+- **BDPM – Abilify injectable**
+  - https://base-donnees-publique.medicaments.gouv.fr/medicament/69641873/extrait
+- **BDPM – Abilify Maintena**
+  - https://base-donnees-publique.medicaments.gouv.fr/medicament/67269958/extrait
+- **ANSM – Sécurité des médicaments**
+  - https://ansm.sante.fr/
+- **HAS – Dépression**
+  - https://www.has-sante.fr/
+- **ANSM – Signalement EI**
+  - https://signalement.social-sante.gouv.fr/
